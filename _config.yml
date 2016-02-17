@@ -57,7 +57,7 @@ username: tabriz83
 repo: tabriz83.github.io
 branch: master
 relative_source: ../
-destination: ../umbrain/
+destination: ../
 production_url:  https://tabriz83.github.io/
 source_url:      https://github.com/tabriz83/tabriz83.github.io.git/
 
