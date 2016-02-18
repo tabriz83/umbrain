@@ -22,5 +22,5 @@ env:
 branches:
   only:
     - master
-    - origin/gh_pages
+    - gh_pages
 
