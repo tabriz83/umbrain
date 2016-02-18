@@ -54,10 +54,10 @@ exclude: [vendor]
 safe: false
 lsi: false
 username: tabriz83
-repo: tabriz83.github.io
+repo: https://github.com/tabriz83/tabriz83.github.io.git
 branch: master
 relative_source: ../
-destination: ../umbrain/
+destination: ../tabriz83.github.io/
 production_url:  https://github.com/tabriz83/umbrain.git/
 source_url:      https://github.com/tabriz83/tabriz83.github.io.git
 
