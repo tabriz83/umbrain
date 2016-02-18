@@ -56,7 +56,7 @@ lsi: false
 username: tabriz83
 repo: https://github.com/tabriz83/tabriz83.github.io.git
 branch: master
-relative_source: ../
+relative_source: ../umbrain/
 destination: ../tabriz83.github.io/
 production_url:  https://github.com/tabriz83/umbrain.git/
 source_url:      https://github.com/tabriz83/tabriz83.github.io.git
