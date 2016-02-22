@@ -8,6 +8,10 @@ language: 'en-uk'
 name: 'Into the Brain of taBRis'
 description: "Memory Repository."
 
+# Menu Info
+menu_1: security
+menu_2: unclassified
+
 # Author's info
 author: 'taBRis'
 # edit 'categories' in the front matter of every post to match this username
