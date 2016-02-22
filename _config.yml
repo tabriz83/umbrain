@@ -55,7 +55,7 @@ exclude: [vendor]
 safe: false
 lsi: false
 username: tabriz83
-repo: /umbrain/
+repo: umbrain
 branch: master
 relative_source: ../umbrain/
 destination: ../umbrain-test/
