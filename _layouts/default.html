@@ -12,7 +12,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico" >
+    <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.image }}" >
 
     <!-- [[! Styles'n'Scripts ]] -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.css" />
@@ -34,7 +34,7 @@
         {{ content }}
 
         <footer class="site-footer clearfix">
-          <section class="copyright"><a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; {{  site.time | date: '%Y' }}</section>
+          <section class="copyright"><a href="{{ site.baseurl }}">{{ site.m_name }}</a> &copy; {{  site.time | date: '%Y' }}</section>
           <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
         </footer>
     </div>

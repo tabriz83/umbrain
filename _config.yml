@@ -5,12 +5,13 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
+m_name: 'UMBrain :: Into the Brain of taBRis.'
 name: 'Into the Brain of taBRis'
 description: "Memory Repository."
 
 # Menu Info
-menu_1: security
-menu_2: unclassified
+menu_1: Security
+menu_2: Unclassified
 
 # Author's info
 author: 'taBRis'
