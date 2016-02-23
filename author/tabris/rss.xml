@@ -39,20 +39,6 @@
 	  ]]></description>
 	</item>
 
-	<item>
-	  <title>Test.</title>
-	  <link>/umbrain//Test</link>
-	  <author>taBRis</author>
-	  <pubDate>2016-02-17T14:55:00+00:00</pubDate>
-	  <guid>/umbrain//Test</guid>
-	  <description><![CDATA[
-	     <p>test</p>
-
-<p>By <strong>taBRis</strong></p>
-
-	  ]]></description>
-	</item>
-
 
 </channel>
 </rss>

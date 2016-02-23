@@ -8,7 +8,19 @@
     <title>Into the Brain of taBRis</title>
     <link>http://tabriz83.github.io/umbrain/</link>
     <description>Memory Repository.</description>
-    <pubDate>Wed, 17 Feb 2016 15:17:00 +0000</pubDate>
+    <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>Markdown</title>
+      <link>http://tabriz83.github.io/umbrain//markdown</link>
+      <description>[공통] 마크다운 markdown 작성법
+======================
+
+[id]: URL &quot;Optional Title here&quot;
+[googlelink]: https://google.com &quot;Go google&quot;
+[googlelink]: https://google.com &quot;Go google&quot;</description>
+      <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
+      <dc:date>2016-02-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>테스트</title>
       <link>http://tabriz83.github.io/umbrain//unclassified</link>
@@ -18,15 +30,6 @@
       <pubDate>Wed, 17 Feb 2016 15:17:00 +0000</pubDate>
       <dc:date>2016-02-17T15:17:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Test.</title>
-      <link>http://tabriz83.github.io/umbrain//Test</link>
-      <description>test
-
-</description>
-      <pubDate>Wed, 17 Feb 2016 14:55:00 +0000</pubDate>
-      <dc:date>2016-02-17T14:55:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-02-17T15:17:00+00:00</dc:date>
+    <dc:date>2016-02-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>
