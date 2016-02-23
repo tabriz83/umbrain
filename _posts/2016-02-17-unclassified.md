@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/cover3.jpg'
+cover: 'assets/images/cover2.jpg'
 title: 테스트
 date: 2016-02-17 15:17:00
 tags: security
