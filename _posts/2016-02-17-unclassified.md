@@ -3,8 +3,8 @@ layout: post
 cover: 'assets/images/cover3.jpg'
 title: 테스트
 date: 2016-02-17 15:17:00
-tags: unclassified
-subclass: 'post tag-unclassified'
+tags: security
+subclass: 'post tag-security'
 categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
