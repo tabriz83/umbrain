@@ -12,15 +12,50 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>UMBrain Metadata 작성법</title>
+	  <link>/umbrain//metadata</link>
+	  <author>taBRis</author>
+	  <pubDate>2016-02-24T17:47:00+00:00</pubDate>
+	  <guid>/umbrain//metadata</guid>
+	  <description><![CDATA[
+	     <h1>1. UMBrain Metadata 작성법</h1>
+
+<h3>글 작성시 다음과 같은 Metadata를 기입한다.</h3>
+<div class="highlight"><pre><code class="language-text" data-lang="text">---
+layout: post
+cover: &#39;assets/images/cover2.jpg&#39;
+title: 제목
+date: 2016-02-23 15:02:00
+tags: Unclassified
+subclass: &#39;post tag-Unclassified&#39;
+categories: &#39;tabris&#39;
+navigation: True
+logo: &#39;assets/images/logo.png&#39;
+---
+</code></pre></div>
+<hr>
+
+<p><strong>1. Cover Image 안내</strong><br>
+cover2.jpg : Security<br>
+cover3.jpg : Unclassified  </p>
+
+<p><strong>2. Tags 안내 (대소문자 주의)</strong><br>
+Menu 1 : Security<br>
+Menu 2 : Unclassified  </p>
+
+<hr>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Markdown 작성법</title>
 	  <link>/umbrain//markdown</link>
 	  <author>taBRis</author>
 	  <pubDate>2016-02-23T15:02:00+00:00</pubDate>
 	  <guid>/umbrain//markdown</guid>
 	  <description><![CDATA[
-	     <h1>[공통] 마크다운 markdown 작성법</h1>
-
-<h1>1. 마크다운에 관하여</h1>
+	     <h1>1. 마크다운에 관하여</h1>
 
 <h2>1.1. 마크다운이란?</h2>
 
