@@ -8,7 +8,16 @@
     <title>Into the Brain of taBRis</title>
     <link>http://tabriz83.github.io/umbrain/</link>
     <description>Memory Repository.</description>
-    <pubDate>Wed, 24 Feb 2016 17:47:00 +0000</pubDate>
+    <pubDate>Thu, 25 Feb 2016 14:49:47 +0000</pubDate>
+    <item>
+      <title>깃허브 인기 오픈소스 보안 툴 11선</title>
+      <link>http://tabriz83.github.io/umbrain//git-open-source</link>
+      <description>**개발자/보안/오픈소스 :: InfoWorld**
+
+</description>
+      <pubDate>Thu, 25 Feb 2016 14:49:47 +0000</pubDate>
+      <dc:date>2016-02-25T14:49:47+00:00</dc:date>
+    </item>
     <item>
       <title>UMBrain Metadata 작성법</title>
       <link>http://tabriz83.github.io/umbrain//metadata</link>
@@ -52,6 +61,6 @@
       <pubDate>Wed, 17 Feb 2016 15:17:00 +0000</pubDate>
       <dc:date>2016-02-17T15:17:00+00:00</dc:date>
     </item>
-    <dc:date>2016-02-24T17:47:00+00:00</dc:date>
+    <dc:date>2016-02-25T14:49:47+00:00</dc:date>
   </channel>
 </rss>
