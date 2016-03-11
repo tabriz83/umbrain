@@ -8,7 +8,16 @@
     <title>Into the Brain of taBRis</title>
     <link>http://tabriz83.github.io/umbrain/</link>
     <description>Memory Repository.</description>
-    <pubDate>Tue, 08 Mar 2016 12:06:00 +0000</pubDate>
+    <pubDate>Fri, 11 Mar 2016 11:55:45 +0000</pubDate>
+    <item>
+      <title>2016-03-11 Facebook 정보 스크랩</title>
+      <link>http://tabriz83.github.io/umbrain//Facebook_scrap</link>
+      <description>**How To Setup VPN On Kali Linux For Anonymity • SafeNull**
+
+</description>
+      <pubDate>Fri, 11 Mar 2016 11:55:45 +0000</pubDate>
+      <dc:date>2016-03-11T11:55:45+00:00</dc:date>
+    </item>
     <item>
       <title>참고 URL 스크랩</title>
       <link>http://tabriz83.github.io/umbrain//unclassified-url_scrap</link>
@@ -72,6 +81,6 @@
       <pubDate>Tue, 23 Feb 2016 15:02:00 +0000</pubDate>
       <dc:date>2016-02-23T15:02:00+00:00</dc:date>
     </item>
-    <dc:date>2016-03-08T12:06:00+00:00</dc:date>
+    <dc:date>2016-03-11T11:55:45+00:00</dc:date>
   </channel>
 </rss>
