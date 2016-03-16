@@ -1,315 +1,14 @@
 ---
 layout: post
 cover: 'assets/images/cover3.jpg'
-title: 2016-03-16 Facebook 정보 스크랩
-date: 2016-03-16 15:53:47
+title: 2016-03-15 Facebook 정보 스크랩
+date: 2016-03-15 15:53:47
 tags: Unclassified
 subclass: 'post tag-Unclassified'
 categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
 ---
-
-###[韓 AI 현주소-1]"뽑을 전문가가 없다"
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQDzO_J4oobvdtNq&w=130&h=130&url=http%3A%2F%2Fimage.zdnet.co.kr%2F2015%2F12%2F23%2Flyk_KkUUNY1yXvX9dL9V.jpg&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDzO_J4oobvdtNq&w=130&h=130&url=http%3A%2F%2Fimage.zdnet.co.kr%2F2015%2F12%2F23%2Flyk_KkUUNY1yXvX9dL9V.jpg&cfs=1)
-
->"인공지능 분야에서 박사급 인재를 찾기가 쉽지 않습니다. 어느 정도 이 분야에 대해 인지 하고 있는 사람을 찾는 것으로 만족해야 할 경우가 많죠."한 국내 IT기업 인사담당자는 "인공지능(AI) 딥러닝 기......
-
-**Link : <http://www.zdnet.co.kr/news/news_view.asp?artice_id=20160315154229>**
-
-2016-03-16T06:36:14+0000
-
----
-
-###1인 미디어 창작소
-
-![https://scontent.xx.fbcdn.net/hphotos-xtf1/v/t1.0-0/s130x130/10987655_1551253035203328_513504848011857292_n.png?oh=55b980048d3dd5d3a2a7afbf4b58f6ef&oe=57926831](https://scontent.xx.fbcdn.net/hphotos-xtf1/v/t1.0-0/s130x130/10987655_1551253035203328_513504848011857292_n.png?oh=55b980048d3dd5d3a2a7afbf4b58f6ef&oe=57926831)
-
->[#TIP : 스크린샷 한번으로 영상 속 영문폰트를 찾을 수 있다는데?]
--
-영상이나 이미지 속 영문폰트를 스크린샷 한번으로
-찾아주는 착한 사이트를 공유합니다ㅎㅎ
--
-#스샷한방으로 #영문폰트 #찾는방법
-#오줌지렸다 #찌릿
-#1인미디어창작소
--
-[더 많은 정보는! http://post.naver.com/my.nhn?memberNo=29759813]
-
-**Link : <https://www.facebook.com/onemediacreator/photos/a.1477169829278316.1073741828.1465087627153203/1551253035203328/?type=3>**
-
-2016-03-16T06:35:17+0000
-
----
-
-###자격증단기
-
-![https://scontent.xx.fbcdn.net/hphotos-xfa1/v/t1.0-0/q81/s130x130/12226948_1683329891901863_6135665416889210428_n.jpg?oh=86bec1643c38b0d30d98ee793d19578d&oe=57534AD8](https://scontent.xx.fbcdn.net/hphotos-xfa1/v/t1.0-0/q81/s130x130/12226948_1683329891901863_6135665416889210428_n.jpg?oh=86bec1643c38b0d30d98ee793d19578d&oe=57534AD8)
-
->돈 주고 산 듯한 PPT를 만들게 해주지
-#PPT_담당_공유태그_필수
-
-**Link : <https://www.facebook.com/jadangi1/photos/a.1677600282474824.1073741828.1677556995812486/1683329891901863/?type=3>**
-
-2016-03-16T05:24:50+0000
-
----
-
-###Penetration Testing Using The “Kill Chain” Methodology (W28)
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQCfo5eEO2OsIDrc&w=130&h=130&url=https%3A%2F%2Fpentestmag.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fgraph-460x449.png&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQCfo5eEO2OsIDrc&w=130&h=130&url=https%3A%2F%2Fpentestmag.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fgraph-460x449.png&cfs=1)
-
->Penetration Testing using The "Kill Chain" Methodology is an online course in which you will learn how to perform Penetration Test step by step using the "Kill Chain" Methodology. This course is intended for technical astute audience and this is a 98% hands on course.
-
-**Link : <https://pentestmag.com/course/penetration-testing-using-the-kill-chain-methodology-w28-2/>**
-
-2016-03-16T05:23:12+0000
-
----
-
-###한국트렌드마이크로
-
-![https://scontent.xx.fbcdn.net/hprofile-xaf1/v/t1.0-1/c12.12.155.155/s100x100/1005164_683017215058463_1547979833_n.png?oh=9dfc22929a3bcaf11814573cd2b98326&oe=5756D36D](https://scontent.xx.fbcdn.net/hprofile-xaf1/v/t1.0-1/c12.12.155.155/s100x100/1005164_683017215058463_1547979833_n.png?oh=9dfc22929a3bcaf11814573cd2b98326&oe=5756D36D)
-
->[보도자료] 트렌드마이크로 2015 보안 보고서 발표
-주요 정보 유출 사고, 취약점 및 사이버 지하 경제에 대해 세부적으로 설명
-트렌드마이크로는 오늘 “미래를 위한 준비: 현재의 위협 상황의 변화를 통해 미래의 위협 대응 전략을 알 수 있다”란 제목의 연간 보안 보고서를 발표했으며 2015년에 발생된 주요 보안 사건들을 세부적으로 ...
-
-http://bit.ly/22iYvzA
-
-**Link : <https://www.facebook.com/TrendMicroKR/posts/1280636161963229>**
-
-2016-03-16T05:11:46+0000
-
----
-
-###엑셀로 시작하는 중소기업 빅데이터 분석
-
-![https://scontent.xx.fbcdn.net/hphotos-xal1/v/t1.0-0/s130x130/10347624_1681860312080260_7469081065898314260_n.png?oh=5b61b251a2ee47043b811ae1d8d3e89c&oe=5752D951](https://scontent.xx.fbcdn.net/hphotos-xal1/v/t1.0-0/s130x130/10347624_1681860312080260_7469081065898314260_n.png?oh=5b61b251a2ee47043b811ae1d8d3e89c&oe=5752D951)
-
->중소기업에서 고려할 수 있는 빅데이터 분석을 위한 툴은 어떤 것이 있을까요? 분석을 하려면 R이란 언어를 배워야하고, Python이란 언어도 배워야 한다고 합니다.
-게다가 서비스 운영을 위해서는 하둡, 몽고DB 등등이 필요하다는데요. 
-
-가장 대표적으로 얘기되는 R, Python과 MS오피스를 비교해봤습니다.
-(숫자가 높을수록 좋은 것입니다.)
-
-회사가 제대로 빅데이터 분석에 투자를 하는 상황이 아니라면 현실적인 대안으로 MS오피스를 선택하는 것이 효율을 높일 수 있다고 생각합니다.
-
-**Link : <https://www.facebook.com/smbbigdata/photos/a.1679915758941382.1073741827.1679519022314389/1681860312080260/?type=3>**
-
-2016-03-16T00:58:30+0000
-
----
-
-###T-Robotics : 수학으로 상상하는 로보틱스 
-
-![https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/s130x130/10172702_845211082249675_1976189821418608526_n.jpg?oh=70578e5cd573b0f24ff4508a8b628490&oe=578BB050](https://scontent.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/s130x130/10172702_845211082249675_1976189821418608526_n.jpg?oh=70578e5cd573b0f24ff4508a8b628490&oe=578BB050)
-
->[T-Robotics 베스트 글 정리]
-
-이 목록들만 챙기시면 T-Robotics에서 쓴 주옥같은 글들을 놓치지 않고 보실 수 있습니다. 공유/저장해두시고 두고두고 읽어보세요!
-
-[머신러닝 / 인공지능 이야기]
-
-- 쉽게 풀어쓴 딥러닝의 거의 모든 것
-http://t-robotics.blogspot.ca/2015/05/deep-learning.html
-
-- 기계학습 입문하기 (강의 영상 및 슬라이드)
-http://t-robotics.blogspot.ca/2015/10/machine-learning.html
-
-- 로봇, 인공지능, 그리고 노동의 미래 (슬라이드)
-http://t-robotics.blogspot.ca/2015/06/blog-post_29.html
-
-- 추천! 로봇공학/기계학습 무료 교재(pdf) 15가지
-http://t-robotics.blogspot.ca/2015/01/pdf-15.html
-
-- 딥러닝이 로봇을 똑똑하게 할 수 있을까?
-http://t-robotics.blogspot.ca/2015/10/blog-post_21.html
-
-- 인공지능의 과거와 현재, 그리고 미래 (상)(하)
-http://t-robotics.blogspot.ca/2016/01/blog-post_23.html
-
-- 바둑/인공지능적 관점에서 분석한 알파고 1,2국
-http://t-robotics.blogspot.ca/2016/03/12.html
-
-[로봇기술 / 이론 이야기]
-
-- T-Robotics 유투브 로봇강좌 
-https://www.youtube.com/playlist?list=PL0oFI08O71gK02q3Sar5dg5vMLcae319p
-
-- 2015년 로봇분야 전망 : 드론 / 무인자동차 / 노동로봇 / 의료로봇 / 감정로봇
-http://t-robotics.blogspot.ca/2015/01/blog-post_14.html
-
-- 과연 아이언맨은 탄생할 수 있을까?
-http://t-robotics.blogspot.ca/2014/05/blog-post_19.html
-
-- 구글이 삼킨 위대한 로봇기업 Boston Dynamics
-http://t-robotics.blogspot.ca/2014/01/blog-post_26.html
-
-- PCA (주성분 분석) 이론 관련 글 세편 
-http://t-robotics.blogspot.ca/2013/07/pca.html
-http://t-robotics.blogspot.ca/2014/10/pca-principal-component-analysis.html
-http://t-robotics.blogspot.ca/2015/12/pca.html
-
-[기타 글]
-
-- LaTeX로 논문쓰기 (입문편)
-http://t-robotics.blogspot.ca/2016/02/latex.html
-
-- 서피스북 2개월 사용 후기
-http://t-robotics.blogspot.ca/2015/11/surface-book.html
-
-- 학자들의 스펙, h-index를 아시나요?
-http://t-robotics.blogspot.ca/2014/03/h.html
-
-- Terry Taewoong Um 페이스북 노트 
-https://www.facebook.com/terryum/notes
-
-이 외에도 구석구석 찾아보시면 주옥같은 글들 참 많답니다! 즐겁게 읽어주세요!
-
-**Link : <https://www.facebook.com/TRobotics/photos/a.431960563574731.1073741826.411570075613780/845211082249675/?type=3>**
-
-2016-03-16T00:58:08+0000
-
----
-
-###How to Check Original Installation Date of Windows
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQCmyIbf4l86wEzL&w=130&h=130&url=http%3A%2F%2F2.bp.blogspot.com%2F-dz_8gM5JgnU%2FU4g69ru7l7I%2FAAAAAAAAAO8%2FxVqSAiLGYcE%2Fs1600%2Fwindows%2Bbest%2Bhacker%2Bin.PNG&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQCmyIbf4l86wEzL&w=130&h=130&url=http%3A%2F%2F2.bp.blogspot.com%2F-dz_8gM5JgnU%2FU4g69ru7l7I%2FAAAAAAAAAO8%2FxVqSAiLGYcE%2Fs1600%2Fwindows%2Bbest%2Bhacker%2Bin.PNG&cfs=1)
-
-**Link : <http://mr-tricks.blogspot.in/2015/04/how-to-check-original-installation-date.html>**
-
-2016-03-16T00:55:08+0000
-
----
-
-###White Hat
-
-![https://scontent.xx.fbcdn.net/hphotos-xtf1/v/t1.0-0/s130x130/1604550_985550768206370_1027376408751800390_n.png?oh=13deb0ee323863fa63a7a5cfe48d7178&oe=574CF786](https://scontent.xx.fbcdn.net/hphotos-xtf1/v/t1.0-0/s130x130/1604550_985550768206370_1027376408751800390_n.png?oh=13deb0ee323863fa63a7a5cfe48d7178&oe=574CF786)
-
->Attenzione   siti Joomla vulnerabili .... SQL injection
-
-**Link : <https://www.facebook.com/WhiteHatItalia/photos/a.744099865684796.1073741828.741417162619733/985550768206370/?type=3>**
-
-2016-03-16T00:54:35+0000
-
----
-
-###중국의 딥러닝 기술 어디까지? >  TECH M
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQAJIVlrpytLn0SN&w=130&h=130&url=http%3A%2F%2Ftechm.kr%2Fdata%2Feditor%2F1502%2Fthumb-3543601402_1424759898.28773_600x0.jpg&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQAJIVlrpytLn0SN&w=130&h=130&url=http%3A%2F%2Ftechm.kr%2Fdata%2Feditor%2F1502%2Fthumb-3543601402_1424759898.28773_600x0.jpg&cfs=1)
-
-> 최근 딥러닝 분야에서 큰 관심을 모으고 있는 것 중 하나가 중국 거대 IT기업들의 진입이다.중국 최대 검색포털사이트 바이두가 미국에 연구소를 설립하고 딥러닝 분야의 권위자인 앤드류 응 스탠퍼드대 교수를 영입하는 등 딥러닝 연구에 박차를 가하고 있는 가운데, 중국 최대 전자상거래 기업인 알리바바의 마윈 회장이 인공지능에 대한 투자 의사를 내비쳐 비…
-
-**Link : <http://techm.kr/bbs/board.php?bo_table=article&wr_id=552>**
-
-2016-03-16T00:54:19+0000
-
----
-
-###This user hacked his Nexus 5 to add SD Card slot
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQAACuayAHSlVrZU&w=130&h=130&url=http%3A%2F%2Ftechworm.vijayprabhu.netdna-cdn.com%2Fwp-content%2Fuploads%2F2016%2F01%2FWOGSlIo.png%3Fe410ae&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQAACuayAHSlVrZU&w=130&h=130&url=http%3A%2F%2Ftechworm.vijayprabhu.netdna-cdn.com%2Fwp-content%2Fuploads%2F2016%2F01%2FWOGSlIo.png%3Fe410ae&cfs=1)
-
->This is how you can add a MicroSD slot to your Nexus smartphone running on Android 6 Marshmallow Except for the first Google Nexus, Google and the Nexus ma
-
-**Link : <http://www.techworm.net/2016/01/this-user-hacked-his-nexus-5-to-add-sd-card-slot.html>**
-
-2016-03-16T00:52:04+0000
-
----
-
-###DOJ Threatens To Seize IOS Source Code - Slashdot
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQBSSK_yD7TZL-P5&w=130&h=130&url=https%3A%2F%2Fa.fsdn.com%2Fsd%2Ftopics%2Fgovernment_64.png&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQBSSK_yD7TZL-P5&w=130&h=130&url=https%3A%2F%2Fa.fsdn.com%2Fsd%2Ftopics%2Fgovernment_64.png&cfs=1)
-
->An anonymous reader writes from an article posted on iDownloadBlog: The DoJ is demanding that Apple create a special version of iOS with removed security features that would permit the FBI to run brute-force passcode attempts on the San Bernardino shooter's iPhone 5c. Meanwhile, President Barack Oba…
-
-**Link : <https://apple.slashdot.org/story/16/03/15/213216/doj-threatens-to-seize-ios-source-code?utm_source=slashdot&utm_medium=facebook>**
-
-2016-03-16T00:52:03+0000
-
----
-
-###How to see saved password in Mozilla firefox
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQDpjq0WQyFAaJcN&w=130&h=130&url=https%3A%2F%2Fscontent.xx.fbcdn.net%2Fhphotos-xfp1%2Fv%2Ft1.0-9%2F1653881_10153483141316094_3652331396954042183_n.jpg%3Foh%3D6663ec3fa031575117cbd75b83447342%26oe%3D5758B139&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDpjq0WQyFAaJcN&w=130&h=130&url=https%3A%2F%2Fscontent.xx.fbcdn.net%2Fhphotos-xfp1%2Fv%2Ft1.0-9%2F1653881_10153483141316094_3652331396954042183_n.jpg%3Foh%3D6663ec3fa031575117cbd75b83447342%26oe%3D5758B139&cfs=1)
-
-**Link : <http://mr-tricks.blogspot.in/2015/04/how-to-see-saved-password-in-mozilla.html>**
-
-2016-03-16T00:48:34+0000
-
----
-
-###오픈 소스 딥러닝 소프트웨어
-
->오픈 소스 딥러닝 소프트웨어 많은 ICT 기업들이 자체적으로 개발한 인공지능(AI) SW 기술을 오픈소스로 공개하고 있습니다. 자사 기술을 공개함하여 - 인공지능 생태계 진화를 앞당기고 - 개발자 커뮤니티와의 관계를 강화하기 위함입니다. - 자사 기술을 공개하여 시장 영향력을 보다 확대하기 위해서입니다. 야후 야후는 지난 26일 자사의 딥러닝 SW인 ‘카페온스파크(CaffeOnSpark)’를 오픈소스 했습니다. 카페온스파크는 아파치 스파크 프레임워크에 기반 카페온스파크를 자사의 이미지 서비스인 플리커에 적용해 이미지 처리에 활용해왔…
-
-**Link : <http://kernelstudy.net/t/topic/188>**
-
-2016-03-16T00:48:26+0000
-
----
-
-###Complete Tour of PE and ELF: Part 2 - InfoSec Resources
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQBOoZazwpbIY8zq&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F031416_2229_CompleteTou1.png&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQBOoZazwpbIY8zq&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F031416_2229_CompleteTou1.png&cfs=1)
-
->We covered some important sections in Part 1 of this series. In this part, we will cover some more complex data structures covering some important concepts
-
-**Link : <http://resources.infosecinstitute.com/complete-tour-of-pe-and-elf-part-2/>**
-
-2016-03-16T00:47:54+0000
-
----
-
-###Basic Android Codes
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQDE6gkrtRE3gShi&w=130&h=130&url=https%3A%2F%2Fscontent.xx.fbcdn.net%2Fhphotos-xft1%2Fv%2Ft1.0-9%2F10890_10153483159446094_6314207011002891988_n.jpg%3Foh%3Db32d763935c18a37282155fe9a78462d%26oe%3D574C3E4F&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDE6gkrtRE3gShi&w=130&h=130&url=https%3A%2F%2Fscontent.xx.fbcdn.net%2Fhphotos-xft1%2Fv%2Ft1.0-9%2F10890_10153483159446094_6314207011002891988_n.jpg%3Foh%3Db32d763935c18a37282155fe9a78462d%26oe%3D574C3E4F&cfs=1)
-
-**Link : <http://mr-tricks.blogspot.in/2015/04/basic-android-codes.html>**
-
-2016-03-16T00:47:48+0000
-
----
-
-###파이썬 초보의 파이썬 프로그램 개발기 - 1
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQDVAyvAHKUoZo-i&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20160302_214%2Fninl123_1456908358883F8QwT_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2016-03-02_%25BF%25C0%25C8%25C4_5.45.42.png%3Ftype%3Dw2&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDVAyvAHKUoZo-i&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20160302_214%2Fninl123_1456908358883F8QwT_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2016-03-02_%25BF%25C0%25C8%25C4_5.45.42.png%3Ftype%3Dw2&cfs=1)
-
->파이썬을 전혀 모르는 상태에서 알음알음 찾아가며 프로그램을 개발했던 기억을 살려서 개발기를 작성하게 ...
-
-**Link : <http://blog.naver.com/ninl123/220643663497>**
-
-2016-03-16T00:47:41+0000
-
----
-
-###파이썬 초보의 파이썬 프로그램 개발기 - 2
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQAFgijqb9V7vhct&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20160304_178%2Fninl123_1457071723327i1jQs_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2016-03-04_%25BF%25C0%25C8%25C4_3.08.33.png%3Ftype%3Dw2&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQAFgijqb9V7vhct&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20160304_178%2Fninl123_1457071723327i1jQs_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2016-03-04_%25BF%25C0%25C8%25C4_3.08.33.png%3Ftype%3Dw2&cfs=1)
-
->어느덧 벌써 두 번째 게시글이 됐네요. 예상보다 많은 호응을 보내주셔서 감사히 생각하고 있습니다. 글의 ...
-
-**Link : <http://blog.naver.com/ninl123/220645489273>**
-
-2016-03-16T00:47:35+0000
-
----
-
-###스타크래프트의 컴퓨터 인공지능 프로그래밍 방법 소개
-
-![https://external.xx.fbcdn.net/safe_image.php?d=AQDIvO3l9oYC96Ej&w=130&h=130&url=http%3A%2F%2Fcfs7.tistory.com%2Fimage%2F23%2Ftistory%2F2008%2F09%2F09%2F18%2F08%2F48c63d1f4bc58&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDIvO3l9oYC96Ej&w=130&h=130&url=http%3A%2F%2Fcfs7.tistory.com%2Fimage%2F23%2Ftistory%2F2008%2F09%2F09%2F18%2F08%2F48c63d1f4bc58&cfs=1)
-
->본 글은, 스타크래프트 인공지능의 프로그래밍 방법을 소개하기 위하여 쓰게 되었다. (이 글은, 실제로 2006년 1월에 열렸던, 한국게임학회 동계학술대회에 논문으로 발표된 바 있는 내용이다.) - 이상호, 허준영, 조유근, 홍지만 저, "스타크래프트의 인공지능 성능 향상을 위한 프로그래밍 방법" 참조 먼저, 스타크래프트 라는 게임을 모르는 네티즌은 거의 없으리라 생각한다. 하지만, 일부의 독자를 위해서 스타크래프트가..
-
-**Link : <http://antiroot.tistory.com/m/post/19>**
-
-2016-03-16T00:47:13+0000
-
----
-
 ###Documents with malicious macros deliver fileless malware
 
 ![https://external.xx.fbcdn.net/safe_image.php?d=AQDqFJTxtK72QSdi&w=130&h=130&url=http%3A%2F%2Fimages.techhive.com%2Fimages%2Farticle%2F2015%2F12%2Fmalware-infection-cyberattack-100631031-primary.idge.jpg&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDqFJTxtK72QSdi&w=130&h=130&url=http%3A%2F%2Fimages.techhive.com%2Fimages%2Farticle%2F2015%2F12%2Fmalware-infection-cyberattack-100631031-primary.idge.jpg&cfs=1)
@@ -416,19 +115,19 @@ https://www.facebook.com/terryum/notes
 
 ![https://scontent.xx.fbcdn.net/hprofile-xfp1/v/t1.0-1/p100x100/11021054_672985952812169_9072090734631960605_n.jpg?oh=fe18598feeda39e1a8eec108995d82c2&oe=579253C7](https://scontent.xx.fbcdn.net/hprofile-xfp1/v/t1.0-1/p100x100/11021054_672985952812169_9072090734631960605_n.jpg?oh=fe18598feeda39e1a8eec108995d82c2&oe=579253C7)
 
->보안관리자에게...
+> 보안관리자에게...
 
-1. 보안정책이 아닌 사내정책에 정통하라.
-2. 보안장비가 아닌 보호대상을 이해하라.
-3. 데이터 흐름이 아닌 패킷의 흐름을 보라.
-4.장비추가가 아닌 현재의 위협 및 대책의 중첩, 부족을 판단하라.
-5. 현재의 위협은 선택적 대응하고, 미래의 위협은 빠짐없이 분석, 준비하라.
-6.시스톔적사고가 아닌, 현상을 이해하고 세상의 언어로 조직과 소통하라.
+> 1. 보안정책이 아닌 사내정책에 정통하라.
+> 2. 보안장비가 아닌 보호대상을 이해하라.
+> 3. 데이터 흐름이 아닌 패킷의 흐름을 보라.
+> 4. 장비추가가 아닌 현재의 위협 및 대책의 중첩, 부족을 판단하라.
+> 5. 현재의 위협은 선택적 대응하고, 미래의 위협은 빠짐없이 분석, 준비하라.
+> 6. 시스템적사고가 아닌, 현상을 이해하고 세상의 언어로 조직과 소통하라.
 
-당신은 보안전문가이다.
-하지만 조직의 일원으로 조화와 협력을 수행하고 있음을 명심하라.
-
--보안개론-
+> 당신은 보안전문가이다.
+> 하지만 조직의 일원으로 조화와 협력을 수행하고 있음을 명심하라.
+ 
+> -보안개론-
 
 **Link : <https://www.facebook.com/permalink.php?story_fbid=840511216059641&id=672577972852967>**
 
@@ -558,7 +257,7 @@ https://www.facebook.com/terryum/notes
 
 ---
 
-###100년 친구 대전MBC > VOD > 특집프로그램 다시보기
+###[영상] 알파고 개발자 데미스 하사비스 초청강연 인공지능과 미래
 
 ![https://external.xx.fbcdn.net/safe_image.php?d=AQDSNnNhQRDqqxCx&w=130&h=130&url=http%3A%2F%2Fwww.tjmbc.co.kr%2Fimages%2Fkorean%2Fvod%2Ftitle_plantable.png&cfs=1](https://external.xx.fbcdn.net/safe_image.php?d=AQDSNnNhQRDqqxCx&w=130&h=130&url=http%3A%2F%2Fwww.tjmbc.co.kr%2Fimages%2Fkorean%2Fvod%2Ftitle_plantable.png&cfs=1)
 
@@ -805,10 +504,6 @@ https://www.facebook.com/terryum/notes
 저작권 걱정없어~yo! 상업적인 목적 가능해~yo!
 게다가 고퀄이에~yo! 무료다운 함께 해볼까~yo?
 -
-#저작권노노 #상업적인목적예얍
-#고퀄리티 #무료이미지
-#1인미디어창작소
--
 [더 많은 정보는! http://post.naver.com/my.nhn?memberNo=29759813]
 
 **Link : <https://www.facebook.com/onemediacreator/photos/a.1477169829278316.1073741828.1465087627153203/1550357548626210/?type=3>**
@@ -915,28 +610,28 @@ https://www.facebook.com/terryum/notes
 
 >안녕하세요. 빛스캔입니다.
 
-2016년 3월 3주차 인터넷 위협 분석 보고서를 발송해 드립니다.
- 
-금주부터 악성코드의 공격이 점차 확장되는 움직임을 보이고 있습니다. 그 중 대표적으로 취업과 관련된 웹사이트 등 다수가 포함된 MalwareNet의 형성 및 활동을 들 수 있습니다. 취업관련 사이트에서의 악성코드 유포는 계절적 영향에 의해 매년 반복되고 있으며, 상반기 공채기간까지는 계속 이어질 것으로 전망됩니다. 금주에는 계절적 영향으로 인한 유포가 새롭게 발견되어 위협이 더욱 증가하였기 때문에 한국 인터넷 위협은 “주의”를 계속 유지합니다.
-
-주요 특징(Main Features)
-l  특이 동향 – 신규 경유지의 파급력 상승
-■ 계절적 영향으로 인한 악성코드 유포 – 다수의 취업사이트
-■ 파일공유(P2P) 사이트를 통한 악성코드 유포 지속
-■ 소규모 MalwareNet의 형성
-
-l  유포 동향 – 다양한 사이트의 악성코드 유포
-■ 취업, 파일공유(P2P), 중소기업, 패션 사이트 등
-
-l  금융 동향 – 파밍 악성코드의 지속적인 유포
-
-보고서 및 관련 내용에 대한 추가적인 문의사항은 등록된 이메일 주소를 통해 info@bitscan.co.kr 으로 연락 주십시오.
-
-감사합니다.
-
-알림: 본 보고서 및 관련 컨텐츠는 저작권의 보호를 받습니다. 재배포, 영리목적의 활용 등을 위해서는 별도의 계약을 체결하셔야 합니다.
-
-PS: 요약 보고서는 워드 형태로 작성된 원문을 PDF로 보내 드리고, 차후에 정식판을 보내 드립니다.(실제 내용은 거의 변경되지 않습니다)
+> 2016년 3월 3주차 인터넷 위협 분석 보고서를 발송해 드립니다.
+>  
+> 금주부터 악성코드의 공격이 점차 확장되는 움직임을 보이고 있습니다. 그 중 대표적으로 취업과 관련된 웹사이트 등 다수가 포함된 MalwareNet의 형성 및 활동을 들 수 있습니다. 취업관련 사이트에서의 악성코드 유포는 계절적 영향에 의해 매년 반복되고 있으며, 상반기 공채기간까지는 계속 이어질 것으로 전망됩니다. 금주에는 계절적 영향으로 인한 유포가 새롭게 발견되어 위협이 더욱 증가하였기 때문에 한국 인터넷 위협은 “주의”를 계속 유지합니다.
+> 
+> 주요 특징(Main Features)
+> l  특이 동향 – 신규 경유지의 파급력 상승
+> ■ 계절적 영향으로 인한 악성코드 유포 – 다수의 취업사이트
+> ■ 파일공유(P2P) 사이트를 통한 악성코드 유포 지속
+> ■ 소규모 MalwareNet의 형성
+> 
+> l  유포 동향 – 다양한 사이트의 악성코드 유포
+> ■ 취업, 파일공유(P2P), 중소기업, 패션 사이트 등
+> 
+> l  금융 동향 – 파밍 악성코드의 지속적인 유포
+> 
+> 보고서 및 관련 내용에 대한 추가적인 문의사항은 등록된 이메일 주소를 통해 info@bitscan.co.kr 으로 연락 주십시오.
+> 
+> 감사합니다.
+> 
+> 알림: 본 보고서 및 관련 컨텐츠는 저작권의 보호를 받습니다. 재배포, 영리목적의 활용 등을 위해서는 별도의 계약을 체결하셔야 합니다.
+> 
+> PS: 요약 보고서는 워드 형태로 작성된 원문을 PDF로 보내 드리고, 차후에 정식판을 보내 드립니다.(실제 내용은 거의 변경되지 않습니다)
 
 **Link : <https://www.facebook.com/bitscan/photos/a.423984884302887.101076.257297837638260/1193194784048556/?type=3>**
 
@@ -1352,21 +1047,21 @@ PS: 요약 보고서는 워드 형태로 작성된 원문을 PDF로 보내 드�
 
 ---
 
-###403 Forbidden
+###Subsearch is a command line tool designed to brute force subdomain names.
 
 >You don't have permission to access /subsearch-is-a-command-line-tool-designed-to-brute-force-subdomain-names.html on this server.
 
-**Link : <https://t.co/aCoKF3veDe>**
+**Link : <http://seclist.us/subsearch-is-a-command-line-tool-designed-to-brute-force-subdomain-names.html?platform=hootsuite>**
 
 2016-03-15T01:13:56+0000
 
 ---
 
-###403 Forbidden
+###Termineter – Smart Meter Security Testing Framework.
 
 >Additionally, a 500 Internal Server Error error was encountered while trying to use an ErrorDocument to handle the request.
 
-**Link : <https://t.co/ndlAiZ7X1I>**
+**Link : <http://seclist.us/termineter-smart-meter-security-testing-framework.html?platform=hootsuite>**
 
 2016-03-15T01:13:50+0000
 
@@ -1384,31 +1079,31 @@ PS: 요약 보고서는 워드 형태로 작성된 원문을 PDF로 보내 드�
 
 ---
 
-###403 Forbidden
+###ARCANUS Framework is a customized payload generator/handler.
 
 >Additionally, a 500 Internal Server Error error was encountered while trying to use an ErrorDocument to handle the request.
 
-**Link : <https://t.co/vsQo3DC048>**
+**Link : <http://seclist.us/arcanus-framework-is-a-customized-payload-generatorhandler.html?platform=hootsuite>**
 
 2016-03-15T01:13:29+0000
 
 ---
 
-###403 Forbidden
+###thc-ipv6 v3.1dev update – IPv6 attack toolkit.
 
 >Additionally, a 500 Internal Server Error error was encountered while trying to use an ErrorDocument to handle the request.
 
-**Link : <https://t.co/56QuqCONQs>**
+**Link : <http://seclist.us/thc-ipv6-v3-1dev-update-ipv6-attack-toolkit.html?platform=hootsuite>**
 
 2016-03-15T01:13:22+0000
 
 ---
 
-###403 Forbidden
+###Social Network Harvester v1.0
 
 >Additionally, a 500 Internal Server Error error was encountered while trying to use an ErrorDocument to handle the request.
 
-**Link : <https://t.co/p7GA7wM6Im>**
+**Link : <http://seclist.us/social-network-harvester-v1-0.html?platform=hootsuite>**
 
 2016-03-15T01:13:18+0000
 
