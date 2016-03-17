@@ -1,8 +1,8 @@
 ---
 layout: post
 cover: 'assets/images/cover3.jpg'
-title: 2016-03-17 Facebook 정보 스크랩
-date: 2016-03-17 09:27:33
+title: 2016-03-16 Facebook 정보 스크랩
+date: 2016-03-16 09:27:33
 tags: Unclassified
 subclass: 'post tag-Unclassified'
 categories: 'tabris'
