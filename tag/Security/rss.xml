@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>참고 URL 스크랩</title>
-	  <link>/umbrain//security-url_scrap</link>
+	  <link>/umbrain//Facebook_scrap-20160308</link>
 	  <author>taBRis</author>
 	  <pubDate>2016-03-08T11:00:00+00:00</pubDate>
-	  <guid>/umbrain//security-url_scrap</guid>
+	  <guid>/umbrain//Facebook_scrap-20160308</guid>
 	  <description><![CDATA[
 	     <p><strong># MSF를 활용한 안드로이드 apk파일 백도어 제작 설명</strong>
 <strong>출처 : <a href="https://techkernel.wordpress.com/2015/12/19/embed-metasploit-payload-in-apk-manually/">https://techkernel.wordpress.com/2015/12/19/embed-metasploit-payload-in-apk-manually</a></strong></p>
@@ -101,10 +101,10 @@
 
 	<item>
 	  <title>깃허브 인기 오픈소스 보안 툴 11선</title>
-	  <link>/umbrain//git-open-source</link>
+	  <link>/umbrain//security-git_open_source</link>
 	  <author>taBRis</author>
 	  <pubDate>2016-02-25T14:49:47+00:00</pubDate>
-	  <guid>/umbrain//git-open-source</guid>
+	  <guid>/umbrain//security-git_open_source</guid>
 	  <description><![CDATA[
 	     <p><strong>개발자/보안/오픈소스 :: InfoWorld</strong>
 <strong>출처 : <a href="http://www.itworld.co.kr/print/89483">http://www.itworld.co.kr/print/89483</a></strong></p>
