@@ -1,0 +1,133 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-04-03 Facebook 정보 스크랩
+date: 2017-01-13 17:01:47
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###OpenSecurityResearch/hostapd-wpe
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBGbpQiKWeReLT-&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F1873076%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQADRoNTvApHqT1R](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBGbpQiKWeReLT-&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F1873076%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQADRoNTvApHqT1R)
+
+>hostapd-wpe - Modified hostapd to facilitate AP impersonation attacks
+
+**Link : <https://t.co/3g2Lq59hcM>**
+
+2016-04-03T17:54:02+0000
+
+---
+
+###Most Dangerous Linux Commands |
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCgqyMm81mgwBGW&w=130&h=130&url=https%3A%2F%2Fscontent-hkg3-1.xx.fbcdn.net%2Fhphotos-xpf1%2Fv%2Ft1.0-9%2F1928980_1143681955662306_5762406651625152024_n.png%3Foh%3Deb824b1351c5b5c5f5fd67584e84a57d%26oe%3D577B60EE&cfs=1&_nc_hash=AQAuuU1hREVHQOxy](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCgqyMm81mgwBGW&w=130&h=130&url=https%3A%2F%2Fscontent-hkg3-1.xx.fbcdn.net%2Fhphotos-xpf1%2Fv%2Ft1.0-9%2F1928980_1143681955662306_5762406651625152024_n.png%3Foh%3Deb824b1351c5b5c5f5fd67584e84a57d%26oe%3D577B60EE&cfs=1&_nc_hash=AQAuuU1hREVHQOxy)
+
+>Most Dangerous Linux Commands Linux command line is productive, useful and interesting but sometimes it may be very much dangerous specially when you are not sure what you are doing. This article is not intended to make you furious of Linux or Linux command line. We just want to make you aware of so…
+
+**Link : <http://www.ddoshackingarticles.com/2016/03/31/most-dangerous-linux-commands-2/>**
+
+2016-04-03T06:12:56+0000
+
+---
+
+###RajHackingArticles
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/s130x130/12717979_1283420878336635_3543539376581733062_n.png?oh=1f0cd8a8bf3b322c8309806109ddab57&oe=58D93E5A&__gda__=1494581132_83f7c2a4939bbdc29b4065daf6097bd1](https://fb-s-a-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/s130x130/12717979_1283420878336635_3543539376581733062_n.png?oh=1f0cd8a8bf3b322c8309806109ddab57&oe=58D93E5A&__gda__=1494581132_83f7c2a4939bbdc29b4065daf6097bd1)
+
+>Building a Pentesting Lab for Wireless Networks
+http://www,hackingarticles,in/building-pentesting-lab-wireless-networks/
+
+**Link : <https://www.facebook.com/rajhackingarticles/photos/a.608139209198142.1073741825.123826210962780/1283420878336635/?type=3>**
+
+2016-04-03T06:12:36+0000
+
+---
+
+###강좌: C 언어 무작정 따라하기
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAOnBovPUYuadBl&w=130&h=130&url=http%3A%2F%2Fc.thebook.io%2Ftheme%2Fimage.php%2Fvcron%2Fforum%2F1459149716%2Ficon&cfs=1&_nc_hash=AQD9LOHt0V4WtylF](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAOnBovPUYuadBl&w=130&h=130&url=http%3A%2F%2Fc.thebook.io%2Ftheme%2Fimage.php%2Fvcron%2Fforum%2F1459149716%2Ficon&cfs=1&_nc_hash=AQD9LOHt0V4WtylF)
+
+>정수형 변수를 선언하는 방법과 정수 자료형의 오버플로우, 언더플로우, 자료형 크기 구하기, 최솟값과 최댓값에 대해 설명합니다.
+
+**Link : <http://c.thebook.io/course/view.php?id=2>**
+
+2016-04-03T06:10:27+0000
+
+---
+
+###denismark94/pe_injection
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQABETukXaL4YTge&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F9132255%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQCYRzPf0TDg19UF](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQABETukXaL4YTge&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F9132255%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQCYRzPf0TDg19UF)
+
+>pe_injection - implementation of injection in pe file
+
+**Link : <https://t.co/FynP2mTbHK>**
+
+2016-04-03T06:03:14+0000
+
+---
+
+###olivierba/malwareanalysis
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAbfhJVxVldro2H&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F6939358%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBat15cHxFSzuFw](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAbfhJVxVldro2H&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F6939358%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBat15cHxFSzuFw)
+
+>malwareanalysis - Unencrypting a JS malware
+
+**Link : <https://t.co/OMzdkvaWb2>**
+
+2016-04-03T06:02:09+0000
+
+---
+
+###HackersLab [인터뷰] 김휘강 교수 - 해커스랩
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBdB0Mn51sGtuHp&w=130&h=130&url=https%3A%2F%2Fwww.hackerslab.org%2Fwp-content%2Fuploads%2F2016%2F04%2Fpeople-kimhk-thumb1.jpg&cfs=1&sx=11&sy=0&sw=332&sh=332&_nc_hash=AQD4HTEG2zO5xndO](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBdB0Mn51sGtuHp&w=130&h=130&url=https%3A%2F%2Fwww.hackerslab.org%2Fwp-content%2Fuploads%2F2016%2F04%2Fpeople-kimhk-thumb1.jpg&cfs=1&sx=11&sy=0&sw=332&sh=332&_nc_hash=AQD4HTEG2zO5xndO)
+
+>해커스랩, HackersLab, Since 1999, FHZ
+
+**Link : <https://www.hackerslab.org/people/people-prof-kimhk/>**
+
+2016-04-03T06:01:55+0000
+
+---
+
+###screen 마법의 시작 옵션
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAG0H7GZ-Ast57Q&w=130&h=130&url=https%3A%2F%2Fgraph.facebook.com%2F1575113382809374%2Fpicture%3Ftype%3Dlarge&cfs=1&_nc_hash=AQBhFZt-ztgZGBeJ](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAG0H7GZ-Ast57Q&w=130&h=130&url=https%3A%2F%2Fgraph.facebook.com%2F1575113382809374%2Fpicture%3Ftype%3Dlarge&cfs=1&_nc_hash=AQBhFZt-ztgZGBeJ)
+
+>아는 사람을 알고 모르는 사람은 모르는 리눅스 커맨드 세번째 "screen 마법의 시작옵션" 입니다. screen 명령을 어떤 옵션과 함께 시작하시나요? 여러가지 방법의 옵션들이 있지만 제가 생각하는 마법의 명령어는 바로 screen -DRR [세션이름] 입니다. 보통 쉽게 생각할 수 있는 옵션은 screen # 이름 없이 새로운 screen 시작 screen -S 세션이름 # 세션이름으로 새로운 screen 시작 screen ...
+
+**Link : <https://rm-rf.work/f/topic/69>**
+
+2016-04-03T05:41:56+0000
+
+---
+
+###Microsoft Security Development Lifecycle
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBnWGkRtDVdb5bI&w=130&h=130&url=https%3A%2F%2Fc.s-microsoft.com%2Fen-us%2FCMSImages%2Fsdl-shield-green.png%3Fversion%3D17644e69-4749-5c69-a52c-017f919a3423&cfs=1&_nc_hash=AQA6bT4JkREPP3Au](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBnWGkRtDVdb5bI&w=130&h=130&url=https%3A%2F%2Fc.s-microsoft.com%2Fen-us%2FCMSImages%2Fsdl-shield-green.png%3Fversion%3D17644e69-4749-5c69-a52c-017f919a3423&cfs=1&_nc_hash=AQA6bT4JkREPP3Au)
+
+>Learn about the Microsoft Security Development Lifecycle (SDL) and how it can improve software development security.
+
+**Link : <https://www.microsoft.com/en-us/sdl/>**
+
+2016-04-03T05:31:22+0000
+
+---
+
+###techbliss/Yara_Mailware_Quick_menu_scanner
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBlA5dm9xNVUcFK&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F3592375%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDhFGu6F6MSm7Uu](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBlA5dm9xNVUcFK&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F3592375%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDhFGu6F6MSm7Uu)
+
+>Yara_Mailware_Quick_menu_scanner - Work Fast With the pattern matching swiss knife for malware researchers.
+
+**Link : <https://github.com/techbliss/Yara_Mailware_Quick_menu_scanner>**
+
+2016-04-03T05:30:07+0000
+
+---
+

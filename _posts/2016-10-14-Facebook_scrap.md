@@ -1,0 +1,37 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-10-14 Facebook 정보 스크랩
+date: 2017-01-13 17:45:30
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###AI Korea
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDKpucm2hD7rM7Z&w=130&h=130&url=http%3A%2F%2Fwww.nature.com%2Fnature%2Fjournal%2Fvaop%2Fncurrent%2Fcarousel%2Fnature20101-st2.jpg&cfs=1&_nc_hash=AQCukEjLJW64RXiv](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDKpucm2hD7rM7Z&w=130&h=130&url=http%3A%2F%2Fwww.nature.com%2Fnature%2Fjournal%2Fvaop%2Fncurrent%2Fcarousel%2Fnature20101-st2.jpg&cfs=1&_nc_hash=AQCukEjLJW64RXiv)
+
+>딥마인드에서 네이쳐에 새 논문이 나왔습니다.  Differentiable Neural Computer라는 모델이 제안되었으며, Dynamic External Memory를 사용하여 NLP 등에서 매우 복잡한 Inference/Reasoning 문제들을 푸는데 성공하였다 합니다.
+기술적인 디테일들은 추후 내용 공유 하겠습니다~
+
+**Link : <http://www.nature.com/nature/journal/vaop/ncurrent/full/nature20101.html>**
+
+2016-10-14T06:26:18+0000
+
+---
+
+###mac4n6 Blog
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBE4hkJu4LrD6Jq&w=130&h=130&url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F53836afce4b0ea0513df946a%2Ft%2F5389edc1e4b09fbf36758176%2F1467765686019%2F%3Fformat%3D1000w&cfs=1&_nc_hash=AQAavwVWLykFb8eH](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBE4hkJu4LrD6Jq&w=130&h=130&url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F53836afce4b0ea0513df946a%2Ft%2F5389edc1e4b09fbf36758176%2F1467765686019%2F%3Fformat%3D1000w&cfs=1&_nc_hash=AQAavwVWLykFb8eH)
+
+>   
+
+**Link : <https://www.mac4n6.com/>**
+
+2016-10-14T06:21:55+0000
+
+---
+

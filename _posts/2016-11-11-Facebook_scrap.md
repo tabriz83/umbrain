@@ -1,0 +1,40 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-11-11 Facebook 정보 스크랩
+date: 2017-01-13 17:45:48
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###SoftTrack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBQICFN7Nj-kkSQ&w=130&h=130&url=https%3A%2F%2F2.bp.blogspot.com%2F-F-l5jXdBdf8%2FWBt9GwQA-5I%2FAAAAAAAABKY%2FPIl1E-XSvSY_xkmJ_Ru2OOuVc0XiL_KBACLcB%2Fs640%2FPyCodeInjectionShell-url-interactive.png&cfs=1&_nc_hash=AQBahKmRy-hFZL3e](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBQICFN7Nj-kkSQ&w=130&h=130&url=https%3A%2F%2F2.bp.blogspot.com%2F-F-l5jXdBdf8%2FWBt9GwQA-5I%2FAAAAAAAABKY%2FPIl1E-XSvSY_xkmJ_Ru2OOuVc0XiL_KBACLcB%2Fs640%2FPyCodeInjectionShell-url-interactive.png&cfs=1&_nc_hash=AQBahKmRy-hFZL3e)
+
+>Exploiting Python Code Injection in Web Applications
+
+**Link : <http://sethsec.blogspot.com/2016/11/exploiting-python-code-injection-in-web.html>**
+
+2016-11-11T09:44:29+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xat1/v/t1.0-0/s130x130/15073544_1241514302579108_5517906208437577162_n.png?oh=2be1d4f7ea205fa71809ed8f8a671baa&oe=58DC4195&__gda__=1495092793_508991fd113ab3f5b0852070a0e92d8f](https://fb-s-a-a.akamaihd.net/h-ak-xat1/v/t1.0-0/s130x130/15073544_1241514302579108_5517906208437577162_n.png?oh=2be1d4f7ea205fa71809ed8f8a671baa&oe=58DC4195&__gda__=1495092793_508991fd113ab3f5b0852070a0e92d8f)
+
+>Samsung SW Update Service Privilege Escalation Vulnerability 
+
+Samsung Software Update Service, SWUpdateService (SWMAgent.exe), installs as a service with an unquoted service path running with SYSTEM privileges. This could potentially allow an authorized but non-privileged local user to execute arbitrary code with elevated privileges on the system.
+
+http://0day.today/exploit/26299
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1241514302579108/?type=3>**
+
+2016-11-11T05:00:54+0000
+
+---
+

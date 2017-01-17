@@ -1,0 +1,24 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-10-18 Facebook 정보 스크랩
+date: 2017-01-13 17:45:30
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Security List Network
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCYa7wQKnh25A7p&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F12877861%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQAqb3P1IgWKi1B1](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCYa7wQKnh25A7p&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F12877861%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQAqb3P1IgWKi1B1)
+
+>A public-key encryption utility with a hidden backdoor. https://t.co/g07Nh2LTCF
+
+**Link : <https://t.co/g07Nh2LTCF>**
+
+2016-10-18T17:17:14+0000
+
+---
+

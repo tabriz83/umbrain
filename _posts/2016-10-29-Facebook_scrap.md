@@ -1,0 +1,36 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-10-29 Facebook 정보 스크랩
+date: 2017-01-13 17:45:30
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Why Python is Favorite Programming Language of Hackers ?
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC9R9Nyw5iFE_NQ&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fpython-Programming-Language-Software.jpg&cfs=1&_nc_hash=AQC8zPzYympKVdsp](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC9R9Nyw5iFE_NQ&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fpython-Programming-Language-Software.jpg&cfs=1&_nc_hash=AQC8zPzYympKVdsp)
+
+>Many people learn Python specifically just for hacking and when I first started with Python and moving from Java to Python personally felt a lot comfortable
+
+**Link : <https://latesthackingnews.com/2016/09/04/python-favorite-programming-language-hackers/>**
+
+2016-10-29T12:45:00+0000
+
+---
+
+###Fluxion - WPA/WPA2 Security Hacked Without Brute Force - Latest Hacking News
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDJhU-RJ8yG3txG&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2016%2F10%2F687474703a2f2f7331322e706f7374696d672e6f72672f64706c70647a6d6e782f53637265656e73686f745f61745f323031365f30395f32345f31335f35325f35382e706e67.png&cfs=1&_nc_hash=AQBt2MVHbZcq6R0r](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDJhU-RJ8yG3txG&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2016%2F10%2F687474703a2f2f7331322e706f7374696d672e6f72672f64706c70647a6d6e782f53637265656e73686f745f61745f323031365f30395f32345f31335f35325f35382e706e67.png&cfs=1&_nc_hash=AQBt2MVHbZcq6R0r)
+
+>Fluxion is a remake of linset by vk496 with less bugs and more features. It’s compatible with the latest release of Kali (Rolling). Latest builds (stable) and (beta) HERE . If you new, please start reading the wiki How it works: Step 1: Scan the networks. Step 2: Capture a handshake (can’t be used w...
+
+**Link : <https://latesthackingnews.com/2016/10/06/fluxion-wpawpa2-security-hacked-without-brute-force/>**
+
+2016-10-29T12:44:47+0000
+
+---
+

@@ -1,0 +1,28 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-08-13 Facebook 정보 스크랩
+date: 2017-01-13 17:44:56
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+2016-08-13T03:57:52+0000
+
+---
+
+###Attacks on HTTPS via malicious PAC files
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCGUIHIMUka55Nn&w=130&h=130&url=http%3A%2F%2Fwww.contextis.com%2Fmedia%2Fimages%2Fcycle.width-800.png&cfs=1&_nc_hash=AQCIgoZDGX5TRz-x](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCGUIHIMUka55Nn&w=130&h=130&url=http%3A%2F%2Fwww.contextis.com%2Fmedia%2Fimages%2Fcycle.width-800.png&cfs=1&_nc_hash=AQCIgoZDGX5TRz-x)
+
+>In our last blog post, Sniffing HTTPS URLS with malicious PAC files, we described issues identified in the implementation of PAC files in various web browsers and operating systems. In this post we outline the risk of these issues, and proof of concept source for others to replicate this work.
+
+**Link : <http://www.contextis.com/resources/blog/attacks-https-malicious-pac-files/>**
+
+2016-08-13T02:03:45+0000
+
+---
+

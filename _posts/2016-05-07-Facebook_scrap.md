@@ -1,0 +1,90 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-05-07 Facebook 정보 스크랩
+date: 2017-01-13 17:10:59
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###interference-security/empire-web
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAXbkfpu9A-LTg8&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F5358495%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBBb0ibg2xu_oqe](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAXbkfpu9A-LTg8&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F5358495%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBBb0ibg2xu_oqe)
+
+>empire-web - PowerShell Empire Web Interface
+
+**Link : <https://github.com/interference-security/empire-web/>**
+
+2016-05-07T04:42:49+0000
+
+---
+
+###스마트 개발자 협회(Smart Developer Association)
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBuSp__yiMRJC8Z&w=130&h=130&url=http%3A%2F%2Fcdn.slidesharecdn.com%2Fss_thumbnails%2Fndc16byungtakkorpublic-160503075204-thumbnail-4.jpg%3Fcb%3D1462262676&cfs=1&_nc_hash=AQAihEFLk5WBuXT_](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBuSp__yiMRJC8Z&w=130&h=130&url=http%3A%2F%2Fcdn.slidesharecdn.com%2Fss_thumbnails%2Fndc16byungtakkorpublic-160503075204-thumbnail-4.jpg%3Fcb%3D1462262676&cfs=1&_nc_hash=AQAihEFLk5WBuXT_)
+
+>메이플스토리 사례를 통해 살펴보는 서버사이드 봇/핵 탐지 시스템
+
+http://www.slideshare.net/window31/server-side-bothack-detection-system-through-maplestory-case
+
+**Link : <http://www.slideshare.net/window31/server-side-bothack-detection-system-through-maplestory-case>**
+
+2016-05-07T04:25:08+0000
+
+---
+
+###한국정보보호교육센터
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA9TluL_PDp1-t-&w=130&h=130&url=http%3A%2F%2Fm1.daumcdn.net%2Fsvc%2Fimage%2FU03%2Fcommon_icon%2F557567EA016E200001&cfs=1&_nc_hash=AQBCkNcYvvQ8ldqR](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA9TluL_PDp1-t-&w=130&h=130&url=http%3A%2F%2Fm1.daumcdn.net%2Fsvc%2Fimage%2FU03%2Fcommon_icon%2F557567EA016E200001&cfs=1&_nc_hash=AQBCkNcYvvQ8ldqR)
+
+>해킹 팀을 공격하고 정보를 공개한 Phineas Fisher(Hack Back)가 최근에 공개한 '해킹 팀 공격 리포트'를 의역하였습니다. 상당히 범죄적인 요소가 포함되어 있습니다. 의로운 정보보안전문가가 되시길 바랍니다.
+
+**Link : <http://fngs.tistory.com/20>**
+
+2016-05-07T04:24:31+0000
+
+---
+
+###zp1in/Auto-attack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAWsJaAdmoBhHrb&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F18663141%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDGkOSViGdo7E5u](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAWsJaAdmoBhHrb&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F18663141%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDGkOSViGdo7E5u)
+
+>Contribute to Auto-attack development by creating an account on GitHub.
+
+**Link : <https://t.co/E8IZVVQVgY>**
+
+2016-05-07T04:19:29+0000
+
+---
+
+###Sung Kim
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCjeOQqTo9IdfPn&w=130&h=130&url=https%3A%2F%2Fsecure.gravatar.com%2Fblavatar%2Fe9c3e1b66c65bb9401ba9f03b4436c8a%3Fs%3D200%26ts%3D1462328921&cfs=1&_nc_hash=AQCf5DYaIvaQAVF0](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCjeOQqTo9IdfPn&w=130&h=130&url=https%3A%2F%2Fsecure.gravatar.com%2Fblavatar%2Fe9c3e1b66c65bb9401ba9f03b4436c8a%3Fs%3D200%26ts%3D1462328921&cfs=1&_nc_hash=AQCf5DYaIvaQAVF0)
+
+>https://tensorflowkorea.wordpress.com/2016/05/04/stanford-cs231n-%EA%B0%95%EC%A2%8C%EA%B0%80-%EB%8B%AB%ED%98%94%EC%8A%B5%EB%8B%88%EB%8B%A4/
+
+그동안 우리에게 큰 즐거움을 주었던 CS231의 강의가 법적인 문제로 youtube에서 내려갔습니다. 안타깝네요. 당분간은 https://archive.org/download/cs231n-CNNs 에서 다운로드 가능합니다. 소장할 가치 충분히 있습니다.
+
+**Link : <https://tensorflowkorea.wordpress.com/2016/05/04/stanford-cs231n-강좌가-닫혔습니다/>**
+
+2016-05-07T04:17:38+0000
+
+---
+
+###Android Tamer
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDb3d_yfhcGlOg1&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F3040570%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQAbYrMYxhHANea9](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDb3d_yfhcGlOg1&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F3040570%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQAbYrMYxhHANea9)
+
+>Retweeted Nikolaos Chrysaidos (@virqdroid):
+
+@virqdroid plus iovyroot - https://t.co/PmEM0GzLz0
+
+**Link : <https://t.co/PmEM0GzLz0>**
+
+2016-05-07T04:17:08+0000
+
+---
+

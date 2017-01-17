@@ -1,0 +1,24 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-10-01 Facebook 정보 스크랩
+date: 2017-01-13 17:45:30
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###보안인닷컴
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA_jIk7ZwrTkr0Y&w=130&h=130&url=http%3A%2F%2Fimgnews.naver.net%2Fimage%2Forigin%2F421%2F2016%2F09%2F30%2F2307445.jpg&cfs=1&sx=187&sy=0&sw=373&sh=373&_nc_hash=AQCuScNqEI5kFjbA](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA_jIk7ZwrTkr0Y&w=130&h=130&url=http%3A%2F%2Fimgnews.naver.net%2Fimage%2Forigin%2F421%2F2016%2F09%2F30%2F2307445.jpg&cfs=1&sx=187&sy=0&sw=373&sh=373&_nc_hash=AQCuScNqEI5kFjbA)
+
+>보건복지인력개발원, 5만명 개인정보 유출
+
+**Link : <http://m.news.naver.com/read.nhn?mode=LSD&sid1=001&oid=421&aid=0002307445>**
+
+2016-10-01T20:11:44+0000
+
+---
+

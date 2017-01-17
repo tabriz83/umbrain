@@ -1,0 +1,30 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-06-26 Facebook 정보 스크랩
+date: 2017-01-13 17:13:19
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###홍길한
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQClLAP2ZFnsAj9F&w=130&h=130&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhortonworks%2Ftutorials%2Fhdp%2Fassets%2Fserver-logs%2Fscript-download.png&cfs=1&_nc_hash=AQCTO32Jm9kS9W33](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQClLAP2ZFnsAj9F&w=130&h=130&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhortonworks%2Ftutorials%2Fhdp%2Fassets%2Fserver-logs%2Fscript-download.png&cfs=1&_nc_hash=AQCTO32Jm9kS9W33)
+
+>이것은 꼭 한번 쯤은 읽고 가야 할 글입니다.
+
+감사합니다.
+
+Refine and Visualize Server Log Data
+
+
+
+**Link : <http://ko.hortonworks.com/hadoop-tutorial/how-to-refine-and-visualize-server-log-data/>**
+
+2016-06-26T13:37:27+0000
+
+---
+

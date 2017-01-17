@@ -1,0 +1,91 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-11-03 Facebook 정보 스크랩
+date: 2017-01-13 17:45:48
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBw0iLcXaYjezph&w=130&h=130&url=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2016%2F09%2Fsql-injection-1-760x300.png&cfs=1&_nc_hash=AQA5qUvhrGgovoSa](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBw0iLcXaYjezph&w=130&h=130&url=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2016%2F09%2Fsql-injection-1-760x300.png&cfs=1&_nc_hash=AQA5qUvhrGgovoSa)
+
+>How security flaws work: SQL injection
+
+**Link : <http://bit.ly/2fEgBcT>**
+
+2016-11-03T06:54:50+0000
+
+---
+
+###보안인닷컴
+
+>[단독]개인정보 보호 없는 배달의 민족···폭언·비방등 난무
+
+**Link : <http://www.sateconomy.co.kr/news/articleView.html?idxno=36834>**
+
+2016-11-03T04:45:23+0000
+
+---
+
+###Offensive Defensive Information Security
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD07MK8BmIwXbp7&w=130&h=130&url=https%3A%2F%2Flh3.googleusercontent.com%2F-DFOqpHzqRa4%2FWBkQIXFz2KI%2FAAAAAAAAACA%2F3yngn5lpyqc%2Fw1200-h630-p-nu%2Fpython.jpg&cfs=1&_nc_hash=AQCfEcyxPXHLxtkc](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD07MK8BmIwXbp7&w=130&h=130&url=https%3A%2F%2Flh3.googleusercontent.com%2F-DFOqpHzqRa4%2FWBkQIXFz2KI%2FAAAAAAAAACA%2F3yngn5lpyqc%2Fw1200-h630-p-nu%2Fpython.jpg&cfs=1&_nc_hash=AQCfEcyxPXHLxtkc)
+
+>#Python #Script #Reverse_Shell_Toolkit Source Code :D
+
+**Link : <https://odinfosec.blogspot.com/2016/11/basic-reverse-shellpython.html>**
+
+2016-11-03T04:45:05+0000
+
+---
+
+###Open Source For You
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA_sDrs429DsRuj&w=130&h=130&url=http%3A%2F%2Fopensourceforu.com%2Fwp-content%2Fuploads%2F2016%2F09%2FNeependra-Khare-Docker-captain.jpg&cfs=1&sx=120&sy=0&sw=520&sh=520&_nc_hash=AQCuWuDyJNTNHjQC](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA_sDrs429DsRuj&w=130&h=130&url=http%3A%2F%2Fopensourceforu.com%2Fwp-content%2Fuploads%2F2016%2F09%2FNeependra-Khare-Docker-captain.jpg&cfs=1&sx=120&sy=0&sw=520&sh=520&_nc_hash=AQCuWuDyJNTNHjQC)
+
+>Why is Docker the next big thing in the world of open source. #Docker #OpenSource
+
+**Link : <http://opensourceforu.com/2016/09/docker-captain-neependra-khare-interview/>**
+
+2016-11-03T02:02:12+0000
+
+---
+
+###박성진
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xfp1/v/t1.0-1/p100x100/14695478_905290622938365_8773997065528305689_n.jpg?oh=a36d6702736d3fb4585eb933afb34855&oe=58D83F96&__gda__=1495531932_f1af4bdd33a5ecf94be6ae42d5c0207d](https://fb-s-c-a.akamaihd.net/h-ak-xfp1/v/t1.0-1/p100x100/14695478_905290622938365_8773997065528305689_n.jpg?oh=a36d6702736d3fb4585eb933afb34855&oe=58D83F96&__gda__=1495531932_f1af4bdd33a5ecf94be6ae42d5c0207d)
+
+>텐서플로우 0.11.0 RC1이 릴리즈 되었습니다
+
+주요 개선사항으로는 CUDA8.0+CUDNN5.1 기준
+PIP설치용 바이너리 파일의 지원......(털썩)
+
+복길이 님을 비롯하여 Bazel로 소스 컴파일하느라
+밤을 하얗게 새우신 분들께 심심한 위로를보내며
+응용에 더욱 매진하셔서 좋은 결과 거두시길 기원합니다 :)
+
+p.s RC0 버전은 저 말고도 아나콘다 환경에서 설치시 문제를 호소하신 분들이 계셨는데, 이점도 해결되었다는것 같습니다(미확인)
+
+**Link : <https://www.facebook.com/groups/TensorFlowKR/permalink/370501973290867/>**
+
+2016-11-03T02:01:49+0000
+
+---
+
+###박형근
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA4x-RXkuf2CVKx&w=130&h=130&url=http%3A%2F%2Fcafeptthumb4.phinf.naver.net%2F20150513_279%2Ffnvl0802_1431483970842LIUV1_JPEG%2FSecurityplus_logo.jpg%3Ftype%3Dw740&cfs=1&_nc_hash=AQD8BuySZYPv8I6k](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA4x-RXkuf2CVKx&w=130&h=130&url=http%3A%2F%2Fcafeptthumb4.phinf.naver.net%2F20150513_279%2Ffnvl0802_1431483970842LIUV1_JPEG%2FSecurityplus_logo.jpg%3Ftype%3Dw740&cfs=1&_nc_hash=AQD8BuySZYPv8I6k)
+
+>Shadow Brokers leaked IP range  
+
+**Link : <http://cafe.naver.com/securityplus/22815>**
+
+2016-11-03T02:00:55+0000
+
+---
+

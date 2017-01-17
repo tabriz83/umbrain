@@ -1,0 +1,81 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-08-16 Facebook 정보 스크랩
+date: 2017-01-13 17:44:56
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###ExploitWareLabs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAcdyzmR4cKN2L_&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F20113968%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQC8JcJ_-DC2MEii](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAcdyzmR4cKN2L_&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F20113968%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQC8JcJ_-DC2MEii)
+
+>머신러닝 기반의 소셜 미디어 모의침투 툴 - SNAP_R
+
+A machine learning based social media pen-testing tool
+
+https://github.com/getzerofox/SNAP_R
+
+**Link : <https://github.com/getzerofox/SNAP_R>**
+
+2016-08-16T16:15:08+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCLnCODbV6OvEek&w=130&h=130&url=http%3A%2F%2Fi.imgur.com%2FNKwE43m.jpg%3Ffb&cfs=1&_nc_hash=AQC4zlctIqNFSpDu](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCLnCODbV6OvEek&w=130&h=130&url=http%3A%2F%2Fi.imgur.com%2FNKwE43m.jpg%3Ffb&cfs=1&_nc_hash=AQC4zlctIqNFSpDu)
+
+>NSA 해킹 그룹으로 알려진 Equation group이 정체를 알 수 없는 Shadow borker 라는 그룹에 의해서 해킹으로 털렸습니다. 아래 이미지는 털린 Equation Group이 사용하던 Exploit File list 임
+
+NSA Equation group's exploit list  hacked by Shadow Broker
+
+http://imgur.com/a/sYpyn
+
+**Link : <http://imgur.com/a/sYpyn>**
+
+2016-08-16T16:12:33+0000
+
+---
+
+###elice
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAl03HP4deOFGCw&w=130&h=130&url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLIrcK__Z_LoRzsUFuC7qmF0-bIBbHrSXnqmcRIpb6Vf6qc5Fq-WXlOiCwxqK-3ZsnnSFbTY8ygww2_IkAjr-dfgDtOScI2FTXf9Z_xBGO1GXOtS_JvhshzDV1dT9P4l5OwrVKrqeRebXA1JDiFy3X6&cfs=1&_nc_hash=AQAUERJmprPu8QzH](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAl03HP4deOFGCw&w=130&h=130&url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLIrcK__Z_LoRzsUFuC7qmF0-bIBbHrSXnqmcRIpb6Vf6qc5Fq-WXlOiCwxqK-3ZsnnSFbTY8ygww2_IkAjr-dfgDtOScI2FTXf9Z_xBGO1GXOtS_JvhshzDV1dT9P4l5OwrVKrqeRebXA1JDiFy3X6&cfs=1&_nc_hash=AQAUERJmprPu8QzH)
+
+>KAIST 전산학부에서 후원하는 2016년 머신러닝 (Machine Learning) 여름 워크샵에 참여하실 학생들을 모집합니다.
+
+이번 여름 워크샵은 8월 22-23일 오프라인과 온라인에서 동시에 진행되며, 참가비는 무료입니다. 온라인 교육플랫폼 elice에서 새로운 방식으로 머신러닝을 배워보세요!
+
+1. 머신러닝 여름 워크샵 소개
+학생 및 직장인 등 실무를 위한 머신러닝 알고리즘에 관심이 있으신 분들께 알맞은 프로그램이며, 전산전공이 아니거나 기계학습 및 알고리즘에 익숙하지 않은 분들도 참가가 가능합니다. 수업은 Python 언어로 진행됩니다.
+
+2. 수업 및 시간
+본 캠프는 8월 22-23일 오후 1시부터 5시까지 KAIST N1 다목적홀에서 오프라인 강의가 진행되며, 같은 시간 온라인에서 강의 영상을 스트리밍할 수 있습니다. 조교의 1:1 교육은 오프라인에서만 진행되며, 온라인에서는 수업을 듣는 학생 및 조교와의 채팅을 통해 도움을 받을 수 있습니다. 실습 문제는 캠프 이후에도 일정 기간 실행하실 수 있습니다. (정확한 종료 날짜는 아직 미정입니다.)
+
+3. 참가 방법
+모든 참가자분은 www.elice.io 에 접속하셔서 Facebook으로 가입하고, "2016 머신러닝 여름 워크샵" 강좌에 수강신청을 하신 뒤 "워크샵 등록 및 사전조사"를 진행하시면 워크샵 신청이 완료됩니다. 오프라인 강의는 선착순 150분을 선발하고, 그 외 참가자분은 온라인으로 캠프를 진행하실 수 있습니다. 8월 21일 (일요일) 오후 6시까지 등록해 주시기 바랍니다. 등록 마감 후 8월 21일 저녁에 선발된 수강자 명단이 공개됩니다.
+
+많은 지원 부탁드립니다. 감사합니다!
+
+**Link : <http://www.elice.io/>**
+
+2016-08-16T16:11:28+0000
+
+---
+
+###poralix/directadmin-bfm-csf
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAnHLaCBriFDoCk&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F11404409%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBhAcgauosUacG9](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAnHLaCBriFDoCk&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F11404409%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBhAcgauosUacG9)
+
+>directadmin-bfm-csf - A set of scripts to let Brute Force Monitor in DirectAdmin to block IPs using CSF/LFD
+
+**Link : <https://t.co/8Y9P4TvMqU>**
+
+2016-08-16T05:09:10+0000
+
+---
+

@@ -1,0 +1,37 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-07-25 Facebook 정보 스크랩
+date: 2017-01-13 17:13:36
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###www.oss.kr
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCK1O2OgnU5q5BX&w=130&h=130&url=https%3A%2F%2Flh4.googleusercontent.com%2F-btMA75FcYRGY0_l7s5UeyCEug9U78MaS3HNsFF25HEtMh-liJVB_oISKEHtz6Hgn8Ra30rPUEceRpkLIymSECFXVQEGq3W1BOneC00ECTrBxGJM5_A&cfs=1&_nc_hash=AQBtT6AybyW_ljf3](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCK1O2OgnU5q5BX&w=130&h=130&url=https%3A%2F%2Flh4.googleusercontent.com%2F-btMA75FcYRGY0_l7s5UeyCEug9U78MaS3HNsFF25HEtMh-liJVB_oISKEHtz6Hgn8Ra30rPUEceRpkLIymSECFXVQEGq3W1BOneC00ECTrBxGJM5_A&cfs=1&_nc_hash=AQBtT6AybyW_ljf3)
+
+**Link : <http://www.oss.kr/oss_repository9/14550>**
+
+2016-07-25T14:15:02+0000
+
+---
+
+###나는프로그래머다
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDFp6_KF1pa4tOc&w=130&h=130&url=https%3A%2F%2Fdeveloper.nvidia.com%2Fsites%2Fdefault%2Ffiles%2Fakamai%2Fcuda%2Fimages%2Fdeeplearning%2FEnd-to-End_Deep_Learning_Diagram.png&cfs=1&_nc_hash=AQATfo76PIXmzmt5](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDFp6_KF1pa4tOc&w=130&h=130&url=https%3A%2F%2Fdeveloper.nvidia.com%2Fsites%2Fdefault%2Ffiles%2Fakamai%2Fcuda%2Fimages%2Fdeeplearning%2FEnd-to-End_Deep_Learning_Diagram.png&cfs=1&_nc_hash=AQATfo76PIXmzmt5)
+
+>NVidia가 지원하는 딥러닝 프레임워크
+
+
+https://developer.nvidia.com/deep-learning-frameworks
+
+**Link : <https://developer.nvidia.com/deep-learning>**
+
+2016-07-25T14:14:53+0000
+
+---
+

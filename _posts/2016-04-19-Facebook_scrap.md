@@ -1,0 +1,58 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-04-19 Facebook 정보 스크랩
+date: 2017-01-13 17:01:47
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Ranger - Command Line Attack Driven Penetration Testing Tool - DigitalMunition
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB81W-IOMXOild8&w=130&h=130&url=https%3A%2F%2Fi.imgur.com%2FZtH24h1.jpg&cfs=1&_nc_hash=AQCJrQYCUgWLtJeE](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB81W-IOMXOild8&w=130&h=130&url=https%3A%2F%2Fi.imgur.com%2FZtH24h1.jpg&cfs=1&_nc_hash=AQCJrQYCUgWLtJeE)
+
+> Ranger is a command-line driven attack and penetration testing tool, which has the ability to use an instantiated catapult server to deliver attack vectors against Windows Systems. As long as a user has a set of credentials or a hash set (NTLM, LM, LM:NTLM) the user can gain access to systems that…
+
+**Link : <http://bit.ly/1MYI8kA>**
+
+2016-04-19T23:44:50+0000
+
+---
+
+###Cheap Portable Hacking Backpack • SafeNull
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAorH2hbTIMrQ4s&w=130&h=130&url=http%3A%2F%2Fsafenull.com%2Fwp-content%2Fuploads%2F2016%2F04%2F20160407_194207-e1460058517239.jpg&cfs=1&_nc_hash=AQAlOS-PEUTNU3m_](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAorH2hbTIMrQ4s&w=130&h=130&url=http%3A%2F%2Fsafenull.com%2Fwp-content%2Fuploads%2F2016%2F04%2F20160407_194207-e1460058517239.jpg&cfs=1&_nc_hash=AQAlOS-PEUTNU3m_)
+
+>NOTE: This article is made just for fun and ethical/educational purposes! If you are reading this you are probably interested in WiFi Hacking and...
+
+**Link : <http://safenull.com/2016/04/mini-backpack-hackers/>**
+
+2016-04-19T11:11:40+0000
+
+---
+
+###이탈리아 해킹팀이 사용한 취약점, 아직 패치되지 않은 상태
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAQrs7hJddwcDvR&w=130&h=130&url=http%3A%2F%2Fdailysecu.com%2Fimage_article%2F1115976835715dd848b6d1.jpg&cfs=1&_nc_hash=AQCfchEZVYne-pPt](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAQrs7hJddwcDvR&w=130&h=130&url=http%3A%2F%2Fdailysecu.com%2Fimage_article%2F1115976835715dd848b6d1.jpg&cfs=1&_nc_hash=AQCfchEZVYne-pPt)
+
+>“감염된 임베디드 디바이스 여전히 공격가능하다” 주장
+
+**Link : <http://www.dailysecu.com/news_view.php?article_id=13734>**
+
+2016-04-19T10:46:59+0000
+
+---
+
+###Bugtraq: [CVE-2016-3996]KNOX clipboard data disclosure KNOX 1.0 - KNOX 2.3 / Android
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDQY5FyEETIXYkx&w=130&h=130&url=http%3A%2F%2Fseclists.org%2Fimages%2Fbugtraq-img.png&cfs=1&_nc_hash=AQAM3WPSci-c68H1](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDQY5FyEETIXYkx&w=130&h=130&url=http%3A%2F%2Fseclists.org%2Fimages%2Fbugtraq-img.png&cfs=1&_nc_hash=AQAM3WPSci-c68H1)
+
+**Link : <http://seclists.org/bugtraq/2016/Apr/95>**
+
+2016-04-19T10:28:59+0000
+
+---
+

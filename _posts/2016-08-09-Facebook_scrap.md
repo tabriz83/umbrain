@@ -1,0 +1,78 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-08-09 Facebook 정보 스크랩
+date: 2017-01-13 17:44:56
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###How HashMap works in Java? With Animation!! whats new in java8 tutorial
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDzJ7QUu8DbgGie&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fc3RVW3KGIIE%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQAEukB1xfGgzTnB](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDzJ7QUu8DbgGie&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fc3RVW3KGIIE%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQAEukB1xfGgzTnB)
+
+>How does java hashmap work ? HashMap is one of the most popular java.util data structures. Its one of the associative array implementations, here I have expl...
+
+**Link : <https://www.youtube.com/watch?v=c3RVW3KGIIE>**
+
+2016-08-09T22:04:41+0000
+
+---
+
+###Linux 101 Hacks eBook Free Download
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBAufRi5h_0oWNA&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2015%2F08%2FSelection_0651.png&cfs=1&_nc_hash=AQA5uiPHRwsru-X2](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBAufRi5h_0oWNA&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2015%2F08%2FSelection_0651.png&cfs=1&_nc_hash=AQA5uiPHRwsru-X2)
+
+>"Linux 101 Hacks" by Ramesh Natarajan is available in PDF format for free. This book gives you practical examples to build a strong foundation in Linux
+
+**Link : <https://latesthackingnews.com/2015/08/08/linux-101-hacks-ebook-free-download/>**
+
+2016-08-09T16:12:10+0000
+
+---
+
+###Open Source For You
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBrF3laFOs-cwq0&w=130&h=130&url=http%3A%2F%2Fi1.wp.com%2Felectronicsforu.com%2Fwp-contents%2Fuploads%2F2016%2F04%2F36Z_python.png&cfs=1&_nc_hash=AQC4eynxxcQIgEkf](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBrF3laFOs-cwq0&w=130&h=130&url=http%3A%2F%2Fi1.wp.com%2Felectronicsforu.com%2Fwp-contents%2Fuploads%2F2016%2F04%2F36Z_python.png&cfs=1&_nc_hash=AQC4eynxxcQIgEkf)
+
+>Collection Of 51 Free eBooks On Python Programming
+
+**Link : <http://electronicsforu.com/resources/cool-stuff-misc/collection-51-free-ebooks-python-programming>**
+
+2016-08-09T16:11:40+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xat1/v/t1.0-0/s130x130/13873160_1152587644805108_162941147304711790_n.png?oh=b5cef8fc9a4c11516ee111129e76ad7c&oe=58E159F1&__gda__=1495242167_1e604900d38270204af683e29f830340](https://fb-s-c-a.akamaihd.net/h-ak-xat1/v/t1.0-0/s130x130/13873160_1152587644805108_162941147304711790_n.png?oh=b5cef8fc9a4c11516ee111129e76ad7c&oe=58E159F1&__gda__=1495242167_1e604900d38270204af683e29f830340)
+
+>patchkit - 바이너리 자동 패치 툴
+
+Patches an ELF binary using one or more simple Python scripts.
+
+https://github.com/lunixbochs/patchkit
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1152587644805108/?type=3>**
+
+2016-08-09T16:09:56+0000
+
+---
+
+###Exploit Today
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBrFHkKiMqFQ0-U&w=130&h=130&url=https%3A%2F%2Fexploit.today%2Fwp-content%2Fuploads%2F2016%2F07%2FAdvanced-Penetration-Testing-For-Highly-Secured-Environments-232x300.jpg&cfs=1&_nc_hash=AQDCFLrn24Ua3Aqv](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBrFHkKiMqFQ0-U&w=130&h=130&url=https%3A%2F%2Fexploit.today%2Fwp-content%2Fuploads%2F2016%2F07%2FAdvanced-Penetration-Testing-For-Highly-Secured-Environments-232x300.jpg&cfs=1&_nc_hash=AQDCFLrn24Ua3Aqv)
+
+>Great book for #Penetration #Testing in #secured environments. 
+
+#infosec #hacking #cybersecurity #pentest #pentester #msf #metasploit #armitage #wpscan #openvas #nikto #uniscan #burp #zap #owasp
+
+**Link : <https://www.exploit.today/2016/07/09/ebook-advanced-penetration-testing-for-highly-secured-environments/>**
+
+2016-08-09T15:27:28+0000
+
+---
+

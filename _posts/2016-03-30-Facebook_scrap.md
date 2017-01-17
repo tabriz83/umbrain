@@ -1,0 +1,201 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-03-30 Facebook 정보 스크랩
+date: 2017-01-13 16:35:42
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###증권 홈페이지 성능 분석
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCSXSla8fXCH07e&w=130&h=130&url=https%3A%2F%2Fosizpwuscoconut000.blob.core.windows.net%2Fdocuments%2FD25194294-8445-3941-1690-001081515856%7EB3562bdee-ea44-ea8f-4ae2-21e759b2b638%2FbiggerThumbnail_1%3Fsv%3D2013-08-15%26sr%3Db%26sig%3DXRpAxDl%252FcWcYfAjRYS%252FlSBaFqU9oSKi3C%252BIRJ8ib33I%253D%26st%3D1900-01-01T00%253A00%253A00Z%26se%3D3000-01-01T00%253A00%253A00Z%26sp%3Dr&cfs=1&_nc_hash=AQAI8d4FK2JFPk5h](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCSXSla8fXCH07e&w=130&h=130&url=https%3A%2F%2Fosizpwuscoconut000.blob.core.windows.net%2Fdocuments%2FD25194294-8445-3941-1690-001081515856%7EB3562bdee-ea44-ea8f-4ae2-21e759b2b638%2FbiggerThumbnail_1%3Fsv%3D2013-08-15%26sr%3Db%26sig%3DXRpAxDl%252FcWcYfAjRYS%252FlSBaFqU9oSKi3C%252BIRJ8ib33I%253D%26st%3D1900-01-01T00%253A00%253A00Z%26se%3D3000-01-01T00%253A00%253A00Z%26sp%3Dr&cfs=1&_nc_hash=AQAI8d4FK2JFPk5h)
+
+>증권 홈페이지(AS-IS)의 어플리케이션 구조, 취약점 및 성능 등을 분석하며, 향후 성능, 안정성, 신뢰성 등을 개선하고 확장성 있고 유지보수가 용이한 시스템을 구축할 수 있는 기술적 방안을 정리하였습니다.
+
+**Link : <https://doc.co/LvRLCm>**
+
+2016-03-30T16:38:38+0000
+
+---
+
+###CISC, RISC 인스트럭션 셋 개념
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA5yswUDgyrC0dT&w=130&h=130&url=http%3A%2F%2Fblogimgs.naver.net%2Fnblog%2Fmylog%2Fpost%2Fog_default_image2.png&cfs=1&sx=0&sy=0&sw=200&sh=200&_nc_hash=AQC2m0RXnfsn0h-N](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA5yswUDgyrC0dT&w=130&h=130&url=http%3A%2F%2Fblogimgs.naver.net%2Fnblog%2Fmylog%2Fpost%2Fog_default_image2.png&cfs=1&sx=0&sy=0&sw=200&sh=200&_nc_hash=AQC2m0RXnfsn0h-N)
+
+>CISC는 복잡한 명령어 집합을 갖는 CPU 아키텍쳐이다. 장점 : 명령의 직교성이 좋다. (계산력이 좋...
+
+**Link : <http://dolpin1402.blog.me/220669909169>**
+
+2016-03-30T16:38:32+0000
+
+---
+
+###theroot.ninja
+
+**Link : <http://theroot.ninja/disclosures/SAMDUNK_1.0-03262016.pdf>**
+
+2016-03-30T12:50:56+0000
+
+---
+
+###초보자를 위한 정규 표현식 가이드 (자바스크립트 기준)
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB91wmfyim63fqy&w=130&h=130&url=http%3A%2F%2Fcdn.slidesharecdn.com%2Fss_thumbnails%2Fregular-expressions-140919004750-phpapp02-thumbnail-4.jpg%3Fcb%3D1411089735&cfs=1&_nc_hash=AQDvPgQFMcrgnn6x](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB91wmfyim63fqy&w=130&h=130&url=http%3A%2F%2Fcdn.slidesharecdn.com%2Fss_thumbnails%2Fregular-expressions-140919004750-phpapp02-thumbnail-4.jpg%3Fcb%3D1411089735&cfs=1&_nc_hash=AQDvPgQFMcrgnn6x)
+
+>초보자를 위한 정규 표현식(Regular expressions)의 작성 법 및 작동 원리를 설명함
+
+**Link : <http://www.slideshare.net/ibare/ss-39274621>**
+
+2016-03-30T12:48:35+0000
+
+---
+
+###While Testing Website, This Developer Accidentally Leaked Details of Thailand Expats - Coding...
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBJwyToP8GzO6tE&w=130&h=130&url=http%3A%2F%2Fcodingsec.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fdata-breach.jpg&cfs=1&sx=261&sy=0&sw=490&sh=490&_nc_hash=AQCJGmCULgicHHeZ](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBJwyToP8GzO6tE&w=130&h=130&url=http%3A%2F%2Fcodingsec.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fdata-breach.jpg&cfs=1&sx=261&sy=0&sw=490&sh=490&_nc_hash=AQCJGmCULgicHHeZ)
+
+>A local developer Akram Aleeming has made a remarkable popularity for a silly mistake, when he set up an improperly protected demo for a site for thailand
+
+**Link : <http://codingsec.net/2016/03/while-testing-website-this/>**
+
+2016-03-30T07:08:00+0000
+
+---
+
+###Best Practices for security in C++ - Coding Security
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQATRJ4iMVPfDNcz&w=130&h=130&url=http%3A%2F%2Fcodingsec.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fcpp-codingsec.jpg&cfs=1&_nc_hash=AQCc2xpT89-dlL0n](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQATRJ4iMVPfDNcz&w=130&h=130&url=http%3A%2F%2Fcodingsec.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fcpp-codingsec.jpg&cfs=1&_nc_hash=AQCc2xpT89-dlL0n)
+
+>This article contains information about security tools and practices. Using them does not make applications immune from attack, but it makes successful attacks less likely. Enable Control Flow Guard Syntax /guard:cf The /guard:cf option causes the compiler to analyze control flow for indirect call t…
+
+**Link : <http://codingsec.net/2016/03/best-practices-security-c/>**
+
+2016-03-30T05:06:57+0000
+
+---
+
+###보고서 쓸 때 문장 줄이기 연습
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC65ZI3vy3fVN9B&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20140925_15%2Fpuriu_1411625533233H6I14_PNG%2F%25BD%25BD%25B6%25F3%25C0%25CC%25B5%25E51.PNG%3Ftype%3Dw2&cfs=1&_nc_hash=AQCj8iUIXT5RV8pc](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC65ZI3vy3fVN9B&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20140925_15%2Fpuriu_1411625533233H6I14_PNG%2F%25BD%25BD%25B6%25F3%25C0%25CC%25B5%25E51.PNG%3Ftype%3Dw2&cfs=1&_nc_hash=AQCj8iUIXT5RV8pc)
+
+>보고서 쓸 때 문장 줄이기 연습 이거 정말 잘 읽어봐야 겠어용 ! 출처 http://www.slideshare.net/blissray...
+
+**Link : <http://m.blog.naver.com/puriu/220132420416>**
+
+2016-03-30T05:03:04+0000
+
+---
+
+###WordPress Claptastic Clap! Button 1.3 Cross Site Scripting Vulnerability - 0day.today Inj3ct0r...
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBoqePV1sWqTzLG&w=130&h=130&url=http%3A%2F%2F0day.today%2Fimg%2Flogo_green.jpg&cfs=1&_nc_hash=AQAZHEBZYEbmDgyR](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBoqePV1sWqTzLG&w=130&h=130&url=http%3A%2F%2F0day.today%2Fimg%2Flogo_green.jpg&cfs=1&_nc_hash=AQAZHEBZYEbmDgyR)
+
+>WordPress Claptastic Clap! Button plugin version 1.3 suffers from a cross site scripting vulnerability.
+
+**Link : <http://bit.ly/1UqAtxU>**
+
+2016-03-30T04:24:08+0000
+
+---
+
+###How To View Passwords For Wi-Fi Access Points Saved On Your Android Device
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBbpC1AU3CBMQEM&w=130&h=130&url=http%3A%2F%2Fcloud.addictivetips.com%2Fwp-content%2Fuploads%2F2011%2F04%2FViewWiFiNetworkPasswordsOnAndroid1.jpg&cfs=1&_nc_hash=AQDpdkOPnDapRLiW](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBbpC1AU3CBMQEM&w=130&h=130&url=http%3A%2F%2Fcloud.addictivetips.com%2Fwp-content%2Fuploads%2F2011%2F04%2FViewWiFiNetworkPasswordsOnAndroid1.jpg&cfs=1&_nc_hash=AQDpdkOPnDapRLiW)
+
+>With multiple Wi-Fi access points saved on your Android device, it is quite normal to forget the security key to a certain network. This ar...
+
+**Link : <http://mr-tricks.blogspot.in/2015/06/how-to-view-passwords-for-wi-fi-access.html>**
+
+2016-03-30T01:31:13+0000
+
+---
+
+###XSS payloads you may need as a pen-tester • SafeNull
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAFO7JhFtEHRPmK&w=130&h=130&url=http%3A%2F%2Fsafenull.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fcross-site-scripting-xss.png&cfs=1&_nc_hash=AQBjxayrSNJISebN](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAFO7JhFtEHRPmK&w=130&h=130&url=http%3A%2F%2Fsafenull.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fcross-site-scripting-xss.png&cfs=1&_nc_hash=AQBjxayrSNJISebN)
+
+>Below you can find a hundred XSS payloads that you can use to find XSS bugs in web applications. There are really good ones mentioned by Rsnake (of SlowLoris fame)...
+
+**Link : <http://safenull.com/2016/03/xss-payloads-may-need-pen-tester/>**
+
+2016-03-30T01:29:21+0000
+
+---
+
+###보안인닷컴
+
+>하반기 개인정보보호법 개정안 시행…보안업계 활성화 기대
+ - 소극적인 대응에서 적극적인 대응으로 전략 모색해야.
+
+**Link : <http://www.dt.co.kr/contents.html?article_no=2016032802109960813008>**
+
+2016-03-30T01:28:33+0000
+
+---
+
+###Infosecurity Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAEe8NaecbrJTfY&w=130&h=130&url=https%3A%2F%2Fassets.infosecurity-magazine.com%2Fwebpage%2Fog%2F9a00fcc6-d89a-4af2-9ffa-959833d3fea5.jpg&cfs=1&_nc_hash=AQBn7kPrpEhq5rki](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAEe8NaecbrJTfY&w=130&h=130&url=https%3A%2F%2Fassets.infosecurity-magazine.com%2Fwebpage%2Fog%2F9a00fcc6-d89a-4af2-9ffa-959833d3fea5.jpg&cfs=1&_nc_hash=AQBn7kPrpEhq5rki)
+
+>Surprise Ransomware Spreading Via TeamViewer
+
+**Link : <http://www.infosecurity-magazine.com/news/surprise-ransomware-spreading-via/>**
+
+2016-03-30T01:27:46+0000
+
+---
+
+###조대협
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAn97DplWnTwkVH&w=130&h=130&url=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F274B414656FA3DBA0AFAA8&cfs=1&_nc_hash=AQA9F5xSd8vbHQt_](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAn97DplWnTwkVH&w=130&h=130&url=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F274B414656FA3DBA0AFAA8&cfs=1&_nc_hash=AQA9F5xSd8vbHQt_)
+
+>이미들 다들 쓰시고 계시겠지만 초보자분들을 위해서. ;)
+요즘 포스팅이 많아서 스팸 같네요. 혹여나 불편하시면 이야기 해주세요. 삭제하겠습니다.
+
+**Link : <http://bcho.tistory.com/1098>**
+
+2016-03-30T01:12:45+0000
+
+---
+
+###Oxygen Forensic Detective 8.3 Expands Data Acquisition From The Cloud Services | ForensicFocus.com
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA4_q7m4O_hsZMi&w=130&h=130&url=http%3A%2F%2Fforensicfocus.com%2Fimages%2Fother%2Fsocialmedia%2Fgoogleplus-32x32.png&cfs=1&_nc_hash=AQD3PLRLKvScKAZI](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA4_q7m4O_hsZMi&w=130&h=130&url=http%3A%2F%2Fforensicfocus.com%2Fimages%2Fother%2Fsocialmedia%2Fgoogleplus-32x32.png&cfs=1&_nc_hash=AQD3PLRLKvScKAZI)
+
+>Digital Forensics, Computer Forensics, eDiscovery
+
+**Link : <http://forensicfocus.com/News/article/sid=2634/>**
+
+2016-03-30T01:11:29+0000
+
+---
+
+###eLearnSecurity
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAR5SKi-6-UfMYn&w=130&h=130&url=http%3A%2F%2Fwww.securitynewspaper.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fpng__.jpg&cfs=1&_nc_hash=AQB_W0jfweQXAORL](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAR5SKi-6-UfMYn&w=130&h=130&url=http%3A%2F%2Fwww.securitynewspaper.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fpng__.jpg&cfs=1&_nc_hash=AQB_W0jfweQXAORL)
+
+>PNG Embedded – Malicious payload hidden in a PNG file
+Read more - http://ow.ly/ZXT2t
+
+**Link : <http://ow.ly/ZXT2t>**
+
+2016-03-30T01:02:01+0000
+
+---
+
+###나의 영업비밀임을 증명하는 방법
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBffpgOiFRs6VrQ&w=130&h=130&url=https%3A%2F%2Ft1.daumcdn.net%2Fthumb%2FR1280x0%2F%3Ffname%3Dhttp%253A%252F%252Ft1.daumcdn.net%252Fbrunch%252Fservice%252Fuser%252FoZ3%252Fimage%252FVm-DMKwdyh8BBXp7pA_2oLUl8x8&cfs=1&_nc_hash=AQBNN4g-AkRkmxrw](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBffpgOiFRs6VrQ&w=130&h=130&url=https%3A%2F%2Ft1.daumcdn.net%2Fthumb%2FR1280x0%2F%3Ffname%3Dhttp%253A%252F%252Ft1.daumcdn.net%252Fbrunch%252Fservice%252Fuser%252FoZ3%252Fimage%252FVm-DMKwdyh8BBXp7pA_2oLUl8x8&cfs=1&_nc_hash=AQBNN4g-AkRkmxrw)
+
+>■ 질문​저희 회사는 설계도나 고객정보 등 중요한 영업비밀이 많습니다. 최근 직원들의 이동이 잦아지면서 이 영업비밀들이 경쟁사로 넘어갈 가능성이 큽니다.나중에라도 저희 영업비밀을 유출한 직원들에 대해 영업비밀침해를 주장하려고 할 때, 과연 제3자(법원)가 저희 영업비밀을 인정해 줄 지 고민입니다.제3자에게도 명확히 대항할 수 있도록 저희 영업비밀을 특정할
+
+**Link : <https://brunch.co.kr/@brunchflgu/451>**
+
+2016-03-30T00:47:06+0000
+
+---
+

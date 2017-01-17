@@ -1,0 +1,25 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-11-29 Facebook 정보 스크랩
+date: 2017-01-13 17:45:48
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Learn Pentest
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBDvj5T5KePltYU&w=130&h=130&url=https%3A%2F%2Flearnpentest.com%2Fwp-content%2Fuploads%2F2016%2F11%2F245084_d211_2-600x422.jpg&cfs=1&_nc_hash=AQD2sDXzUJL6iajB](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBDvj5T5KePltYU&w=130&h=130&url=https%3A%2F%2Flearnpentest.com%2Fwp-content%2Fuploads%2F2016%2F11%2F245084_d211_2-600x422.jpg&cfs=1&_nc_hash=AQD2sDXzUJL6iajB)
+
+>WiFi Hacking with Kali Linux
+https://learnpentest.com/product/wifi-hacking-with-kali/
+
+**Link : <https://learnpentest.com/product/wifi-hacking-with-kali/>**
+
+2016-11-29T05:26:04+0000
+
+---
+

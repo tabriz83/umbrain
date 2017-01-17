@@ -1,0 +1,27 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-09-01 Facebook 정보 스크랩
+date: 2017-01-13 17:45:14
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Simon Lee
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDUF9S5b7VpAFbP&w=130&h=130&url=https%3A%2F%2Fdz13w8afd47il.cloudfront.net%2Fsites%2Fdefault%2Ffiles%2Fimagecache%2Fdotd_main_image%2F1794OS.jpg&cfs=1&_nc_hash=AQBj053s1TaW20nV](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDUF9S5b7VpAFbP&w=130&h=130&url=https%3A%2F%2Fdz13w8afd47il.cloudfront.net%2Fsites%2Fdefault%2Ffiles%2Fimagecache%2Fdotd_main_image%2F1794OS.jpg&cfs=1&_nc_hash=AQBj053s1TaW20nV)
+
+>오늘의 Packtpub무료책은,
+HBase Design Patterns
+
+
+
+**Link : <https://www.packtpub.com/packt/offers/free-learning>**
+
+2016-09-01T02:04:17+0000
+
+---
+

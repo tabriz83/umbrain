@@ -1,0 +1,54 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-10-30 Facebook 정보 스크랩
+date: 2017-01-13 17:45:30
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###C and C++ Cheat Sheet
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAZvKvKhb9pmA72&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2015%2F08%2Fcheat_sheet1.png&cfs=1&_nc_hash=AQCK00bTlWI-fkQ0](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAZvKvKhb9pmA72&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2015%2F08%2Fcheat_sheet1.png&cfs=1&_nc_hash=AQCK00bTlWI-fkQ0)
+
+>If you love c and c++ program then you might love this cheat sheet too.
+
+**Link : <https://latesthackingnews.com/2015/08/21/c-and-c-cheat-sheet/>**
+
+2016-10-30T18:15:46+0000
+
+---
+
+###나는프로그래머다
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDxWn6jeYPDAZJK&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExMjUxNzI1MDAxNTE1Njg4OjIxMjg2NDk0NzQ%3D&cfs=1&_nc_hash=AQCa131hZOOAuNOP](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDxWn6jeYPDAZJK&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExMjUxNzI1MDAxNTE1Njg4OjIxMjg2NDk0NzQ%3D&cfs=1&_nc_hash=AQCa131hZOOAuNOP)
+
+>머신러닝이란 무엇을까요? 어떻게 발전해 왔을까요? 그리고 어떻게 공부하면 좋을까요?
+머신러닝? 딥러닝? 인공지능? 뭘까요?
+머신러닝은 어떻게 발전되어 왔나요. 갑자기 나온건가요? 앞으로는 뭐가 핫할까요?
+최근에 딥마인드에서 나온 알파고와 음성합성, 추천시스템에 대해서 이야기해주세요.
+개발자들이 머신러닝을 알아가기에 좋은 방법과 꼭꼭꼭 알아두면 좋을만한 핵심개념!
+
+**Link : <https://iamprogrammer.io/2016/10/31/%EB%8D%B0%EB%8B%88%EC%8A%A4%EC%B1%84%EB%84%90e01-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%ED%8A%B9%EC%A7%91-2%EB%B6%80/>**
+
+2016-10-30T18:13:16+0000
+
+---
+
+###Security Affairs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAohNZxYMk-Tv97&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDE5OTgwOTU0MTAzMDA5NjQ6ODk1MTg0MDE%3D&cfs=1&_nc_hash=AQAtLCU3xQ-F6fWU](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAohNZxYMk-Tv97&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDE5OTgwOTU0MTAzMDA5NjQ6ODk1MTg0MDE%3D&cfs=1&_nc_hash=AQAtLCU3xQ-F6fWU)
+
+>LDAP as attack vector could power Terabit-Scale LDAP DDoS Attacks
+http://securityaffairs.co/wordpress/52841/cyber-crime/ldap-ddos.html
+#securityaffairs #DDoS #LDAP #hacking
+
+**Link : <http://securityaffairs.co/wordpress/52841/cyber-crime/ldap-ddos.html>**
+
+2016-10-30T10:53:31+0000
+
+---
+

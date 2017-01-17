@@ -1,0 +1,71 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-06-01 Facebook 정보 스크랩
+date: 2017-01-13 17:13:19
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###PenTest Tools
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCQxLio2ert83bR&w=130&h=130&url=https%3A%2F%2F4.bp.blogspot.com%2F-5TlYNJttylM%2FV0t2iJhZQ1I%2FAAAAAAAAFls%2F5dq0wQWmZEIbtkFvKHuNCVy8MjxgN_kjwCLcB%2Fw1200-h630-p-nu%2FBt2_help.png&cfs=1&_nc_hash=AQAJWfox3z7byS8H](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCQxLio2ert83bR&w=130&h=130&url=https%3A%2F%2F4.bp.blogspot.com%2F-5TlYNJttylM%2FV0t2iJhZQ1I%2FAAAAAAAAFls%2F5dq0wQWmZEIbtkFvKHuNCVy8MjxgN_kjwCLcB%2Fw1200-h630-p-nu%2FBt2_help.png&cfs=1&_nc_hash=AQAJWfox3z7byS8H)
+
+>Bt2 - Blaze Telegram Backdoor Toolkit #Apache #Backdoor #Bot #Bt2 #Python
+
+**Link : <http://www.kitploit.com/2016/05/bt2-blaze-telegram-backdoor-toolkit.html?utm_source=dlvr.it&utm_medium=facebook>**
+
+2016-06-01T10:09:46+0000
+
+---
+
+###최만드림 - Man Choi
+
+![https://fb-s-d-a.akamaihd.net/h-ak-xta1/v/t15.0-10/s130x130/12525960_619724608181057_1440739623_n.jpg?oh=4278525d9b0bdce81702f6f38035adaa&oe=5920094D&__gda__=1491038958_381477a0ec3ee92081a4b4660286370b](https://fb-s-d-a.akamaihd.net/h-ak-xta1/v/t15.0-10/s130x130/12525960_619724608181057_1440739623_n.jpg?oh=4278525d9b0bdce81702f6f38035adaa&oe=5920094D&__gda__=1491038958_381477a0ec3ee92081a4b4660286370b)
+
+>가상현실을 코딩해서 
+VR HMD(카드보드)로 
+볼 수 있는 싸이트입니다. 
+
+가볍고 버벅거리지 않아 
+대박입니다. 
+
+최만드림 
+
+https://cospaces.io/
+
+**Link : <https://www.facebook.com/choimandream/videos/619724438181074/>**
+
+2016-06-01T10:08:18+0000
+
+---
+
+###Howto: Build a Cuckoo sandbox
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCamorQ2JdeNQTe&w=130&h=130&url=https%3A%2F%2Finfosecspeakeasy.org%2Fuploads%2Fdefault%2Foriginal%2F1X%2F7f44082c2bd63804c5111231157ff137a458c523.png&cfs=1&_nc_hash=AQAYe9p4TyQJ1PSN](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCamorQ2JdeNQTe&w=130&h=130&url=https%3A%2F%2Finfosecspeakeasy.org%2Fuploads%2Fdefault%2Foriginal%2F1X%2F7f44082c2bd63804c5111231157ff137a458c523.png&cfs=1&_nc_hash=AQAYe9p4TyQJ1PSN)
+
+>Introduction Note: The previous versions of this guide used Ubuntu server, but since X11 forwarding has been broken in Ubuntu for quite some time now, I've updated this guide to use Debian Testing instead. As a bonus, this way you get the latest stable versions of software with no additional effort!...
+
+**Link : <https://infosecspeakeasy.org/t/howto-build-a-cuckoo-sandbox/27>**
+
+2016-06-01T10:03:59+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-d-a.akamaihd.net/h-ak-xpt1/v/t1.0-0/s130x130/13322124_1104276206302919_4391092790438012397_n.png?oh=71cd6e4c10cf83555b43658fa0f3ebbc&oe=590C312A&__gda__=1493953313_32b10f606e9380fcadee911da6000e47](https://fb-s-d-a.akamaihd.net/h-ak-xpt1/v/t1.0-0/s130x130/13322124_1104276206302919_4391092790438012397_n.png?oh=71cd6e4c10cf83555b43658fa0f3ebbc&oe=590C312A&__gda__=1493953313_32b10f606e9380fcadee911da6000e47)
+
+>안드로이드 롤리팝 5.0 화면 잠금 우회 방법
+
+https://codingsec.net/2016/05/bypass-android-lollipop-5-0-lock-screen/
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1104276206302919/?type=3>**
+
+2016-06-01T09:58:51+0000
+
+---
+

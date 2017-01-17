@@ -1,0 +1,24 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-11-18 Facebook 정보 스크랩
+date: 2017-01-13 17:45:48
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Hacking News & Tutorials
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAp3gQOpN7JYiKc&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2016%2F10%2FDracOS_01.jpg&cfs=1&_nc_hash=AQDypNj0YNe9Eri9](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAp3gQOpN7JYiKc&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2016%2F10%2FDracOS_01.jpg&cfs=1&_nc_hash=AQDypNj0YNe9Eri9)
+
+>For pentesters...
+
+**Link : <https://latesthackingnews.com/2016/10/20/dracos-lightweight-powerful-penetration-testing-os/>**
+
+2016-11-18T00:08:48+0000
+
+---
+

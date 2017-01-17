@@ -1,0 +1,60 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-04-04 Facebook 정보 스크랩
+date: 2017-01-13 17:01:47
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###DIY: Arduino-based RF Controlled Robot - Electronics For You
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBz7NZcmXrJTtIQ&w=130&h=130&url=http%3A%2F%2Felectronicsforu.com%2Fwp-contents%2Fuploads%2F2016%2F03%2FE9E_Fig_8.jpg&cfs=1&_nc_hash=AQCC_emRJxU0zy6-](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBz7NZcmXrJTtIQ&w=130&h=130&url=http%3A%2F%2Felectronicsforu.com%2Fwp-contents%2Fuploads%2F2016%2F03%2FE9E_Fig_8.jpg&cfs=1&_nc_hash=AQCC_emRJxU0zy6-)
+
+>Here we present a simple Arduino-board based robot that can be driven remotely using an RF remote control. This robot can be built very quickly in a small budget. The RF remote control provides the advantage of a good controlling range (up to 100 metres with proper antennae) besides being omnidirect…
+
+**Link : <http://electronicsforu.com/diy/hardware-diy/arduino-based-rf-controlled-robot>**
+
+2016-04-04T08:01:59+0000
+
+---
+
+###뚫리느냐, 막느냐... 車도 ‘해킹과 전쟁’
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDbFTQ1fqROcj5d&w=130&h=130&url=http%3A%2F%2Fimgnews.naver.net%2Fimage%2Forigin%2F469%2F2016%2F04%2F04%2F136104.jpg&cfs=1&_nc_hash=AQAffFk7Ps0IEKeY](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDbFTQ1fqROcj5d&w=130&h=130&url=http%3A%2F%2Fimgnews.naver.net%2Fimage%2Forigin%2F469%2F2016%2F04%2F04%2F136104.jpg&cfs=1&_nc_hash=AQAffFk7Ps0IEKeY)
+
+>전 세계 24개 차종 실험결과대부분이 해킹에 노출ㆍ취약美연구팀은 달리는 車 해킹마음대로 운전대 조작까지업체들 설계 바꿔 침입 차단부품 단위별 방어체계 구축도“보안 장치 2년 후에나 상용화 소비자, 스마트폰 내비 활용을”최근 글로벌 완성차 업체의 차량 대부분이 해킹에 무방비 상태인 것으로 드러나며 이에 대한 소비자 우려가...
+
+**Link : <http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&oid=469&aid=0000136104&sid1=001&lfrom=facebook>**
+
+2016-04-04T07:59:59+0000
+
+---
+
+###About the security content of iBooks Author 2.4.1
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD14weuUlFyn3b_&w=130&h=130&url=https%3A%2F%2Fwww.apple.com%2Fsupport%2Fassets%2Fac-globalfooter%2F1%2Fen_US%2Fimages%2Fac-globalfooter%2Fglobalfooter%2Ffooter%2Fcountry%2Fflag_large_2x.png&cfs=1&_nc_hash=AQCMBQvr6yYned74](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD14weuUlFyn3b_&w=130&h=130&url=https%3A%2F%2Fwww.apple.com%2Fsupport%2Fassets%2Fac-globalfooter%2F1%2Fen_US%2Fimages%2Fac-globalfooter%2Fglobalfooter%2Ffooter%2Fcountry%2Fflag_large_2x.png&cfs=1&_nc_hash=AQCMBQvr6yYned74)
+
+>This document describes the security content of iBooks Author 2.4.1.
+
+**Link : <https://support.apple.com/en-us/HT206224>**
+
+2016-04-04T07:59:00+0000
+
+---
+
+###Eyal Ronen and Adi Shamir Hack Lightbulbs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC-S6Urgt4W7lnw&w=130&h=130&url=https%3A%2F%2Fimgv2-1-f.scribdassets.com%2Fimg%2Fdocument%2F306620189%2Foriginal%2Fbe5cf1fbd0%2F1459510579&cfs=1&_nc_hash=AQDuIgMV_bYjpSo8](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC-S6Urgt4W7lnw&w=130&h=130&url=https%3A%2F%2Fimgv2-1-f.scribdassets.com%2Fimg%2Fdocument%2F306620189%2Foriginal%2Fbe5cf1fbd0%2F1459510579&cfs=1&_nc_hash=AQDuIgMV_bYjpSo8)
+
+>Researchers from the Weizmann Institute of Science, Eyal Ronen and Adi Shamir, detail hacks on Philips and LimitlessLED connected lightbulbs. They claim their attacks can cause epileptic fits, and steal data from air-gapped networks using subtle modulations in light.
+
+**Link : <http://www.scribd.com/doc/306620189/Eyal-Ronen-and-Adi-Shamir-Hack-Lightbulbs#scribd>**
+
+2016-04-04T07:54:22+0000
+
+---
+

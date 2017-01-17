@@ -1,0 +1,28 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-08-04 Facebook 정보 스크랩
+date: 2017-01-13 17:44:56
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Jin Sam Kim
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC3L16nC4XZS0YU&w=130&h=130&url=https%3A%2F%2Ft1.daumcdn.net%2Fcssjs%2Ficon%2F557567EA016E200001&cfs=1&_nc_hash=AQDXQ8GZvP25_HdW](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC3L16nC4XZS0YU&w=130&h=130&url=https%3A%2F%2Ft1.daumcdn.net%2Fcssjs%2Ficon%2F557567EA016E200001&cfs=1&_nc_hash=AQDXQ8GZvP25_HdW)
+
+>오랜만에 front 개발을 했더니 즐겁네요.
+모듈 패턴은 사용하면 할 수록 좋은 것 같아요.
+(http://ssamkj.tistory.com/45)
+private 영역과 public 영역을 구분할 수 있고, 연결되는 element들을 injection 시켜 coupling을 제거하면 다른 곳에서 바로 재사용 할 수 있는 코드로 나오기 때문이죠.
+공통 모듈을 만들 때 이 같은 패턴을 자주 사용하는 이유는 public 영역에 주석만 잘 달아 놓으면 가독성 높은 코드가 되기 때문이죠.
+
+**Link : <http://ssamkj.tistory.com/45>**
+
+2016-08-04T14:40:27+0000
+
+---
+

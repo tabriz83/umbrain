@@ -1,0 +1,56 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-04-17 Facebook 정보 스크랩
+date: 2017-01-13 17:01:47
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###infiltratecon.com
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDycI61UBcL1pvd&w=130&h=130&url=http%3A%2F%2Fwww.infiltratecon.com%2Fimages%2FcartelInmmunity.png&cfs=1&_nc_hash=AQBS_61WQOtF153W](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDycI61UBcL1pvd&w=130&h=130&url=http%3A%2F%2Fwww.infiltratecon.com%2Fimages%2FcartelInmmunity.png&cfs=1&_nc_hash=AQBS_61WQOtF153W)
+
+**Link : <http://infiltratecon.com/archives.html>**
+
+2016-04-17T08:01:48+0000
+
+---
+
+###15 Examples of How to Use New Advanced Package Tool (APT) in Ubuntu/Debian
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAgO0S7WtxcW5zQ&w=130&h=130&url=http%3A%2F%2Fwww.tecmint.com%2Fwp-content%2Fuploads%2F2016%2F04%2FAPT-Command-Examples.png&cfs=1&_nc_hash=AQA1Tr5SpCUmWpYP](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAgO0S7WtxcW5zQ&w=130&h=130&url=http%3A%2F%2Fwww.tecmint.com%2Fwp-content%2Fuploads%2F2016%2F04%2FAPT-Command-Examples.png&cfs=1&_nc_hash=AQA1Tr5SpCUmWpYP)
+
+>In this guide, we are going to look at 15 useful examples of how to use the new APT (Advanced Package) tool on your Ubuntu Linux system and its derivatives.
+
+**Link : <http://www.tecmint.com/apt-advanced-package-command-examples-in-ubuntu/>**
+
+2016-04-17T07:22:43+0000
+
+---
+
+###Alternative Study Methods: Memory Palace - HackCollege
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBcB5043jkuKdTl&w=130&h=130&url=http%3A%2F%2Fwww.hackcollege.com%2Fwp-content%2Fuploads%2F2016%2F04%2FHCmemorypalace.png&cfs=1&sx=0&sy=0&sw=540&sh=540&_nc_hash=AQBB-iox6iuSrGRf](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBcB5043jkuKdTl&w=130&h=130&url=http%3A%2F%2Fwww.hackcollege.com%2Fwp-content%2Fuploads%2F2016%2F04%2FHCmemorypalace.png&cfs=1&sx=0&sy=0&sw=540&sh=540&_nc_hash=AQBB-iox6iuSrGRf)
+
+>You need to remember something without using Google, your textbook, or ink pen scrawled across the back of your left hand. You’ve tried mnemonics, you’ve chanted the information to yourself (a method my art history professor swears by) and you’ve made flash cards, but it’s still not sticking as well…
+
+**Link : <http://www.hackcollege.com/blog/2016/04/15/alternative-study-methods-memory-palace.html>**
+
+2016-04-17T07:17:42+0000
+
+---
+
+###Linux/x86_64 - Read /etc/passwd - 65 bytes - 0day.today Inj3ct0r Exploit Database :...
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBoqePV1sWqTzLG&w=130&h=130&url=http%3A%2F%2F0day.today%2Fimg%2Flogo_green.jpg&cfs=1&_nc_hash=AQAZHEBZYEbmDgyR](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBoqePV1sWqTzLG&w=130&h=130&url=http%3A%2F%2F0day.today%2Fimg%2Flogo_green.jpg&cfs=1&_nc_hash=AQAZHEBZYEbmDgyR)
+
+**Link : <http://bit.ly/1qZntnh>**
+
+2016-04-17T07:08:01+0000
+
+---
+

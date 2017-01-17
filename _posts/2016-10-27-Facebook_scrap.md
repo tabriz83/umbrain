@@ -1,0 +1,33 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-10-27 Facebook 정보 스크랩
+date: 2017-01-13 17:45:30
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###홍길한
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCcf5y55VSiqARS&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3ZWuPVWq7p4%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQBelhFFy_J88Y0u](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCcf5y55VSiqARS&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3ZWuPVWq7p4%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQBelhFFy_J88Y0u)
+
+>Data science in Python: pandas, seaborn, scikit-learn 
+
+파이썬 데이터 과학에 관심이 있으신
+분들을 위한 유튜브 공유입니다.
+
+https://www.youtube.com/watch?v=3ZWuPVWq7p4
+
+소스는 여기에 있습니다.
+
+https://github.com/justmarkham/scikit-learn-videos
+
+**Link : <https://www.youtube.com/watch?v=3ZWuPVWq7p4>**
+
+2016-10-27T02:24:07+0000
+
+---
+

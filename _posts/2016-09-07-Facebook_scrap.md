@@ -1,0 +1,60 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-09-07 Facebook 정보 스크랩
+date: 2017-01-13 17:45:14
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###403 Forbidden
+
+>You don't have permission to access /wp-content/cache/all/revealrk-reveal-rootkit-detects-processes-hidden-by-rootkits-on-posix-systems.html/index.html on this server.
+
+**Link : <https://t.co/lMT2ZlRJ80>**
+
+2016-09-07T22:28:41+0000
+
+---
+
+###Android Tamer
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBeR4sCN7juZ3yQ&w=130&h=130&url=https%3A%2F%2Fsource.android.com%2Fimages%2Fapk-before-after-signing.png&cfs=1&_nc_hash=AQC3aqb8iC9SNRTW](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBeR4sCN7juZ3yQ&w=130&h=130&url=https%3A%2F%2Fsource.android.com%2Fimages%2Fapk-before-after-signing.png&cfs=1&_nc_hash=AQC3aqb8iC9SNRTW)
+
+>Retweeted Dinesh Shetty (@Din3zh):
+
+APK Signature Scheme v2 verification: https://t.co/67oLAwCTIL
+
+**Link : <https://t.co/67oLAwCTIL>**
+
+2016-09-07T15:56:03+0000
+
+---
+
+###국내 두번째 DLL 파일 랜섬웨어 상륙, Locky 변종 랜섬웨어 감염 주의 - 데일리시큐
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBLwOol4Blne4ki&w=130&h=130&url=http%3A%2F%2Fwww.dailysecu.com%2Fnews%2Fphoto%2F201609%2F15713_10843_150.jpg&cfs=1&_nc_hash=AQDo0Qj6QTDwyt3z](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBLwOol4Blne4ki&w=130&h=130&url=http%3A%2F%2Fwww.dailysecu.com%2Fnews%2Fphoto%2F201609%2F15713_10843_150.jpg&cfs=1&_nc_hash=AQDo0Qj6QTDwyt3z)
+
+>최근 “록키(Locky)” 랜섬웨어가 DLL 파일의 새로운 변종 형태로 국내에 유포되고 있어 사용자들의 각별한 주의가 요구된다.하우리에 따르면,...
+
+**Link : <http://www.dailysecu.com/news/articleView.html?idxno=15713>**
+
+2016-09-07T15:55:30+0000
+
+---
+
+###derv82/Exchangent
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4duQdRJrDLlNK&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F993464%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDOUcuYBw3Attay](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4duQdRJrDLlNK&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F993464%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDOUcuYBw3Attay)
+
+>Exchangent - iOS Tweak to spoof the Exchange/ActiveSync User-Agent
+
+**Link : <https://t.co/blXnyh8oPO>**
+
+2016-09-07T14:46:49+0000
+
+---
+

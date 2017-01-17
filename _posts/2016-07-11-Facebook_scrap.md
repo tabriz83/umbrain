@@ -1,0 +1,44 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2016-07-11 Facebook 정보 스크랩
+date: 2017-01-13 17:13:36
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###ExploitWareLabs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDJQ8PupZnOvc52&w=130&h=130&url=http%3A%2F%2Fcodebashing.com%2Fcb-splash.jpg&cfs=1&_nc_hash=AQCbwoDg1W3BMd6x](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDJQ8PupZnOvc52&w=130&h=130&url=http%3A%2F%2Fcodebashing.com%2Fcb-splash.jpg&cfs=1&_nc_hash=AQCbwoDg1W3BMd6x)
+
+>SQL Injection 취약점 공부에 아주 좋은 데모 사이트
+SQL Injection Setp by step training Demo 
+
+
+http://www.codebashing.com/sql_demo
+
+**Link : <http://www.codebashing.com/sql_demo>**
+
+2016-07-11T17:17:11+0000
+
+---
+
+###Asecurity - http://asecurity.so
+
+>개인 정보 비식별화 기술 활용 안내서 입니다.
+
+요점은 모든 데이터를 그대로 저장하지 말고 필요로 하는 정보만을 가공하여 개인으로 식별할 수 없도록를 보호하는데 있습니다.
+
+예) 홍길동 19171010-1083012 -> 홍씨 1917년생 남성
+
+https://kbig.kr/?q=%EC%A7%80%EC%8B%9D%EC%9E%90%EB%A3%8C%EC%8B%A4/15596
+
+**Link : <https://kbig.kr/?q=%EC%A7%80%EC%8B%9D%EC%9E%90%EB%A3%8C%EC%8B%A4%2F15596>**
+
+2016-07-11T12:31:52+0000
+
+---
+
