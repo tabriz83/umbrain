@@ -58,23 +58,24 @@ logo: 'assets/images/logo.png'
 > 그리고 문제풀이 라는 것은 FTZ Level9?부터 익스플로잇 코드까지 작성하는 것을 푸는 것이라 생각하는 것이 좋다.
 
 <br>
-* **이후 추천 공부 순서**
-**1. exploit-exercises.com - Nebula, Protostar, Fusion**
-**2. OvertheWire - votex**
-**3. Pwnable.kr**
+- **이후 추천 공부 순서**  
+**1. exploit-exercises.com - Nebula, Protostar, Fusion**  
+**2. OvertheWire - votex**  
+**3. Pwnable.kr**  
 
--	이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.
--	Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.
--	대부분이 문서로 존재한다.
+- 이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.
+- Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.
+- 대부분이 문서로 존재한다.
 ---
+
 ### 2.2 Reversing
 
--	**추천 공부 순서**
-**1. Abex's Crackme 1~5**
-**2. CodeEngn Basic RCE 1~20**
-**3. Simples.kr Season 1 Crack, Unpack, Season 2 Reverse**
-**4. CodeEngn Advanced RCE 1~18**
-**5. Reversing.kr**
+- **추천 공부 순서**  
+**1. Abex's Crackme 1~5**  
+**2. CodeEngn Basic RCE 1~20**  
+**3. Simples.kr Season 1 Crack, Unpack, Season 2 Reverse**  
+**4. CodeEngn Advanced RCE 1~18**  
+**5. Reversing.kr**  
 
 > **Phantom의 의견**
 >
@@ -112,34 +113,34 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 
 ## #1. 공부에 도움이 되는 사이트들
 
-| 분류          | 관련사이트                                 | 비고                                                    |
-|---------------|--------------------------------------------|---------------------------------------------------------|
-| 침해사고 대응 | http://securitypractice.or.kr/index.php    | KISA에서 운영하는 침해사고 대응 훈련장                  |
-| 모의해킹      | http://hackerschool.org                    | 시스템 해킹 실습 환경 제공 및 기타 정보들               |
-|               | http://www.wechall.net                     | 전세계 해킹 실습환경을 한곳에 모아둔 사이트             |
-|               | http://webhacking.kr                       | 웹 해킹 문제 풀이 사이트                                |
-|               | http://codeengn.com                        | 해킹관련 문서가 다량 보유된 사이트                      |
-|               | http://xcz.kr/START/challenge.php          | 다양한 분야의 문제가 혼용된 사이트                      |
-|               | https://www.corelan.be/index.php/articles/ | 리버싱 등에 관한 상세한 기사들이 다수 존재하는 곳(영문) |
-|               | http://www.droidsec.org/wiki/#whitepapers  | 안드로이드 해킹에 대한 모든 정보가 있는 곳              |
-|               | https://www.ietf.org/rfc.html              | 네트워크 프로토콜 RFC 자료                              |
-|               | http://www.owasp.net                       | OWASP, ESAPI등 관련 정보가 있는 곳                      |
-|               | http://resources.infosecinstitute.com      | 아주 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)  |
-|               | http://www.wowhacker.com                   | 언더해커 모임                                           |
-| 프로그래밍    | http://www.pythonchallenge.com             | Python 문제 풀이 사이트                                 |
-| 포렌식        | http://maj3sty.tistory.com                 | 개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유     |
-|               | http://forensic-proof.com                  | 플레인비트 김진국 대표가 운영하는 블로그                |
+|분류|관련사이트|비고|
+|-|-|-|
+|침해사고 대응|http://securitypractice.or.kr/index.php|KISA에서 운영하는 침해사고 대응 훈련장|
+|모의해킹|http://hackerschool.org|시스템 해킹 실습 환경 제공 및 기타 정보들|
+||http://www.wechall.net|전세계 해킹 실습환경을 한곳에 모아둔 사이트|
+||http://webhacking.kr|웹 해킹 문제 풀이 사이트|
+||http://codeengn.com|해킹관련 문서가 다량 보유된 사이트|
+||http://xcz.kr/START/challenge.php|다양한 분야의 문제가 혼용된 사이트|
+||https://www.corelan.be/index.php/articles/|리버싱 등에 관한 상세한 기사들이 다수 존재하는 곳(영문)|
+||http://www.droidsec.org/wiki/#whitepapers|안드로이드 해킹에 대한 모든 정보가 있는 곳|
+||https://www.ietf.org/rfc.html|네트워크 프로토콜 RFC 자료|
+||http://www.owasp.net|OWASP, ESAPI등 관련 정보가 있는 곳|
+||http://resources.infosecinstitute.com|아주 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)|
+||http://www.wowhacker.com|언더해커 모임|
+|프로그래밍|http://www.pythonchallenge.com|Python 문제 풀이 사이트|
+|포렌식|http://maj3sty.tistory.com|개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유|
+||http://forensic-proof.com|플레인비트 김진국 대표가 운영하는 블로그|
 
 
 ## #2. Reference to
 
--	보안 전문가의 길 (http://www.slideshare.net/seokhunhwnag/2015-v09\)
--	시스템 보안이란? (https://www.facebook.com/groups/438543032874514/1074936635901814/\)
--	달고나 문서 (http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf\)
--	우리집에 gdb있는데.. 메모리 보고 갈래? (https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/\)
--	해킹 입문서, 커리큘럼, 테크트리, 리버싱 (http://blog.naver.com/93immm/130179760409\)
--	Phantom이 쓴 Writeup (http://pantom.tistory.com\)
+- 보안 전문가의 길 (http://www.slideshare.net/seokhunhwnag/2015-v09\)
+- 시스템 보안이란? (https://www.facebook.com/groups/438543032874514/1074936635901814/\)
+- 달고나 문서 (http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf\)
+- 우리집에 gdb있는데.. 메모리 보고 갈래? (https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/\)
+- 해킹 입문서, 커리큘럼, 테크트리, 리버싱 (http://blog.naver.com/93immm/130179760409\)
+- Phantom이 쓴 Writeup (http://pantom.tistory.com\)
 
-[^1]: Wargame이라고 하여 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.
-[^2]: 적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.
+[^1]: Wargame이라고 하여 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  
+[^2]: 적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.  
 [^3]: Hax-ray를 손으로 하는 방법.
