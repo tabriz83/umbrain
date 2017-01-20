@@ -3,7 +3,8 @@ layout: post
 cover: 'assets/images/cover2.jpg'
 title: 초보자를 위한 시스템해킹 공부 가이드라인
 date: 2017-01-21 02:17:00
-tags: System,Hacking subclass: 'post tag-Unclassified'
+tags: System,Hacking
+subclass: 'post tag-Security'
 categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
@@ -19,11 +20,11 @@ logo: 'assets/images/logo.png'
 -	==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도
 
 *** TechTree 1**
-![TechTree 1](https://github.com/tabriz83/umbrain/blob/master/assets/Post_Images/tech.png)
+![TechTree 1]('assets/Post_Images/tech.png')
 <br>
 
 *** TechTree 2**
-![TechTree 2](https://github.com/tabriz83/umbrain/blob/master/assets/Post_Images/tech2.png)
+![TechTree 2]('assets/Post_Images/tech2.png')
 <br>
 
 ## 2. 전문분야
