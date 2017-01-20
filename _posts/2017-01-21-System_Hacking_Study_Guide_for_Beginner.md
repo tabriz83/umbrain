@@ -3,47 +3,48 @@ layout: post
 cover: 'assets/images/cover2.jpg'
 title: 초보자를 위한 시스템해킹 공부 가이드라인
 date: 2017-01-21 02:17:00
-tags: System,Hacking
+tags:
+ - System
+ - Hacking
+
 subclass: 'post tag-Security'
 categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
 ---
 
-초보자를 위한 시스템 해킹 공부 가이드라인\_[홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
-========================================================================================================
-
+##초보자를 위한 시스템 해킹 공부 가이드라인\_[홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
+---
 ## 1. 기본기
+- ==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
+- ==리눅스==
+- ==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도
 
--	==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
--	==리눅스==
--	==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도
-
-*** TechTree 1**
-![TechTree 1]('assets/Post_Images/tech.png')
+- **TechTree 1**
+![TechTree 1](../assets/Post_Images/tech.png)
 <br>
 
-*** TechTree 2**
-![TechTree 2]('assets/Post_Images/tech2.png')
+- **TechTree 2**
+![TechTree 2](../assets/Post_Images/tech2.png)
 <br>
 
 ## 2. 전문분야
 
-**1. Pwnable**
+**1. Pwnable**  
 **2. Reversing**
 <br>
 
 ### 2.1. Pwnable
-
--	**추천 공부 순서**
+**- 추천 공부 순서**  
 **1. ==달고나 문서==**
+
 **2. ==Hackerz on the ship== - 우리 집에 gdb있는데.. 메모리 보고갈래?**
 **3. ==HackerSchool==[^1] FTZ traing 1~10, Level 1~20**
 **4. HackerSchool Load of BOF 1~20**
 **5. HackerSchool FC3**
 
 
--	처음에는 ==달고나 문서==와 Hackerz on the ship의 문서를 읽는 것을 추천.[^2] 리버싱도 마찬가지.
+- 처음에는 ==달고나 문서==와 Hackerz on the ship의 문서를 읽는 것을 추천.[^2] 리버싱도 마찬가지.
 
 -	**여기까지 하는데도 상당한 시간이 걸린다.**
 
