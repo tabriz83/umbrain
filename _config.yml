@@ -34,6 +34,13 @@ permalink: /:title
 # permalink: /author/:username
 # permalink: /tag/:tag
 
+# Markdown Processors
+redcarpet:
+    tables: true
+    autolink: true
+    underline: true
+    highlight: true
+    footnotes: true    
 
 # gems and other configs
 gems: [jekyll-paginate]
