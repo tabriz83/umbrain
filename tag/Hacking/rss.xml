@@ -18,39 +18,41 @@
 	  <pubDate>2017-01-21T02:17:00+00:00</pubDate>
 	  <guid>/umbrain//System_Hacking_Study_Guide_for_Beginner</guid>
 	  <description><![CDATA[
-	     <h1>초보자를 위한 시스템 해킹 공부 가이드라인_<a href="https://www.facebook.com/HSPantom">홍승표 作</a>(a.k.a Phantom)</h1>
+	     <h2>초보자를 위한 시스템 해킹 공부 가이드라인_<a href="https://www.facebook.com/HSPantom">홍승표 作</a>(a.k.a Phantom)</h2>
+
+<hr>
 
 <h2>1. 기본기</h2>
 
 <ul>
-<li>  ==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)</li>
-<li>  ==리눅스==</li>
-<li>  ==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도</li>
+<li>==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)</li>
+<li>==리눅스==</li>
+<li><p>==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도</p></li>
+<li><p><strong>TechTree 1</strong>
+<img src="../assets/Post_Images/tech.png" alt="TechTree 1">
+<br></p></li>
+<li><p><strong>TechTree 2</strong>
+<img src="../assets/Post_Images/tech2.png" alt="TechTree 2">
+<br></p></li>
 </ul>
-
-<p>*** TechTree 1**
-<img src="&#x27;assets/Post_Images/tech.png&#x27;" alt="TechTree 1">
-<br></p>
-
-<p>*** TechTree 2**
-<img src="&#x27;assets/Post_Images/tech2.png&#x27;" alt="TechTree 2">
-<br></p>
 
 <h2>2. 전문분야</h2>
 
-<p><strong>1. Pwnable</strong>
+<p><strong>1. Pwnable</strong><br>
 <strong>2. Reversing</strong>
 <br></p>
 
 <h3>2.1. Pwnable</h3>
 
-<ul>
-<li><p><strong>추천 공부 순서</strong>
-<strong>1. ==달고나 문서==</strong>
-<strong>2. ==Hackerz on the ship== - 우리 집에 gdb있는데.. 메모리 보고갈래?</strong>
+<p><strong>- 추천 공부 순서</strong><br>
+<strong>1. ==달고나 문서==</strong></p>
+
+<p><strong>2. ==Hackerz on the ship== - 우리 집에 gdb있는데.. 메모리 보고갈래?</strong>
 <strong>3. ==HackerSchool==[^1] FTZ traing 1~10, Level 1~20</strong>
 <strong>4. HackerSchool Load of BOF 1~20</strong>
-<strong>5. HackerSchool FC3</strong></p></li>
+<strong>5. HackerSchool FC3</strong></p>
+
+<ul>
 <li><p>처음에는 ==달고나 문서==와 Hackerz on the ship의 문서를 읽는 것을 추천.[^2] 리버싱도 마찬가지.</p></li>
 <li><p><strong>여기까지 하는데도 상당한 시간이 걸린다.</strong></p></li>
 <li><p>Training 1~10, Level 1~9까지는 처음에 왜 하는지 잘 이해가 가지 않을 수 있으나, 한번하고 나중에 다시보게 된다면 왜 이것을 했는지 이해할 수 있으며, 공부하면서 프로그래밍 등 기초가 흔들리는 자신의 모습을 볼 수 있을것.</p></li>
