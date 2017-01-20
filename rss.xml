@@ -8,22 +8,23 @@
     <title>Into the Brain of taBRis</title>
     <link>http://tabriz83.github.io/umbrain/</link>
     <description>Memory Repository.</description>
-    <pubDate>Sat, 21 Jan 2017 02:17:00 +0000</pubDate>
+    <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
     <item>
-      <title>초보자를 위한 시스템해킹 공부 가이드라인</title>
+      <title>System_hacking_study_guide_for_beginner</title>
       <link>http://tabriz83.github.io/umbrain//System_Hacking_Study_Guide_for_Beginner</link>
-      <description>##초보자를 위한 시스템 해킹 공부 가이드라인\_[홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
+      <description>##초보자를 위한 시스템 해킹 공부 가이드라인 [홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
 ---
+&lt;br&gt;
 ## 1. 기본기
-- ==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
-- ==리눅스==
-- ==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도
+- **C언어**, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
+- **리눅스**
+- **네트워크 기초** (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도
 
 [^1]: Wargame이라고 하여 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.
 [^2]: 적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.
 [^3]: Hax-ray를 손으로 하는 방법.</description>
-      <pubDate>Sat, 21 Jan 2017 02:17:00 +0000</pubDate>
-      <dc:date>2017-01-21T02:17:00+00:00</dc:date>
+      <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+      <dc:date>2017-01-21T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>2016-12-31 Facebook 정보 스크랩</title>
@@ -1589,6 +1590,6 @@
       <pubDate>Tue, 23 Feb 2016 15:02:00 +0000</pubDate>
       <dc:date>2016-02-23T15:02:00+00:00</dc:date>
     </item>
-    <dc:date>2017-01-21T02:17:00+00:00</dc:date>
+    <dc:date>2017-01-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
