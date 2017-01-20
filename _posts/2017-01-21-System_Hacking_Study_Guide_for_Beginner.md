@@ -36,7 +36,7 @@ logo: 'assets/images/logo.png'
 
 ### 2.1. Pwnable
 - ** 추천 공부 순서**  
-**1. ++달고나 문서++**  
+**1. ==달고나 문서==**  
 **2. ++Hackerz on the ship++ - 우리 집에 gdb있는데.. 메모리 보고갈래?**  
 **3. ++HackerSchool++[^1] FTZ traing 1~10, Level 1~20**  
 **4. HackerSchool Load of BOF 1~20**  
