@@ -9,10 +9,8 @@ categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
 ---
+**출처 : 초보자를 위한 시스템 해킹 공부 가이드라인 - [홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)**
 
-##초보자를 위한 시스템 해킹 공부 가이드라인 - [홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
-<!-- more -->
----
 
 ## 1. 기본기
 - ==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
