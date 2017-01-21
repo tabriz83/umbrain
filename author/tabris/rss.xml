@@ -12,6 +12,159 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>우리집에 GDB 있는데... 메모리 보고갈래? (1)</title>
+	  <link>/umbrain//gdb-memory-day1</link>
+	  <author>taBRis</author>
+	  <pubDate>2017-01-22T06:41:00+00:00</pubDate>
+	  <guid>/umbrain//gdb-memory-day1</guid>
+	  <description><![CDATA[
+	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/03/08/gdb_memory_1/">우리집에 GDB 있는데... 메모리 보고갈래? (1) - Hackerz on the Ship</a></strong></p>
+
+<h2>들어가기에 앞서...</h2>
+
+<blockquote>
+<p>컴(존)알못들이여 오라.
+보안 공부하다 높다란 진입장벽 앞에서 좌절하신 분들께 이 글을 바칩니다.
+해커가 되겠다는 청운을 안고 대학을 입학했으나.. 4년 째 뉴비...★
+컴알못인 제가 자세히 친절하게 하나하나 꼭꼭 씹어보겠습니다.</p>
+</blockquote>
+
+<hr>
+
+<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+
+<h3>DAY #1. 듀근듀규뉸구누균ㄱ 첫만남</h3>
+
+<p><br>
+<img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-intro.png" alt="*인트로*">
+<br></p>
+
+<p>구체적으로 뭐하는지가 궁금하시다구여?
+…뭘 하더라도 기초가 중요한 것 같네요.
+메모리에 대한 썰부터 간단히 풀어볼게요!!
+<br></p>
+
+<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-1.png" alt="">
+<em><sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> 썰 주제 되십니다</em>
+<br></p>
+
+<hr>
+
+<h4>1. 주소는 왜 때문에 0000 0000 ~ FFFF FFFF ???</h4>
+
+<p>램은 몇 기가 쓰세여?
+제 노트북은 4GB의 램을 쓰고 있네요.</p>
+
+<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-2.png" alt="">
+<em>[그림 2] 이런거 은근 헷갈리지 않음요?</em>
+<br></p>
+
+<p>위의 계산에 의하면 4GB는 2^32 byte 사이즈의 메모리죠.</p>
+
+<p>1Byte는 주소공간 한 개의 크기입니다
+즉, 4GB는 2^32개의 주소를 가질 수 있어요</p>
+
+<p>그리고 1bit는 0 또는 1의 값만 가질 수 있기 때문에 32bit는 2^32만큼의 숫자를 표현할 수 있어요</p>
+
+<p>32bit라는 것은 2^32개의 주소를 가지고 있다라는 뜻으로 이해하시면 됩니다!</p>
+
+<p>그런데 우리가 메모리를 뭐로 접근합니까? 주소로 접근 하죠.
+32bit 운영체제는 수 표현을 최대 2^32까지 밖에 못 하기 때문에, 8GB나 16GB의 램을 가지고 있다고 하더라도 접근을 할 수가 없어요.</p>
+
+<p>0000…0000(32개) 부터 1111….1111(32개) 까지를 보기 편하게 16진수로 변환하면?</p>
+
+<p>00000000 ~ FFFFFFFF !</p>
+
+<hr>
+
+<h4>2. 유저 영역, 커널 영역은 왜 나뉘어져 있나</h4>
+
+<p>시스템 운영에 필요한 메모리, 그리고 운영체제가 커널 영역에 올라가 있습니다.
+사용자가 운영체제가 올라가 있는 커널 영역에 마음대로 접근할 수 있다면…? 시스템이 안정적으로 운용될 수 없을거예여.</p>
+
+<p>그렇기 때문에 사용자가 함부로 커널 영역에 접근할 수 없도록 메모리를 유저영역과 커널영역을 나누어 사용하는 겁니다. 
+나누는 크기는 운영체제마다 다르고, 설정에 따라 영역의 크기를 조정할 수도 있어여.</p>
+
+<hr>
+
+<h4>3. 유저 영역의 메모리</h4>
+
+<p>유저 메모리의 영역을 조금 더 자세히 살펴볼까요?</p>
+
+<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-3.png" alt="">
+<em><sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> 안녕하새오 웬만한 기본서 펼치면 2n 페이지 쯤 있는 친구애오</em>
+<br></p>
+
+<h5>3-1. 코드영역</h5>
+
+<p>일단 메모리에 코드가 올라옵니다. 코드가 뭐냐구요?</p>
+
+<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-4.png" alt="*[그림 3] 네 바로 이겁니다*"></p>
+
+<p>이런거 어디서 많이 봤죠? c소스를 컴파일하면 어셈블리 코드로 번역(?)되잖아요.
+이 저급한 애들이 코드 영역에 올라 간다는 거져ㅎㅎ
+주소보면 32bit 시스템에서 익숙한 0804~로 시작함다. 메모리에 코드1가 올라갈 때 보통 저 영역에 올라갑니다.
+<br></p>
+
+<h5>3-2. 데이터영역</h5>
+
+<p>그 다음은 데이터 영역입니다. 
+전역변수가 이 영역에 로드되는데 항상 동일한 메모리에 위치하게 됩니당.</p>
+
+<p>사용자가 입력하는 값이 전역변수로 정의되어있다고 가정해봅시다.
+고정된 메모리 주소 그리고 그 주소에 원하는 값을 쓸 수 있다면? 익스플로잇에 활용될 가능성이 갱장히 높아지겠죠?</p>
+
+<p>여기까지가 고정된 주소에 올라오는 영역입니다.
+<br></p>
+
+<h5>3-3. 힙영역</h5>
+
+<p>힙 영역은 동적으로 메모리를 할당하여 사용하는 공간입니다.
+대표적인 메모리 할당 함수로는 malloc 이 있죠. malloc으로 필요한 공간을 할당하면 힙 영역을 쓰게 되는겁니다.
+쓰다가 필요 없어지면 해제 해주면 되죠.</p>
+
+<p>이 말인 즉슨 내가 힙 영역에 어떤 값을 엄청 많이 뿌려놓고 free 해준 후
+다시 이 공간을 재사용한다면..? 후.. 뭔가 익스플로잇할 때 낭낭히 활용될 거 같죠?</p>
+
+<p><em>후.. 방금 당신은 UAF를 배웠습니다.</em>
+<br></p>
+
+<h5>3-4. 스택영역</h5>
+
+<p>마지막 두둥 (유저영역) 메모리의 가장 바닥부터 채워지는 스택이 있죠.
+스택은 거꾸로 자라는거 아시져?
+왜냐구요?
+스택이 끝도없이 위아래도 모르고 자라다가 커널 건드리면…. 주옥되잖아요…
+그래서 얘는 거꾸로 자라는 겁니다.
+스택영역은 함수인자나 지역변수들이 올라옵니다.
+보통 스택 주소보면 0xbfff 이런식이예요.</p>
+
+<p>힙과 스택은 고정된 메모리에 올라오는 것이 아니기 때문에, 이 영역을 활용해 한번에 깔끔하게 쉘 따기란 넘나 어려운 것…</p>
+
+<p>다음 포스팅엔 gdb 활용법으로 찾아오도록 할게여. 
+메모리 구조를 gdb를 통해 뜯어보는 시간도 가져보도록 하겠슴다. 그럼 뿅★</p>
+
+<p><em>written by in09</em></p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p>Pictogram(crown) created by Paul Verhulst from Noun Project&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn2">
+<p>Pictogram(book) created by Jakub Caja from Noun Project&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>초보자를 위한 시스템해킹 공부 가이드라인</title>
 	  <link>/umbrain//System_Hacking_Study_Guide_for_Beginner</link>
 	  <author>taBRis</author>
@@ -2417,100 +2570,6 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p><strong>Link : <a href="https://www.cyphort.com/buhtrap-malware-every-banks-security-team-needs-know/">https://www.cyphort.com/buhtrap-malware-every-banks-security-team-needs-know/</a></strong></p>
 
 <p>2016-12-11T20:26:35+0000</p>
-
-<hr>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>2016-12-09 Facebook 정보 스크랩</title>
-	  <link>/umbrain//Facebook_scrap</link>
-	  <author>taBRis</author>
-	  <pubDate>2017-01-13T17:51:54+00:00</pubDate>
-	  <guid>/umbrain//Facebook_scrap</guid>
-	  <description><![CDATA[
-	     <h3>SoftTrack</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCbLSamvuEngBYe&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fwww.fuzzysecurity.com%2Ftutorials%2FexpDev%2Fimages%2FKernel_UninitStack1.png&amp;cfs=1&amp;_nc_hash=AQAh1rEk5lgzH_e1" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCbLSamvuEngBYe&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fwww.fuzzysecurity.com%2Ftutorials%2FexpDev%2Fimages%2FKernel_UninitStack1.png&amp;cfs=1&amp;_nc_hash=AQAh1rEk5lgzH_e1"></p>
-
-<blockquote>
-<p>Kernel Exploitation -&gt; Uninitialized Stack Variable</p>
-</blockquote>
-
-<p><strong>Link : <a href="http://www.fuzzysecurity.com/tutorials/expDev/17.html">http://www.fuzzysecurity.com/tutorials/expDev/17.html</a></strong></p>
-
-<p>2016-12-09T07:27:26+0000</p>
-
-<hr>
-
-<h4>0daytoday #TP-LINK TD-W8951ND - Denial of Service Exploit [dos #exploits #0day #Exploit]</h4>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB4AgwW6JvHSoCM&amp;w=130&amp;h=130&amp;url=http%3A%2F%2F0day.today%3A810%2Fimg%2Flogo_green.jpg&amp;cfs=1&amp;_nc_hash=AQBAmAdaeYqG5-_I" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB4AgwW6JvHSoCM&amp;w=130&amp;h=130&amp;url=http%3A%2F%2F0day.today%3A810%2Fimg%2Flogo_green.jpg&amp;cfs=1&amp;_nc_hash=AQBAmAdaeYqG5-_I"></p>
-
-<p><strong>Link : <a href="http://dlvr.it/MqspXc">http://dlvr.it/MqspXc</a></strong></p>
-
-<p>2016-12-09T07:26:07+0000</p>
-
-<hr>
-
-<h3>Security Training Share</h3>
-
-<p><img src="https://fb-s-b-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/s130x130/15401115_1342754869088346_3524887667023567418_n.png?oh=85a0625d2178b4d20da1f15766b2a978&amp;oe=591DBC96&amp;__gda__=1490877760_a78dd24159ebb437c8f8d8786eb3b337" alt="https://fb-s-b-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/s130x130/15401115_1342754869088346_3524887667023567418_n.png?oh=85a0625d2178b4d20da1f15766b2a978&amp;oe=591DBC96&amp;__gda__=1490877760_a78dd24159ebb437c8f8d8786eb3b337"></p>
-
-<blockquote>
-<p>Raptor WAF 0.4 released</p>
-</blockquote>
-
-<p>Raptor is a web application firewall written in C that uses DFA to block SQL injection, cross site scripting, and path traversals.</p>
-
-<p><a href="http://kalilinux.co/forums/topic/raptor-waf-web-application-firewall/#post-4173">http://kalilinux.co/forums/topic/raptor-waf-web-application-firewall/#post-4173</a></p>
-
-<p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1342754869088346/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1342754869088346/?type=3</a></strong></p>
-
-<p>2016-12-09T07:24:39+0000</p>
-
-<hr>
-
-<h4>0daytoday #Linux Kernel 4.4.0 AF_PACKET Race Condition / Privilege Escalation Exploit [#0day #Exploit]</h4>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB4AgwW6JvHSoCM&amp;w=130&amp;h=130&amp;url=http%3A%2F%2F0day.today%3A810%2Fimg%2Flogo_green.jpg&amp;cfs=1&amp;_nc_hash=AQBAmAdaeYqG5-_I" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB4AgwW6JvHSoCM&amp;w=130&amp;h=130&amp;url=http%3A%2F%2F0day.today%3A810%2Fimg%2Flogo_green.jpg&amp;cfs=1&amp;_nc_hash=AQBAmAdaeYqG5-_I"></p>
-
-<blockquote>
-<p>Linux AF_PACKET race condition exploit for Ubuntu 16.04 x86_64.</p>
-</blockquote>
-
-<p><strong>Link : <a href="http://dlvr.it/Mqsprt">http://dlvr.it/Mqsprt</a></strong></p>
-
-<p>2016-12-09T07:23:57+0000</p>
-
-<hr>
-
-<h3>SoftTrack</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAyZ-oYLMJ6V0fr&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fklikki.fi%2Fimg%2Fyahoo-xss2.png&amp;cfs=1&amp;_nc_hash=AQAkBp1eyjpbQbyc" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAyZ-oYLMJ6V0fr&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fklikki.fi%2Fimg%2Fyahoo-xss2.png&amp;cfs=1&amp;_nc_hash=AQAkBp1eyjpbQbyc"></p>
-
-<blockquote>
-<p>Yahoo Mail stored XSS #2</p>
-</blockquote>
-
-<p><strong>Link : <a href="http://klikki.fi/adv/yahoo2.html">http://klikki.fi/adv/yahoo2.html</a></strong></p>
-
-<p>2016-12-09T07:22:49+0000</p>
-
-<hr>
-
-<h3>Security Training Share</h3>
-
-<blockquote>
-<p>OpenSSH 7.2 - Denial of Service</p>
-</blockquote>
-
-<p><a href="https://www.exploit-db.com/exploits/40888">https://www.exploit-db.com/exploits/40888</a></p>
-
-<p><strong>Link : <a href="https://www.exploit-db.com/exploits/40888">https://www.exploit-db.com/exploits/40888</a></strong></p>
-
-<p>2016-12-09T07:20:30+0000</p>
 
 <hr>
 
