@@ -8,6 +8,7 @@ subclass: 'post tag-Security'
 categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
+html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ---
 
 ##초보자를 위한 시스템 해킹 공부 가이드라인 - [홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
@@ -24,7 +25,8 @@ logo: 'assets/images/logo.png'
 
 - **TechTree 2**
 ![TechTree 2](../assets/Post_Images/tech2.png)
-<br>
+
+---
 
 ## 2. 전문분야
 
@@ -96,6 +98,7 @@ logo: 'assets/images/logo.png'
 >
 > Crackme를 풀 때부터 Windows API를 보고 그럴 것이다. 그러면서 기초가 쌓인다. Codeengn은 시스템의 해커스쿨과 비슷한 곳이다. 그곳에서 문서를 쉽게 찾을 수 있을 것이다.
 
+---
 
 ## 3. 마무리
 
@@ -107,11 +110,12 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 
 **스스로 찾고 해결해 나가는 것이 중요하다.**
 
+---
 
 ## #1. 공부에 도움이 되는 사이트들
 
-| 분류 | 관련사이트 | 비고 |
-| ------------|----------------------------------------|------------------------|  
+| 분류 | 관련 사이트 | 비고 |
+|------------|----------------------------------------|------------------------|  
 | 침해사고 대응 | http://securitypractice.or.kr/index.php | KISA에서 운영하는 침해사고 대응 훈련장 |
 | 모의해킹 | http://hackerschool.org | 시스템 해킹 실습 환경 제공 및 기타 정보들 |
 | | http://www.wechall.net | 전세계 해킹 실습환경을 한곳에 모아둔 사이트 |
@@ -128,6 +132,7 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 | 포렌식 | http://maj3sty.tistory.com | 개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유 |
 | | http://forensic-proof.com | 플레인비트 김진국 대표가 운영하는 블로그 |
 
+---
 
 ## #2. Reference to
 
@@ -137,6 +142,12 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 - 우리집에 gdb있는데.. 메모리 보고 갈래? (https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/)
 - 해킹 입문서, 커리큘럼, 테크트리, 리버싱 (http://blog.naver.com/93immm/130179760409)
 - Phantom이 쓴 Writeup (http://pantom.tistory.com)
+
+1. 수식으로 삽입하기:
+\\( x(t)=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\)
+
+
+출처: http://dataleaf.tistory.com/entry/Markdown에서-수식-입력하기 [정보의 잎사귀]
 
 [^1]: Wargame이라고 하며, 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  
 [^2]: 적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.  
