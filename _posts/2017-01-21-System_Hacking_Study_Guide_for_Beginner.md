@@ -59,7 +59,6 @@ logo: 'assets/images/logo.png'
 **1. exploit-exercises.com - Nebula, Protostar, Fusion**  
 **2. OvertheWire - votex**  
 **3. Pwnable.kr**
-
 - 이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.
 - Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.
 - 대부분이 문서로 존재한다.
@@ -100,7 +99,7 @@ logo: 'assets/images/logo.png'
 
 ## 3. 마무리
 
-Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해 Writeup을 보고 먼저 한바퀴 만큼은 풀길 바란다. 그 이유는 적어도 이것이 어떤 것이라는 ++적응++이 필요하기 때문이다. (특히 Reversing) 그리고 다시 돌아와서 제대로 공부하기를 바라며, 처음에 영혼없이 하더라도 이것이 어떤 것인지는 인식을 하고 있어야 한다.
+Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해 Writeup을 보고 먼저 한바퀴 만큼은 풀길 바란다. 그 이유는 적어도 이것이 어떤 것이라는 _적응_이 필요하기 때문이다. (특히 Reversing) 그리고 다시 돌아와서 제대로 공부하기를 바라며, 처음에 영혼없이 하더라도 이것이 어떤 것인지는 인식을 하고 있어야 한다.
 
 공부하는 방법을 알아내는 것도 실력이고, 뭘 공부해야할지 알아내는 것도 실력이며, 뭘 공부할지 모를 때 오는 슬럼프를 극복하는 것도 실력이다.
 
@@ -111,23 +110,23 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 
 ## #1. 공부에 도움이 되는 사이트들
 
-|분류|관련사이트|비고|  
-|-|-|-|  
-|침해사고 대응|http://securitypractice.or.kr/index.php|KISA에서 운영하는 침해사고 대응 훈련장|
-|모의해킹|http://hackerschool.org|시스템 해킹 실습 환경 제공 및 기타 정보들|
-||http://www.wechall.net|전세계 해킹 실습환경을 한곳에 모아둔 사이트|
-||http://webhacking.kr|웹 해킹 문제 풀이 사이트|
-||http://codeengn.com|해킹관련 문서가 다량 보유된 사이트|
-||http://xcz.kr/START/challenge.php|다양한 분야의 문제가 혼용된 사이트|
-||https://www.corelan.be/index.php/articles/|리버싱 등에 관한 상세한 기사들이 다수 존재하는 곳(영문)|
-||http://www.droidsec.org/wiki/#whitepapers|안드로이드 해킹에 대한 모든 정보가 있는 곳|
-||https://www.ietf.org/rfc.html|네트워크 프로토콜 RFC 자료|
-||http://www.owasp.net|OWASP, ESAPI등 관련 정보가 있는 곳|
-||http://resources.infosecinstitute.com|아주 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)|
-||http://www.wowhacker.com|언더해커 모임|
-|프로그래밍|http://www.pythonchallenge.com|Python 문제 풀이 사이트|
-|포렌식|http://maj3sty.tistory.com|개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유|
-||http://forensic-proof.com|플레인비트 김진국 대표가 운영하는 블로그|
+| 분류 | 관련사이트 | 비고 |
+| ------------|----------------------------------------|------------------------|  
+| 침해사고 대응 | http://securitypractice.or.kr/index.php | KISA에서 운영하는 침해사고 대응 훈련장 |
+| 모의해킹 | http://hackerschool.org | 시스템 해킹 실습 환경 제공 및 기타 정보들 |
+| | http://www.wechall.net | 전세계 해킹 실습환경을 한곳에 모아둔 사이트 |
+| | http://webhacking.kr | 웹 해킹 문제 풀이 사이트 |
+| | http://codeengn.com | 해킹관련 문서가 다량 보유된 사이트 |
+| | http://xcz.kr/START/challenge.php | 다양한 분야의 문제가 혼용된 사이트 |
+| | https://www.corelan.be/index.php/articles/ | 리버싱 등에 관한 상세한 기사들이 다수 존재하는 곳(영문) |
+| | http://www.droidsec.org/wiki/#whitepapers | 안드로이드 해킹에 대한 모든 정보가 있는 곳 |
+| | https://www.ietf.org/rfc.html | 네트워크 프로토콜 RFC 자료 |
+| | http://www.owasp.net | OWASP, ESAPI등 관련 정보가 있는 곳 |
+| | http://resources.infosecinstitute.com | 아주 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문) |
+| | http://www.wowhacker.com | 언더해커 모임 |
+| 프로그래밍 | http://www.pythonchallenge.com | Python 문제 풀이 사이트 |
+| 포렌식 | http://maj3sty.tistory.com | 개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유 |
+| | http://forensic-proof.com | 플레인비트 김진국 대표가 운영하는 블로그 |
 
 
 ## #2. Reference to
