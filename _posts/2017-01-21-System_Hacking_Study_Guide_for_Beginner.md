@@ -39,7 +39,6 @@ logo: 'assets/images/logo.png'
 **3. ==HackerSchool==[^1] FTZ traing 1~10, Level 1~20**  
 **4. HackerSchool Load of BOF 1~20**  
 **5. HackerSchool FC3**
-
 - 처음에는 ==달고나 문서==와 ==Hackerz on the ship의 문서==를 읽는 것을 추천.[^2] 리버싱도 마찬가지.
 - **여기까지 하는데도 상당한 시간이 걸린다.**
 - Training 1~10, Level 1~9까지는 처음에 왜 하는지 잘 이해가 가지 않을 수 있으나, 한번하고 나중에 다시보게 된다면 왜 이것을 했는지 이해할 수 있으며, 공부하면서 프로그래밍 등 기초가 흔들리는 자신의 모습을 볼 수 있을것.
@@ -133,13 +132,13 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 
 ## #2. Reference to
 
-- 보안 전문가의 길 (http://www.slideshare.net/seokhunhwnag/2015-v09\)
-- 시스템 보안이란? (https://www.facebook.com/groups/438543032874514/1074936635901814/\)
-- 달고나 문서 (http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf\)
-- 우리집에 gdb있는데.. 메모리 보고 갈래? (https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/\)
-- 해킹 입문서, 커리큘럼, 테크트리, 리버싱 (http://blog.naver.com/93immm/130179760409\)
-- Phantom이 쓴 Writeup (http://pantom.tistory.com\)
+- 보안 전문가의 길 (http://www.slideshare.net/seokhunhwnag/2015-v09)
+- 시스템 보안이란? (https://www.facebook.com/groups/438543032874514/1074936635901814/)
+- 달고나 문서 (http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf)
+- 우리집에 gdb있는데.. 메모리 보고 갈래? (https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/)
+- 해킹 입문서, 커리큘럼, 테크트리, 리버싱 (http://blog.naver.com/93immm/130179760409)
+- Phantom이 쓴 Writeup (http://pantom.tistory.com)
 
-[^1]: Wargame이라고 하여 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  
+[^1]: Wargame이라고 하며, 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  
 [^2]: 적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.  
 [^3]: Hax-ray를 손으로 하는 방법.
