@@ -18,11 +18,11 @@ logo: 'assets/images/logo.png'
 - ==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도)
 
 - **TechTree 1**
-![TechTree 1](../assets/Post_Images/tech.png)
+![TechTree 1](../assets/Post_Images/2017/01/21/System_Hacking_Study_Guide_for_beginner/tech.png)
 <br>
 
 - **TechTree 2**
-![TechTree 2](../assets/Post_Images/tech2.png)
+![TechTree 2](../assets/Post_Images/2017/01/21/System_Hacking_Study_Guide_for_beginner/tech2.png)
 
 ---
 
