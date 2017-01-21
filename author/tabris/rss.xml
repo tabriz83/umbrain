@@ -12,6 +12,176 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>초보자를 위한 시스템해킹 공부 가이드라인</title>
+	  <link>/umbrain//System_Hacking_Study_Guide_for_Beginner</link>
+	  <author>taBRis</author>
+	  <pubDate>2017-01-21T02:17:00+00:00</pubDate>
+	  <guid>/umbrain//System_Hacking_Study_Guide_for_Beginner</guid>
+	  <description><![CDATA[
+	     <h2>초보자를 위한 시스템 해킹 공부 가이드라인 <a href="https://www.facebook.com/HSPantom">홍승표 作</a>(a.k.a Phantom)</h2>
+
+<hr>
+
+<p><br></p>
+
+<h2>1. 기본기</h2>
+
+<ul>
+<li><strong>C언어</strong>, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)</li>
+<li><strong>리눅스</strong></li>
+<li><p><strong>네트워크 기초</strong> (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도</p></li>
+<li><p><strong>TechTree 1</strong>
+<img src="../assets/Post_Images/tech.png" alt="TechTree 1">
+<br></p></li>
+<li><p><strong>TechTree 2</strong>
+<img src="../assets/Post_Images/tech2.png" alt="TechTree 2">
+<br></p></li>
+</ul>
+
+<h2>2. 전문분야</h2>
+
+<p><strong>1. Pwnable</strong><br>
+<strong>2. Reversing</strong>
+<br></p>
+
+<h3>2.1. Pwnable</h3>
+
+<ul>
+<li><p>** 추천 공부 순서**<br>
+<strong>1. <mark>달고나 문서</mark></strong><br>
+<strong>2. <mark>Hackerz on the ship</mark> - 우리 집에 gdb있는데.. 메모리 보고갈래?</strong><br>
+<strong>3. ++HackerSchool++<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> FTZ traing 1~10, Level 1~20</strong><br>
+<strong>4. HackerSchool Load of BOF 1~20</strong><br>
+<strong>5. HackerSchool FC3</strong></p></li>
+<li><p>처음에는 <mark>달고나 문서</mark>와 Hackerz on the ship의 문서를 읽는 것을 추천.<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> 리버싱도 마찬가지.  </p></li>
+<li><p><strong>여기까지 하는데도 상당한 시간이 걸린다.</strong>  </p></li>
+<li><p>Training 1~10, Level 1~9까지는 처음에 왜 하는지 잘 이해가 가지 않을 수 있으나, 한번하고 나중에 다시보게 된다면 왜 이것을 했는지 이해할 수 있으며, 공부하면서 프로그래밍 등 기초가 흔들리는 자신의 모습을 볼 수 있을것.  </p></li>
+</ul>
+
+<blockquote>
+<p><strong>Phantom의 의견</strong></p>
+
+<p>처음 공부할 때 어떻게 해야 할 지 몰라서 &#39;문제 풀이로 배우는 시스템 해킹 테크닉&#39;이라는 FTZ문제 풀이 책을 봤다. 이해가 가는 부분도 있고, 가지 않는 부분도 있을 것이다. 적어도 한번정도는 이해가 안가는 부분을 최대한 해보고, 그래도 안되면 <strong>다음을 기약하며</strong> 넘기고 앞으로 계속 가기를 바란다.</p>
+
+<p>FTZ를 풀고 LOB까지? FC3까지는 처음 혼자 해보다 잘 안되면 <strong>풀이를 보고 공부했다. 그리고 다시 풀이를 보지 않고 공부를 했다.</strong></p>
+
+<p>해커스쿨의 각종 문서들과 발표자료 등 필요할 때 매우 자주 찾아보는 것을 추천한다.</p>
+
+<p>그리고 문제풀이 라는 것은 FTZ Level9?부터 익스플로잇 코드까지 작성하는 것을 푸는 것이라 생각하는 것이 좋다.</p>
+</blockquote>
+
+<p><br>
+- <strong>이후 추천 공부 순서</strong><br>
+<strong>1. exploit-exercises.com - Nebula, Protostar, Fusion</strong><br>
+<strong>2. OvertheWire - votex</strong><br>
+<strong>3. Pwnable.kr</strong>  </p>
+
+<ul>
+<li>이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.</li>
+<li>Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.</li>
+</ul>
+
+<h2>- 대부분이 문서로 존재한다.</h2>
+
+<h3>2.2 Reversing</h3>
+
+<ul>
+<li><strong>추천 공부 순서</strong><br>
+<strong>1. Abex&#39;s Crackme 1~5</strong><br>
+<strong>2. CodeEngn Basic RCE 1~20</strong><br>
+<strong>3. Simples.kr Season 1 Crack, Unpack, Season 2 Reverse</strong><br>
+<strong>4. CodeEngn Advanced RCE 1~18</strong><br>
+<strong>5. Reversing.kr</strong><br></li>
+</ul>
+
+<blockquote>
+<p><strong>Phantom의 의견</strong></p>
+
+<p>처음 Reversing을 공부했을 때, 흔히 나뭇잎책, 방독면책 하는 바이블이라 불리는 책을 보면서 공부를 하는데, ++하나도 몰랐다!!!++</p>
+
+<p>책을 따라가며 부분부분 이해하며 넘기긴 하는데, 정신을 차리면 영혼이 잠시 마실 나갔다 온 것처럼 기억을 못했고, 어셈블리어 한 줄 한 줄은 알겠는데, 전체적인 흐름이 보이지 않았다.</p>
+
+<p>이런 이유로 리버싱을 자주 포기했었고, 거의 포기했다. <strong>역시 달고나 문서와 Hackerz on the ship의 문서를 읽길 바란다.</strong></p>
+
+<p>멘토님이 한가지 과제를 주셨는데, Simples.kr Crackme 1~20 1번 Writeup 보고 풀고 1주일 후에 보고서 제출이었다. 진짜 더럽게 이해 안가고 그랬지만 1주일 안에 했다. 그리고 지금, 다시 문제를 푸니 전체적인 개념이 조금이나마 깃들어 있어 혼자 풀기 시작한다. 심지어 아주 쉬운 CTF문제 하나도 혼자 풀었다.</p>
+
+<p>공부한 책으로는 나뭇잎, 방독면 등등 두 세 개 있는 것 같은데 대부분 레퍼런스로 보고 있다.</p>
+
+<p>어셈블리어를 체화 하는 것에는 <strong>핸드레이</strong>(Hand+hex-ray)<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup>가 좋다. C를 어셈으로, 어셈을 C로 풀어보는 것으로, 이것은 개인적인 의견이 아니라 대표님들이, 악성코드 분석 현업에 계신 분들이 말씀해 주신 것을 토대로 하는 이야기다.</p>
+
+<p>이정도 할 생각이면 Pwnable이든, Reversing이든 크게 심적으로 힘들지 않을 것이다.</p>
+
+<p>그리고 나뭇잎과 같은 책들은 처음엔 많이 어려울 수 있다. 하지만 선행학습이 된다면 그 내용들이 쉬워질 것이다. 나 또한 지금에서야 깨달은 것이지만 매우 쉽다. 아직 앞부분만이지만.</p>
+
+<p>그 이후 PE부분부터는 OS지식에 대한 것이 부족하다는 것을 느낄 것이다. 그 때 부터 기본을 쌓기 시작할 수도 있다.</p>
+
+<p>Crackme를 풀 때부터 Windows API를 보고 그럴 것이다. 그러면서 기초가 쌓인다. Codeengn은 시스템의 해커스쿨과 비슷한 곳이다. 그곳에서 문서를 쉽게 찾을 수 있을 것이다.</p>
+</blockquote>
+
+<h2>3. 마무리</h2>
+
+<p>Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해 Writeup을 보고 먼저 한바퀴 만큼은 풀길 바란다. 그 이유는 적어도 이것이 어떤 것이라는 ++적응++이 필요하기 때문이다. (특히 Reversing) 그리고 다시 돌아와서 제대로 공부하기를 바라며, 처음에 영혼없이 하더라도 이것이 어떤 것인지는 인식을 하고 있어야 한다.</p>
+
+<p>공부하는 방법을 알아내는 것도 실력이고, 뭘 공부해야할지 알아내는 것도 실력이며, 뭘 공부할지 모를 때 오는 슬럼프를 극복하는 것도 실력이다.</p>
+
+<p>어차피 공부하는 것은 혼자이다. 스터디에 들었다고, 팀에 들었다고 절대 내 실력이 오르는 것이 아니다. 이 생각이 제일 위험하고 자만하면 안된다.</p>
+
+<p><strong>스스로 찾고 해결해 나가는 것이 중요하다.</strong></p>
+
+<h2>#1. 공부에 도움이 되는 사이트들</h2>
+
+<p>|분류|관련사이트|비고|
+|-|-|-|
+|침해사고 대응|<a href="http://securitypractice.or.kr/index.php%7CKISA%EC%97%90%EC%84%9C">http://securitypractice.or.kr/index.php|KISA에서</a> 운영하는 침해사고 대응 훈련장|
+|모의해킹|<a href="http://hackerschool.org%7C%EC%8B%9C%EC%8A%A4%ED%85%9C">http://hackerschool.org|시스템</a> 해킹 실습 환경 제공 및 기타 정보들|
+||<a href="http://www.wechall.net%7C%EC%A0%84%EC%84%B8%EA%B3%84">http://www.wechall.net|전세계</a> 해킹 실습환경을 한곳에 모아둔 사이트|
+||<a href="http://webhacking.kr%7C%EC%9B%B9">http://webhacking.kr|웹</a> 해킹 문제 풀이 사이트|
+||<a href="http://codeengn.com%7C%ED%95%B4%ED%82%B9%EA%B4%80%EB%A0%A8">http://codeengn.com|해킹관련</a> 문서가 다량 보유된 사이트|
+||<a href="http://xcz.kr/START/challenge.php%7C%EB%8B%A4%EC%96%91%ED%95%9C">http://xcz.kr/START/challenge.php|다양한</a> 분야의 문제가 혼용된 사이트|
+||<a href="https://www.corelan.be/index.php/articles/%7C%EB%A6%AC%EB%B2%84%EC%8B%B1">https://www.corelan.be/index.php/articles/|리버싱</a> 등에 관한 상세한 기사들이 다수 존재하는 곳(영문)|
+||<a href="http://www.droidsec.org/wiki/#whitepapers%7C%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C">http://www.droidsec.org/wiki/#whitepapers|안드로이드</a> 해킹에 대한 모든 정보가 있는 곳|
+||<a href="https://www.ietf.org/rfc.html%7C%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC">https://www.ietf.org/rfc.html|네트워크</a> 프로토콜 RFC 자료|
+||<a href="http://www.owasp.net%7COWASP">http://www.owasp.net|OWASP</a>, ESAPI등 관련 정보가 있는 곳|
+||<a href="http://resources.infosecinstitute.com%7C%EC%95%84%EC%A3%BC">http://resources.infosecinstitute.com|아주</a> 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)|
+||<a href="http://www.wowhacker.com%7C%EC%96%B8%EB%8D%94%ED%95%B4%EC%BB%A4">http://www.wowhacker.com|언더해커</a> 모임|
+|프로그래밍|<a href="http://www.pythonchallenge.com%7CPython">http://www.pythonchallenge.com|Python</a> 문제 풀이 사이트|
+|포렌식|<a href="http://maj3sty.tistory.com%7C%EA%B0%9C%EC%9D%B8%EC%9D%B4">http://maj3sty.tistory.com|개인이</a> 운영하는 블로그로 포렌식 관련 자료 다수 보유|
+||<a href="http://forensic-proof.com%7C%ED%94%8C%EB%A0%88%EC%9D%B8%EB%B9%84%ED%8A%B8">http://forensic-proof.com|플레인비트</a> 김진국 대표가 운영하는 블로그|</p>
+
+<h2>#2. Reference to</h2>
+
+<ul>
+<li>보안 전문가의 길 (<a href="http://www.slideshare.net/seokhunhwnag/2015-v09%5C">http://www.slideshare.net/seokhunhwnag/2015-v09\</a>)</li>
+<li>시스템 보안이란? (<a href="https://www.facebook.com/groups/438543032874514/1074936635901814/%5C">https://www.facebook.com/groups/438543032874514/1074936635901814/\</a>)</li>
+<li>달고나 문서 (<a href="http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf%5C">http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf\</a>)</li>
+<li>우리집에 gdb있는데.. 메모리 보고 갈래? (<a href="https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/%5C">https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/\</a>)</li>
+<li>해킹 입문서, 커리큘럼, 테크트리, 리버싱 (<a href="http://blog.naver.com/93immm/130179760409%5C">http://blog.naver.com/93immm/130179760409\</a>)</li>
+<li>Phantom이 쓴 Writeup (<a href="http://pantom.tistory.com%5C">http://pantom.tistory.com\</a>)</li>
+</ul>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p>Wargame이라고 하여 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  &nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn2">
+<p>적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.  &nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn3">
+<p>Hax-ray를 손으로 하는 방법.&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>2016-12-31 Facebook 정보 스크랩</title>
 	  <link>/umbrain//Facebook_scrap</link>
 	  <author>taBRis</author>
@@ -23,7 +193,7 @@
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDYy0GjtQSkjXog&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fwww.mindmeister.com%2Fexport%2Fimage%2F813479007%3Fheight%3D600%26variable_size%3D1%26width%3D1200&amp;cfs=1&amp;_nc_hash=AQAizi20mCNNO72e" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDYy0GjtQSkjXog&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fwww.mindmeister.com%2Fexport%2Fimage%2F813479007%3Fheight%3D600%26variable_size%3D1%26width%3D1200&amp;cfs=1&amp;_nc_hash=AQAizi20mCNNO72e"></p>
 
 <blockquote>
-<p>Public mind map by jason h choi. Create your own collaborative mind maps for free at www.mindmeister.com</p>
+<p>Public mind map by jason h choi. Create your own collaborative mind maps for free at <a href="http://www.mindmeister.com">www.mindmeister.com</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://mm.tt/813479007?t=EIidZUB9pn">https://mm.tt/813479007?t=EIidZUB9pn</a></strong></p>
@@ -125,7 +295,7 @@
 <blockquote>
 <h1>OpSingleGateway - Gh0s7 hacked Thai Government website in response to the recent arrests</h1>
 
-<p>http://securityaffairs.co/wordpress/54906/breaking-news/opsinglegateway-gh0s7.html</p>
+<p><a href="http://securityaffairs.co/wordpress/54906/breaking-news/opsinglegateway-gh0s7.html">http://securityaffairs.co/wordpress/54906/breaking-news/opsinglegateway-gh0s7.html</a></p>
 
 <h1>securityaffairs #Thailand #hacktivism</h1>
 </blockquote>
@@ -144,7 +314,7 @@
 <p>Google Hacking for PenTester</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/google-hacking-for-pentester/</p>
+<p><a href="http://kalilinux.co/forums/topic/google-hacking-for-pentester/">http://kalilinux.co/forums/topic/google-hacking-for-pentester/</a></p>
 
 <p><strong>Link : <a href="http://kalilinux.co/forums/topic/google-hacking-for-pentester/">http://kalilinux.co/forums/topic/google-hacking-for-pentester/</a></strong></p>
 
@@ -205,7 +375,7 @@
 <blockquote>
 <p>SCADA Hacking: Finding SCADA Systems using Shodan
 - 쇼단을 이용한 스카다 시스템 해킹
-http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-Systems-using-Shodan</p>
+<a href="http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-Systems-using-Shodan">http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-Systems-using-Shodan</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-Systems-using-Shodan">http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-Systems-using-Shodan</a></strong></p>
@@ -222,7 +392,7 @@ http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-
 <p>Python tools for Penetration Testers</p>
 </blockquote>
 
-<p>http://kalilinux.co/2016/07/12/python-tools-for-penetration-testers%e2%80%8b/</p>
+<p><a href="http://kalilinux.co/2016/07/12/python-tools-for-penetration-testers%e2%80%8b/">http://kalilinux.co/2016/07/12/python-tools-for-penetration-testers%e2%80%8b/</a></p>
 
 <p><strong>Link : <a href="http://kalilinux.co/2016/07/12/python-tools-for-penetration-testers%e2%80%8b/">http://kalilinux.co/2016/07/12/python-tools-for-penetration-testers%e2%80%8b/</a></strong></p>
 
@@ -252,7 +422,7 @@ http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-
 <p>onioff: Inspecting Deep Web Links</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/onioff-inspecting-deep-web-links/</p>
+<p><a href="http://kalilinux.co/forums/topic/onioff-inspecting-deep-web-links/">http://kalilinux.co/forums/topic/onioff-inspecting-deep-web-links/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1371582082872291/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1371582082872291/?type=3</a></strong></p>
 
@@ -279,7 +449,7 @@ http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-
 <p>Redirect Metasploit traffic through Tor</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/redirect-metasploit-traffic-through-tor/</p>
+<p><a href="http://kalilinux.co/forums/topic/redirect-metasploit-traffic-through-tor/">http://kalilinux.co/forums/topic/redirect-metasploit-traffic-through-tor/</a></p>
 
 <p><strong>Link : <a href="http://kalilinux.co/forums/topic/redirect-metasploit-traffic-through-tor/">http://kalilinux.co/forums/topic/redirect-metasploit-traffic-through-tor/</a></strong></p>
 
@@ -295,7 +465,7 @@ http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-
 <p>SCADA Hacking: Hacking the Schneider Automated Building System</p>
 </blockquote>
 
-<p>http://www.hackers-arise.com/single-post/2016/08/05/SCADA-Hacking-Hacking-the-Schneider-Automated-Building-System</p>
+<p><a href="http://www.hackers-arise.com/single-post/2016/08/05/SCADA-Hacking-Hacking-the-Schneider-Automated-Building-System">http://www.hackers-arise.com/single-post/2016/08/05/SCADA-Hacking-Hacking-the-Schneider-Automated-Building-System</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1290653724331832/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1290653724331832/?type=3</a></strong></p>
 
@@ -325,7 +495,7 @@ http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-
 <p>SSH server auditing Tool</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/ssh-server-auditing-tool/</p>
+<p><a href="http://kalilinux.co/forums/topic/ssh-server-auditing-tool/">http://kalilinux.co/forums/topic/ssh-server-auditing-tool/</a></p>
 
 <p><strong>Link : <a href="http://kalilinux.co/forums/topic/ssh-server-auditing-tool/">http://kalilinux.co/forums/topic/ssh-server-auditing-tool/</a></strong></p>
 
@@ -369,7 +539,7 @@ http://www.hackers-arise.com/single-post/2016/06/30/Hacking-SCADA-Finding-SCADA-
 <p>virustotal api 및 문서 템블릿 테스트</p>
 </blockquote>
 
-<p>http://speedr00t.tistory.com/entry/virustotal-api-%EB%B0%8F-%EB%AC%B8%EC%84%9C-%ED%85%9C%EB%B8%94%EB%A6%BF-%ED%85%8C%EC%8A%A4%ED%8A%B8</p>
+<p><a href="http://speedr00t.tistory.com/entry/virustotal-api-%EB%B0%8F-%EB%AC%B8%EC%84%9C-%ED%85%9C%EB%B8%94%EB%A6%BF-%ED%85%8C%EC%8A%A4%ED%8A%B8">http://speedr00t.tistory.com/entry/virustotal-api-%EB%B0%8F-%EB%AC%B8%EC%84%9C-%ED%85%9C%EB%B8%94%EB%A6%BF-%ED%85%8C%EC%8A%A4%ED%8A%B8</a></p>
 
 <p><strong>Link : <a href="http://speedr00t.tistory.com/entry/virustotal-api-%EB%B0%8F-%EB%AC%B8%EC%84%9C-%ED%85%9C%EB%B8%94%EB%A6%BF-%ED%85%8C%EC%8A%A4%ED%8A%B8">http://speedr00t.tistory.com/entry/virustotal-api-%EB%B0%8F-%EB%AC%B8%EC%84%9C-%ED%85%9C%EB%B8%94%EB%A6%BF-%ED%85%8C%EC%8A%A4%ED%8A%B8</a></strong></p>
 
@@ -427,7 +597,7 @@ mac os에서 venv를 만들고 특정폴더에 접속시 자동 활성화 되는
 
 <p>tensorflow와 openAI의 gym을 활용하여 강화학습 알고리즘들을 설명하고, 구현해놓은 블로그가 있어서 소개드립니다.</p>
 
-<p>https://medium.com/@awjuliani/latest</p>
+<p><a href="https://medium.com/@awjuliani/latest">https://medium.com/@awjuliani/latest</a></p>
 
 <p>강화학습 외에도 AI전반에 대해 다루고 계신 분이신데,
 내용 및 코드에 대한 설명이 친절하게 잘 되어 있네요.</p>
@@ -565,7 +735,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>Designing an Undetectable PLC(Programmable Logic Controller) Rootkit via Pin Control Attack</p>
 </blockquote>
 
-<p>https://www.blackhat.com/docs/eu-16/materials/eu-16-Abbasi-Ghost-In-The-PLC-Designing-An-Undetectable-Programmable-Logic-Controller-Rootkit-wp.pdf</p>
+<p><a href="https://www.blackhat.com/docs/eu-16/materials/eu-16-Abbasi-Ghost-In-The-PLC-Designing-An-Undetectable-Programmable-Logic-Controller-Rootkit-wp.pdf">https://www.blackhat.com/docs/eu-16/materials/eu-16-Abbasi-Ghost-In-The-PLC-Designing-An-Undetectable-Programmable-Logic-Controller-Rootkit-wp.pdf</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288657867864751/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288657867864751/?type=3</a></strong></p>
 
@@ -595,7 +765,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>Rooting Every Android From Extension To Exploitation by Keen  Lab of Tencent</p>
 </blockquote>
 
-<p>https://speakerdeck.com/retme7/rooting-every-android-from-extension-to-exploitation</p>
+<p><a href="https://speakerdeck.com/retme7/rooting-every-android-from-extension-to-exploitation">https://speakerdeck.com/retme7/rooting-every-android-from-extension-to-exploitation</a></p>
 
 <p><strong>Link : <a href="https://speakerdeck.com/retme7/rooting-every-android-from-extension-to-exploitation">https://speakerdeck.com/retme7/rooting-every-android-from-extension-to-exploitation</a></strong></p>
 
@@ -695,7 +865,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>[신간소개] 원하는 데이터를 자바스크립트로 수집하고 분석하는 기막힌 방법! 오늘 소개해드릴 책이 바로 그런 책입니다. 자바스크립트와 Node.js를 이용하여 다양한 에이전트를 만들고 그 에이전트로 하여금 웹에 흩어져 있는 자료들을 찾고, 정리하고, 분석하는 방법을 안내합니다. </p>
 </blockquote>
 
-<p>http://jpub.tistory.com/647</p>
+<p><a href="http://jpub.tistory.com/647">http://jpub.tistory.com/647</a></p>
 
 <p><strong>Link : <a href="http://jpub.tistory.com/647">http://jpub.tistory.com/647</a></strong></p>
 
@@ -725,7 +895,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>Windows X86 System Call Table (NT/2000/XP/2003/Vista/2008/7/8/10)</p>
 </blockquote>
 
-<p>http://j00ru.vexillium.org/ntapi/</p>
+<p><a href="http://j00ru.vexillium.org/ntapi/">http://j00ru.vexillium.org/ntapi/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288673277863210/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288673277863210/?type=3</a></strong></p>
 
@@ -783,7 +953,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>Hack With XSLT </p>
 </blockquote>
 
-<p>http://evi1cg.me/archives/Hack<em>With</em>XSLT.html</p>
+<p><a href="http://evi1cg.me/archives/Hack_With_XSLT.html">http://evi1cg.me/archives/Hack_With_XSLT.html</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1289278777802660/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1289278777802660/?type=3</a></strong></p>
 
@@ -810,7 +980,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <h3>RajHackingArticles</h3>
 
 <blockquote>
-<p>https://www.linkedin.com/pulse/hack-fortress-vm-ctf-challenge-raj-chandel?articleId=6220159823305113600#comments-6220159823305113600&amp;trk=prof-post</p>
+<p><a href="https://www.linkedin.com/pulse/hack-fortress-vm-ctf-challenge-raj-chandel?articleId=6220159823305113600#comments-6220159823305113600&amp;trk=prof-post">https://www.linkedin.com/pulse/hack-fortress-vm-ctf-challenge-raj-chandel?articleId=6220159823305113600#comments-6220159823305113600&amp;trk=prof-post</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://www.linkedin.com/pulse/hack-fortress-vm-ctf-challenge-raj-chandel?articleId=6220159823305113600#comments-6220159823305113600&amp;trk=prof-post">https://www.linkedin.com/pulse/hack-fortress-vm-ctf-challenge-raj-chandel?articleId=6220159823305113600#comments-6220159823305113600&amp;trk=prof-post</a></strong></p>
@@ -853,7 +1023,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>랜섬웨어 연대기 - Ransomware Chronicle</p>
 </blockquote>
 
-<p>http://privacy-pc.com/articles/ransomware-chronicle.html</p>
+<p><a href="http://privacy-pc.com/articles/ransomware-chronicle.html">http://privacy-pc.com/articles/ransomware-chronicle.html</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288924981171373/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288924981171373/?type=3</a></strong></p>
 
@@ -869,7 +1039,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 <p>MS Office Shellcode execution via .HTA((Html application) </p>
 </blockquote>
 
-<p>http://evi1cg.me/archives/Office<em>Shellcode</em>Execution.html</p>
+<p><a href="http://evi1cg.me/archives/Office_Shellcode_Execution.html">http://evi1cg.me/archives/Office_Shellcode_Execution.html</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1289279767802561/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1289279767802561/?type=3</a></strong></p>
 
@@ -932,7 +1102,7 @@ class 와 instance 개념에 대해서 동영상을 만들어 봤습니다. 아�
 This scanner will scan a network for specific types of IoT devices to detect if they are using the default, factory set credentials.</p>
 </blockquote>
 
-<p>https://github.com/rapid7/IoTSeeker</p>
+<p><a href="https://github.com/rapid7/IoTSeeker">https://github.com/rapid7/IoTSeeker</a></p>
 
 <p><strong>Link : <a href="https://github.com/rapid7/IoTSeeker">https://github.com/rapid7/IoTSeeker</a></strong></p>
 
@@ -1006,7 +1176,7 @@ This scanner will scan a network for specific types of IoT devices to detect if 
 Hacking ElasticSearch</p>
 </blockquote>
 
-<p>https://2016.zeronights.ru/wp-content/uploads/2016/12/Hacking-ElasticSearch.pdf</p>
+<p><a href="https://2016.zeronights.ru/wp-content/uploads/2016/12/Hacking-ElasticSearch.pdf">https://2016.zeronights.ru/wp-content/uploads/2016/12/Hacking-ElasticSearch.pdf</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288665821197289/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288665821197289/?type=3</a></strong></p>
 
@@ -1079,7 +1249,7 @@ Hacking ElasticSearch</p>
 SCADA Vulnerabilities and Exposures Database (SVE)</p>
 </blockquote>
 
-<p>http://www.critifence.com/sve/</p>
+<p><a href="http://www.critifence.com/sve/">http://www.critifence.com/sve/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288977294499475/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1288977294499475/?type=3</a></strong></p>
 
@@ -1095,7 +1265,7 @@ SCADA Vulnerabilities and Exposures Database (SVE)</p>
 <p>What is PHP Injection?</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/what-is-php-injection/</p>
+<p><a href="http://kalilinux.co/forums/topic/what-is-php-injection/">http://kalilinux.co/forums/topic/what-is-php-injection/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369704259726740/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369704259726740/?type=3</a></strong></p>
 
@@ -1111,7 +1281,7 @@ SCADA Vulnerabilities and Exposures Database (SVE)</p>
 <p>Bypass XSS filtering using HEX Encoding</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/bypass-xss-filtering-using-hex-encoding/</p>
+<p><a href="http://kalilinux.co/forums/topic/bypass-xss-filtering-using-hex-encoding/">http://kalilinux.co/forums/topic/bypass-xss-filtering-using-hex-encoding/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369706016393231/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369706016393231/?type=3</a></strong></p>
 
@@ -1127,7 +1297,7 @@ SCADA Vulnerabilities and Exposures Database (SVE)</p>
 <p>How to Detect WebShell on PHP Web Server</p>
 </blockquote>
 
-<p>http://kalilinux.co/2016/12/29/detect-webshell-php-web-server/</p>
+<p><a href="http://kalilinux.co/2016/12/29/detect-webshell-php-web-server/">http://kalilinux.co/2016/12/29/detect-webshell-php-web-server/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369706713059828/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369706713059828/?type=3</a></strong></p>
 
@@ -1154,7 +1324,7 @@ SCADA Vulnerabilities and Exposures Database (SVE)</p>
 <blockquote>
 <p>스마트 TV 랜섬웨어 감염사례 ... 
 .
-https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
+<a href="https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection">https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection">https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</a></strong></p>
@@ -1177,9 +1347,9 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 
 <p>2017년 1월 #모두를위한딥러닝 시즌 1 수업을 들으시고 2월 1일 준비된 퀴즈를 맞추시는 100분을 추첨하여 선물을 드립니다.</p>
 
-<p>이벤트에 대한 자세한 안내: https://docs.google.com/document/d/1mArk2XvKcFf7XvwAqxb8VhdRmMZwl7uYRiIsdzCMQvo/pub</p>
+<p>이벤트에 대한 자세한 안내: <a href="https://docs.google.com/document/d/1mArk2XvKcFf7XvwAqxb8VhdRmMZwl7uYRiIsdzCMQvo/pub">https://docs.google.com/document/d/1mArk2XvKcFf7XvwAqxb8VhdRmMZwl7uYRiIsdzCMQvo/pub</a></p>
 
-<p>https://hunkim.github.io/ml/</p>
+<p><a href="https://hunkim.github.io/ml/">https://hunkim.github.io/ml/</a></p>
 
 <p>#모두를위한딥러닝</p>
 
@@ -1203,7 +1373,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 
 <hr>
 
-<h3>Asecurity - http://asecurity.so</h3>
+<h3>Asecurity - <a href="http://asecurity.so">http://asecurity.so</a></h3>
 
 <blockquote>
 <p>실행 파일의 인자 값에 대한 생각 내용은 게임에서 보안 사고가 나타나 조사를 진행하였을 때 입니다.
@@ -1224,7 +1394,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 <p>Ares: Python botnet and backdoor</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/ares-python-botnet-backdoor/</p>
+<p><a href="http://kalilinux.co/forums/topic/ares-python-botnet-backdoor/">http://kalilinux.co/forums/topic/ares-python-botnet-backdoor/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369707429726423/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1369707429726423/?type=3</a></strong></p>
 
@@ -1237,7 +1407,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCxEcgMEc7lxDDt&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2FAAEAAQAAAAAAAAjrAAAAJGJmM2EwZmM0LTRjYzEtNGI0Mi1hMDUzLTcxZWZkMWJhZjRmYQ.png&amp;cfs=1&amp;_nc_hash=AQDRlj7onMMbzhnr" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCxEcgMEc7lxDDt&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2FAAEAAQAAAAAAAAjrAAAAJGJmM2EwZmM0LTRjYzEtNGI0Mi1hMDUzLTcxZWZkMWJhZjRmYQ.png&amp;cfs=1&amp;_nc_hash=AQDRlj7onMMbzhnr"></p>
 
 <blockquote>
-<p>https://www.linkedin.com/pulse/penetration-testing-http-protocol-verb-tempering-raj-chandel?articleId=6220272732265897984#comments-6220272732265897984&amp;trk=prof-post</p>
+<p><a href="https://www.linkedin.com/pulse/penetration-testing-http-protocol-verb-tempering-raj-chandel?articleId=6220272732265897984#comments-6220272732265897984&amp;trk=prof-post">https://www.linkedin.com/pulse/penetration-testing-http-protocol-verb-tempering-raj-chandel?articleId=6220272732265897984#comments-6220272732265897984&amp;trk=prof-post</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://www.linkedin.com/pulse/penetration-testing-http-protocol-verb-tempering-raj-chandel?articleId=6220272732265897984#comments-6220272732265897984&amp;trk=prof-post">https://www.linkedin.com/pulse/penetration-testing-http-protocol-verb-tempering-raj-chandel?articleId=6220272732265897984#comments-6220272732265897984&amp;trk=prof-post</a></strong></p>
@@ -1246,7 +1416,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 
 <hr>
 
-<h3>Asecurity - http://asecurity.so</h3>
+<h3>Asecurity - <a href="http://asecurity.so">http://asecurity.so</a></h3>
 
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBd0oomqHfN0NI6&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fasecurity.so%2Fwp-content%2Fuploads%2F2016%2F05%2Fwhoruevent20.png&amp;cfs=1&amp;_nc_hash=AQCmdnDzNJWzz9zj" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBd0oomqHfN0NI6&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fasecurity.so%2Fwp-content%2Fuploads%2F2016%2F05%2Fwhoruevent20.png&amp;cfs=1&amp;_nc_hash=AQCmdnDzNJWzz9zj"></p>
 
@@ -1280,7 +1450,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 <p>How to write Powershell ReverseShell</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/powershell-reverseshell/#post-4560</p>
+<p><a href="http://kalilinux.co/forums/topic/powershell-reverseshell/#post-4560">http://kalilinux.co/forums/topic/powershell-reverseshell/#post-4560</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1368343063196193/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1368343063196193/?type=3</a></strong></p>
 
@@ -1303,7 +1473,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDYy0GjtQSkjXog&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fwww.mindmeister.com%2Fexport%2Fimage%2F813479007%3Fheight%3D600%26variable_size%3D1%26width%3D1200&amp;cfs=1&amp;_nc_hash=AQAizi20mCNNO72e" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDYy0GjtQSkjXog&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fwww.mindmeister.com%2Fexport%2Fimage%2F813479007%3Fheight%3D600%26variable_size%3D1%26width%3D1200&amp;cfs=1&amp;_nc_hash=AQAizi20mCNNO72e"></p>
 
 <blockquote>
-<p>Public mind map by jason h choi. Create your own collaborative mind maps for free at www.mindmeister.com</p>
+<p>Public mind map by jason h choi. Create your own collaborative mind maps for free at <a href="http://www.mindmeister.com">www.mindmeister.com</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://mm.tt/813479007?t=EIidZUB9pn">https://mm.tt/813479007?t=EIidZUB9pn</a></strong></p>
@@ -1358,7 +1528,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 <p>Exploiting PUT method for uploading WebShell</p>
 </blockquote>
 
-<p>http://kalilinux.co/2016/12/25/exploiting-put-method-uploading-webshell/</p>
+<p><a href="http://kalilinux.co/2016/12/25/exploiting-put-method-uploading-webshell/">http://kalilinux.co/2016/12/25/exploiting-put-method-uploading-webshell/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366527903377709/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366527903377709/?type=3</a></strong></p>
 
@@ -1390,7 +1560,7 @@ https://www.hackread.com/lg-smart-tv-screen-android-ransomware-infection</p>
 
 <p>awesome-python: A curated list of awesome Python frameworks, libraries, software and resources</p>
 
-<p>http://kalilinux.co/forums/topic/awesome-python-curated-list-awesome-python-frameworks-libraries-software-resources/</p>
+<p><a href="http://kalilinux.co/forums/topic/awesome-python-curated-list-awesome-python-frameworks-libraries-software-resources/">http://kalilinux.co/forums/topic/awesome-python-curated-list-awesome-python-frameworks-libraries-software-resources/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1367132766650556/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1367132766650556/?type=3</a></strong></p>
 
@@ -1450,7 +1620,7 @@ Python Data Science Handbook</p>
 <p>Top things to do after installing Archlinux</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/top-things-installing-archlinux/</p>
+<p><a href="http://kalilinux.co/forums/topic/top-things-installing-archlinux/">http://kalilinux.co/forums/topic/top-things-installing-archlinux/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366277073402792/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366277073402792/?type=3</a></strong></p>
 
@@ -1480,7 +1650,7 @@ Python Data Science Handbook</p>
 <p>강화학습을 이용하면 ATARI 게임들을 자동으로 학습하여 사람보다 잘할수 있고, 이세돌 선수를 꺽은 알파고도 강화학습이 핵심이였습니다.</p>
 </blockquote>
 
-<p>2월 1일부터 TensorFlow와 OpenAI Gym을 이용한 강의를 시작합니다. 이전 &quot;모두를 위한 딥러닝강의 ( https://www.inflearn.com/course/기본적인-머신러닝-딥러닝-강좌/ 이나 https://hunkim.github.io/ml/ )&quot;와 마찬가지로 수학적인 개념이나 컴퓨터 공학 지식없이 생활코딩으로 강화학습 코딩을 하실수 있습니다.</p>
+<p>2월 1일부터 TensorFlow와 OpenAI Gym을 이용한 강의를 시작합니다. 이전 &quot;모두를 위한 딥러닝강의 ( <a href="https://www.inflearn.com/course/%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C/">https://www.inflearn.com/course/기본적인-머신러닝-딥러닝-강좌/</a> 이나 <a href="https://hunkim.github.io/ml/">https://hunkim.github.io/ml/</a> )&quot;와 마찬가지로 수학적인 개념이나 컴퓨터 공학 지식없이 생활코딩으로 강화학습 코딩을 하실수 있습니다.</p>
 
 <p>(아직 강의를 만들고 있는 중이므로 혹시 강화학습 관련 추가적인 주제가 있으면 알려주세요.)</p>
 
@@ -1510,7 +1680,7 @@ Python Data Science Handbook</p>
 <p>W3 Total Cache 0.9.2.4 – Username &amp; Hash Extract</p>
 </blockquote>
 
-<p>http://kalilinux.co/forums/topic/w3-total-cache-0-9-2-4-username-hash-extract/</p>
+<p><a href="http://kalilinux.co/forums/topic/w3-total-cache-0-9-2-4-username-hash-extract/">http://kalilinux.co/forums/topic/w3-total-cache-0-9-2-4-username-hash-extract/</a></p>
 
 <p><strong>Link : <a href="http://kalilinux.co/forums/topic/w3-total-cache-0-9-2-4-username-hash-extract/">http://kalilinux.co/forums/topic/w3-total-cache-0-9-2-4-username-hash-extract/</a></strong></p>
 
@@ -1523,7 +1693,7 @@ Python Data Science Handbook</p>
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC-uZfr61S9Rcd_&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fn1ylNKPIh5A%2Fmaxresdefault.jpg&amp;cfs=1&amp;sx=459&amp;sy=0&amp;sw=838&amp;sh=838&amp;_nc_hash=AQDDyb18376AT6BK" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC-uZfr61S9Rcd_&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fn1ylNKPIh5A%2Fmaxresdefault.jpg&amp;cfs=1&amp;sx=459&amp;sy=0&amp;sw=838&amp;sh=838&amp;_nc_hash=AQDDyb18376AT6BK"></p>
 
 <blockquote>
-<p>https://www.youtube.com/watch?v=n1ylNKPIh5A</p>
+<p><a href="https://www.youtube.com/watch?v=n1ylNKPIh5A">https://www.youtube.com/watch?v=n1ylNKPIh5A</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://www.youtube.com/watch?v=n1ylNKPIh5A&amp;t=417s">https://www.youtube.com/watch?v=n1ylNKPIh5A&amp;t=417s</a></strong></p>
@@ -1544,7 +1714,7 @@ Python Data Science Handbook</p>
 
 <hr>
 
-<h3>Asecurity - http://asecurity.so</h3>
+<h3>Asecurity - <a href="http://asecurity.so">http://asecurity.so</a></h3>
 
 <blockquote>
 <p>.NET MVC RestAPI Parser 오늘 .NET MVC RestAPI 호출 테스트 하다가 삽질을 2-3시간 했다.</p>
@@ -1568,7 +1738,7 @@ Python Data Science Handbook</p>
 
 <p>MobileApp Pentest Cheatsheet</p>
 
-<p>http://kalilinux.co/2016/12/26/mobileapp-pentest-cheatsheet</p>
+<p><a href="http://kalilinux.co/2016/12/26/mobileapp-pentest-cheatsheet">http://kalilinux.co/2016/12/26/mobileapp-pentest-cheatsheet</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1367129506650882/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1367129506650882/?type=3</a></strong></p>
 
@@ -1586,7 +1756,7 @@ Python Data Science Handbook</p>
 
 <p>Exitmap is a fast and modular Python-based scanner for Tor exit relays. Exitmap modules implement tasks that are run over (a subset of) all exit relays. If you have a background in functional programming, think of exitmap as a map() interface for Tor exit relays. Modules can perform any TCP-based networking task; fetching a web page, uploading a file, connecting to an SSH server, or joining an IRC channel.</p>
 
-<p>http://kalilinux.co/2016/12/25/exitmap-fast-modular-scanner-tor-exit-relays</p>
+<p><a href="http://kalilinux.co/2016/12/25/exitmap-fast-modular-scanner-tor-exit-relays">http://kalilinux.co/2016/12/25/exitmap-fast-modular-scanner-tor-exit-relays</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366281726735660/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366281726735660/?type=3</a></strong></p>
 
@@ -1604,7 +1774,7 @@ Python Data Science Handbook</p>
 
 <p>HTTP security headers provide yet another layer of security by helping to mitigate attacks and security vulnerabilities. In this post we will explore some of them to help you better understand their purpose and how to implement them.</p>
 
-<p>http://kalilinux.co/forums/topic/http-header-security-configuration/</p>
+<p><a href="http://kalilinux.co/forums/topic/http-header-security-configuration/">http://kalilinux.co/forums/topic/http-header-security-configuration/</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366279600069206/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1366279600069206/?type=3</a></strong></p>
 
@@ -1618,7 +1788,7 @@ Python Data Science Handbook</p>
 <p>tfp0 powered by Pegasus - using pegasus/trident to dump (armv7), #exploit and patch an #iOS 9 kernel (arm64) :</p>
 </blockquote>
 
-<p>https://siguza.github.io/cl0ver/</p>
+<p><a href="https://siguza.github.io/cl0ver/">https://siguza.github.io/cl0ver/</a></p>
 
 <p><strong>Link : <a href="https://siguza.github.io/cl0ver/">https://siguza.github.io/cl0ver/</a></strong></p>
 
@@ -1672,7 +1842,7 @@ Python Data Science Handbook</p>
 <p>Pre-press release of &quot;Modern Windows Hibernation File Analysis&quot; :</p>
 </blockquote>
 
-<p>http://www.504ensics.com/uploads/publications/modern-windows-hibernation.pdf</p>
+<p><a href="http://www.504ensics.com/uploads/publications/modern-windows-hibernation.pdf">http://www.504ensics.com/uploads/publications/modern-windows-hibernation.pdf</a></p>
 
 <p><strong>Link : <a href="http://www.504ensics.com/uploads/publications/modern-windows-hibernation.pdf">http://www.504ensics.com/uploads/publications/modern-windows-hibernation.pdf</a></strong></p>
 
@@ -1686,7 +1856,7 @@ Python Data Science Handbook</p>
 
 <blockquote>
 <p>무료 온라인 프로그래밍 코스 일람
-https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md</p>
+<a href="https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md">https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md">https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md</a></strong></p>
@@ -1707,7 +1877,7 @@ https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md</p>
 
 <p>아래가 대략적인 주제이며 lab과 함께 최소 12강에서 15강으로 이루어질 예정입니다. (아직 강의를 다 만들지는 않았으니 혹시 추가해야할 중요한 주가 주제가 있으시면 알려주세요.)</p>
 
-<p>강화학습강의를 위한 선수 과목으로 &quot;모두를 위한 딥러닝&quot; ( https://www.inflearn.com/course/기본적인-머신러닝-딥러닝-강좌/ 또는 https://hunkim.github.io/ml/) 필수 입니다!</p>
+<p>강화학습강의를 위한 선수 과목으로 &quot;모두를 위한 딥러닝&quot; ( <a href="https://www.inflearn.com/course/%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C/">https://www.inflearn.com/course/기본적인-머신러닝-딥러닝-강좌/</a> 또는 <a href="https://hunkim.github.io/ml/">https://hunkim.github.io/ml/</a>) 필수 입니다!</p>
 
 <p><strong>Link : <a href="https://www.facebook.com/photo.php?fbid=10154888166029521&amp;set=gm.398608343813563&amp;type=3">https://www.facebook.com/photo.php?fbid=10154888166029521&amp;set=gm.398608343813563&amp;type=3</a></strong></p>
 
@@ -1723,7 +1893,7 @@ https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md</p>
 <p>RamFuzz - a #fuzzer for individual method parameters using #LLVM :</p>
 </blockquote>
 
-<p>https://github.com/dekimir/RamFuzz</p>
+<p><a href="https://github.com/dekimir/RamFuzz">https://github.com/dekimir/RamFuzz</a></p>
 
 <p><strong>Link : <a href="https://github.com/dekimir/RamFuzz">https://github.com/dekimir/RamFuzz</a></strong></p>
 
@@ -1777,9 +1947,9 @@ https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md</p>
 <p>Shortcuts as entry points for malware (PoC) :</p>
 </blockquote>
 
-<p>Part 1 - https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-18</p>
+<p>Part 1 - <a href="https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-18">https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-18</a></p>
 
-<p>Part 2 - https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-poc-part-2-19</p>
+<p>Part 2 - <a href="https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-poc-part-2-19">https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-poc-part-2-19</a></p>
 
 <p><strong>Link : <a href="https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-18">https://www.phrozensoft.com/2016/12/shortcuts-as-entry-points-for-malware-18</a></strong></p>
 
@@ -1820,7 +1990,7 @@ Go!  (goo.gl/cTgUHO)</p>
 <p>Writeup for NorthSec Reverse Engineering Challenges :</p>
 </blockquote>
 
-<p>http://montrehack.ca/archives/2016-09-reversing/index.html</p>
+<p><a href="http://montrehack.ca/archives/2016-09-reversing/index.html">http://montrehack.ca/archives/2016-09-reversing/index.html</a></p>
 
 <p><strong>Link : <a href="http://montrehack.ca/archives/2016-09-reversing/index.html">http://montrehack.ca/archives/2016-09-reversing/index.html</a></strong></p>
 
@@ -1838,7 +2008,7 @@ Go!  (goo.gl/cTgUHO)</p>
 
 <p>Thangks to b33f</p>
 
-<p>https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn</p>
+<p><a href="https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn">https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn</a></p>
 
 <p><strong>Link : <a href="https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn">https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn</a></strong></p>
 
@@ -1854,7 +2024,7 @@ Go!  (goo.gl/cTgUHO)</p>
 <p>Basics of Making a #Rootkit - From syscall to hook! :</p>
 </blockquote>
 
-<p>https://d0hnuts.com/2016/12/21/basics-of-making-a-rootkit-from-syscall-to-hook/</p>
+<p><a href="https://d0hnuts.com/2016/12/21/basics-of-making-a-rootkit-from-syscall-to-hook/">https://d0hnuts.com/2016/12/21/basics-of-making-a-rootkit-from-syscall-to-hook/</a></p>
 
 <p><strong>Link : <a href="https://d0hnuts.com/2016/12/21/basics-of-making-a-rootkit-from-syscall-to-hook/">https://d0hnuts.com/2016/12/21/basics-of-making-a-rootkit-from-syscall-to-hook/</a></strong></p>
 
@@ -1899,7 +2069,7 @@ Go!  (goo.gl/cTgUHO)</p>
 Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요, 최근 무료로 공개된 ‘Python Data Science Handbook‘의 2장에 코드와 멋진 설명! 코드들을 쓱 보기만해도 감이 팍팍 옵니다.</p>
 </blockquote>
 
-<p>http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb</p>
+<p><a href="http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb">http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/photo.php?fbid=10154881493409521&amp;set=gm.397769030564161&amp;type=3">https://www.facebook.com/photo.php?fbid=10154881493409521&amp;set=gm.397769030564161&amp;type=3</a></strong></p>
 
@@ -1915,7 +2085,7 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p>Writing Burp Suite Extensions (Shodan Scanner) </p>
 </blockquote>
 
-<p>http://resources.infosecinstitute.com/writing-burp-extensions-shodan-scanner/?utm<em>source=feedburner&amp;utm</em>medium=feed&amp;utm_campaign=Feed%3A+infosecResources+%28InfoSec+Resources%29</p>
+<p><a href="http://resources.infosecinstitute.com/writing-burp-extensions-shodan-scanner/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+infosecResources+%28InfoSec+Resources%29">http://resources.infosecinstitute.com/writing-burp-extensions-shodan-scanner/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+infosecResources+%28InfoSec+Resources%29</a></p>
 
 <p><strong>Link : <a href="http://resources.infosecinstitute.com/writing-burp-extensions-shodan-scanner/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+infosecResources+%28InfoSec+Resources%29">http://resources.infosecinstitute.com/writing-burp-extensions-shodan-scanner/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+infosecResources+%28InfoSec+Resources%29</a></strong></p>
 
@@ -1945,7 +2115,7 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p>Ares - Python Remote Access Tool</p>
 </blockquote>
 
-<p>https://n0where.net/python-remote-access-tool-ares/</p>
+<p><a href="https://n0where.net/python-remote-access-tool-ares/">https://n0where.net/python-remote-access-tool-ares/</a></p>
 
 <p><strong>Link : <a href="https://n0where.net/python-remote-access-tool-ares/">https://n0where.net/python-remote-access-tool-ares/</a></strong></p>
 
@@ -1985,7 +2155,7 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p>macOS FileVault2 Password Retrieval </p>
 </blockquote>
 
-<p>http://blog.frizk.net/2016/12/filevault-password-retrieval.html</p>
+<p><a href="http://blog.frizk.net/2016/12/filevault-password-retrieval.html">http://blog.frizk.net/2016/12/filevault-password-retrieval.html</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1277019889028549/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1277019889028549/?type=3</a></strong></p>
 
@@ -2001,7 +2171,7 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p>ubuntu에서 cobol 사용하기 ][  helloworld 찍기</p>
 </blockquote>
 
-<p>http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0</p>
+<p><a href="http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0">http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0</a></p>
 
 <p><strong>Link : <a href="http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0">http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0</a></strong></p>
 
@@ -2015,7 +2185,7 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p>Malware analysis using Wine :</p>
 </blockquote>
 
-<p>http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/</p>
+<p><a href="http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/">http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/</a></p>
 
 <p><strong>Link : <a href="http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/">http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/</a></strong></p>
 
@@ -2043,7 +2213,7 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 
 <blockquote>
 <p>뚱이의 웹 기초-8. burp suite 사용법
-http://blog.naver.com/hack_ple/220887075192</p>
+<a href="http://blog.naver.com/hack_ple/220887075192">http://blog.naver.com/hack_ple/220887075192</a></p>
 </blockquote>
 
 <p><strong>Link : <a href="http://blog.naver.com/hack_ple/220887075192">http://blog.naver.com/hack_ple/220887075192</a></strong></p>
@@ -2052,7 +2222,7 @@ http://blog.naver.com/hack_ple/220887075192</p>
 
 <hr>
 
-<h3>Asecurity - http://asecurity.so</h3>
+<h3>Asecurity - <a href="http://asecurity.so">http://asecurity.so</a></h3>
 
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAcKQhbH81v_RPX&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fasecurity.so%2Fwp-content%2Fuploads%2F2014%2F12%2Ftitle.png&amp;cfs=1&amp;_nc_hash=AQD6FYLuUezPuK7g" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAcKQhbH81v_RPX&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fasecurity.so%2Fwp-content%2Fuploads%2F2014%2F12%2Ftitle.png&amp;cfs=1&amp;_nc_hash=AQD6FYLuUezPuK7g"></p>
 
@@ -2076,7 +2246,7 @@ http://blog.naver.com/hack_ple/220887075192</p>
 <p>c#에서 파이션 호출하기</p>
 </blockquote>
 
-<p>http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</p>
+<p><a href="http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</a></p>
 
 <p><strong>Link : <a href="http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</a></strong></p>
 
@@ -2092,7 +2262,7 @@ http://blog.naver.com/hack_ple/220887075192</p>
 <p>Mobile Application Penetration Testing Cheat Sheet</p>
 </blockquote>
 
-<p>https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis</p>
+<p><a href="https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis">https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis</a></p>
 
 <p><strong>Link : <a href="https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis">https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis</a></strong></p>
 
@@ -2224,7 +2394,7 @@ http://blog.naver.com/hack_ple/220887075192</p>
 
 <p>Raptor is a web application firewall written in C that uses DFA to block SQL injection, cross site scripting, and path traversals.</p>
 
-<p>http://kalilinux.co/forums/topic/raptor-waf-web-application-firewall/#post-4173</p>
+<p><a href="http://kalilinux.co/forums/topic/raptor-waf-web-application-firewall/#post-4173">http://kalilinux.co/forums/topic/raptor-waf-web-application-firewall/#post-4173</a></p>
 
 <p><strong>Link : <a href="https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1342754869088346/?type=3">https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1342754869088346/?type=3</a></strong></p>
 
@@ -2237,7 +2407,7 @@ http://blog.naver.com/hack_ple/220887075192</p>
 <p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB4AgwW6JvHSoCM&amp;w=130&amp;h=130&amp;url=http%3A%2F%2F0day.today%3A810%2Fimg%2Flogo_green.jpg&amp;cfs=1&amp;_nc_hash=AQBAmAdaeYqG5-_I" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB4AgwW6JvHSoCM&amp;w=130&amp;h=130&amp;url=http%3A%2F%2F0day.today%3A810%2Fimg%2Flogo_green.jpg&amp;cfs=1&amp;_nc_hash=AQBAmAdaeYqG5-_I"></p>
 
 <blockquote>
-<p>Linux AF<em>PACKET race condition exploit for Ubuntu 16.04 x86</em>64.</p>
+<p>Linux AF<u>PACKET race condition exploit for Ubuntu 16.04 x86</u>64.</p>
 </blockquote>
 
 <p><strong>Link : <a href="http://dlvr.it/Mqsprt">http://dlvr.it/Mqsprt</a></strong></p>
@@ -2266,35 +2436,11 @@ http://blog.naver.com/hack_ple/220887075192</p>
 <p>OpenSSH 7.2 - Denial of Service</p>
 </blockquote>
 
-<p>https://www.exploit-db.com/exploits/40888</p>
+<p><a href="https://www.exploit-db.com/exploits/40888">https://www.exploit-db.com/exploits/40888</a></p>
 
 <p><strong>Link : <a href="https://www.exploit-db.com/exploits/40888">https://www.exploit-db.com/exploits/40888</a></strong></p>
 
 <p>2016-12-09T07:20:30+0000</p>
-
-<hr>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>2016-12-07 Facebook 정보 스크랩</title>
-	  <link>/umbrain//Facebook_scrap</link>
-	  <author>taBRis</author>
-	  <pubDate>2017-01-13T17:51:54+00:00</pubDate>
-	  <guid>/umbrain//Facebook_scrap</guid>
-	  <description><![CDATA[
-	     <h3>이규현</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDyp_rWE8UpouUT&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fimgnews.naver.net%2Fimage%2Forigin%2F092%2F2016%2F12%2F06%2F2107580.jpg&amp;cfs=1&amp;_nc_hash=AQATQxpe5mg6KokJ" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDyp_rWE8UpouUT&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fimgnews.naver.net%2Fimage%2Forigin%2F092%2F2016%2F12%2F06%2F2107580.jpg&amp;cfs=1&amp;_nc_hash=AQATQxpe5mg6KokJ"></p>
-
-<blockquote>
-<p>http://m.news.naver.com/read.nhn?mode=LSD&amp;sid1=105&amp;sid2=283&amp;oid=092&amp;aid=0002107580</p>
-</blockquote>
-
-<p><strong>Link : <a href="http://m.news.naver.com/read.nhn?mode=LSD&amp;sid1=105&amp;sid2=283&amp;oid=092&amp;aid=0002107580">http://m.news.naver.com/read.nhn?mode=LSD&amp;sid1=105&amp;sid2=283&amp;oid=092&amp;aid=0002107580</a></strong></p>
-
-<p>2016-12-07T16:07:51+0000</p>
 
 <hr>
 
