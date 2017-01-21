@@ -31,7 +31,7 @@ logo: 'assets/images/logo.png'
 <br>
 
 ![](../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-1.png)
-*[^1][그림 1] 썰 주제 되십니다*
+*[그림 1][^1] 썰 주제 되십니다*
 <br>
 
 ---
@@ -78,7 +78,7 @@ logo: 'assets/images/logo.png'
 유저 메모리의 영역을 조금 더 자세히 살펴볼까요?
 
 ![](../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-3.png)
-*[^2][그림 3] 안녕하새오 웬만한 기본서 펼치면 2n 페이지 쯤 있는 친구애오*
+*[그림 3][^2] 안녕하새오 웬만한 기본서 펼치면 2n 페이지 쯤 있는 친구애오*
 <br>
 
 ##### 3-1. 코드영역
