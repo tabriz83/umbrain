@@ -73,13 +73,13 @@
 <p><br></p>
 
 <ul>
-<li><p><strong>이후 추천 공부 순서</strong><br>
+<li><strong>이후 추천 공부 순서</strong><br>
 <strong>1. exploit-exercises.com - Nebula, Protostar, Fusion</strong><br>
 <strong>2. OvertheWire - votex</strong><br>
-<strong>3. Pwnable.kr</strong></p></li>
-<li><p>이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.</p></li>
-<li><p>Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.</p></li>
-<li><p>대부분이 문서로 존재한다.</p></li>
+<strong>3. Pwnable.kr</strong></li>
+<li>이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.</li>
+<li>Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.</li>
+<li>대부분이 문서로 존재한다.</li>
 </ul>
 
 <hr>
@@ -121,7 +121,7 @@
 
 <h2>3. 마무리</h2>
 
-<p>Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해 Writeup을 보고 먼저 한바퀴 만큼은 풀길 바란다. 그 이유는 적어도 이것이 어떤 것이라는 ++적응++이 필요하기 때문이다. (특히 Reversing) 그리고 다시 돌아와서 제대로 공부하기를 바라며, 처음에 영혼없이 하더라도 이것이 어떤 것인지는 인식을 하고 있어야 한다.</p>
+<p>Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해 Writeup을 보고 먼저 한바퀴 만큼은 풀길 바란다. 그 이유는 적어도 이것이 어떤 것이라는 <u>적응</u>이 필요하기 때문이다. (특히 Reversing) 그리고 다시 돌아와서 제대로 공부하기를 바라며, 처음에 영혼없이 하더라도 이것이 어떤 것인지는 인식을 하고 있어야 한다.</p>
 
 <p>공부하는 방법을 알아내는 것도 실력이고, 뭘 공부해야할지 알아내는 것도 실력이며, 뭘 공부할지 모를 때 오는 슬럼프를 극복하는 것도 실력이다.</p>
 
@@ -131,23 +131,89 @@
 
 <h2>#1. 공부에 도움이 되는 사이트들</h2>
 
-<p>|분류|관련사이트|비고|<br>
-|-|-|-|<br>
-|침해사고 대응|<a href="http://securitypractice.or.kr/index.php%7CKISA%EC%97%90%EC%84%9C">http://securitypractice.or.kr/index.php|KISA에서</a> 운영하는 침해사고 대응 훈련장|
-|모의해킹|<a href="http://hackerschool.org%7C%EC%8B%9C%EC%8A%A4%ED%85%9C">http://hackerschool.org|시스템</a> 해킹 실습 환경 제공 및 기타 정보들|
-||<a href="http://www.wechall.net%7C%EC%A0%84%EC%84%B8%EA%B3%84">http://www.wechall.net|전세계</a> 해킹 실습환경을 한곳에 모아둔 사이트|
-||<a href="http://webhacking.kr%7C%EC%9B%B9">http://webhacking.kr|웹</a> 해킹 문제 풀이 사이트|
-||<a href="http://codeengn.com%7C%ED%95%B4%ED%82%B9%EA%B4%80%EB%A0%A8">http://codeengn.com|해킹관련</a> 문서가 다량 보유된 사이트|
-||<a href="http://xcz.kr/START/challenge.php%7C%EB%8B%A4%EC%96%91%ED%95%9C">http://xcz.kr/START/challenge.php|다양한</a> 분야의 문제가 혼용된 사이트|
-||<a href="https://www.corelan.be/index.php/articles/%7C%EB%A6%AC%EB%B2%84%EC%8B%B1">https://www.corelan.be/index.php/articles/|리버싱</a> 등에 관한 상세한 기사들이 다수 존재하는 곳(영문)|
-||<a href="http://www.droidsec.org/wiki/#whitepapers%7C%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C">http://www.droidsec.org/wiki/#whitepapers|안드로이드</a> 해킹에 대한 모든 정보가 있는 곳|
-||<a href="https://www.ietf.org/rfc.html%7C%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC">https://www.ietf.org/rfc.html|네트워크</a> 프로토콜 RFC 자료|
-||<a href="http://www.owasp.net%7COWASP">http://www.owasp.net|OWASP</a>, ESAPI등 관련 정보가 있는 곳|
-||<a href="http://resources.infosecinstitute.com%7C%EC%95%84%EC%A3%BC">http://resources.infosecinstitute.com|아주</a> 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)|
-||<a href="http://www.wowhacker.com%7C%EC%96%B8%EB%8D%94%ED%95%B4%EC%BB%A4">http://www.wowhacker.com|언더해커</a> 모임|
-|프로그래밍|<a href="http://www.pythonchallenge.com%7CPython">http://www.pythonchallenge.com|Python</a> 문제 풀이 사이트|
-|포렌식|<a href="http://maj3sty.tistory.com%7C%EA%B0%9C%EC%9D%B8%EC%9D%B4">http://maj3sty.tistory.com|개인이</a> 운영하는 블로그로 포렌식 관련 자료 다수 보유|
-||<a href="http://forensic-proof.com%7C%ED%94%8C%EB%A0%88%EC%9D%B8%EB%B9%84%ED%8A%B8">http://forensic-proof.com|플레인비트</a> 김진국 대표가 운영하는 블로그|</p>
+<table><thead>
+<tr>
+<th>분류</th>
+<th>관련사이트</th>
+<th>비고</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>침해사고 대응</td>
+<td><a href="http://securitypractice.or.kr/index.php">http://securitypractice.or.kr/index.php</a></td>
+<td>KISA에서 운영하는 침해사고 대응 훈련장</td>
+</tr>
+<tr>
+<td>모의해킹</td>
+<td><a href="http://hackerschool.org">http://hackerschool.org</a></td>
+<td>시스템 해킹 실습 환경 제공 및 기타 정보들</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.wechall.net">http://www.wechall.net</a></td>
+<td>전세계 해킹 실습환경을 한곳에 모아둔 사이트</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://webhacking.kr">http://webhacking.kr</a></td>
+<td>웹 해킹 문제 풀이 사이트</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://codeengn.com">http://codeengn.com</a></td>
+<td>해킹관련 문서가 다량 보유된 사이트</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://xcz.kr/START/challenge.php">http://xcz.kr/START/challenge.php</a></td>
+<td>다양한 분야의 문제가 혼용된 사이트</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://www.corelan.be/index.php/articles/">https://www.corelan.be/index.php/articles/</a></td>
+<td>리버싱 등에 관한 상세한 기사들이 다수 존재하는 곳(영문)</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.droidsec.org/wiki/#whitepapers">http://www.droidsec.org/wiki/#whitepapers</a></td>
+<td>안드로이드 해킹에 대한 모든 정보가 있는 곳</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://www.ietf.org/rfc.html">https://www.ietf.org/rfc.html</a></td>
+<td>네트워크 프로토콜 RFC 자료</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.owasp.net">http://www.owasp.net</a></td>
+<td>OWASP, ESAPI등 관련 정보가 있는 곳</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://resources.infosecinstitute.com">http://resources.infosecinstitute.com</a></td>
+<td>아주 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.wowhacker.com">http://www.wowhacker.com</a></td>
+<td>언더해커 모임</td>
+</tr>
+<tr>
+<td>프로그래밍</td>
+<td><a href="http://www.pythonchallenge.com">http://www.pythonchallenge.com</a></td>
+<td>Python 문제 풀이 사이트</td>
+</tr>
+<tr>
+<td>포렌식</td>
+<td><a href="http://maj3sty.tistory.com">http://maj3sty.tistory.com</a></td>
+<td>개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://forensic-proof.com">http://forensic-proof.com</a></td>
+<td>플레인비트 김진국 대표가 운영하는 블로그</td>
+</tr>
+</tbody></table>
 
 <h2>#2. Reference to</h2>
 
