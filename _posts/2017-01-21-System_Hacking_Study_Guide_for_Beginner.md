@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover2.jpg'
 title: 초보자를 위한 시스템해킹 공부 가이드라인
 date: 2017-01-21 02:17:00
-tags: ['System Hacking', 'Guide']
+tags: ['Security', 'System Hacking', 'Guide']
 subclass: 'post tag-Security'
 categories: 'tabris'
 navigation: True
