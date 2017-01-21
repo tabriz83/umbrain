@@ -36,7 +36,7 @@ permalink: /:title
 
 # Markdown Processors
 redcarpet:
- extensions: [tables: true, autolink: true, underline: true, highlight: true, footnotes: true]
+ extensions: [Redcarpet::Markdown.new(Redcarpet::Render::HTML, tables: true, autolink: true, underline: true, highlight: true, footnotes: true)]
  
 # gems and other configs
 gems: [jekyll-paginate]
