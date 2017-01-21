@@ -35,7 +35,8 @@ permalink: /:title
 # permalink: /tag/:tag
 
 # Markdown Processors
-redcarpet: extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "autolink", "underline", "highlight", "footnotes"]
+redcarpet: 
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "autolink", "underline", "highlight", "footnotes"]
  
 # gems and other configs
 gems: [jekyll-paginate]
