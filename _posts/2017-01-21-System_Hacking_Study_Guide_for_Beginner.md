@@ -17,7 +17,7 @@ logo: 'assets/images/logo.png'
 ## 1. 기본기
 - ==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
 - ==리눅스==
-- ==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도
+- ==네트워크 기초== (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도)
 
 - **TechTree 1**
 ![TechTree 1](../assets/Post_Images/tech.png)
