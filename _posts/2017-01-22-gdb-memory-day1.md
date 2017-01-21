@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover2.jpg'
 title: 우리집에 GDB 있는데... 메모리 보고갈래? (1)
 date: 2017-01-22 06:41:00
-tags: ['Security', 'System Hacking', 'Reversing, 'Guide']
+tags: ['Security', 'System Hacking', 'Reversing', 'Guide']
 subclass: 'post tag-Security'
 categories: 'tabris'
 navigation: True
