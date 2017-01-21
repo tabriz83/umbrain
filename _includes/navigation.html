@@ -5,8 +5,8 @@
     </a>
     <ul>
         <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Main</a></li>
-        <li class="nav-security {% if page.current == 'security' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/{{ site.menu_1 }}">Security</a></li>
-        <li class="nav-unclassified {% if page.url contains 'unclassified' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/{{ site.menu_2 }}">Unclassified</a></li>
+        <li class="nav-security {% if page.current == 'security' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}{{ site.menu_1 }}">Security</a></li>
+        <li class="nav-unclassified {% if page.url contains 'unclassified' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}{{ site.menu_2 }}">Unclassified</a></li>
         <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/{{ site.nickname }}">Author</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
