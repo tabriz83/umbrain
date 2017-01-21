@@ -31,7 +31,7 @@ logo: 'assets/images/logo.png'
 <br>
 
 ![](../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-1.png)
-*[그림 1][^1] 썰 주제 되십니다*
+*[그림 1] 썰 주제 되십니다[^1]*
 <br>
 
 ---
@@ -78,14 +78,16 @@ logo: 'assets/images/logo.png'
 유저 메모리의 영역을 조금 더 자세히 살펴볼까요?
 
 ![](../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-3.png)
-*[그림 3][^2] 안녕하새오 웬만한 기본서 펼치면 2n 페이지 쯤 있는 친구애오*
+*[그림 3] 안녕하새오 웬만한 기본서 펼치면 2n 페이지 쯤 있는 친구애오[^2]*
 <br>
 
 ##### 3-1. 코드영역
 
 일단 메모리에 코드가 올라옵니다. 코드가 뭐냐구요?
 
-![*[그림 3] 네 바로 이겁니다*](../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-4.png)
+![](../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-4.png)
+*[그림 3] 네 바로 이겁니다*
+<br>
 
 이런거 어디서 많이 봤죠? c소스를 컴파일하면 어셈블리 코드로 번역(?)되잖아요.  
 이 저급한 애들이 코드 영역에 올라 간다는 거져ㅎㅎ  
@@ -131,5 +133,5 @@ logo: 'assets/images/logo.png'
 *written by in09*
 
 
-[^1][그림 1]: Pictogram(crown) created by Paul Verhulst from Noun Project
-[^2][그림 3]: Pictogram(book) created by Jakub Caja from Noun Project
+[^1]: [그림 1]: Pictogram(crown) created by Paul Verhulst from Noun Project
+[^2]: [그림 3]: Pictogram(book) created by Jakub Caja from Noun Project
