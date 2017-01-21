@@ -8,12 +8,13 @@ subclass: 'post tag-Security'
 categories: 'tabris'
 navigation: True
 logo: 'assets/images/logo.png'
-html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ---
 
 ##초보자를 위한 시스템 해킹 공부 가이드라인 - [홍승표 作](https://www.facebook.com/HSPantom)(a.k.a Phantom)
 ---
+
 <!-- more -->
+
 ## 1. 기본기
 - ==C언어==, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)
 - ==리눅스==
@@ -143,11 +144,7 @@ Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해
 - 해킹 입문서, 커리큘럼, 테크트리, 리버싱 (http://blog.naver.com/93immm/130179760409)
 - Phantom이 쓴 Writeup (http://pantom.tistory.com)
 
-1. 수식으로 삽입하기:
-\\( x(t)=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\)
 
-
-출처: http://dataleaf.tistory.com/entry/Markdown에서-수식-입력하기 [정보의 잎사귀]
 
 [^1]: Wargame이라고 하며, 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  
 [^2]: 적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.  
