@@ -67,15 +67,15 @@
         <li class="nav-author  nav-current" role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
     </ul>
 	<!— Html Elements for Search -->
-	
-	<input type="text" id="search-input" size="13" placeholder="search..">
+	<div class="nav">
+	<input type="text" id="search-input" size="12" placeholder="search..">
 	<ul id="results-container"></ul>
+	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
+	</div>
 	
-
 	<!-- Script pointing to jekyll-search.js -->
 	<script src="/umbrain//dest/jekyll-search.js" type="text/javascript"></script>
-
-
+	
 	<script type="text/javascript">
 		  SimpleJekyllSearch({
 			searchInput: document.getElementById('search-input'),
@@ -87,9 +87,7 @@
 			fuzzy: false,
 			exclude: ['Welcome']
 		  })
-	</script>
-	
-	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
+	</script>	
 </div>
 <span class="nav-cover"></span>
 
