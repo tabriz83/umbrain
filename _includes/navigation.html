@@ -12,8 +12,9 @@
 	
 	<!— Html Elements for Search -->
 	<div id="search-container">
-	<input type="text" id="search-input" size="12" placeholder="Search...">
+	<input type="text" id="search-input" placeholder="Search...">
 	<ul id="results-container"></ul>
+	<a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
 	</div>
 	
 	<!-- Script pointing to jekyll-search.js -->
@@ -31,6 +32,5 @@
 			exclude: ['Welcome']
 		  })
 	</script>
-	<a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
