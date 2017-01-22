@@ -730,9 +730,9 @@ body.nav-opened .nav {
 }
 
 #results-container {
-	position: absolute;
-	top: 2px
-	margin: 2px;
+	left: 30px;
+	right: 30px;
+	padding: 2px 0;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
