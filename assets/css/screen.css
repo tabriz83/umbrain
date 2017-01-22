@@ -634,7 +634,7 @@ body.nav-opened .nav {
 }
 
 .nav ul {
-    padding: 90px 9% 5%;
+    padding: 90px 9% 2%;
     list-style: none;
     counter-reset: item;
 }
@@ -701,7 +701,7 @@ body.nav-opened .nav {
     left: 30px;
     right: 30px;
     height: 38px;
-    padding: 0 20px;
+    padding: 0 20px 2px;
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
@@ -720,8 +720,6 @@ body.nav-opened .nav {
 
 /* Search */
 .search-container {
-	min-height: 50%;
-	position: absolute;
 	left: 30px;
 	right: 30px;
 	font-size: 12px;
