@@ -720,7 +720,7 @@ body.nav-opened .nav {
 }
 
 /* SearchBox */
-#search-container {
+.search-container {
 	position: absolute;
 	left: 30px;
 	right: 30px;
