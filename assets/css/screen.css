@@ -701,7 +701,7 @@ body.nav-opened .nav {
     position: absolute;
     left: 30px;
     right: 30px;
-    height: 38px;
+    height: 36px;
     padding: 0 20px 2px;
 	margin: 0px;
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
