@@ -66,31 +66,7 @@
         <li class="nav-unclassified " role="presentation"><a href="/umbrain/tag/Unclassified">Unclassified</a></li>
         <li class="nav-search " role="presentation"><a href="/umbrain/search/">Search</a></li>
 		<li class="nav-author  nav-current" role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
-    </ul>
-	
-	<!— Html Elements for Search -->
-	<div id="search-container">
-		<input type="text" id="search-input" placeholder="search...">
-		<ul id="results-container"></ul>
-	</div>
-
-	<!-- Script pointing to jekyll-search.js -->
-	<script src="/umbrain//dest/jekyll-search.js" type="text/javascript"></script>
-
-
-	<script type="text/javascript">
-		  SimpleJekyllSearch({
-			searchInput: document.getElementById('search-input'),
-			resultsContainer: document.getElementById('results-container'),
-			json: '/umbrain//search2.json',
-			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-			noResultsText: 'No results found',
-			limit: 10,
-			fuzzy: false,
-			exclude: ['Welcome']
-		  })
-	</script>
-    
+    </ul> 
 	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
