@@ -698,7 +698,6 @@ body.nav-opened .nav {
     box-sizing: border-box;
     display: block;
     position: absolute;
-    bottom: 30px;
     left: 30px;
     right: 30px;
     height: 38px;
