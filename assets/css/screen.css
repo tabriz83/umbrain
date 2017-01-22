@@ -719,6 +719,14 @@ body.nav-opened .nav {
     margin-right: 6px;
 }
 
+/* SearchBox */
+#search-container {
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+}
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
