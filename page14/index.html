@@ -66,11 +66,11 @@
         <li class="nav-unclassified " role="presentation"><a href="/umbrain/tag/Unclassified">Unclassified</a></li>
         <li class="nav-author " role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
     </ul>
+	
 	<!— Html Elements for Search -->
-	<div class="nav">
-	<input type="text" id="search-input" size="12" placeholder="search..">
+	<div id="search-container">
+	<input type="text" id="search-input" size="12" placeholder="Search...">
 	<ul id="results-container"></ul>
-	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
 	</div>
 	
 	<!-- Script pointing to jekyll-search.js -->
@@ -87,7 +87,8 @@
 			fuzzy: false,
 			exclude: ['Welcome']
 		  })
-	</script>	
+	</script>
+	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
 
