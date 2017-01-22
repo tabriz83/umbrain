@@ -721,16 +721,12 @@ body.nav-opened .nav {
 
 /* Search */
 .search-container {
+	min-height: 50%;
 	position: absolute;
 	left: 30px;
 	right: 30px;
 	font-size: 12px;
 	font-family: "Open Sans", sans-serif;
-}
-
-.result-container {
-	position: absolute;
-	top: 400px;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
