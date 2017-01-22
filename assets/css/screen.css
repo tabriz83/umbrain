@@ -635,6 +635,7 @@ body.nav-opened .nav {
 
 .nav ul {
     padding: 90px 9% 2%;
+	margin: 2px;
     list-style: none;
     counter-reset: item;
 }
