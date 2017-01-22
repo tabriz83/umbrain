@@ -701,7 +701,7 @@ body.nav-opened .nav {
     left: 30px;
     right: 30px;
     height: 38px;
-    padding: 0 20px 5px;
+    padding: 0 20px 2px;
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
@@ -721,7 +721,7 @@ body.nav-opened .nav {
 /* Search */
 .search-container {
 	position: absolute;
-	top: 400px;
+	top: 10px;
 	left: 30px;
 	right: 30px;
 	font-size: 12px;
