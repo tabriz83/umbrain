@@ -724,9 +724,17 @@ body.nav-opened .nav {
 	top: 300px;
 	left: 30px;
 	right: 30px;
-	padding: 0 20px 2px;
+	margin: 2px;
 	font-size: 12px;
 	font-family: "Open Sans", sans-serif;
+}
+
+.results-container {
+	position: absolute;
+	top: 304px;
+	left: 30px;
+	right: 30px;
+	margin: 2px;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
