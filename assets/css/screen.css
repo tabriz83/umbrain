@@ -635,7 +635,7 @@ body.nav-opened .nav {
 
 .nav ul {
     padding: 90px 9% 2%;
-	margin: 2px;
+	margin: 4px;
     list-style: none;
     counter-reset: item;
 }
@@ -703,6 +703,7 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px 2px;
+	margin: 4px;
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
@@ -728,7 +729,6 @@ body.nav-opened .nav {
 	margin: 2px;
 	font-size: 12px;
 	font-family: "Open Sans", sans-serif;
-	padding: 0 20px 2px;
 }
 
 #results-container {
