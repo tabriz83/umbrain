@@ -1,5 +1,11 @@
 ---
 layout: default
+title: search
+cover: 'assets/images/cover1.jpg'
+class: 'home-template'
+navigation: True
+logo: 'assets/images/logo.png'
+current: search
 page_title: Search
 permalink: /search/
 ---
@@ -17,7 +23,7 @@ permalink: /search/
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search2.json',
+        json: '{{ site.baseurl }}/search.json',
         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,

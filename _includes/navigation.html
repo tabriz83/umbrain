@@ -9,7 +9,30 @@
         <li class="nav-unclassified {% if page.url contains 'unclassified' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/{{ site.menu_2 }}">Unclassified</a></li>
         <li class="nav-search {% if page.url contains 'search' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}search/">Search</a></li>
 		<li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/{{ site.nickname }}">Author</a></li>
-    </ul> 
+    </ul>
+	<!— Html Elements for Search -->
+	<div id="search-container">
+	<input type="text" id="search-input" placeholder="search...">
+	<ul id="results-container"></ul>
+	</div>
+
+	<!-- Script pointing to jekyll-search.js -->
+	<script src="{{site.baseurl}}/dest/jekyll-search.js" type="text/javascript"></script>
+
+
+	<script type="text/javascript">
+		  SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '{{ site.baseurl }}/search.json',
+			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+			noResultsText: 'No results found',
+			limit: 10,
+			fuzzy: false,
+			exclude: ['Welcome']
+		  })
+	</script>
+	
 	<a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
