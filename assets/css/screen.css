@@ -729,9 +729,12 @@ body.nav-opened .nav {
 	font-family: "Open Sans", sans-serif;
 }
 
-.search-container {
+#results-container {
 	position: absolute;
-	top: 304px;
+	top: 300px;
+	left: 30px;
+	right: 30px;
+	margin: 2px;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
