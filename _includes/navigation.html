@@ -10,10 +10,10 @@
         <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/{{ site.nickname }}">Author</a></li>
     </ul>
 	<!— Html Elements for Search -->
-	<div id="search-container">
-	<input type="text" id="search-input" size="10" placeholder="search..">
+	
+	<input type="text" id="search-input" size="20" placeholder="search..">
 	<ul id="results-container"></ul>
-	</div>
+	
 
 	<!-- Script pointing to jekyll-search.js -->
 	<script src="{{site.baseurl}}/dest/jekyll-search.js" type="text/javascript"></script>
@@ -26,7 +26,7 @@
 			json: '{{ site.baseurl }}/search.json',
 			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
 			noResultsText: 'No results found',
-			limit: 15,
+			limit: 12,
 			fuzzy: false,
 			exclude: ['Welcome']
 		  })
