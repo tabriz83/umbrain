@@ -64,12 +64,11 @@
         <li class="nav-home  nav-current" role="presentation"><a href="/umbrain/">Main</a></li>
         <li class="nav-security " role="presentation"><a href="/umbrain/tag/Security">Security</a></li>
         <li class="nav-unclassified " role="presentation"><a href="/umbrain/tag/Unclassified">Unclassified</a></li>
-        <li class="nav-search " role="presentation"><a href="/umbrain/search/">Search</a></li>
-		<li class="nav-author " role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
+        <li class="nav-author " role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
     </ul>
 	<!— Html Elements for Search -->
 	<div id="search-container">
-	<input type="text" id="search-input" placeholder="search...">
+	<input type="text" id="search-input" size="10" placeholder="search..">
 	<ul id="results-container"></ul>
 	</div>
 
@@ -84,7 +83,7 @@
 			json: '/umbrain//search.json',
 			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
 			noResultsText: 'No results found',
-			limit: 10,
+			limit: 15,
 			fuzzy: false,
 			exclude: ['Welcome']
 		  })
