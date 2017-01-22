@@ -723,7 +723,6 @@ body.nav-opened .nav {
 /* Search */
 .search-container {
 	position: absolute;
-	top: 290px;
 	left: 30px;
 	right: 30px;
 	margin: 1px;
