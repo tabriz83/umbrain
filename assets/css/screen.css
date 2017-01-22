@@ -703,7 +703,7 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px 2px;
-	margin: 4px;
+	margin: 0px;
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
