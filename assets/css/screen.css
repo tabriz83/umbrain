@@ -724,7 +724,7 @@ body.nav-opened .nav {
 	top: 300px;
 	left: 30px;
 	right: 30px;
-	margin: 2px;
+	padding: 0 20px 2px;
 	font-size: 12px;
 	font-family: "Open Sans", sans-serif;
 }
