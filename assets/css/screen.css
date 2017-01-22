@@ -730,6 +730,8 @@ body.nav-opened .nav {
 }
 
 #results-container {
+	position: absolute;
+	top: 2px
 	margin: 2px;
 }
 
