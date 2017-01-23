@@ -21,6 +21,7 @@ logo: 'assets/images/logo.png'
 ---
 
 ## Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?
+<br>
 
 ### DAY #1. 듀근듀규뉸구누균ㄱ 첫만남
 <br>
