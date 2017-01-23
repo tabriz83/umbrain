@@ -80,6 +80,8 @@ canary에 대한 자세한 내용이 있으니 참고하셔도 좋습니당!)
 ---
 
 #### Ch 1. ~~너~~  gdb 사용법
+<br>
+
 ![](../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-intro2.png)
 > 하라니까 하겠는데.  
 근데 GDB를 왜 써야되는데?
@@ -230,7 +232,7 @@ Num     Type           Disp Enb Address    What
 ```
 <br>
 
-이제 **프로그램을 실행**해볼게요!
+이제 **프로그램을 실행**해볼게요!  
 이제야 비로소.. 아 토마토 다 뿔었겠네. ㅡㅡ
 
 >**run [매개변수]**  
@@ -305,9 +307,9 @@ esp, ebp는 스택과 관련한 레지스터잖아요!
 (gdb) x/w 0x080484e6
 0x80484e6 <main>: 0x83e58955
 ```
-<br>
 
 해당 메모리 주소의 값을 각각 1바이트, 2바이트, 4바이트만큼 출력해주었습니다.
+<br>
 
 ```
 (gdb) x/x 0x080484e6
@@ -315,27 +317,26 @@ esp, ebp는 스택과 관련한 레지스터잖아요!
 (gdb) x/u 0x080484e6
 0x80484e6 <main>: 2212858197
 ```
-<br>
 
 해당 메모리 주소 값을 16진수, 10진수로 출력해주었습니다.  
 보통 이렇게들 씁니당.  
 (진법 옵션이든 바이트 옵션이든 생략되면 이전 옵션으로 실행해줍니다.)
 
+<br>
 ```
 (gdb) x/wx 0x080484e6
 0x80484e6 <main>: 0x83e58955
 (gdb) x/4b 0x080484e6
 0x80484e6 <main>: 0x55 0x89 0xe5 0x83
 ```
-<br>
+
+헙.. 근데 순서가 조금 이상하죠?
+4바이트 출력한 것과 1바이트씩 4개를 출력한 것과 순서가 반대예요!
+이것은 **바이트 오더링** 개념에 대해 이해를 해야 하는데요.
 
 >**Byte Ordering [Big Endian / Little Endian]**  
 
->헙.. 근데 순서가 조금 이상하죠?
-
->4바이트 출력한 것과 1바이트씩 4개를 출력한 것과 순서가 반대예요!  
-**바이트 오더링** 개념에 대해 이해를 해야 하는데요.  
-Intel CPU는 바이트를 배열할 때 _거꾸로 쓰게_ 됩니다.  
+>Intel CPU는 바이트를 배열할 때 _거꾸로 쓰게_ 됩니다.  
 예를 들어 0x12345678을 저장한다고 하면, **0x78563412**와 같이 거꾸로 저장하게 됩니다.  
 이를 **_Little Endian_**이라 지칭합니다.
 
@@ -387,7 +388,6 @@ es             0x7b 123
 fs             0x0 0
 gs             0x33 51
 ```
-<br>
 
 자.. 이제 gdb 사용법은 거진 다 익힌 것 같아요.
 
@@ -396,11 +396,14 @@ gs             0x33 51
 ---
 
 ####Ch 2. 갖고싶다.. 너란 stack..
+<br>
+
 ![](../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-1.png)
 *[그림 1] Stack과 관련한 레지스터*
 <br>
 
-• 현재 EIP 상황(main 2줄 실행)
+• 현재 EIP 상황(main 2줄 실행)  
+
 ```
   0x080484e6 <+0>: push   ebp
   0x080484e7 <+1>: mov    ebp,esp
@@ -457,7 +460,6 @@ Dump of assembler code for function main:
 원하는 곳에 멈춰잇쪄?
 
 • sum이 call되기 전 상황
-
 ![](../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-2.png)
 *[그림 2] sum이 call되기 전 상황*
 <br>
@@ -472,13 +474,13 @@ call을 할 때는, 다음 인스트럭션의 주소를 스택에 쌓고 가죠?
 ```
 
 call sum에 breakpoint를 걸고 (0x080484c1)  
-sum 안으로 들어가면,  
+sum 안으로 들어가면,
+
 **스택에 ESP(0x00000001)위에 0x0804850b가 쌓였을 거예여.**
 
 확인해볼까욤?
 
 • sum이 call된 후의 상황
-
 ![](../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-3.png)
 *[그림 3] sum이 call된 후의 상황*
 <br>
@@ -496,10 +498,12 @@ sum 안으로 들어가면,
 sum 함수 안으로 들어왔쪄?
 
 오 역시나..
+
 ```
 Push ebp
 mov  ebp, esp
 ```
+
 하고 있어욤.
 
 *Push ebp*를 실행하면,  
@@ -517,7 +521,8 @@ sum의 스택 프레임에 push될거예여.
 오오… 마쟈마쟈ㅠㅠ
 
 그리고 `mov ebp, esp`를 하면,  
-현재 esp를 sum stack frame의 바닥  
+현재 esp를 sum stack frame의 바닥
+
 즉, sum의 ebp로 만들어주겠져?
 
 그러므로 sum의 ebp에는 main의 ebp가 있게되겠져.
@@ -564,12 +569,11 @@ sum의 스택 프레임에 push될거예여.
 _매개인자_는 _ebp-8_, ebp -12와 같이 들어가게 됩니다!==
 
 꼭 기억하세욤~
+<br>
 
 >**c**  
 프로그램이 gdb로 run된 이후에  
 다음 중단점까지 실행하는 명령어
-
-<br>
 
 ```
 (gdb) x/10i $eip
@@ -599,7 +603,8 @@ Breakpoint 4, 0x080484ad in func2 ()
    0x080484b0 in func2 ()
 ```
 
-자.. 또 sum 안에서 func2를 호출했어요.  
+자.. 또 sum 안에서 func2를 호출했어요.
+
 그럼 아마 스택의 모습은  
 **| func2 stack frame | sum stack frame | main stack frame|** 과 같이 되겠져?
 
@@ -635,7 +640,7 @@ Breakpoint 4, 0x080484ad in func2 ()
 <br>
 
 ##### 2. stack의 끝
-> **Leave**
+> **Leave**  
 **Ret**
 
 **• 현재 EIP 상황**
@@ -711,7 +716,8 @@ esp도 sum의 esp로 바뀌었습니다.
 프로그램을 종료하는 것이겠씀미다아아~
 
 쟈아아아 오늘은 gdb도 써보거 스택에 대해서도 자세히 알아보았눈데,  
-어떠셔쎄여?  
+어떠셔쎄여?
+
 다음 번엔 좀 더 다이나믹한 데이트를 합씨당.  
 아 물론 데이트 코스는 제가 짭니당. ^ㅠ^
 <br>
