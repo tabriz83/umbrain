@@ -88,6 +88,8 @@ canary에 대한 자세한 내용이 있으니 참고하셔도 좋습니당!)</p
 
 <h4>Ch 1. ~~너~~  gdb 사용법</h4>
 
+<p><br></p>
+
 <p><img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-intro2.png" alt=""></p>
 
 <blockquote>
@@ -232,7 +234,7 @@ Num     Type           Disp Enb Address    What
 </code></pre></div>
 <p><br></p>
 
-<p>이제 <strong>프로그램을 실행</strong>해볼게요!
+<p>이제 <strong>프로그램을 실행</strong>해볼게요!<br>
 이제야 비로소.. 아 토마토 다 뿔었겠네. ㅡㅡ</p>
 
 <blockquote>
@@ -297,34 +299,33 @@ esp 값을 ebp 값에 저장하고 있죠?</p>
 (gdb) x/w 0x080484e6
 0x80484e6 &lt;main&gt;: 0x83e58955
 </code></pre></div>
-<p><br></p>
-
-<p>해당 메모리 주소의 값을 각각 1바이트, 2바이트, 4바이트만큼 출력해주었습니다.</p>
+<p>해당 메모리 주소의 값을 각각 1바이트, 2바이트, 4바이트만큼 출력해주었습니다.
+<br></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">(gdb) x/x 0x080484e6
 0x80484e6 &lt;main&gt;: 0x83e58955
 (gdb) x/u 0x080484e6
 0x80484e6 &lt;main&gt;: 2212858197
 </code></pre></div>
-<p><br></p>
-
 <p>해당 메모리 주소 값을 16진수, 10진수로 출력해주었습니다.<br>
 보통 이렇게들 씁니당.<br>
 (진법 옵션이든 바이트 옵션이든 생략되면 이전 옵션으로 실행해줍니다.)</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">(gdb) x/wx 0x080484e6
+
+<p><br>
+<code>
+(gdb) x/wx 0x080484e6
 0x80484e6 &lt;main&gt;: 0x83e58955
 (gdb) x/4b 0x080484e6
 0x80484e6 &lt;main&gt;: 0x55 0x89 0xe5 0x83
-</code></pre></div>
-<p><br></p>
+</code></p>
+
+<p>헙.. 근데 순서가 조금 이상하죠?
+4바이트 출력한 것과 1바이트씩 4개를 출력한 것과 순서가 반대예요!
+이것은 <strong>바이트 오더링</strong> 개념에 대해 이해를 해야 하는데요.</p>
 
 <blockquote>
 <p><strong>Byte Ordering [Big Endian / Little Endian]</strong>  </p>
 
-<p>헙.. 근데 순서가 조금 이상하죠?</p>
-
-<p>4바이트 출력한 것과 1바이트씩 4개를 출력한 것과 순서가 반대예요!<br>
-<strong>바이트 오더링</strong> 개념에 대해 이해를 해야 하는데요.<br>
-Intel CPU는 바이트를 배열할 때 <u>거꾸로 쓰게</u> 됩니다.<br>
+<p>Intel CPU는 바이트를 배열할 때 <u>거꾸로 쓰게</u> 됩니다.<br>
 예를 들어 0x12345678을 저장한다고 하면, <strong>0x78563412</strong>와 같이 거꾸로 저장하게 됩니다.<br>
 이를 <strong><u>Little Endian</u></strong>이라 지칭합니다.</p>
 
@@ -372,8 +373,6 @@ es             0x7b 123
 fs             0x0 0
 gs             0x33 51
 </code></pre></div>
-<p><br></p>
-
 <p>자.. 이제 gdb 사용법은 거진 다 익힌 것 같아요.</p>
 
 <p>이제 우리 좀 더 알아가볼까요..?ㅎㅎ</p>
@@ -382,13 +381,14 @@ gs             0x33 51
 
 <h4>Ch 2. 갖고싶다.. 너란 stack..</h4>
 
+<p><br></p>
+
 <p><img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-1.png" alt="">
 <em>[그림 1] Stack과 관련한 레지스터</em>
 <br></p>
 
-<p>• 현재 EIP 상황(main 2줄 실행)
-<code>
-  0x080484e6 &lt;+0&gt;: push   ebp
+<p>• 현재 EIP 상황(main 2줄 실행)  </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">  0x080484e6 &lt;+0&gt;: push   ebp
   0x080484e7 &lt;+1&gt;: mov    ebp,esp
 =&gt;0x080484e9 &lt;+3&gt;: and    esp,0xfffffff0
   0x080484ec &lt;+6&gt;: sub    esp,0x20
@@ -396,8 +396,8 @@ gs             0x33 51
   0x080484f7 &lt;+17&gt;: mov    DWORD PTR [esp+0x4],0x2
   0x080484ff &lt;+25&gt;: mov    DWORD PTR [esp],0x1
   0x08048506 &lt;+32&gt;: call   0x80484c1 &lt;sum&gt;
-</code>
-<br></p>
+</code></pre></div>
+<p><br></p>
 
 <h5>1. 스택의 시작</h5>
 
@@ -441,9 +441,8 @@ Dump of assembler code for function main:
 </code></pre></div>
 <p>원하는 곳에 멈춰잇쪄?</p>
 
-<p>• sum이 call되기 전 상황</p>
-
-<p><img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-2.png" alt="">
+<p>• sum이 call되기 전 상황
+<img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-2.png" alt="">
 <em>[그림 2] sum이 call되기 전 상황</em>
 <br></p>
 
@@ -454,14 +453,14 @@ Dump of assembler code for function main:
 0x0804850b &lt;+37&gt;: mov    eax,DWORD PTR [ebp+0xc]
 </code></pre></div>
 <p>call sum에 breakpoint를 걸고 (0x080484c1)<br>
-sum 안으로 들어가면,<br>
-<strong>스택에 ESP(0x00000001)위에 0x0804850b가 쌓였을 거예여.</strong></p>
+sum 안으로 들어가면,</p>
+
+<p><strong>스택에 ESP(0x00000001)위에 0x0804850b가 쌓였을 거예여.</strong></p>
 
 <p>확인해볼까욤?</p>
 
-<p>• sum이 call된 후의 상황</p>
-
-<p><img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-3.png" alt="">
+<p>• sum이 call된 후의 상황
+<img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-3.png" alt="">
 <em>[그림 3] sum이 call된 후의 상황</em>
 <br></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">(gdb) x/10i $eip
@@ -474,12 +473,11 @@ sum 안으로 들어가면,<br>
 </code></pre></div>
 <p>sum 함수 안으로 들어왔쪄?</p>
 
-<p>오 역시나..
-<code>
-Push ebp
+<p>오 역시나..</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Push ebp
 mov  ebp, esp
-</code>
-하고 있어욤.</p>
+</code></pre></div>
+<p>하고 있어욤.</p>
 
 <p><em>Push ebp</em>를 실행하면,<br>
 그 이전 스택 프레임(main)의 ebp가<br>
@@ -493,8 +491,9 @@ sum의 스택 프레임에 push될거예여.</p>
 <p>오오… 마쟈마쟈ㅠㅠ</p>
 
 <p>그리고 <code>mov ebp, esp</code>를 하면,<br>
-현재 esp를 sum stack frame의 바닥<br>
-즉, sum의 ebp로 만들어주겠져?</p>
+현재 esp를 sum stack frame의 바닥</p>
+
+<p>즉, sum의 ebp로 만들어주겠져?</p>
 
 <p>그러므로 sum의 ebp에는 main의 ebp가 있게되겠져.</p>
 
@@ -540,15 +539,14 @@ sum의 스택 프레임에 push될거예여.</p>
 <u>매개인자</u>는 <u>ebp-8</u>, ebp -12와 같이 들어가게 됩니다!</mark></p>
 </blockquote>
 
-<p>꼭 기억하세욤~</p>
+<p>꼭 기억하세욤~
+<br></p>
 
 <blockquote>
 <p><strong>c</strong><br>
 프로그램이 gdb로 run된 이후에<br>
 다음 중단점까지 실행하는 명령어</p>
 </blockquote>
-
-<p><br></p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">(gdb) x/10i $eip
 =&gt; 0x80484c4 &lt;sum+3&gt;: sub    esp,0x18
    0x80484c7 &lt;sum+6&gt;: mov    eax,DWORD PTR [ebp+0xc]
@@ -575,8 +573,9 @@ Breakpoint 4, 0x080484ad in func2 ()
 (gdb) ni
    0x080484b0 in func2 ()
 </code></pre></div>
-<p>자.. 또 sum 안에서 func2를 호출했어요.<br>
-그럼 아마 스택의 모습은<br>
+<p>자.. 또 sum 안에서 func2를 호출했어요.</p>
+
+<p>그럼 아마 스택의 모습은<br>
 <strong>| func2 stack frame | sum stack frame | main stack frame|</strong> 과 같이 되겠져?</p>
 
 <p>확인해볼게염.</p>
@@ -619,7 +618,7 @@ Breakpoint 4, 0x080484ad in func2 ()
 <h5>2. stack의 끝</h5>
 
 <blockquote>
-<p><strong>Leave</strong>
+<p><strong>Leave</strong><br>
 <strong>Ret</strong></p>
 </blockquote>
 
@@ -702,8 +701,9 @@ esp도 sum의 esp로 바뀌었습니다.</p>
 프로그램을 종료하는 것이겠씀미다아아~</p>
 
 <p>쟈아아아 오늘은 gdb도 써보거 스택에 대해서도 자세히 알아보았눈데,<br>
-어떠셔쎄여?<br>
-다음 번엔 좀 더 다이나믹한 데이트를 합씨당.<br>
+어떠셔쎄여?</p>
+
+<p>다음 번엔 좀 더 다이나믹한 데이트를 합씨당.<br>
 아 물론 데이트 코스는 제가 짭니당. ^ㅠ^
 <br></p>
 
