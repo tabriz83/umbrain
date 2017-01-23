@@ -11,7 +11,8 @@ logo: 'assets/images/logo.png'
 ---
 **출처 : [우리집에 GDB 있는데... 메모리 보고갈래? (2) - Hackerz on the Ship](https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/)**
 
-## Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?  
+## Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?
+<br>
 
 ### DAY #2. 애프터 신청 (~~너~~ gdb 사용법, 갖고싶다.. 너란 stack)
 <br>
@@ -309,6 +310,7 @@ esp, ebp는 스택과 관련한 레지스터잖아요!
 ```
 
 해당 메모리 주소의 값을 각각 1바이트, 2바이트, 4바이트만큼 출력해주었습니다.
+
 <br>
 
 ```
@@ -323,6 +325,7 @@ esp, ebp는 스택과 관련한 레지스터잖아요!
 (진법 옵션이든 바이트 옵션이든 생략되면 이전 옵션으로 실행해줍니다.)
 
 <br>
+
 ```
 (gdb) x/wx 0x080484e6
 0x80484e6 <main>: 0x83e58955
@@ -464,8 +467,7 @@ Dump of assembler code for function main:
 *[그림 2] sum이 call되기 전 상황*
 <br>
 
-그리고 sum 함수 안으로 들어가보도록 하겠습니다.
-
+그리고 sum 함수 안으로 들어가보도록 하겠습니다.  
 call을 할 때는, 다음 인스트럭션의 주소를 스택에 쌓고 가죠?
 
 ```
@@ -634,8 +636,7 @@ Breakpoint 4, 0x080484ad in func2 ()
 `mov ebp, esp`를 자세히 살펴보았으니,
 
 스택 프레임의 끝  
-**Leave**  
-**Ret**을 살펴보도록 하겠습니다.
+**Leave**, **Ret**을 살펴보도록 하겠습니다.
 
 <br>
 
