@@ -1,24 +1,152 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-   
-      <title>tabriz83.github.io/umbrain/</title>
-   
-   <link>http://tabriz83.github.io/umbrain/</link>
-   <description>Memory Repository.</description>
-   <language>en-uk</language>
-   <managingEditor> taBRis</managingEditor>
-   <atom:link href="rss" rel="self" type="application/rss+xml" />
-   
-	<item>
-	  <title>우리집에 GDB 있는데... 메모리 보고갈래? (2)</title>
-	  <link>/umbrain//gdb-memory-day2</link>
-	  <author>taBRis</author>
-	  <pubDate>2017-01-24T01:56:00+00:00</pubDate>
-	  <guid>/umbrain//gdb-memory-day2</guid>
-	  <description><![CDATA[
-	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/">우리집에 GDB 있는데... 메모리 보고갈래? (2) - Hackerz on the Ship</a></strong></p>
+    <!-- [[! Page Meta ]] -->
+    <title>우리집에 GDB 있는데... 메모리 보고갈래? (2)</title>
+    <meta name="description" content="Into the Brain of taBRis - Memory Repository." />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/umbrain/assets/images/Favicon.png" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/umbrain/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/umbrain/assets/css/syntax.css" />
+    
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="/umbrain/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/umbrain/page2/" />
+
+    <meta property="og:site_name" content="Into the Brain of taBRis" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Into the Brain of taBRis" />
+    <meta property="og:description" content="Memory Repository." />
+    <meta property="og:url" content="/umbrain/" />
+    <meta property="og:image" content="/umbrain/assets/images/cover1.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Into the Brain of taBRis" />
+    <meta name="twitter:description" content="Memory Repository." />
+    <meta name="twitter:url" content="/umbrain/" />
+    <meta name="twitter:image:src" content="/umbrain/assets/images/cover1.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Into the Brain of taBRis",
+    "url": "/umbrain/",
+    "image": "/umbrain/assets/images/cover1.jpg",
+    "description": "Memory Repository."
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Into the Brain of taBRis" href="/umbrain/rss.xml" />
+
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/umbrain/">Main</a></li>
+        <li class="nav-security " role="presentation"><a href="/umbrain/tag/Security">Security</a></li>
+        <li class="nav-unclassified " role="presentation"><a href="/umbrain/tag/Unclassified">Unclassified</a></li>
+        <li class="nav-author " role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
+    </ul>
+	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
+	<!— Html Elements for Search -->
+	<div class="search-container">
+	<input type="text" id="search-input" size="23" placeholder="Search...">
+	<ul id="results-container"></ul>
+	<!-- Script pointing to jekyll-search.js -->
+	<script src="/umbrain//dest/jekyll-search.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		  SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '/umbrain//search.json',
+			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+			noResultsText: 'No results found',
+			limit: 1000,
+			fuzzy: false,
+			exclude: ['Welcome']
+		  })
+	</script>
+	</div>
+	
+</div>
+<span class="nav-cover"></span>
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head " style="background-image: url(/umbrain/assets/images/cover2.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
+        <a class="blog-logo" href="/umbrain/"><img src="/umbrain/assets/images/logo.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-Security">
+
+        <header class="post-header">
+            <h1 class="post-title">우리집에 GDB 있는데... 메모리 보고갈래? (2)</h1>
+            <section class="post-meta">
+            <!-- <a href='/umbrain/'>taBRis</a> -->
+            <time class="post-date" datetime="2017-01-24">24 Jan 2017</time>
+                <!-- [[tags prefix=" on "]] -->
+                 
+                on 
+                
+                    
+                       <a href='/umbrain/tag/Security'>Security</a>,
+                       
+                
+                    
+                       <a href='/umbrain/tag/System Hacking'>System hacking</a>,
+                       
+                
+                    
+                       <a href='/umbrain/tag/Reversing'>Reversing</a>,
+                       
+                
+                    
+                       <a href='/umbrain/tag/Guide'>Guide</a>
+                       
+                
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+            
+            <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/">우리집에 GDB 있는데... 메모리 보고갈래? (2) - Hackerz on the Ship</a></strong></p>
 
 <h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
 
@@ -713,403 +841,101 @@ esp도 sum의 esp로 바뀌었습니다.</p>
 
 <p>그럼 이만 뿅!</p>
 
-	  ]]></description>
-	</item>
 
-	<item>
-	  <title>우리집에 GDB 있는데... 메모리 보고갈래? (1)</title>
-	  <link>/umbrain//gdb-memory-day1</link>
-	  <author>taBRis</author>
-	  <pubDate>2017-01-22T06:41:00+00:00</pubDate>
-	  <guid>/umbrain//gdb-memory-day1</guid>
-	  <description><![CDATA[
-	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/03/08/gdb_memory_1/">우리집에 GDB 있는데... 메모리 보고갈래? (1) - Hackerz on the Ship</a></strong></p>
-
-<h2>들어가기에 앞서...</h2>
-
-<blockquote>
-<p>컴(존)알못들이여 오라.
-보안 공부하다 높다란 진입장벽 앞에서 좌절하신 분들께 이 글을 바칩니다.
-해커가 되겠다는 청운을 안고 대학을 입학했으나.. 4년 째 뉴비...★
-컴알못인 제가 자세히 친절하게 하나하나 꼭꼭 씹어보겠습니다.</p>
-</blockquote>
-
-<hr>
-
-<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
-
-<h3>DAY #1. 듀근듀규뉸구누균ㄱ 첫만남</h3>
-
-<p><br>
-<img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-intro.png" alt="*인트로*"></p>
-
-<p>구체적으로 뭐하는지가 궁금하시다구여?
-…뭘 하더라도 기초가 중요한 것 같네요.
-메모리에 대한 썰부터 간단히 풀어볼게요!!
-<br></p>
-
-<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-1.png" alt="">
-<em>[그림 1] 썰 주제 되십니다<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></em>
-<br></p>
-
-<hr>
-
-<h4>1. 주소는 왜 때문에 0000 0000 ~ FFFF FFFF ???</h4>
-
-<p>램은 몇 기가 쓰세여?<br>
-제 노트북은 4GB의 램을 쓰고 있네요.</p>
-
-<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-2.png" alt="">
-<em>[그림 2] 이런거 은근 헷갈리지 않음요?</em>
-<br></p>
-
-<p>위의 계산에 의하면 4GB는 2^32 byte 사이즈의 메모리죠.</p>
-
-<p>1Byte는 주소공간 한 개의 크기입니다<br>
-즉, 4GB는 2^32개의 주소를 가질 수 있어요</p>
-
-<p>그리고 1bit는 0 또는 1의 값만 가질 수 있기 때문에 32bit는 2^32만큼의 숫자를 표현할 수 있어요</p>
-
-<p>32bit라는 것은 2^32개의 주소를 가지고 있다라는 뜻으로 이해하시면 됩니다!</p>
-
-<p>그런데 우리가 메모리를 뭐로 접근합니까? 주소로 접근 하죠.<br>
-32bit 운영체제는 수 표현을 최대 2^32까지 밖에 못 하기 때문에, 8GB나 16GB의 램을 가지고 있다고 하더라도 접근을 할 수가 없어요.</p>
-
-<p>0000…0000(32개) 부터 1111….1111(32개) 까지를 보기 편하게 16진수로 변환하면?</p>
-
-<p>00000000 ~ FFFFFFFF !</p>
-
-<hr>
-
-<h4>2. 유저 영역, 커널 영역은 왜 나뉘어져 있나</h4>
-
-<p>시스템 운영에 필요한 메모리, 그리고 운영체제가 커널 영역에 올라가 있습니다.<br>
-사용자가 운영체제가 올라가 있는 커널 영역에 마음대로 접근할 수 있다면…? 시스템이 안정적으로 운용될 수 없을거예여.</p>
-
-<p>그렇기 때문에 사용자가 함부로 커널 영역에 접근할 수 없도록 메모리를 유저영역과 커널영역을 나누어 사용하는 겁니다.<br>
-나누는 크기는 운영체제마다 다르고, 설정에 따라 영역의 크기를 조정할 수도 있어여.</p>
-
-<hr>
-
-<h4>3. 유저 영역의 메모리</h4>
-
-<p>유저 메모리의 영역을 조금 더 자세히 살펴볼까요?</p>
-
-<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-3.png" alt="">
-<em>[그림 3] 안녕하새오 웬만한 기본서 펼치면 2n 페이지 쯤 있는 친구애오<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup></em>
-<br></p>
-
-<h5>3-1. 코드영역</h5>
-
-<p>일단 메모리에 코드가 올라옵니다. 코드가 뭐냐구요?</p>
-
-<p><img src="../assets/Post_Images/2017/01/22/gdb_memory_day1/gdb-memory-day1-4.png" alt="">
-<em>[그림 3] 네 바로 이겁니다</em>
-<br></p>
-
-<p>이런거 어디서 많이 봤죠? c소스를 컴파일하면 어셈블리 코드로 번역(?)되잖아요.<br>
-이 저급한 애들이 코드 영역에 올라 간다는 거져ㅎㅎ<br>
-주소보면 32bit 시스템에서 익숙한 0804~로 시작함다. 메모리에 코드1가 올라갈 때 보통 저 영역에 올라갑니다.
-<br></p>
-
-<h5>3-2. 데이터영역</h5>
-
-<p>그 다음은 데이터 영역입니다.<br>
-전역변수가 이 영역에 로드되는데 항상 동일한 메모리에 위치하게 됩니당.</p>
-
-<p>사용자가 입력하는 값이 전역변수로 정의되어있다고 가정해봅시다.<br>
-고정된 메모리 주소 그리고 그 주소에 원하는 값을 쓸 수 있다면? 익스플로잇에 활용될 가능성이 갱장히 높아지겠죠?</p>
-
-<p>여기까지가 고정된 주소에 올라오는 영역입니다.
-<br></p>
-
-<h5>3-3. 힙영역</h5>
-
-<p>힙 영역은 동적으로 메모리를 할당하여 사용하는 공간입니다.<br>
-대표적인 메모리 할당 함수로는 malloc 이 있죠. malloc으로 필요한 공간을 할당하면 힙 영역을 쓰게 되는겁니다.<br>
-쓰다가 필요 없어지면 해제 해주면 되죠.</p>
-
-<p>이 말인 즉슨 내가 힙 영역에 어떤 값을 엄청 많이 뿌려놓고 free 해준 후<br>
-다시 이 공간을 재사용한다면..? 후.. 뭔가 익스플로잇할 때 낭낭히 활용될 거 같죠?</p>
-
-<p><em>후.. 방금 당신은 UAF를 배웠습니다.</em>
-<br></p>
-
-<h5>3-4. 스택영역</h5>
-
-<p>마지막 두둥 (유저영역) 메모리의 가장 바닥부터 채워지는 스택이 있죠.<br>
-스택은 거꾸로 자라는거 아시져?<br>
-왜냐구요?<br>
-스택이 끝도없이 위아래도 모르고 자라다가 커널 건드리면…. 주옥되잖아요…<br>
-그래서 얘는 거꾸로 자라는 겁니다.<br>
-스택영역은 함수인자나 지역변수들이 올라옵니다.<br>
-보통 스택 주소보면 0xbfff 이런식이예요.  </p>
-
-<p>힙과 스택은 고정된 메모리에 올라오는 것이 아니기 때문에, 이 영역을 활용해 한번에 깔끔하게 쉘 따기란 넘나 어려운 것…</p>
-
-<p>다음 포스팅엔 gdb 활용법으로 찾아오도록 할게여.<br>
-메모리 구조를 gdb를 통해 뜯어보는 시간도 가져보도록 하겠슴다. 그럼 뿅★</p>
-
-<p><em>written by in09</em></p>
-
-<div class="footnotes">
-<hr>
-<ol>
-
-<li id="fn1">
-<p>[그림 1]: Pictogram(crown) created by Paul Verhulst from Noun Project&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
-</li>
-
-<li id="fn2">
-<p>[그림 3]: Pictogram(book) created by Jakub Caja from Noun Project&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
-</li>
-
-</ol>
-</div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>초보자를 위한 시스템해킹 공부 가이드라인</title>
-	  <link>/umbrain//System_Hacking_Study_Guide_for_Beginner</link>
-	  <author>taBRis</author>
-	  <pubDate>2017-01-21T02:17:00+00:00</pubDate>
-	  <guid>/umbrain//System_Hacking_Study_Guide_for_Beginner</guid>
-	  <description><![CDATA[
-	     <p><strong>출처 : 초보자를 위한 시스템 해킹 공부 가이드라인 - <a href="https://www.facebook.com/HSPantom">홍승표 作</a>(a.k.a Phantom)</strong></p>
-
-<h2>1. 기본기</h2>
-
-<ul>
-<li><mark>C언어</mark>, 객체 지향언어(C++, JAVA, Python etc...)중 하나 (개념이라도)</li>
-<li><mark>리눅스</mark></li>
-<li><p><mark>네트워크 기초</mark> (네트워크의 개념, 각 패킷의 형태, OSI 7 Layer, 라우터, 스위치 정도만이라도)</p></li>
-<li><p><strong>TechTree 1</strong>
-<img src="../assets/Post_Images/2017/01/21/System_Hacking_Study_Guide_for_beginner/tech.png" alt="TechTree 1">
-<br></p></li>
-<li><p><strong>TechTree 2</strong>
-<img src="../assets/Post_Images/2017/01/21/System_Hacking_Study_Guide_for_beginner/tech2.png" alt="TechTree 2"></p></li>
-</ul>
-
-<hr>
-
-<h2>2. 전문분야</h2>
-
-<p><strong>1. Pwnable</strong><br>
-<strong>2. Reversing</strong>
-<br></p>
-
-<h3>2.1. Pwnable</h3>
-
-<ul>
-<li><strong>추천 공부 순서</strong><br>
-<strong>1. <mark>달고나 문서</mark></strong><br>
-<strong>2. <mark>Hackerz on the ship</mark> - 우리 집에 gdb있는데.. 메모리 보고갈래?</strong><br>
-<strong>3. <mark>HackerSchool</mark><sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>  FTZ traing 1~10, Level 1~20</strong><br>
-<strong>4. HackerSchool Load of BOF 1~20</strong><br>
-<strong>5. HackerSchool FC3</strong></li>
-<li>처음에는 <mark>달고나 문서</mark>와 <mark>Hackerz on the ship의 문서</mark>를 읽는 것을 추천<strong><sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup></strong>. 리버싱도 마찬가지.</li>
-<li><strong>여기까지 하는데도 상당한 시간이 걸린다.</strong></li>
-<li>Training 1~10, Level 1~9까지는 처음에 왜 하는지 잘 이해가 가지 않을 수 있으나, 한번하고 나중에 다시보게 된다면 왜 이것을 했는지 이해할 수 있으며, 공부하면서 프로그래밍 등 기초가 흔들리는 자신의 모습을 볼 수 있을것.</li>
-</ul>
-
-<blockquote>
-<p><strong>Phantom의 의견</strong></p>
-
-<p>처음 공부할 때 어떻게 해야 할 지 몰라서 &#39;문제 풀이로 배우는 시스템 해킹 테크닉&#39;이라는 FTZ문제 풀이 책을 봤다. 이해가 가는 부분도 있고, 가지 않는 부분도 있을 것이다. 적어도 한번정도는 이해가 안가는 부분을 최대한 해보고, <mark>그래도 안되면 다음을 기약하며 넘기고</mark> 앞으로 계속 가기를 바란다.</p>
-
-<p>FTZ를 풀고 LOB까지? FC3까지는 처음 혼자 해보다 <mark>잘 안되면 풀이를 보고 공부했다. 그리고 다시 풀이를 보지 않고 공부를 했다.</mark></p>
-
-<p>해커스쿨의 각종 문서들과 발표자료 등 필요할 때 매우 자주 찾아보는 것을 추천한다.</p>
-
-<p>그리고 문제풀이 라는 것은 FTZ Level9?부터 익스플로잇 코드까지 작성하는 것을 푸는 것이라 생각하는 것이 좋다.</p>
-</blockquote>
-
-<p><br></p>
-
-<ul>
-<li><strong>이후 추천 공부 순서</strong><br>
-<strong>1. exploit-exercises.com - Nebula, Protostar, Fusion</strong><br>
-<strong>2. OvertheWire - votex</strong><br>
-<strong>3. Pwnable.kr</strong></li>
-<li>이미 여기까지 할 수 있는 실력이라면 해킹방어대회(CTF)에 참가하면 순위권 안에 들지도 모른다.</li>
-<li>Phantom이 공부한 책으로는 시스템 해킹 테크닉(FTZ), 해킹 공격의 예술이 Pwnable에는 해당되는 것 같다.</li>
-<li>대부분이 문서로 존재한다.</li>
-</ul>
-
-<hr>
-
-<h3>2.2 Reversing</h3>
-
-<ul>
-<li><strong>추천 공부 순서</strong><br>
-<strong>1. Abex&#39;s Crackme 1~5</strong><br>
-<strong>2. CodeEngn Basic RCE 1~20</strong><br>
-<strong>3. Simples.kr Season 1 Crack, Unpack, Season 2 Reverse</strong><br>
-<strong>4. CodeEngn Advanced RCE 1~18</strong><br>
-<strong>5. Reversing.kr</strong><br></li>
-</ul>
-
-<blockquote>
-<p><strong>Phantom의 의견</strong></p>
-
-<p>처음 Reversing을 공부했을 때, 흔히 나뭇잎책, 방독면책 하는 바이블이라 불리는 책을 보면서 공부를 하는데, <u>하나도 몰랐다!!!</u></p>
-
-<p>책을 따라가며 부분부분 이해하며 넘기긴 하는데, 정신을 차리면 영혼이 잠시 마실 나갔다 온 것처럼 기억을 못했고, 어셈블리어 한 줄 한 줄은 알겠는데, 전체적인 흐름이 보이지 않았다.</p>
-
-<p>이런 이유로 리버싱을 자주 포기했었고, 거의 포기했다. <mark>역시 달고나 문서와 Hackerz on the ship의 문서를 읽길 바란다.</mark></p>
-
-<p>멘토님이 한가지 과제를 주셨는데, Simples.kr Crackme 1~20 1번 Writeup 보고 풀고 1주일 후에 보고서 제출이었다. 진짜 더럽게 이해 안가고 그랬지만 1주일 안에 했다. 그리고 지금, 다시 문제를 푸니 전체적인 개념이 조금이나마 깃들어 있어 혼자 풀기 시작한다. 심지어 아주 쉬운 CTF문제 하나도 혼자 풀었다.</p>
-
-<p>공부한 책으로는 나뭇잎, 방독면 등등 두 세 개 있는 것 같은데 대부분 레퍼런스로 보고 있다.</p>
-
-<p>어셈블리어를 체화 하는 것에는 <mark>핸드레이</mark>(Hand+hex-ray)<strong><sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup></strong>가 좋다. C를 어셈으로, 어셈을 C로 풀어보는 것으로, 이것은 개인적인 의견이 아니라 대표님들이, 악성코드 분석 현업에 계신 분들이 말씀해 주신 것을 토대로 하는 이야기다.</p>
-
-<p>이정도 할 생각이면 Pwnable이든, Reversing이든 크게 심적으로 힘들지 않을 것이다.</p>
-
-<p>그리고 나뭇잎과 같은 책들은 처음엔 많이 어려울 수 있다. 하지만 선행학습이 된다면 그 내용들이 쉬워질 것이다. 나 또한 지금에서야 깨달은 것이지만 매우 쉽다. 아직 앞부분만이지만.</p>
-
-<p>그 이후 PE부분부터는 OS지식에 대한 것이 부족하다는 것을 느낄 것이다. 그 때 부터 기본을 쌓기 시작할 수도 있다.</p>
-
-<p>Crackme를 풀 때부터 Windows API를 보고 그럴 것이다. 그러면서 기초가 쌓인다. Codeengn은 시스템의 해커스쿨과 비슷한 곳이다. 그곳에서 문서를 쉽게 찾을 수 있을 것이다.</p>
-</blockquote>
-
-<hr>
-
-<h2>3. 마무리</h2>
-
-<p>Pwnable이든 Reversing이든 어느 정도의 기초지식은 Wargame을 통해 Writeup을 보고 먼저 한바퀴 만큼은 풀길 바란다. 그 이유는 적어도 이것이 어떤 것이라는 <u>적응</u>이 필요하기 때문이다. (특히 Reversing) 그리고 다시 돌아와서 제대로 공부하기를 바라며, 처음에 영혼없이 하더라도 이것이 어떤 것인지는 인식을 하고 있어야 한다.</p>
-
-<p>공부하는 방법을 알아내는 것도 실력이고, 뭘 공부해야할지 알아내는 것도 실력이며, 뭘 공부할지 모를 때 오는 슬럼프를 극복하는 것도 실력이다.</p>
-
-<p>어차피 공부하는 것은 혼자이다. 스터디에 들었다고, 팀에 들었다고 절대 내 실력이 오르는 것이 아니다. 이 생각이 제일 위험하고 자만하면 안된다.</p>
-
-<p><strong>스스로 찾고 해결해 나가는 것이 중요하다.</strong></p>
-
-<hr>
-
-<h2>#1. 공부에 도움이 되는 사이트들</h2>
-
-<table><thead>
-<tr>
-<th>분류</th>
-<th>관련 사이트</th>
-<th>비고</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>침해사고 대응</td>
-<td><a href="http://securitypractice.or.kr/index.php">http://securitypractice.or.kr/index.php</a></td>
-<td>KISA에서 운영하는 침해사고 대응 훈련장</td>
-</tr>
-<tr>
-<td>모의해킹</td>
-<td><a href="http://hackerschool.org">http://hackerschool.org</a></td>
-<td>시스템 해킹 실습 환경 제공 및 기타 정보들</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://www.wechall.net">http://www.wechall.net</a></td>
-<td>전세계 해킹 실습환경을 한곳에 모아둔 사이트</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://webhacking.kr">http://webhacking.kr</a></td>
-<td>웹 해킹 문제 풀이 사이트</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://codeengn.com">http://codeengn.com</a></td>
-<td>해킹관련 문서가 다량 보유된 사이트</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://xcz.kr/START/challenge.php">http://xcz.kr/START/challenge.php</a></td>
-<td>다양한 분야의 문제가 혼용된 사이트</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="https://www.corelan.be/index.php/articles/">https://www.corelan.be/index.php/articles/</a></td>
-<td>리버싱 등에 관한 상세한 기사들이 다수 존재하는 곳(영문)</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://www.droidsec.org/wiki/#whitepapers">http://www.droidsec.org/wiki/#whitepapers</a></td>
-<td>안드로이드 해킹에 대한 모든 정보가 있는 곳</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="https://www.ietf.org/rfc.html">https://www.ietf.org/rfc.html</a></td>
-<td>네트워크 프로토콜 RFC 자료</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://www.owasp.net">http://www.owasp.net</a></td>
-<td>OWASP, ESAPI등 관련 정보가 있는 곳</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://resources.infosecinstitute.com">http://resources.infosecinstitute.com</a></td>
-<td>아주 쉬운 기술 자료들이 모여있는 곳. 샘플도 제공(영문)</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://www.wowhacker.com">http://www.wowhacker.com</a></td>
-<td>언더해커 모임</td>
-</tr>
-<tr>
-<td>프로그래밍</td>
-<td><a href="http://www.pythonchallenge.com">http://www.pythonchallenge.com</a></td>
-<td>Python 문제 풀이 사이트</td>
-</tr>
-<tr>
-<td>포렌식</td>
-<td><a href="http://maj3sty.tistory.com">http://maj3sty.tistory.com</a></td>
-<td>개인이 운영하는 블로그로 포렌식 관련 자료 다수 보유</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://forensic-proof.com">http://forensic-proof.com</a></td>
-<td>플레인비트 김진국 대표가 운영하는 블로그</td>
-</tr>
-</tbody></table>
-
-<hr>
-
-<h2>#2. Reference to</h2>
-
-<ul>
-<li>보안 전문가의 길 (<a href="http://www.slideshare.net/seokhunhwnag/2015-v09">http://www.slideshare.net/seokhunhwnag/2015-v09</a>)</li>
-<li>시스템 보안이란? (<a href="https://www.facebook.com/groups/438543032874514/1074936635901814/">https://www.facebook.com/groups/438543032874514/1074936635901814/</a>)</li>
-<li>달고나 문서 (<a href="http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf">http://www.hackerschool.org/HS_Boards/data/Lib_system/buffer_overflow_foundation_pub.pdf</a>)</li>
-<li>우리집에 gdb있는데.. 메모리 보고 갈래? (<a href="https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/">https://bpsecblog.wordpress.com/2016/03/08/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%97%90-gdb-%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EA%B3%A0%EA%B0%88%EB%9E%98-1/</a>)</li>
-<li>해킹 입문서, 커리큘럼, 테크트리, 리버싱 (<a href="http://blog.naver.com/93immm/130179760409">http://blog.naver.com/93immm/130179760409</a>)</li>
-<li>Phantom이 쓴 Writeup (<a href="http://pantom.tistory.com">http://pantom.tistory.com</a>)</li>
-</ul>
-
-<div class="footnotes">
-<hr>
-<ol>
-
-<li id="fn1">
-<p>Wargame이라고 하며, 가상 OS에 취약점이 있는 환경을 만들어 각 단계에서 취약점을 공략하여 다음 단계로 올라가는 방식.  &nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
-</li>
-
-<li id="fn2">
-<p>적어도 어떻게 돌아가는 것인지는 알아야 Reversing이든 Pwnable이든 가능하기 때문.  &nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
-</li>
-
-<li id="fn3">
-<p>Hax-ray를 손으로 하는 방법.&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a></p>
-</li>
-
-</ol>
-</div>
-
-	  ]]></description>
-	</item>
-
-
-</channel>
-</rss>
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/umbrain/author/tabris" style="background-image: url(/umbrain/assets/images/author_ico.png)"><span class="hidden">'s Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/umbrain/author/tabris">taBRis</a></h4>
+                
+                
+                    <p> Into the Brain of taBRis.</p>
+                
+                <div class="author-meta">
+                     
+                    <span class="author-link icon-link"><a href="http://tabriz83.github.io/umbrain/"> tabriz83.github.io/umbrain/</a></span> 
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=우리집에 GDB 있는데... 메모리 보고갈래? (2)&amp;url=http://tabriz83.github.io/umbrain/gdb-memory-day2"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://tabriz83.github.io/umbrain/gdb-memory-day2"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://tabriz83.github.io/umbrain/gdb-memory-day2"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            
+            <!-- Add Disqus Comments -->
+            
+            
+        </footer>
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev " style="background-image: url(/umbrain/assets/images/cover2.jpg)" href="/umbrain/gdb-memory-day1">
+            <section class="post">
+                <h2>우리집에 GDB 있는데... 메모리 보고갈래? (1)</h2>
+                <p>출처 : 우리집에 GDB 있는데... 메모리 보고갈래? (1) - Hackerz on the Ship 들어가기에 앞서......</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/umbrain/">UMBrain :: Into the Brain of taBRis.</a> &copy; 2017</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
+    </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/umbrain/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/umbrain/assets/js/index.js"></script>
+
+    <!-- Add Google Analytics  -->
+        <!-- Google Analytics Tracking code -->
+     <script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	    ga('create', 'UA-69281367-1', 'auto');
+	    ga('send', 'pageview');
+
+     </script>   
+</body>
+</html>
