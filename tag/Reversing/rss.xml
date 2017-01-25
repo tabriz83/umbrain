@@ -18,9 +18,9 @@
 	  <pubDate>2017-01-25T17:14:00+00:00</pubDate>
 	  <guid>/umbrain//gdb-memory-day3</guid>
 	  <description><![CDATA[
-	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/05/20/gdb_memory_3/">(完)우리집에 GDB 있는데... 메모리 보고갈래? (3) - Hackerz on the Ship</a></strong></p>
+	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/05/20/gdb_memory_3/">(完)우리집에 GDB 있는데&hellip; 메모리 보고갈래? (3) - Hackerz on the Ship</a></strong></p>
 
-<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+<h2>Season 1. 우리집에 GDB있는데&hellip; 메모리 보고 갈래?</h2>
 
 <p><br></p>
 
@@ -150,7 +150,7 @@ system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문
 <em>[그림 10] v5에 00000001 넣는 방법 (실패)</em>
 <br></p>
 
-<p>에휴.. 쉘이 안뜬거 보니 실패했네여...<br>
+<p>에휴.. 쉘이 안뜬거 보니 실패했네여&hellip;<br>
 왜 그런가 한번 gdb로 봐보댜구요.
 <br></p>
 
@@ -180,7 +180,7 @@ system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문
 
 <p>python으로는 hex 값을 표현할 수 있기 때문에,<br>
 이를 활용해 출력값을 in09 파일에 저장한 것이 보이졈?<br>
-(in09 파일에서 보이는  ^@^@^@^A는 헥스값으로 0x00000001임다)</p>
+(in09 파일에서 보이는  <sup>@<sup>@<sup>@<sup>A는</sup></sup></sup></sup> 헥스값으로 0x00000001임다)</p>
 
 <p>그리고 쉘 프롬프트에서 사용하는 <strong>`(백틱)</strong>에 대해<br>
 잠깐 설명하고 넘어가도록 하겠슴미다.</p>
@@ -240,13 +240,13 @@ whoami 명령어의 출력 값이 입력 값으로 넘어가고 있어요(arr을
 	  <pubDate>2017-01-24T01:56:00+00:00</pubDate>
 	  <guid>/umbrain//gdb-memory-day2</guid>
 	  <description><![CDATA[
-	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/">우리집에 GDB 있는데... 메모리 보고갈래? (2) - Hackerz on the Ship</a></strong></p>
+	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/">우리집에 GDB 있는데&hellip; 메모리 보고갈래? (2) - Hackerz on the Ship</a></strong></p>
 
-<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+<h2>Season 1. 우리집에 GDB있는데&hellip; 메모리 보고 갈래?</h2>
 
 <p><br></p>
 
-<h3>DAY #2. 애프터 신청 (~~너~~ gdb 사용법, 갖고싶다.. 너란 stack)</h3>
+<h3>DAY #2. 애프터 신청 (<del>너</del> gdb 사용법, 갖고싶다.. 너란 stack)</h3>
 
 <p><br>
 <img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-intro.png" alt="*인트로*">
@@ -310,7 +310,7 @@ canary에 대한 자세한 내용이 있으니 참고하셔도 좋습니당!)</p
 
 <hr>
 
-<h4>Ch 1. ~~너~~  gdb 사용법</h4>
+<h4>Ch 1. <del>너</del>  gdb 사용법</h4>
 
 <p><br></p>
 
@@ -631,13 +631,13 @@ gs             0x33 51
 
 <p>단 두 줄의 인스트럭션만 실행이 되었기 때문에 별 건 없져?<br>
 하지만 저 단 두 줄의 어셈이 의미하는 바는 상당합니다.<br>
-바로 <mark>&#39;스택(프레임)이 생성&#39;</mark>이 된다는 것이죠.</p>
+바로 <mark>&lsquo;스택(프레임)이 생성&rsquo;</mark>이 된다는 것이죠.</p>
 
 <p>저 두 줄의 의미는,  </p>
 
 <blockquote>
 <p><mark>&#39;함수가 실행이 될 때, 그 이전의 ebp(sfp)를 스택에 push하고<br>
-현재 esp를 ebp에 저장하라.(새로운 ebp 생성!)&#39;</mark></p>
+현재 esp를 ebp에 저장하라.(새로운 ebp 생성!)&rsquo;</mark></p>
 </blockquote>
 
 <p>이라는 뜻임미당.
@@ -712,7 +712,7 @@ sum의 스택 프레임에 push될거예여.</p>
 </code></pre></div>
 <p>오오… 마쟈마쟈ㅠㅠ</p>
 
-<p>그리고 <code>mov ebp, esp</code>를 하면,<br>
+<p>그리고 <code class="prettyprint">mov ebp, esp</code>를 하면,<br>
 현재 esp를 sum stack frame의 바닥</p>
 
 <p>즉, sum의 ebp로 만들어주겠져?</p>
@@ -828,8 +828,8 @@ Breakpoint 4, 0x080484ad in func2 ()
 
 <p>시작이 있으면 끝이 있겠져?<br>
 스택의 프레임이 시작되는,<br>
-<code>Push ebp</code><br>
-<code>mov ebp, esp</code>를 자세히 살펴보았으니,</p>
+<code class="prettyprint">Push ebp</code><br>
+<code class="prettyprint">mov ebp, esp</code>를 자세히 살펴보았으니,</p>
 
 <p>스택 프레임의 끝<br>
 <strong>Leave</strong>, <strong>Ret</strong>을 살펴보도록 하겠습니다.</p>
@@ -925,7 +925,7 @@ esp도 sum의 esp로 바뀌었습니다.</p>
 어떠셔쎄여?</p>
 
 <p>다음 번엔 좀 더 다이나믹한 데이트를 합씨당.<br>
-아 물론 데이트 코스는 제가 짭니당. ^ㅠ^
+아 물론 데이트 코스는 제가 짭니당. <sup>ㅠ^</sup>
 <br></p>
 
 <p><em>다음 포스팅 예고</em></p>
@@ -944,20 +944,20 @@ esp도 sum의 esp로 바뀌었습니다.</p>
 	  <pubDate>2017-01-22T06:41:00+00:00</pubDate>
 	  <guid>/umbrain//gdb-memory-day1</guid>
 	  <description><![CDATA[
-	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/03/08/gdb_memory_1/">우리집에 GDB 있는데... 메모리 보고갈래? (1) - Hackerz on the Ship</a></strong></p>
+	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/03/08/gdb_memory_1/">우리집에 GDB 있는데&hellip; 메모리 보고갈래? (1) - Hackerz on the Ship</a></strong></p>
 
-<h2>들어가기에 앞서...</h2>
+<h2>들어가기에 앞서&hellip;</h2>
 
 <blockquote>
 <p>컴(존)알못들이여 오라.
 보안 공부하다 높다란 진입장벽 앞에서 좌절하신 분들께 이 글을 바칩니다.
-해커가 되겠다는 청운을 안고 대학을 입학했으나.. 4년 째 뉴비...★
+해커가 되겠다는 청운을 안고 대학을 입학했으나.. 4년 째 뉴비&hellip;★
 컴알못인 제가 자세히 친절하게 하나하나 꼭꼭 씹어보겠습니다.</p>
 </blockquote>
 
 <hr>
 
-<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+<h2>Season 1. 우리집에 GDB있는데&hellip; 메모리 보고 갈래?</h2>
 
 <p><br></p>
 
@@ -986,17 +986,17 @@ esp도 sum의 esp로 바뀌었습니다.</p>
 <em>[그림 2] 이런거 은근 헷갈리지 않음요?</em>
 <br></p>
 
-<p>위의 계산에 의하면 4GB는 2^32 byte 사이즈의 메모리죠.</p>
+<p>위의 계산에 의하면 4GB는 2<sup>32</sup> byte 사이즈의 메모리죠.</p>
 
 <p>1Byte는 주소공간 한 개의 크기입니다<br>
-즉, 4GB는 2^32개의 주소를 가질 수 있어요</p>
+즉, 4GB는 2<sup>32개의</sup> 주소를 가질 수 있어요</p>
 
-<p>그리고 1bit는 0 또는 1의 값만 가질 수 있기 때문에 32bit는 2^32만큼의 숫자를 표현할 수 있어요</p>
+<p>그리고 1bit는 0 또는 1의 값만 가질 수 있기 때문에 32bit는 2<sup>32만큼의</sup> 숫자를 표현할 수 있어요</p>
 
-<p>32bit라는 것은 2^32개의 주소를 가지고 있다라는 뜻으로 이해하시면 됩니다!</p>
+<p>32bit라는 것은 2<sup>32개의</sup> 주소를 가지고 있다라는 뜻으로 이해하시면 됩니다!</p>
 
 <p>그런데 우리가 메모리를 뭐로 접근합니까? 주소로 접근 하죠.<br>
-32bit 운영체제는 수 표현을 최대 2^32까지 밖에 못 하기 때문에, 8GB나 16GB의 램을 가지고 있다고 하더라도 접근을 할 수가 없어요.</p>
+32bit 운영체제는 수 표현을 최대 2<sup>32까지</sup> 밖에 못 하기 때문에, 8GB나 16GB의 램을 가지고 있다고 하더라도 접근을 할 수가 없어요.</p>
 
 <p>0000…0000(32개) 부터 1111….1111(32개) 까지를 보기 편하게 16진수로 변환하면?</p>
 

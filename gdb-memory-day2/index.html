@@ -146,13 +146,13 @@
 
         <section class="post-content">
             
-            <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/">우리집에 GDB 있는데... 메모리 보고갈래? (2) - Hackerz on the Ship</a></strong></p>
+            <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/04/04/gdb_memory_2/">우리집에 GDB 있는데&hellip; 메모리 보고갈래? (2) - Hackerz on the Ship</a></strong></p>
 
-<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+<h2>Season 1. 우리집에 GDB있는데&hellip; 메모리 보고 갈래?</h2>
 
 <p><br></p>
 
-<h3>DAY #2. 애프터 신청 (~~너~~ gdb 사용법, 갖고싶다.. 너란 stack)</h3>
+<h3>DAY #2. 애프터 신청 (<del>너</del> gdb 사용법, 갖고싶다.. 너란 stack)</h3>
 
 <p><br>
 <img src="../assets/Post_Images/2017/01/24/gdb_memory_day2/gdb-memory-day2-intro.png" alt="*인트로*">
@@ -216,7 +216,7 @@ canary에 대한 자세한 내용이 있으니 참고하셔도 좋습니당!)</p
 
 <hr>
 
-<h4>Ch 1. ~~너~~  gdb 사용법</h4>
+<h4>Ch 1. <del>너</del>  gdb 사용법</h4>
 
 <p><br></p>
 
@@ -537,13 +537,13 @@ gs             0x33 51
 
 <p>단 두 줄의 인스트럭션만 실행이 되었기 때문에 별 건 없져?<br>
 하지만 저 단 두 줄의 어셈이 의미하는 바는 상당합니다.<br>
-바로 <mark>&#39;스택(프레임)이 생성&#39;</mark>이 된다는 것이죠.</p>
+바로 <mark>&lsquo;스택(프레임)이 생성&rsquo;</mark>이 된다는 것이죠.</p>
 
 <p>저 두 줄의 의미는,  </p>
 
 <blockquote>
 <p><mark>&#39;함수가 실행이 될 때, 그 이전의 ebp(sfp)를 스택에 push하고<br>
-현재 esp를 ebp에 저장하라.(새로운 ebp 생성!)&#39;</mark></p>
+현재 esp를 ebp에 저장하라.(새로운 ebp 생성!)&rsquo;</mark></p>
 </blockquote>
 
 <p>이라는 뜻임미당.
@@ -618,7 +618,7 @@ sum의 스택 프레임에 push될거예여.</p>
 </code></pre></div>
 <p>오오… 마쟈마쟈ㅠㅠ</p>
 
-<p>그리고 <code>mov ebp, esp</code>를 하면,<br>
+<p>그리고 <code class="prettyprint">mov ebp, esp</code>를 하면,<br>
 현재 esp를 sum stack frame의 바닥</p>
 
 <p>즉, sum의 ebp로 만들어주겠져?</p>
@@ -734,8 +734,8 @@ Breakpoint 4, 0x080484ad in func2 ()
 
 <p>시작이 있으면 끝이 있겠져?<br>
 스택의 프레임이 시작되는,<br>
-<code>Push ebp</code><br>
-<code>mov ebp, esp</code>를 자세히 살펴보았으니,</p>
+<code class="prettyprint">Push ebp</code><br>
+<code class="prettyprint">mov ebp, esp</code>를 자세히 살펴보았으니,</p>
 
 <p>스택 프레임의 끝<br>
 <strong>Leave</strong>, <strong>Ret</strong>을 살펴보도록 하겠습니다.</p>
@@ -831,7 +831,7 @@ esp도 sum의 esp로 바뀌었습니다.</p>
 어떠셔쎄여?</p>
 
 <p>다음 번엔 좀 더 다이나믹한 데이트를 합씨당.<br>
-아 물론 데이트 코스는 제가 짭니당. ^ㅠ^
+아 물론 데이트 코스는 제가 짭니당. <sup>ㅠ^</sup>
 <br></p>
 
 <p><em>다음 포스팅 예고</em></p>
@@ -910,7 +910,7 @@ esp도 sum의 esp로 바뀌었습니다.</p>
         <a class="read-next-story prev " style="background-image: url(/umbrain/assets/images/cover2.jpg)" href="/umbrain/gdb-memory-day1">
             <section class="post">
                 <h2>우리집에 GDB 있는데... 메모리 보고갈래? (1)</h2>
-                <p>출처 : 우리집에 GDB 있는데... 메모리 보고갈래? (1) - Hackerz on the Ship 들어가기에 앞서......</p>
+                <p>출처 : 우리집에 GDB 있는데&hellip; 메모리 보고갈래? (1) - Hackerz on the Ship 들어가기에 앞서&hellip;...</p>
             </section>
         </a>
     
