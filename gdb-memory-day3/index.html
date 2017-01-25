@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>우리집에 GDB 있는데... 메모리 보고갈래? (3)</title>
+    <title>(完)우리집에 GDB 있는데... 메모리 보고갈래? (3)</title>
     <meta name="description" content="Into the Brain of taBRis - Memory Repository." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -116,7 +116,7 @@
     <article class="post tag-Security">
 
         <header class="post-header">
-            <h1 class="post-title">우리집에 GDB 있는데... 메모리 보고갈래? (3)</h1>
+            <h1 class="post-title">(完)우리집에 GDB 있는데... 메모리 보고갈래? (3)</h1>
             <section class="post-meta">
             <!-- <a href='/umbrain/'>taBRis</a> -->
             <time class="post-date" datetime="2017-01-25">25 Jan 2017</time>
@@ -166,10 +166,11 @@
 없다는 가정하에 디버깅을 해봅씨다.
 <br></p>
 
-<p>** • IDA (취약점 발견 !) **</p>
+<p><strong>• IDA (취약점 발견 !)</strong></p>
 
-<p>헥스레이라는 강력한 기능을 제공하는 디스어셈블러임다.<br>
-헥스레이는 바이너리를 디컴파일해서 원본 코드와 흡사한 소스를 떨궈줍니다.<br>
+<p>헥스레이라는 강력한 기능을 제공하는 디스어셈블러임다.</p>
+
+<p>헥스레이는 바이너리를 디컴파일해서 원본 코드와 흡사한 소스를 떨궈줍니다.<br>
 F5 단축키를 누르면 다음과 같이 디컴파일한 소스가 나옴미다.</p>
 
 <p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-1.png" alt="">
@@ -194,7 +195,7 @@ v5에 원하는 값을 삽입할 수 있겠죠?<br>
 (strcpy는 버퍼 오버플로우 취약점이 발생할 가능성이 농후하기 때문에 strcpy_s로 대체해 사용하길 권고하고 있슴다.)
 <br></p>
 
-<p>** • GDB ( 발견한 취약점으로 동적 분석 ㄱㄱ) **</p>
+<p><strong>• GDB ( 발견한 취약점으로 동적 분석 ㄱㄱ)</strong></p>
 
 <p>취약점이 발생한 strcpy를 call할 때 스택을 봐보겠슴다.</p>
 
@@ -266,14 +267,12 @@ esp를 기준으로 stack을 그려보도록 하겠습니다!</p>
 <br></p>
 
 <p>[그림 6]의 assembly code에서 ESP+0X1C(v5) 값이 1이면<br>
-system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문에,
+system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문에,<br>
 이제 v5가 0x00000001이 되면 셸을 띄울 수 있겠죵?</p>
 
 <hr>
 
 <h4>2) EXPLOIT</h4>
-
-<p><br></p>
 
 <p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-10.png" alt="">
 <em>[그림 10] v5에 00000001 넣는 방법 (실패)</em>
@@ -334,8 +333,6 @@ whoami 명령어의 출력 값이 입력 값으로 넘어가고 있어요(arr을
 
 <h4>3) 최종</h4>
 
-<p><br></p>
-
 <p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-15.png" alt="">
 <em>[그림 15] exploit 성공! (1)</em></p>
 
@@ -391,7 +388,7 @@ whoami 명령어의 출력 값이 입력 값으로 넘어가고 있어요(arr을
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text=우리집에 GDB 있는데... 메모리 보고갈래? (3)&amp;url=http://tabriz83.github.io/umbrain/gdb-memory-day3"
+                <a class="icon-twitter" href="http://twitter.com/share?text=(完)우리집에 GDB 있는데... 메모리 보고갈래? (3)&amp;url=http://tabriz83.github.io/umbrain/gdb-memory-day3"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
