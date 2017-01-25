@@ -12,6 +12,231 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>우리집에 GDB 있는데... 메모리 보고갈래? (3)</title>
+	  <link>/umbrain//gdb-memory-day3</link>
+	  <author>taBRis</author>
+	  <pubDate>2017-01-25T17:14:00+00:00</pubDate>
+	  <guid>/umbrain//gdb-memory-day3</guid>
+	  <description><![CDATA[
+	     <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/05/20/gdb_memory_3/">(完)우리집에 GDB 있는데... 메모리 보고갈래? (3) - Hackerz on the Ship</a></strong></p>
+
+<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+
+<p><br></p>
+
+<h3>DAY #3. 이쯤 했으면 이제 그만 엔터치자</h3>
+
+<p><br>
+<img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-intro.jpg" alt="">
+오늘부터 1일♡</p>
+
+<hr>
+
+<h4>1) Debugging  (IDA, GDB 사용)</h4>
+
+<p>우리는 이미 tomato.c 소스가 있지만, 보통 소스는 잘 안주잖아여<br>
+없다는 가정하에 디버깅을 해봅씨다.
+<br></p>
+
+<p>** • IDA (취약점 발견 !) **</p>
+
+<p>헥스레이라는 강력한 기능을 제공하는 디스어셈블러임다.<br>
+헥스레이는 바이너리를 디컴파일해서 원본 코드와 흡사한 소스를 떨궈줍니다.<br>
+F5 단축키를 누르면 다음과 같이 디컴파일한 소스가 나옴미다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-1.png" alt="">
+<em>[그림 1] IDA의 HEX-RAY와 원본 소스 비교</em>
+<br></p>
+
+<p>헥스레이ㅋ 지리구요 오지구요<br>
+유료 툴이지만 넘나 강력한 것.</p>
+
+<p>전 보통 정적 분석할 때 아이다를 활용함다.<br>
+(아이다로도 가능하지만, 전 동적으로 디버깅할 땐 보통 gdb를 활용함여)</p>
+
+<p>IDA에서 8번째 라인을 봐주세요.
+strcpy((char *) &amp;v4, argv[1]);의 코드에서<br>
+buffer overflow 취약점이 나는 것을 손쉽게 확인할 수 있졈?</p>
+
+<p>명령행인자 argv[1]를 v4 변수에 복사할 때 버퍼 크기를 검증하는 라인은 그 어디에도 없쟈나요.</p>
+
+<p>변수 v4와 v5는 지역변수이기 때무네 스택 영역에 할당되고, length가 검증되지 않은 v4에 argv[1]의 값이 복사될 때<br>
+v4는 할당받은 공간 그 이상을 활용할 수 있게되거, v5가 v4보다 높은 주소에 할당되어 있다면..?<br>
+v5에 원하는 값을 삽입할 수 있겠죠?<br>
+(strcpy는 버퍼 오버플로우 취약점이 발생할 가능성이 농후하기 때문에 strcpy_s로 대체해 사용하길 권고하고 있슴다.)
+<br></p>
+
+<p>** • GDB ( 발견한 취약점으로 동적 분석 ㄱㄱ) **</p>
+
+<p>취약점이 발생한 strcpy를 call할 때 스택을 봐보겠슴다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-2.png" alt="">
+<em>[그림 2] main의 assembly code</em></p>
+
+<p>strcpy 함수를 call하기 전에 스택에 매개인자들을 넣어줘여.
+<br></p>
+
+<p>0x0804851e에 breakpoint를 걸고, <strong>strcpy가 실행되기 전후의 스택</strong>을 보겠슴다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-3.png" alt="">
+<em>[그림 3] tomato 바이너리 실행</em>
+<br></p>
+
+<p>breakpoint 건 후, 명령행인자(argv[1])에 aaaaaaaa를 넘기고 실행해써요.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-4.png" alt="">
+<em>[그림 4] strcpy 호출 전후</em>
+<br></p>
+
+<p>v4에 값이 잘 들어갔져?<br>
+여기서 약간의 부연설명을 하도록 하겠습니다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-5.png" alt="">
+<em>[그림 5] strcpy 호출 전 assembly code 일부 발췌</em>
+<br></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">0x08048517 &lt;+49&gt;: lea eax,[esp+0x12]
+0x0804851b &lt;+53&gt;: mov DWORD PTR [esp],eax
+</code></pre></div>
+<p>esp가 가리키는 값은 esp+0x12져?<br>
+즉, v4의 값은 esp+0x12에 들어있는 거예여.</p>
+
+<p>[그림 4]에서 esp가 가리키는 값, 즉 <strong>0xbfff692</strong>는 <strong>esp+0x12</strong>가 되겠졈?</p>
+
+<p>다음은 [그림 2]의 main의 어셈코드에서 일부입니당.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-6.png" alt="">
+<em>[그림 6] v5값을 비교하는 assembly code</em>
+<br></p>
+
+<p>esp+0x1c 값이 0x1 이면 system 함수가 실행되고,<br>
+같지 않으면 0x0804854a &lt;+100&gt; :    mov  eax, 0x0으로 분기하네요.</p>
+
+<p>잠시 [그림 1]의 IDA에서 main의 선언부를 보도록 하겠슴다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-7.png" alt="">
+<em>[그림 7] main 변수 선언</em>
+<br></p>
+
+<p>주석을 보면 v4는 [sp+12h]  [bp-Eh]<br>
+v5는 [sp+1Ch] [bp-4h] 라고 보여지네요.</p>
+
+<p>이 말인 즉슨, main의 stack frame의 esp, ebp를 기준으로,<br>
+v4와 v5가 어디에 할당이 되어있는지 알 수 있어여.</p>
+
+<p>assembly code를 보면 esp를 기준으로 v4와 v5에 값이 할당되고 있으니,<br>
+esp를 기준으로 stack을 그려보도록 하겠습니다!</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-8.png" alt="">
+<em>[그림 8] main의 스택</em>
+<br></p>
+
+<p>즉, v4의 값이 흘러넘치면~? v5에도 영향을 미칠 수 있겠죻ㅎㅎ<br>
+확인해볼까요?</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-9.png" alt="">
+<em>[그림 9] buffer overflow 발생, strcpy 직후 stack</em>
+<br></p>
+
+<p>[그림 6]의 assembly code에서 ESP+0X1C(v5) 값이 1이면<br>
+system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문에,
+이제 v5가 0x00000001이 되면 셸을 띄울 수 있겠죵?</p>
+
+<hr>
+
+<h4>2) EXPLOIT</h4>
+
+<p><br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-10.png" alt="">
+<em>[그림 10] v5에 00000001 넣는 방법 (실패)</em>
+<br></p>
+
+<p>에휴.. 쉘이 안뜬거 보니 실패했네여...<br>
+왜 그런가 한번 gdb로 봐보댜구요.
+<br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-11.png" alt="">
+<em>[그림 11] 왜 때문에 실패?</em>
+<br></p>
+
+<p>내가 원하는건 이거자나여..</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-12.png" alt="">
+<em>[그림 12] 이걸 원하는건데..ㅠ 왜 때무네 [그림 11]처럼 되는거지ㅠ</em>
+<br></p>
+
+<p>우리는 문자열 00000001이 아닌 버퍼에 0x00000001을 넣고 싶은거자나요.<br>
+근데 문자열로 들어가버려서 fail..★</p>
+
+<p>hex 값을 입력하기 위해서는 평소 command line에서 입력하듯이 할 수 없어여.<br>
+그래서 python이나 perl과 같은 언어의 힘을 빌려야함당.</p>
+
+<p>python을 사용해서 해보도록 할게요!</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-13.png" alt="">
+<em>[그림 13] python으로 command line에서 출력하기</em>
+<br></p>
+
+<p>python에서 -c 옵션을 활용하면 command 라인에서 출력을 할 수 있어요.</p>
+
+<p>python으로는 hex 값을 표현할 수 있기 때문에,<br>
+이를 활용해 출력값을 in09 파일에 저장한 것이 보이졈?<br>
+(in09 파일에서 보이는  ^@^@^@^A는 헥스값으로 0x00000001임다)</p>
+
+<p>그리고 쉘 프롬프트에서 사용하는 <strong>`(백틱)</strong>에 대해<br>
+잠깐 설명하고 넘어가도록 하겠슴미다.</p>
+
+<p>우리는 명령행인자로 ‘in09 파일의 출력 값’을 넘겨야해요..ㅠ<br>
+이럴 때 활용할 수 있는 것이 바로 `(백틱)인데요.<br>
+쉘 커맨드의 출력 값을 리턴해주는 용도로 활용됩니다.  </p>
+
+<p>뭔 말이냐면여..</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-14.png" alt="">
+<em>[그림 14] 백틱의 활용 예</em>
+<br></p>
+
+<p>whoami라는 명령어의 출력 값은 in09임다.</p>
+
+<p>이 shell command를 `으로 감싸서, tomato 바이너리의 명령행인자로 넘기면<br>
+whoami 명령어의 출력 값이 입력 값으로 넘어가고 있어요(arr을 보세요)!  </p>
+
+<p>어떻게 활용하는지 감이 오시냐염?
+<br></p>
+
+<h4>3) 최종</h4>
+
+<p><br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-15.png" alt="">
+<em>[그림 15] exploit 성공! (1)</em></p>
+
+<p>셸이 뿅★<br>
+출력 값을 in09 파일에 저장했었졈? 그걸 활용해도 되고여,
+<br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-16.png" alt="">
+<em>[그림 16] exploit 성공! (2)</em></p>
+
+<p>바로 활용해도 됨다.<br>
+오예!
+<br></p>
+
+<hr>
+
+<p>드디어 gdb 시리즈가 끝났슘다.</p>
+
+<p>뉴비들의 교과서를 쓰고 싶었는데 아쉬움이 남네요ㅠ<br>
+무엇보다 이제 이런 되도 않는 컨셉은 버려야겠어요ㅋ..</p>
+
+<p>감사함미다 뿅!</p>
+
+<p>-written by in09</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>우리집에 GDB 있는데... 메모리 보고갈래? (2)</title>
 	  <link>/umbrain//gdb-memory-day2</link>
 	  <author>taBRis</author>
@@ -3064,153 +3289,6 @@ Numpy Array는 TensorFlow 를 잘 다루기 위한 기본기 같은 것인데요
 <p><strong>Link : <a href="https://n0where.net/arbitrary-tcp-connection-proxy-binproxy/">https://n0where.net/arbitrary-tcp-connection-proxy-binproxy/</a></strong></p>
 
 <p>2016-12-24T20:49:14+0000</p>
-
-<hr>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>2016-12-16 Facebook 정보 스크랩</title>
-	  <link>/umbrain//Facebook_scrap</link>
-	  <author>taBRis</author>
-	  <pubDate>2017-01-13T17:51:54+00:00</pubDate>
-	  <guid>/umbrain//Facebook_scrap</guid>
-	  <description><![CDATA[
-	     <h3>ExploitWareLabs</h3>
-
-<p><img src="https://fb-s-a-a.akamaihd.net/h-ak-xfl1/v/t1.0-0/s130x130/15401124_1277019889028549_2982269762855862012_n.png?oh=a1dada8fe574ccc5dc5c14f868c04320&amp;oe=5918A89E&amp;__gda__=1490996594_2a8aa2c90e6c2c973323f780a3e4e487" alt="https://fb-s-a-a.akamaihd.net/h-ak-xfl1/v/t1.0-0/s130x130/15401124_1277019889028549_2982269762855862012_n.png?oh=a1dada8fe574ccc5dc5c14f868c04320&amp;oe=5918A89E&amp;__gda__=1490996594_2a8aa2c90e6c2c973323f780a3e4e487"></p>
-
-<blockquote>
-<p>macOS FileVault2 Password Retrieval </p>
-</blockquote>
-
-<p><a href="http://blog.frizk.net/2016/12/filevault-password-retrieval.html">http://blog.frizk.net/2016/12/filevault-password-retrieval.html</a></p>
-
-<p><strong>Link : <a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1277019889028549/?type=3">https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1277019889028549/?type=3</a></strong></p>
-
-<p>2016-12-16T04:04:07+0000</p>
-
-<hr>
-
-<h3>Black Falcon Security</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDAw6fcKZ2wadLH&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fcfile5.uf.tistory.com%2Fimage%2F215B733656F17D4A13333A&amp;cfs=1&amp;_nc_hash=AQAOFGK85G-nlw7O" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDAw6fcKZ2wadLH&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fcfile5.uf.tistory.com%2Fimage%2F215B733656F17D4A13333A&amp;cfs=1&amp;_nc_hash=AQAOFGK85G-nlw7O"></p>
-
-<blockquote>
-<p>ubuntu에서 cobol 사용하기 ][  helloworld 찍기</p>
-</blockquote>
-
-<p><a href="http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0">http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0</a></p>
-
-<p><strong>Link : <a href="http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0">http://speedr00t.tistory.com/entry/ubuntu%EC%97%90%EC%84%9C-cobol-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-helloworld-%EC%B0%8D%EA%B8%B0</a></strong></p>
-
-<p>2016-12-16T04:03:16+0000</p>
-
-<hr>
-
-<h3>Malware Analysis</h3>
-
-<blockquote>
-<p>Malware analysis using Wine :</p>
-</blockquote>
-
-<p><a href="http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/">http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/</a></p>
-
-<p><strong>Link : <a href="http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/">http://www.hexacorn.com/blog/2016/12/14/malware-analysis-using-wine/</a></strong></p>
-
-<p>2016-12-16T04:03:05+0000</p>
-
-<hr>
-
-<h3>Hakin9 IT Security Magazine</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAfDe5apHlIpZMu&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Faspiringhacker.com%2Fwp-content%2Fuploads%2F2016%2F11%2FP_20161116_121531.jpg&amp;cfs=1&amp;_nc_hash=AQCTgJFPg2pF4uCf" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAfDe5apHlIpZMu&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Faspiringhacker.com%2Fwp-content%2Fuploads%2F2016%2F11%2FP_20161116_121531.jpg&amp;cfs=1&amp;_nc_hash=AQCTgJFPg2pF4uCf"></p>
-
-<blockquote>
-<p>How To Turn Your Old Smartphone Into A CCTV Camera by aspiringhacker.com - Hacking News &amp; Tutorials</p>
-</blockquote>
-
-<p><strong>Link : <a href="http://bit.ly/2gERxyv">http://bit.ly/2gERxyv</a></strong></p>
-
-<p>2016-12-16T04:00:58+0000</p>
-
-<hr>
-
-<h3>해킹 비밀노트</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCvIBWkC1CsjP6Q&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNjEyMTVfNTkg%2FMDAxNDgxODA5NjM1OTEz.okIGiJsORtA4_6ItxsE-f_R1V_VSQ7R8w5KheHlP5ewg.5DT-89PeC2wWWzIWYfnnN9h25eoNNqq8UD2VZhILBAsg.PNG.hack_ple%2F01.png%3Ftype%3Dw2&amp;cfs=1&amp;_nc_hash=AQCHSGLGTRDjZT_o" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCvIBWkC1CsjP6Q&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNjEyMTVfNTkg%2FMDAxNDgxODA5NjM1OTEz.okIGiJsORtA4_6ItxsE-f_R1V_VSQ7R8w5KheHlP5ewg.5DT-89PeC2wWWzIWYfnnN9h25eoNNqq8UD2VZhILBAsg.PNG.hack_ple%2F01.png%3Ftype%3Dw2&amp;cfs=1&amp;_nc_hash=AQCHSGLGTRDjZT_o"></p>
-
-<blockquote>
-<p>뚱이의 웹 기초-8. burp suite 사용법
-<a href="http://blog.naver.com/hack_ple/220887075192">http://blog.naver.com/hack_ple/220887075192</a></p>
-</blockquote>
-
-<p><strong>Link : <a href="http://blog.naver.com/hack_ple/220887075192">http://blog.naver.com/hack_ple/220887075192</a></strong></p>
-
-<p>2016-12-16T03:47:05+0000</p>
-
-<hr>
-
-<h3>Asecurity - <a href="http://asecurity.so">http://asecurity.so</a></h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAcKQhbH81v_RPX&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fasecurity.so%2Fwp-content%2Fuploads%2F2014%2F12%2Ftitle.png&amp;cfs=1&amp;_nc_hash=AQD6FYLuUezPuK7g" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAcKQhbH81v_RPX&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Fasecurity.so%2Fwp-content%2Fuploads%2F2014%2F12%2Ftitle.png&amp;cfs=1&amp;_nc_hash=AQD6FYLuUezPuK7g"></p>
-
-<blockquote>
-<p>Tool [Nigilant32] 로컬에서 메모리 덤프 생성과 파일 덤프 분석, 휘발성 자료 수등을 손쉽게 진행할 수 있습니다.</p>
-</blockquote>
-
-<p>Nigilant32</p>
-
-<p><strong>Link : <a href="https://asecurity.so/?p=6871">https://asecurity.so/?p=6871</a></strong></p>
-
-<p>2016-12-16T03:45:36+0000</p>
-
-<hr>
-
-<h3>Black Falcon Security</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBwPLrL5DqIbmjx&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F233B364E57BAAD8B25882B&amp;cfs=1&amp;_nc_hash=AQCMkndRcW2H3R4J" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBwPLrL5DqIbmjx&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F233B364E57BAAD8B25882B&amp;cfs=1&amp;_nc_hash=AQCMkndRcW2H3R4J"></p>
-
-<blockquote>
-<p>c#에서 파이션 호출하기</p>
-</blockquote>
-
-<p><a href="http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</a></p>
-
-<p><strong>Link : <a href="http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">http://speedr00t.tistory.com/entry/csharp%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EC%97%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</a></strong></p>
-
-<p>2016-12-16T03:39:38+0000</p>
-
-<hr>
-
-<h3>ExploitWareLabs</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD_5aT137Q5MltR&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F11171126%3Fv%3D3%26s%3D400&amp;cfs=1&amp;_nc_hash=AQDAMA-_hIGnt3d-" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD_5aT137Q5MltR&amp;w=130&amp;h=130&amp;url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F11171126%3Fv%3D3%26s%3D400&amp;cfs=1&amp;_nc_hash=AQDAMA-_hIGnt3d-"></p>
-
-<blockquote>
-<p>Mobile Application Penetration Testing Cheat Sheet</p>
-</blockquote>
-
-<p><a href="https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis">https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis</a></p>
-
-<p><strong>Link : <a href="https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis">https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet#reverse-engineering-and-static-analysis</a></strong></p>
-
-<p>2016-12-16T03:37:22+0000</p>
-
-<hr>
-
-<h3>숫자로 보는 2016년 랜섬웨어 진화·피해 현황</h3>
-
-<p><img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCxmW_v7AUhIo8G&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fwww.boannews.com%2Fmedia%2FupFiles%2F20161212KAS1.jpg&amp;cfs=1&amp;_nc_hash=AQA9tXGcklZTSqIJ" alt="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCxmW_v7AUhIo8G&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fwww.boannews.com%2Fmedia%2FupFiles%2F20161212KAS1.jpg&amp;cfs=1&amp;_nc_hash=AQA9tXGcklZTSqIJ"></p>
-
-<blockquote>
-<p>2016년에 기업을 표적으로 하는 랜섬웨어 공격이 3배 이상 증가한 것으로 집계됐다. 카스퍼스키랩에 따르면 올해 1월에는 2분마다 공격이 발생했던 것에 비해 10월 기준으로 40초마다 발생했다. 개인 사용자의 경우 20초마다 발생하던 공격이 10초마다 발생하는 증가율을 보였다. 랜섬웨어는 올 한해에만 62개의 신종이 발견되며 엄청난 증가세를 보이고 있다. 이에 카스퍼스키랩은 랜섬웨어를 2016년의 핵심 주제로 선정했다.</p>
-</blockquote>
-
-<p><strong>Link : <a href="http://m.boannews.com/html/detail.html?idx=52688">http://m.boannews.com/html/detail.html?idx=52688</a></strong></p>
-
-<p>2016-12-16T03:34:40+0000</p>
 
 <hr>
 

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>우리집에 GDB 있는데... 메모리 보고갈래? (3)</title>
+    <meta name="description" content="Into the Brain of taBRis - Memory Repository." />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/umbrain/assets/images/Favicon.png" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/umbrain/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/umbrain/assets/css/syntax.css" />
+    
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="/umbrain/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/umbrain/page2/" />
+
+    <meta property="og:site_name" content="Into the Brain of taBRis" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Into the Brain of taBRis" />
+    <meta property="og:description" content="Memory Repository." />
+    <meta property="og:url" content="/umbrain/" />
+    <meta property="og:image" content="/umbrain/assets/images/cover1.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Into the Brain of taBRis" />
+    <meta name="twitter:description" content="Memory Repository." />
+    <meta name="twitter:url" content="/umbrain/" />
+    <meta name="twitter:image:src" content="/umbrain/assets/images/cover1.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Into the Brain of taBRis",
+    "url": "/umbrain/",
+    "image": "/umbrain/assets/images/cover1.jpg",
+    "description": "Memory Repository."
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Into the Brain of taBRis" href="/umbrain/rss.xml" />
+
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/umbrain/">Main</a></li>
+        <li class="nav-security " role="presentation"><a href="/umbrain/tag/Security">Security</a></li>
+        <li class="nav-unclassified " role="presentation"><a href="/umbrain/tag/Unclassified">Unclassified</a></li>
+        <li class="nav-author " role="presentation"><a href="/umbrain/author/tabris">Author</a></li>
+    </ul>
+	<a class="subscribe-button icon-feed" href="/umbrain/rss.xml">Subscribe</a>
+	<!— Html Elements for Search -->
+	<div class="search-container">
+	<input type="text" id="search-input" size="23" placeholder="Search...">
+	<ul id="results-container"></ul>
+	<!-- Script pointing to jekyll-search.js -->
+	<script src="/umbrain//dest/jekyll-search.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		  SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '/umbrain//search.json',
+			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+			noResultsText: 'No results found',
+			limit: 1000,
+			fuzzy: false,
+			exclude: ['Welcome']
+		  })
+	</script>
+	</div>
+	
+</div>
+<span class="nav-cover"></span>
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head " style="background-image: url(/umbrain/assets/images/cover2.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
+        <a class="blog-logo" href="/umbrain/"><img src="/umbrain/assets/images/logo.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-Security">
+
+        <header class="post-header">
+            <h1 class="post-title">우리집에 GDB 있는데... 메모리 보고갈래? (3)</h1>
+            <section class="post-meta">
+            <!-- <a href='/umbrain/'>taBRis</a> -->
+            <time class="post-date" datetime="2017-01-25">25 Jan 2017</time>
+                <!-- [[tags prefix=" on "]] -->
+                 
+                on 
+                
+                    
+                       <a href='/umbrain/tag/Security'>Security</a>,
+                       
+                
+                    
+                       <a href='/umbrain/tag/System Hacking'>System hacking</a>,
+                       
+                
+                    
+                       <a href='/umbrain/tag/Reversing'>Reversing</a>,
+                       
+                
+                    
+                       <a href='/umbrain/tag/Guide'>Guide</a>
+                       
+                
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+            
+            <p><strong>출처 : <a href="https://bpsecblog.wordpress.com/2016/05/20/gdb_memory_3/">(完)우리집에 GDB 있는데... 메모리 보고갈래? (3) - Hackerz on the Ship</a></strong></p>
+
+<h2>Season 1. 우리집에 GDB있는데... 메모리 보고 갈래?</h2>
+
+<p><br></p>
+
+<h3>DAY #3. 이쯤 했으면 이제 그만 엔터치자</h3>
+
+<p><br>
+<img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-intro.jpg" alt="">
+오늘부터 1일♡</p>
+
+<hr>
+
+<h4>1) Debugging  (IDA, GDB 사용)</h4>
+
+<p>우리는 이미 tomato.c 소스가 있지만, 보통 소스는 잘 안주잖아여<br>
+없다는 가정하에 디버깅을 해봅씨다.
+<br></p>
+
+<p>** • IDA (취약점 발견 !) **</p>
+
+<p>헥스레이라는 강력한 기능을 제공하는 디스어셈블러임다.<br>
+헥스레이는 바이너리를 디컴파일해서 원본 코드와 흡사한 소스를 떨궈줍니다.<br>
+F5 단축키를 누르면 다음과 같이 디컴파일한 소스가 나옴미다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-1.png" alt="">
+<em>[그림 1] IDA의 HEX-RAY와 원본 소스 비교</em>
+<br></p>
+
+<p>헥스레이ㅋ 지리구요 오지구요<br>
+유료 툴이지만 넘나 강력한 것.</p>
+
+<p>전 보통 정적 분석할 때 아이다를 활용함다.<br>
+(아이다로도 가능하지만, 전 동적으로 디버깅할 땐 보통 gdb를 활용함여)</p>
+
+<p>IDA에서 8번째 라인을 봐주세요.
+strcpy((char *) &amp;v4, argv[1]);의 코드에서<br>
+buffer overflow 취약점이 나는 것을 손쉽게 확인할 수 있졈?</p>
+
+<p>명령행인자 argv[1]를 v4 변수에 복사할 때 버퍼 크기를 검증하는 라인은 그 어디에도 없쟈나요.</p>
+
+<p>변수 v4와 v5는 지역변수이기 때무네 스택 영역에 할당되고, length가 검증되지 않은 v4에 argv[1]의 값이 복사될 때<br>
+v4는 할당받은 공간 그 이상을 활용할 수 있게되거, v5가 v4보다 높은 주소에 할당되어 있다면..?<br>
+v5에 원하는 값을 삽입할 수 있겠죠?<br>
+(strcpy는 버퍼 오버플로우 취약점이 발생할 가능성이 농후하기 때문에 strcpy_s로 대체해 사용하길 권고하고 있슴다.)
+<br></p>
+
+<p>** • GDB ( 발견한 취약점으로 동적 분석 ㄱㄱ) **</p>
+
+<p>취약점이 발생한 strcpy를 call할 때 스택을 봐보겠슴다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-2.png" alt="">
+<em>[그림 2] main의 assembly code</em></p>
+
+<p>strcpy 함수를 call하기 전에 스택에 매개인자들을 넣어줘여.
+<br></p>
+
+<p>0x0804851e에 breakpoint를 걸고, <strong>strcpy가 실행되기 전후의 스택</strong>을 보겠슴다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-3.png" alt="">
+<em>[그림 3] tomato 바이너리 실행</em>
+<br></p>
+
+<p>breakpoint 건 후, 명령행인자(argv[1])에 aaaaaaaa를 넘기고 실행해써요.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-4.png" alt="">
+<em>[그림 4] strcpy 호출 전후</em>
+<br></p>
+
+<p>v4에 값이 잘 들어갔져?<br>
+여기서 약간의 부연설명을 하도록 하겠습니다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-5.png" alt="">
+<em>[그림 5] strcpy 호출 전 assembly code 일부 발췌</em>
+<br></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">0x08048517 &lt;+49&gt;: lea eax,[esp+0x12]
+0x0804851b &lt;+53&gt;: mov DWORD PTR [esp],eax
+</code></pre></div>
+<p>esp가 가리키는 값은 esp+0x12져?<br>
+즉, v4의 값은 esp+0x12에 들어있는 거예여.</p>
+
+<p>[그림 4]에서 esp가 가리키는 값, 즉 <strong>0xbfff692</strong>는 <strong>esp+0x12</strong>가 되겠졈?</p>
+
+<p>다음은 [그림 2]의 main의 어셈코드에서 일부입니당.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-6.png" alt="">
+<em>[그림 6] v5값을 비교하는 assembly code</em>
+<br></p>
+
+<p>esp+0x1c 값이 0x1 이면 system 함수가 실행되고,<br>
+같지 않으면 0x0804854a &lt;+100&gt; :    mov  eax, 0x0으로 분기하네요.</p>
+
+<p>잠시 [그림 1]의 IDA에서 main의 선언부를 보도록 하겠슴다.</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-7.png" alt="">
+<em>[그림 7] main 변수 선언</em>
+<br></p>
+
+<p>주석을 보면 v4는 [sp+12h]  [bp-Eh]<br>
+v5는 [sp+1Ch] [bp-4h] 라고 보여지네요.</p>
+
+<p>이 말인 즉슨, main의 stack frame의 esp, ebp를 기준으로,<br>
+v4와 v5가 어디에 할당이 되어있는지 알 수 있어여.</p>
+
+<p>assembly code를 보면 esp를 기준으로 v4와 v5에 값이 할당되고 있으니,<br>
+esp를 기준으로 stack을 그려보도록 하겠습니다!</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-8.png" alt="">
+<em>[그림 8] main의 스택</em>
+<br></p>
+
+<p>즉, v4의 값이 흘러넘치면~? v5에도 영향을 미칠 수 있겠죻ㅎㅎ<br>
+확인해볼까요?</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-9.png" alt="">
+<em>[그림 9] buffer overflow 발생, strcpy 직후 stack</em>
+<br></p>
+
+<p>[그림 6]의 assembly code에서 ESP+0X1C(v5) 값이 1이면<br>
+system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문에,
+이제 v5가 0x00000001이 되면 셸을 띄울 수 있겠죵?</p>
+
+<hr>
+
+<h4>2) EXPLOIT</h4>
+
+<p><br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-10.png" alt="">
+<em>[그림 10] v5에 00000001 넣는 방법 (실패)</em>
+<br></p>
+
+<p>에휴.. 쉘이 안뜬거 보니 실패했네여...<br>
+왜 그런가 한번 gdb로 봐보댜구요.
+<br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-11.png" alt="">
+<em>[그림 11] 왜 때문에 실패?</em>
+<br></p>
+
+<p>내가 원하는건 이거자나여..</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-12.png" alt="">
+<em>[그림 12] 이걸 원하는건데..ㅠ 왜 때무네 [그림 11]처럼 되는거지ㅠ</em>
+<br></p>
+
+<p>우리는 문자열 00000001이 아닌 버퍼에 0x00000001을 넣고 싶은거자나요.<br>
+근데 문자열로 들어가버려서 fail..★</p>
+
+<p>hex 값을 입력하기 위해서는 평소 command line에서 입력하듯이 할 수 없어여.<br>
+그래서 python이나 perl과 같은 언어의 힘을 빌려야함당.</p>
+
+<p>python을 사용해서 해보도록 할게요!</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-13.png" alt="">
+<em>[그림 13] python으로 command line에서 출력하기</em>
+<br></p>
+
+<p>python에서 -c 옵션을 활용하면 command 라인에서 출력을 할 수 있어요.</p>
+
+<p>python으로는 hex 값을 표현할 수 있기 때문에,<br>
+이를 활용해 출력값을 in09 파일에 저장한 것이 보이졈?<br>
+(in09 파일에서 보이는  ^@^@^@^A는 헥스값으로 0x00000001임다)</p>
+
+<p>그리고 쉘 프롬프트에서 사용하는 <strong>`(백틱)</strong>에 대해<br>
+잠깐 설명하고 넘어가도록 하겠슴미다.</p>
+
+<p>우리는 명령행인자로 ‘in09 파일의 출력 값’을 넘겨야해요..ㅠ<br>
+이럴 때 활용할 수 있는 것이 바로 `(백틱)인데요.<br>
+쉘 커맨드의 출력 값을 리턴해주는 용도로 활용됩니다.  </p>
+
+<p>뭔 말이냐면여..</p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-14.png" alt="">
+<em>[그림 14] 백틱의 활용 예</em>
+<br></p>
+
+<p>whoami라는 명령어의 출력 값은 in09임다.</p>
+
+<p>이 shell command를 `으로 감싸서, tomato 바이너리의 명령행인자로 넘기면<br>
+whoami 명령어의 출력 값이 입력 값으로 넘어가고 있어요(arr을 보세요)!  </p>
+
+<p>어떻게 활용하는지 감이 오시냐염?
+<br></p>
+
+<h4>3) 최종</h4>
+
+<p><br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-15.png" alt="">
+<em>[그림 15] exploit 성공! (1)</em></p>
+
+<p>셸이 뿅★<br>
+출력 값을 in09 파일에 저장했었졈? 그걸 활용해도 되고여,
+<br></p>
+
+<p><img src="../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-16.png" alt="">
+<em>[그림 16] exploit 성공! (2)</em></p>
+
+<p>바로 활용해도 됨다.<br>
+오예!
+<br></p>
+
+<hr>
+
+<p>드디어 gdb 시리즈가 끝났슘다.</p>
+
+<p>뉴비들의 교과서를 쓰고 싶었는데 아쉬움이 남네요ㅠ<br>
+무엇보다 이제 이런 되도 않는 컨셉은 버려야겠어요ㅋ..</p>
+
+<p>감사함미다 뿅!</p>
+
+<p>-written by in09</p>
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/umbrain/author/tabris" style="background-image: url(/umbrain/assets/images/author_ico.png)"><span class="hidden">'s Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/umbrain/author/tabris">taBRis</a></h4>
+                
+                
+                    <p> Into the Brain of taBRis.</p>
+                
+                <div class="author-meta">
+                     
+                    <span class="author-link icon-link"><a href="http://tabriz83.github.io/umbrain/"> tabriz83.github.io/umbrain/</a></span> 
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=우리집에 GDB 있는데... 메모리 보고갈래? (3)&amp;url=http://tabriz83.github.io/umbrain/gdb-memory-day3"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://tabriz83.github.io/umbrain/gdb-memory-day3"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://tabriz83.github.io/umbrain/gdb-memory-day3"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            
+            <!-- Add Disqus Comments -->
+            
+            
+        </footer>
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev " style="background-image: url(/umbrain/assets/images/cover2.jpg)" href="/umbrain/gdb-memory-day2">
+            <section class="post">
+                <h2>우리집에 GDB 있는데... 메모리 보고갈래? (2)</h2>
+                <p>출처 : 우리집에 GDB 있는데... 메모리 보고갈래? (2) - Hackerz on the Ship Season 1....</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/umbrain/">UMBrain :: Into the Brain of taBRis.</a> &copy; 2017</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
+    </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/umbrain/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/umbrain/assets/js/index.js"></script>
+
+    <!-- Add Google Analytics  -->
+        <!-- Google Analytics Tracking code -->
+     <script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	    ga('create', 'UA-69281367-1', 'auto');
+	    ga('send', 'pageview');
+
+     </script>   
+</body>
+</html>
