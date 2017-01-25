@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: 'assets/images/cover2.jpg'
-title: 우리집에 GDB 있는데... 메모리 보고갈래? (3)
+title: (完)우리집에 GDB 있는데... 메모리 보고갈래? (3)
 date: 2017-01-25 17:14:00
 tags: ['Security', 'System Hacking', 'Reversing', 'Guide']
 subclass: 'post tag-Security'
@@ -27,9 +27,10 @@ logo: 'assets/images/logo.png'
 없다는 가정하에 디버깅을 해봅씨다.
 <br>
 
-** • IDA (취약점 발견 !) **
+**• IDA (취약점 발견 !)**
 
-헥스레이라는 강력한 기능을 제공하는 디스어셈블러임다.  
+헥스레이라는 강력한 기능을 제공하는 디스어셈블러임다.
+
 헥스레이는 바이너리를 디컴파일해서 원본 코드와 흡사한 소스를 떨궈줍니다.  
 F5 단축키를 누르면 다음과 같이 디컴파일한 소스가 나옴미다.
 
@@ -55,7 +56,7 @@ v5에 원하는 값을 삽입할 수 있겠죠?
 (strcpy는 버퍼 오버플로우 취약점이 발생할 가능성이 농후하기 때문에 strcpy_s로 대체해 사용하길 권고하고 있슴다.)
 <br>
 
-** • GDB ( 발견한 취약점으로 동적 분석 ㄱㄱ) **
+**• GDB ( 발견한 취약점으로 동적 분석 ㄱㄱ)**
 
 취약점이 발생한 strcpy를 call할 때 스택을 봐보겠슴다.
 
@@ -130,13 +131,12 @@ esp를 기준으로 stack을 그려보도록 하겠습니다!
 <br>
 
 [그림 6]의 assembly code에서 ESP+0X1C(v5) 값이 1이면  
-system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문에,
+system 함수를 호출하는 조건문 안으로 들어갈 수 있었기 때문에,  
 이제 v5가 0x00000001이 되면 셸을 띄울 수 있겠죵?
 
 ---
 
 #### 2) EXPLOIT
-<br>
 
 ![](../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-10.png)
 *[그림 10] v5에 00000001 넣는 방법 (실패)*
@@ -196,7 +196,6 @@ whoami 명령어의 출력 값이 입력 값으로 넘어가고 있어요(arr을
 <br>
 
 #### 3) 최종
-<br>
 
 ![](../assets/Post_Images/2017/01/25/gdb_memory_day3/gdb-memory-day3-15.png)
 *[그림 15] exploit 성공! (1)*
