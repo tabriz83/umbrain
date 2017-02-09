@@ -1,0 +1,470 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2017-01-18 Facebook 정보 스크랩
+date: 2017-02-09 04:42:38
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###This Scary Website Is Sharing Your Personal Information — Here's How To Delete It
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA-qRyLbkjChDgy&w=130&h=130&url=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2017%2F01%2Ffamilytreenow-delete-your-information-scary-website.jpg&cfs=1&sx=216&sy=0&sw=506&sh=506&_nc_hash=AQA0KSJ9G9MW-JSM](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA-qRyLbkjChDgy&w=130&h=130&url=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2017%2F01%2Ffamilytreenow-delete-your-information-scary-website.jpg&cfs=1&sx=216&sy=0&sw=506&sh=506&_nc_hash=AQA0KSJ9G9MW-JSM)
+
+>FamilyTreeNow.com is one of the creepiest websites on the internet. It stores a striking amount of personal data -- including name, age, family members, and addresses -- which can't be ignored.
+
+**Link : <https://fossbytes.com/familytreenow-website-sharing-personal-information-delete/>**
+
+2017-01-18T23:08:53+0000
+
+---
+
+###Hacking News & Tutorials
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBqQJrXgwrEWO3E&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2017%2F01%2FTinfoleak01_info-cia.png&cfs=1&_nc_hash=AQDr6Rdcv1o67SZW](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBqQJrXgwrEWO3E&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2017%2F01%2FTinfoleak01_info-cia.png&cfs=1&_nc_hash=AQDr6Rdcv1o67SZW)
+
+>That's creepy..
+
+**Link : <https://latesthackingnews.com/2017/01/17/tinfoleak-full-information-twitter-user-activity/>**
+
+2017-01-18T23:07:54+0000
+
+---
+
+###Hacking News & Tutorials
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBPQ1S0RXLTbLUk&w=130&h=130&url=https%3A%2F%2Fcodingsec.net%2Fwp-content%2Fuploads%2F2016%2F07%2Fprogrammers.jpg&cfs=1&_nc_hash=AQCo3YrwdfIEF4eC](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBPQ1S0RXLTbLUk&w=130&h=130&url=https%3A%2F%2Fcodingsec.net%2Fwp-content%2Fuploads%2F2016%2F07%2Fprogrammers.jpg&cfs=1&_nc_hash=AQCo3YrwdfIEF4eC)
+
+>Videos that will inspire you to learn code
+
+**Link : <https://codingsec.net/2016/07/4-videos-will-inspire-become-programmers/>**
+
+2017-01-18T23:07:30+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBGF54dqopyLqff&w=130&h=130&url=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2017%2F01%2Fzerophone-raspberry-pi-phone.jpg&cfs=1&sx=302&sy=0&sw=506&sh=506&_nc_hash=AQAyb6Cl2Ad5Y_nf](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBGF54dqopyLqff&w=130&h=130&url=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2017%2F01%2Fzerophone-raspberry-pi-phone.jpg&cfs=1&sx=302&sy=0&sw=506&sh=506&_nc_hash=AQAyb6Cl2Ad5Y_nf)
+
+>ZeroPhone — An Open Source, Dirt Cheap, Linux-powered Smartphone Is Here
+
+**Link : <http://bit.ly/2iDzugo>**
+
+2017-01-18T23:07:08+0000
+
+---
+
+###Sung Kim
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xpa1/v/t1.0-0/q81/s130x130/15977338_10154961727789521_5863903141016294801_n.jpg?oh=d3258e48e412e2cbe5b606847f7aad24&oe=5947DAF3&__gda__=1497963318_c72cf321b2b27d33357c10b4fd1d1b7e](https://fb-s-b-a.akamaihd.net/h-ak-xpa1/v/t1.0-0/q81/s130x130/15977338_10154961727789521_5863903141016294801_n.jpg?oh=d3258e48e412e2cbe5b606847f7aad24&oe=5947DAF3&__gda__=1497963318_c72cf321b2b27d33357c10b4fd1d1b7e)
+
+>2시간 35분으로 TensorFlow 끝내기에 도전해 보세요.
+
+슬라이드는 감탄할 정도로 잘 만들어져 있구요. 복잡한 RNN 모델과 입력값도 멋진 그림으로 짝 정리!
+Part 1: https://goo.gl/pHeXe7
+Part 2: https://goo.gl/jrd7AR
+
+아주 에너지 넘치는 (아마도 이테리 출신) Google Developer relations 의 Martin의 멋진 강의!
+https://www.youtube.com/watch?v=vq2nnJ4g6N0
+
+한번 달려봅시다!
+
+**Link : <https://www.facebook.com/photo.php?fbid=10154961727789521&set=gm.409215659419498&type=3>**
+
+2017-01-18T23:06:49+0000
+
+---
+
+###InfoSec Institute
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAl8de6kJmzHfTe&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F112016_1630_DefeatingIn3.png&cfs=1&_nc_hash=AQDOiYk_0YrIb3pS](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAl8de6kJmzHfTe&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F112016_1630_DefeatingIn3.png&cfs=1&_nc_hash=AQDOiYk_0YrIb3pS)
+
+>Defeating Integer Overflow Attack 
+
+ (If you enjoyed this post, please share!)
+#infosecedu
+
+**Link : <http://resources.infosecinstitute.com/defeating-integer-overflow-attack/>**
+
+2017-01-18T23:06:20+0000
+
+---
+
+###박형근
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA9FIezuW8twRUD&w=130&h=130&url=http%3A%2F%2Fcafeptthumb2.phinf.naver.net%2F20150513_279%2Ffnvl0802_1431483970842LIUV1_JPEG%2FSecurityplus_logo.jpg%3Ftype%3Dw740&cfs=1&_nc_hash=AQCqhdMs686vnZCq](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA9FIezuW8twRUD&w=130&h=130&url=http%3A%2F%2Fcafeptthumb2.phinf.naver.net%2F20150513_279%2Ffnvl0802_1431483970842LIUV1_JPEG%2FSecurityplus_logo.jpg%3Ftype%3Dw740&cfs=1&_nc_hash=AQCqhdMs686vnZCq)
+
+>[KISA]개인정보보호세미나 "스타트업을 위한 개인정보보호 기초실무" 
+
+**Link : <http://cafe.naver.com/securityplus/23301>**
+
+2017-01-18T23:06:07+0000
+
+---
+
+###박형근
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC-GPFt8DdNe_nd&w=130&h=130&url=http%3A%2F%2Fblog.trendmicro.com%2Ftrendlabs-security-intelligence%2Ffiles%2F2017%2F01%2Fandroid-debug-1.jpg&cfs=1&_nc_hash=AQAwy_QxUO6fHh6k](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC-GPFt8DdNe_nd&w=130&h=130&url=http%3A%2F%2Fblog.trendmicro.com%2Ftrendlabs-security-intelligence%2Ffiles%2F2017%2F01%2Fandroid-debug-1.jpg&cfs=1&_nc_hash=AQAwy_QxUO6fHh6k)
+
+>Practical Android Debugging Via KGDB 
+
+**Link : <http://blog.trendmicro.com/trendlabs-security-intelligence/practical-android-debugging-via-kgdb/>**
+
+2017-01-18T23:06:00+0000
+
+---
+
+###운호최
+
+>애플페이에 쓰인 정보보호기술 분석
+
+ㅡ생체정보는 "안전저장소(secure element)에 저장
+ㅡ신용카드/현금카드/선불카드번호는 "Tokennization " 가상 번호 전송
+ㅡ" a device-specific Device Account"를 은행/사업자가 부여
+: 전화번호/이름/모델/애플페이 옵션/운영체제 버전 
+:  장비사용기록 /신용카드 사용 위치 
+ㅡ매번 거래시 OTP코드 전송 추가
+
+삼성페이보다 2-3단계 추가로 구현한 기술
+ㅡ삼성은 "지문으로 파생한 FIDO공개키"와
+가상 카드번호 (토큰과) 2가지만 사용
+ㅡ지문 그리고 홍채를 인증에 추가
+ㅡ녹스의 안전 공간에 저장
+
+작은 차이가 큰 차이로....
+
+
+
+**Link : <https://support.apple.com/en-us/HT203027>**
+
+2017-01-18T23:05:48+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xta1/v/t1.0-0/s130x130/16114750_1389307874433045_713293664818509565_n.jpg?oh=134daad4c5b68c630c1276a8459f221d&oe=5943F816&__gda__=1496876889_db7a79f19a189a6b7ce3301d146b5a4b](https://fb-s-c-a.akamaihd.net/h-ak-xta1/v/t1.0-0/s130x130/16114750_1389307874433045_713293664818509565_n.jpg?oh=134daad4c5b68c630c1276a8459f221d&oe=5943F816&__gda__=1496876889_db7a79f19a189a6b7ce3301d146b5a4b)
+
+>Hit Shift-F10 during Windows Update gives you CMD.exe which bypasses Bitlocker
+
+http://kalilinux.co/2016/11/29/hit-shift-f10-during-windows-update-gives-you-cmd-exe-which-bypasses-bitlocker/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1389307874433045/?type=3>**
+
+2017-01-18T23:05:43+0000
+
+---
+
+###InfoSec Institute
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDzf0-NV9q4JRdO&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F112516_1230_ProcessScan4.jpg&cfs=1&_nc_hash=AQBzu1EBwPmmPCZn](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDzf0-NV9q4JRdO&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F112516_1230_ProcessScan4.jpg&cfs=1&_nc_hash=AQBzu1EBwPmmPCZn)
+
+>Process: Scanning and Enumeration 
+
+(If you enjoyed this post, please share!)
+#infosecedu
+
+**Link : <http://resources.infosecinstitute.com/process-scanning-and-enumeration/>**
+
+2017-01-18T23:05:37+0000
+
+---
+
+###PenTest Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC7LxvUptSa-Ne2&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExNTM1NTAwMjYzMTQ2MTU4OjY2NTk5NDA1Mw%3D%3D&cfs=1&_nc_hash=AQBt9QtSkTogKpkW](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC7LxvUptSa-Ne2&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExNTM1NTAwMjYzMTQ2MTU4OjY2NTk5NDA1Mw%3D%3D&cfs=1&_nc_hash=AQBt9QtSkTogKpkW)
+
+>Exploiting the Webserver using Sqlmap and Metasploit (OS-Pwn).
+
+**Link : <https://www.linkedin.com/pulse/exploiting-webserver-using-sqlmap-metasploit-os-pwn-aarti-singh?trk=hp-feed-article-title-like>**
+
+2017-01-18T23:05:23+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-d-a.akamaihd.net/h-ak-xap1/v/t1.0-0/s130x130/15978111_1389304167766749_292650095528644781_n.png?oh=6d2d85146a994765812cbf5784e7eca4&oe=590A8BF2&__gda__=1498149526_34b041f376416d6c587dec23e294b3d8](https://fb-s-d-a.akamaihd.net/h-ak-xap1/v/t1.0-0/s130x130/15978111_1389304167766749_292650095528644781_n.png?oh=6d2d85146a994765812cbf5784e7eca4&oe=590A8BF2&__gda__=1498149526_34b041f376416d6c587dec23e294b3d8)
+
+>Linux Malware Detection
+Linux Malware Detect (LMD) is a malware scanner for Linux released under the GNU GPLv2 license, that is designed around the threats faced in shared hosted environments. It uses threat data from network edge intrusion detection systems to extract malware that is actively being used in attacks and generates signatures for detection. In addition, threat data is also derived from user submissions with the LMD checkout feature and from malware community resources. The signatures that LMD uses are MD5 file hashes and HEX pattern matches, they are also easily exported to any number of detection tools such as ClamAV.
+
+http://kalilinux.co/forums/topic/linux-malware-detection/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1389304167766749/?type=3>**
+
+2017-01-18T23:05:13+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xpt1/v/t1.0-0/s130x130/15966174_1387347161295783_8288569545079502385_n.png?oh=08c388ef73e00d9c67ec8ea37690fb0b&oe=59059DCE&__gda__=1497914821_bb330df6322cfff0b5d2efac095772be](https://fb-s-c-a.akamaihd.net/h-ak-xpt1/v/t1.0-0/s130x130/15966174_1387347161295783_8288569545079502385_n.png?oh=08c388ef73e00d9c67ec8ea37690fb0b&oe=59059DCE&__gda__=1497914821_bb330df6322cfff0b5d2efac095772be)
+
+>Install Mingw in Kali Linux for compiling .py to exe format
+
+http://kalilinux.co/forums/topic/install-mingw-in-kali-linux-2-0/#post-4856
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1387347161295783/?type=3>**
+
+2017-01-18T23:04:51+0000
+
+---
+
+###운호최
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAUYcWjLE8lqVLg&w=130&h=130&url=http%3A%2F%2Fwww.hellot.net%2F_UPLOAD_FILES%2Fmagazine%2Fimage%2Fthumbnail_1483039877.jpg&cfs=1&_nc_hash=AQByejOsT8rc5IN8](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAUYcWjLE8lqVLg&w=130&h=130&url=http%3A%2F%2Fwww.hellot.net%2F_UPLOAD_FILES%2Fmagazine%2Fimage%2Fthumbnail_1483039877.jpg&cfs=1&_nc_hash=AQByejOsT8rc5IN8)
+
+>자율주행차 / 공유차 / 스마트카 보안을 위한 패치ㅡSW업그레이드는 OTA 보안(Over the air Security)으로 이루어지고..안전한 장소에서 이루어져야 한다..
+
+• 애플리케이션 프로세서 내 ARM TrustZone 기반 글로벌플랫폼 보안 실행 환경(GlobalPlatform Trusted Execution Environments, TEE)과 같은 하드웨어 기반 TEE
+• ‌ ‌마이크로컨트롤러 내 TrustZone 기반 uVisor
+• ‌ ‌ARM TrustZone CryptoCell과 같은 하드웨어 보안 모듈(HSM: Hardware Security Module) 내에서 운영되는 보안 서브시스템
+
+최근에 발표한 Open Trust Protocol과 같이 TEE를 관리하기 위한 새로운 표준들이 등장하고 있다. 
+
+ㅡ이는 PKI/CA와 단순화된 TEE 관리의 결합을 활용하여 모든 디바이스와 서비스 제공 업체 간의 신뢰성을 관리하고 보장한다.
+
+ㅡ 놀라운 점은, 아마존 음성서비스 생태계처럼 미래자동차도 PKI이슈가 제시되고 있다..
+
+구글이 "자율주행차특허"에 PKI를 쓰는 이유가 증명된 것이다..
+
+**Link : <http://m.hellot.net/news/news_detail?code=202&sub=200&idx=32442&ver=1>**
+
+2017-01-18T23:04:36+0000
+
+---
+
+###PenTest Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA-O4c65re_0_4f&w=130&h=130&url=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2FAAEAAQAAAAAAAAlOAAAAJDg3NDQzYjA3LTc3ZTktNGE2ZC04MjhlLWNhZmZjMTE1ZTM5MQ.png&cfs=1&_nc_hash=AQAqVwZbyCFEhvtQ](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA-O4c65re_0_4f&w=130&h=130&url=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2FAAEAAQAAAAAAAAlOAAAAJDg3NDQzYjA3LTc3ZTktNGE2ZC04MjhlLWNhZmZjMTE1ZTM5MQ.png&cfs=1&_nc_hash=AQAqVwZbyCFEhvtQ)
+
+>Hack the Pentester Lab: from SQL injection to Shell II (Blind SQL Injection).
+
+**Link : <https://www.linkedin.com/pulse/hack-pentester-lab-from-sql-injection-shell-ii-blind-raj-chandel?trk=hp-feed-article-title-publish>**
+
+2017-01-18T23:04:12+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xpf1/v/t1.0-0/s130x130/15965861_1388527247844441_8806475753753666411_n.png?oh=7abcc0dda53b5971b31b7d465905f8dd&oe=59080589&__gda__=1497491493_e7291e06989f8e3e1748ebc30dfbc7ed](https://fb-s-b-a.akamaihd.net/h-ak-xpf1/v/t1.0-0/s130x130/15965861_1388527247844441_8806475753753666411_n.png?oh=7abcc0dda53b5971b31b7d465905f8dd&oe=59080589&__gda__=1497491493_e7291e06989f8e3e1748ebc30dfbc7ed)
+
+>Sn1per: Automated Pentest Recon Scanner
+
+http://kalilinux.co/forums/topic/sn1per-automated-pentest-recon-scanner/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1388527247844441/?type=3>**
+
+2017-01-18T23:03:50+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xpa1/v/t1.0-0/s130x130/15977078_1307255532671651_6490581821680543964_n.png?oh=4808060948302a9e99d7477035180748&oe=5946EF15&__gda__=1493728215_054d089e76b60453c8807cc5adbf26e4](https://fb-s-b-a.akamaihd.net/h-ak-xpa1/v/t1.0-0/s130x130/15977078_1307255532671651_6490581821680543964_n.png?oh=4808060948302a9e99d7477035180748&oe=5946EF15&__gda__=1493728215_054d089e76b60453c8807cc5adbf26e4)
+
+>waveconverter : An Open Source tool for RF reverse engineering
+
+https://github.com/paulgclark/waveconverter
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1307255532671651/?type=3>**
+
+2017-01-18T23:03:44+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xfa1/v/t1.0-0/s130x130/15977913_1389308401099659_6003929249354894909_n.jpg?oh=0196e32c89b6084508c5acc4f6fbbe9f&oe=590F130A&__gda__=1493397638_c6b9199a94b38f73eb1ff2ff5d8a7a47](https://fb-s-c-a.akamaihd.net/h-ak-xfa1/v/t1.0-0/s130x130/15977913_1389308401099659_6003929249354894909_n.jpg?oh=0196e32c89b6084508c5acc4f6fbbe9f&oe=590F130A&__gda__=1493397638_c6b9199a94b38f73eb1ff2ff5d8a7a47)
+
+>WinPirate – grabs browser passwords, history, and network passwords on locked computer
+
+http://kalilinux.co/2016/11/30/winpirate-grabs-browser-passwords-history-and-network-passwords-on-locked-computer/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1389308401099659/?type=3>**
+
+2017-01-18T23:03:38+0000
+
+---
+
+###신현갑
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBztuF0uq5IIxRA&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F15658638%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQD_JpvVsxdkto5d](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBztuF0uq5IIxRA&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F15658638%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQD_JpvVsxdkto5d)
+
+>TF Slim 사용한 기본 예제로 봐야 할 것 같습니다.
+데이터 로딩부터 Train, Evaluate,  Pre-train 모델 참조, Fine Tuning 이후까지 기본 절차를 돌아 볼 수 있는 좋은 예제로 보입니다.
+
+
+
+**Link : <https://github.com/tensorflow/models/blob/master/slim/slim_walkthough.ipynb>**
+
+2017-01-18T23:03:32+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-d-a.akamaihd.net/h-ak-xft1/v/t1.0-0/s130x130/16115048_1389320081098491_2615585964048742847_n.png?oh=f828b8e62b8968b7e30bee8e6af6ca59&oe=590E3612&__gda__=1498152535_730f9ebb7c3ea70dacb769866b5f806f](https://fb-s-d-a.akamaihd.net/h-ak-xft1/v/t1.0-0/s130x130/16115048_1389320081098491_2615585964048742847_n.png?oh=f828b8e62b8968b7e30bee8e6af6ca59&oe=590E3612&__gda__=1498152535_730f9ebb7c3ea70dacb769866b5f806f)
+
+>Dump sysadmin+ browser+chat+mail+wifi password
+
+The LaZagne project is an open source application used to retrieve lots of passwords stored on a local computer. Each software stores its passwords using different techniques (plaintext, APIs, custom algorithms, databases, etc.). This tool has been developed for the purpose of finding these passwords for the most commonly-used software. LaZagne is useful on your penetration testing. If you have a meterpreter session from your victim, you can get many password stored on victim machine.
+
+http://kalilinux.co/forums/topic/dump-sysadmin-browserchatmailwifi-password/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1389320081098491/?type=3>**
+
+2017-01-18T23:02:38+0000
+
+---
+
+###홍길한
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCPrMfnLh1EFnO9&w=130&h=130&url=https%3A%2F%2Fwww.decalage.info%2Fsites%2Fall%2Fmodules%2Flanguageicons%2Fflags%2Fen.png&cfs=1&_nc_hash=AQCj7iygSJ7Zk8En](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCPrMfnLh1EFnO9&w=130&h=130&url=https%3A%2F%2Fwww.decalage.info%2Fsites%2Fall%2Fmodules%2Flanguageicons%2Fflags%2Fen.png&cfs=1&_nc_hash=AQCj7iygSJ7Zk8En)
+
+>pyClamd - use ClamAV antivirus from Python
+
+한번 파이썬으로
+간단하게 바이러스 스캐너를
+실험해 보는 것도 
+재미있을 것 같습니다.
+
+^^
+
+
+
+**Link : <https://www.decalage.info/python/pyclamd>**
+
+2017-01-18T23:01:16+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xft1/v/t1.0-0/s130x130/16002930_1386817604682072_7639917114940870933_n.png?oh=4ff04522a0171c1994e253cadb7d371d&oe=593BC217&__gda__=1496979026_549e3592f52104aaff91e746ffefd0de](https://fb-s-b-a.akamaihd.net/h-ak-xft1/v/t1.0-0/s130x130/16002930_1386817604682072_7639917114940870933_n.png?oh=4ff04522a0171c1994e253cadb7d371d&oe=593BC217&__gda__=1496979026_549e3592f52104aaff91e746ffefd0de)
+
+>google hacking for pentester
+
+http://kalilinux.co/forums/topic/google-hacking-for-pentester/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1386817604682072/?type=3>**
+
+2017-01-18T23:01:10+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/16174940_1389305764433256_3126060522828078887_n.jpg?oh=ea3a82a6f3bdc4279289955cdf19d7bd&oe=594C2DDC&__gda__=1493374462_e2fa5e894af59a2aa2685d4de2f669b8](https://fb-s-b-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/16174940_1389305764433256_3126060522828078887_n.jpg?oh=ea3a82a6f3bdc4279289955cdf19d7bd&oe=594C2DDC&__gda__=1493374462_e2fa5e894af59a2aa2685d4de2f669b8)
+
+>What is a Port (computer networking)?
+
+In network technology, the port (Port) generally has two meanings: one is the physical meaning of the port, for example, ADSL Modem, hubs, switches , routers used to connect other network equipment interfaces, such as RJ-45 port, SC port and many more. Second, the logical meaning of the port, generally refers to the TCP / IP protocol port, port number range from 0 to 65535, such as for browsing Web services port 80, 21 ports for FTP services and so on. Ports act as logical commnications endpoints for computers and are used on the Transport layer of the OSI model by protocoal. There are 65536 port altogether, numbering between 0 and 65535.
+
+http://kalilinux.co/forums/topic/port-computer-networking/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1389305764433256/?type=3>**
+
+2017-01-18T23:01:04+0000
+
+---
+
+###홍길한
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDgzX2sneRlr6J0&w=130&h=130&url=https%3A%2F%2Fcdn.datacamp.com%2Fcommunity%2Flogos%2Fmedium%2Fplaceholder.jpg&cfs=1&_nc_hash=AQDmkv0ovHuzIiC7](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDgzX2sneRlr6J0&w=130&h=130&url=https%3A%2F%2Fcdn.datacamp.com%2Fcommunity%2Flogos%2Fmedium%2Fplaceholder.jpg&cfs=1&_nc_hash=AQDmkv0ovHuzIiC7)
+
+>Python Machine Learning: Scikit-Learn Tutorial
+
+코드를 웹 상에서 실험해
+볼 수 있어서 좋습니다.
+
+^^
+
+
+
+**Link : <https://www.datacamp.com/community/tutorials/machine-learning-python#gs.vozhA7k>**
+
+2017-01-18T23:00:29+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/15940990_1387346397962526_3207310255847235250_n.jpg?oh=9e2243c73181e7cdb556d6e26c70c76c&oe=593742E3&__gda__=1497821633_4b5e5f16934290be34e5a31346fec297](https://fb-s-a-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/15940990_1387346397962526_3207310255847235250_n.jpg?oh=9e2243c73181e7cdb556d6e26c70c76c&oe=593742E3&__gda__=1497821633_4b5e5f16934290be34e5a31346fec297)
+
+>how to use BEEF over the internet
+
+http://kalilinux.co/forums/topic/how-to-use-beef-over-the-internet-for-example-when-u-find-an-xss-vulnerability/#post-4855
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1387346397962526/?type=3>**
+
+2017-01-18T23:00:05+0000
+
+---
+
+###김성실
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDBE6G0x-fJa_fG&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMThfMjc4%2FMDAxNDg0NzI2MDIxMDI4.7Jk8LKU6PvI5G_E5I9XpWeCHwIPTEqTeBEopZz-B2_Yg.5JlS4x9sFQRfYvz9dCsvTA6AYCn9VopZby6LttCdCMwg.JPEG.hack_ple%2Fby.HackPle_1.jpg%3Ftype%3Dw2&cfs=1&_nc_hash=AQAiEy8jhbsi2Es9](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDBE6G0x-fJa_fG&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMThfMjc4%2FMDAxNDg0NzI2MDIxMDI4.7Jk8LKU6PvI5G_E5I9XpWeCHwIPTEqTeBEopZz-B2_Yg.5JlS4x9sFQRfYvz9dCsvTA6AYCn9VopZby6LttCdCMwg.JPEG.hack_ple%2Fby.HackPle_1.jpg%3Ftype%3Dw2&cfs=1&_nc_hash=AQAiEy8jhbsi2Es9)
+
+>OllyDbg 64bit 환경에서 실행하기(Olly Advanced)
+
+**Link : <http://blog.naver.com/hack_ple/220914354669>**
+
+2017-01-18T22:59:53+0000
+
+---
+
+###http://www.dailysecu.com/?mod=news&act=articleView&idxno=18042
+
+>해커 그룹 Shadow Brokers가 목요일에 은퇴를 발표하면서 윈도우 PC를 해킹할 수 있는 58개 툴을 무료로 공개했다.이 그룹은 악의적인 연구자 및 공격자들에게 악성코드를 가능한 많이 건네고 싶은 것으로 보인다. 해당 툴들은 취약한 윈도우 시스템을 하이재킹하고 원격으로 제어하는데 사용될 수 있다.Shadow Brokers는 NSA 교육그룹의 사이버 감시 및 해킹 도구를 훔친 것으로 잘 알려져있다. 에드워드 스노든이 유출한 문서들에 Shadow Brokers가 유출한 해킹 도구가 스파이 기관에서 사용된 멀웨어와 익스플로잇을 포
+
+**Link : <http://www.dailysecu.com/?mod=news&act=articleView&idxno=18042>**
+
+2017-01-18T22:59:42+0000
+
+---
+
+###R3d4l3rt
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xat1/v/t1.0-0/s130x130/16105652_1225308200879563_6696070189752526934_n.jpg?oh=bcff0f7fd544fb14969de44376f5588a&oe=590701DC&__gda__=1498096240_d7aee12928b15101369bb612d961b608](https://fb-s-a-a.akamaihd.net/h-ak-xat1/v/t1.0-0/s130x130/16105652_1225308200879563_6696070189752526934_n.jpg?oh=bcff0f7fd544fb14969de44376f5588a&oe=590701DC&__gda__=1498096240_d7aee12928b15101369bb612d961b608)
+
+>2017 Airport Management System Hacking Training. 
+
+The Airport is one of most important critical infrastructure. We're making a airport simulation with real SCADA Component for ICS/SCADA Security Training. We're going to learn how we can build a more safety environment with this system. Specially, We will learn about 11 kinds of Air-Gap bypassing ways. Thanks.
+
+**Link : <https://www.facebook.com/nshc.redalert/photos/a.361893127221079.82385.345221158888276/1225308200879563/?type=3>**
+
+2017-01-18T22:57:43+0000
+
+---
+
+###보안공지 | 자료실 - KISA 보호나라&KrCERT
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD__XF9rFV0COoI&w=130&h=130&url=https%3A%2F%2Fwww.krcert.or.kr%2Fimg%2FnewAccCert_h75.png&cfs=1&_nc_hash=AQDbobIOyLQz-F_e](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD__XF9rFV0COoI&w=130&h=130&url=https%3A%2F%2Fwww.krcert.or.kr%2Fimg%2FnewAccCert_h75.png&cfs=1&_nc_hash=AQDbobIOyLQz-F_e)
+
+>KISA 보호나라, KrCERT
+
+**Link : <https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=21538&queryString=cGFnZT0xJnNvcnRfY29kZT0mc2VhcmNoX3NvcnQ9dGl0bGVfbmFtZSZzZWFyY2hfd29yZD1hcnAmeD0wJnk9MA%3D%3D>**
+
+2017-01-18T22:57:19+0000
+
+---
+
+###자사 데이터센터 보안 시스템 상세 공개한 구글, 왜?
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDB85hjN1QbHtp3&w=130&h=130&url=http%3A%2F%2Fwww.boannews.com%2Fmedia%2FupFiles%2Fgoogle-body%285%29.jpg&cfs=1&_nc_hash=AQAmLApTbCTlohtI](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDB85hjN1QbHtp3&w=130&h=130&url=http%3A%2F%2Fwww.boannews.com%2Fmedia%2FupFiles%2Fgoogle-body%285%29.jpg&cfs=1&_nc_hash=AQAmLApTbCTlohtI)
+
+>구글이 최근 자사 데이터센터의 인프라를 공개했다. 이 데이터센터는 구글이 온라인으로 제공하는 각종 서비스와 구글 클라우드 플랫폼(Google Cloud Platform, GCP)을 보호하는 곳이다. 데이터센터는 보통 외부인의 접근을 불허할뿐만 아니라 그 구조 역시 기밀 수준으로 숨겨져 있는 주요 부분으로 구글의 이런 행보는 매우 대담한 것으로 평가되고 있다.
+
+**Link : <http://www.boannews.com/media/view.asp?idx=53093>**
+
+2017-01-18T22:56:55+0000
+
+---
+

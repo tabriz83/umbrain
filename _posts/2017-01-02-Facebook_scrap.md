@@ -1,0 +1,203 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2017-01-02 Facebook 정보 스크랩
+date: 2017-02-09 04:42:38
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###SoftTrack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAmwdHz3gmhK-qL&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F2742625%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBrkiS4JsUSdCAk](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAmwdHz3gmhK-qL&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F2742625%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBrkiS4JsUSdCAk)
+
+>Conpot is an ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial control systems
+
+**Link : <https://github.com/mushorg/conpot>**
+
+2017-01-02T09:34:54+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-d-a.akamaihd.net/h-ak-xpf1/v/t1.0-0/s130x130/15826582_1292267734170431_3934167906366313818_n.png?oh=7e828930149b3002b86ebcdb730ea1c3&oe=59017201&__gda__=1493815981_4a55b315919df9af48110ecc6351ec37](https://fb-s-d-a.akamaihd.net/h-ak-xpf1/v/t1.0-0/s130x130/15826582_1292267734170431_3934167906366313818_n.png?oh=7e828930149b3002b86ebcdb730ea1c3&oe=59017201&__gda__=1493815981_4a55b315919df9af48110ecc6351ec37)
+
+>3달러에 만든 USB Killer
+PC USB 포트에 꼽는 순간 PC는 망가짐
+
+USB킬러의 기본 원리는 DC 컨버터를 반대로 작동시켜 캐패시터에 –110V 전압을 돌린다. 
+캐패시터 전압이 –7V가 되면 다시 DC컨버터가 동작하는 등 이 과정을 무한 루프로 반복하는 것. 이 과정을 거치면 결국 USB 단자는 파괴되는 것으로 알려져 있다.
+
+Russia Dark Purple's USB Killer 2.0
+
+https://habrahabr.ru/post/268421/
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1292267734170431/?type=3>**
+
+2017-01-02T09:34:50+0000
+
+---
+
+###How to Build a Crawler in Python
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCgr9hHOw91qLEf&w=130&h=130&url=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2015%2F08%2FCapture1.jpg&cfs=1&_nc_hash=AQCyJAUsXI7Zj5Ca](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCgr9hHOw91qLEf&w=130&h=130&url=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2015%2F08%2FCapture1.jpg&cfs=1&_nc_hash=AQCyJAUsXI7Zj5Ca)
+
+>The python based multi-threaded crawler is pretty simple and very fast. It is capable of detecting and eliminating duplicate links.
+
+**Link : <https://fossbytes.com/how-to-build-a-basic-web-crawler-in-python/>**
+
+2017-01-02T09:33:54+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQABIFwD4Z2BaD7L&w=130&h=130&url=https%3A%2F%2Fmsdnshared.blob.core.windows.net%2Fmedia%2FTNBlogsFS%2Fprod.evol.blogs.technet.com%2FCommunityServer.Blogs.Components.WeblogFiles%2F00%2F00%2F00%2F64%2F24%2Fmetablogapi%2F1121.image_thumb_3603E214.png&cfs=1&_nc_hash=AQD-VS_sR_plyA_z](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQABIFwD4Z2BaD7L&w=130&h=130&url=https%3A%2F%2Fmsdnshared.blob.core.windows.net%2Fmedia%2FTNBlogsFS%2Fprod.evol.blogs.technet.com%2FCommunityServer.Blogs.Components.WeblogFiles%2F00%2F00%2F00%2F64%2F24%2Fmetablogapi%2F1121.image_thumb_3603E214.png&cfs=1&_nc_hash=AQD-VS_sR_plyA_z)
+
+>Restricted Admin mode for RDP in Windows 8.1 / 2012 R2
+
+https://blogs.technet.microsoft.com/kfalde/2013/08/14/restricted-admin-mode-for-rdp-in-windows-8-1-2012-r2/
+
+**Link : <https://blogs.technet.microsoft.com/kfalde/2013/08/14/restricted-admin-mode-for-rdp-in-windows-8-1-2012-r2/>**
+
+2017-01-02T09:33:47+0000
+
+---
+
+###SoftTrack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA6RnHYyiht3PEW&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F1917169%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQBNoTYGiLlV28Df](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA6RnHYyiht3PEW&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F1917169%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQBNoTYGiLlV28Df)
+
+>Remote code execution vulnerability with XHTML-IM enabled
+
+**Link : <https://github.com/candy-chat/candy/issues/498>**
+
+2017-01-02T09:33:37+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDwFsCiDHOrLOno&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExNjAzMzAzNzIzMDE3MzA1OjQxMjA1NDI3MA%3D%3D&cfs=1&_nc_hash=AQDm6Ij2FJ_JfpL3](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDwFsCiDHOrLOno&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExNjAzMzAzNzIzMDE3MzA1OjQxMjA1NDI3MA%3D%3D&cfs=1&_nc_hash=AQDm6Ij2FJ_JfpL3)
+
+>Automated LFi Exploiter: LFI Freak
+
+**Link : <https://github.com/OsandaMalith/LFiFreak>**
+
+2017-01-02T09:33:24+0000
+
+---
+
+###PenTest Tools
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBaKawZSNbPYVM9&w=130&h=130&url=https%3A%2F%2F4.bp.blogspot.com%2F-fzTGxXGva7s%2FWGUK61yX5UI%2FAAAAAAAAGu8%2FZ40GFv0OGuch_DHyJnVRykl47XkVq6xxQCLcB%2Fw1200-h630-p-nu%2Fhakku3.0-ss0.png&cfs=1&_nc_hash=AQBDr_QoSnkOepBG](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBaKawZSNbPYVM9&w=130&h=130&url=https%3A%2F%2F4.bp.blogspot.com%2F-fzTGxXGva7s%2FWGUK61yX5UI%2FAAAAAAAAGu8%2FZ40GFv0OGuch_DHyJnVRykl47XkVq6xxQCLcB%2Fw1200-h630-p-nu%2Fhakku3.0-ss0.png&cfs=1&_nc_hash=AQBDr_QoSnkOepBG)
+
+>Hakku Framework - Simple Penetration Testing Framework #CLI #Download #Framework #HakkuFramework #Linux
+
+**Link : <http://www.kitploit.com/2017/01/hakku-framework-simple-penetration.html?utm_source=dlvr.it&utm_medium=facebook>**
+
+2017-01-02T09:32:50+0000
+
+---
+
+###김성실
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBasb6o-p7haeDD&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMDJfNTMg%2FMDAxNDgzMzQ1NjA4MDI4.yINtDviyMzdgdXHl10l7oMVucPflUck9xrtpI_wHKP0g.AhcRpPj0T8eXq5tf254YMweFImFV7451KT3gb9Ae9iUg.JPEG.hack_ple%2Fby.HackPle_1.jpg%3Ftype%3Dw2&cfs=1&_nc_hash=AQCcfyh8wMV43bxO](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBasb6o-p7haeDD&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMDJfNTMg%2FMDAxNDgzMzQ1NjA4MDI4.yINtDviyMzdgdXHl10l7oMVucPflUck9xrtpI_wHKP0g.AhcRpPj0T8eXq5tf254YMweFImFV7451KT3gb9Ae9iUg.JPEG.hack_ple%2Fby.HackPle_1.jpg%3Ftype%3Dw2&cfs=1&_nc_hash=AQCcfyh8wMV43bxO)
+
+>리버싱 기초 연재 강의(12) - RVA to RAW
+
+**Link : <http://blog.naver.com/hack_ple/220900827102>**
+
+2017-01-02T09:32:18+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/15822923_1373569696006863_1801143458534390059_n.png?oh=b68458c14143c1831fe0529912878496&oe=590A93A1&__gda__=1497721731_15461546ec74347cf98b05c855e7bb42](https://fb-s-a-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/15822923_1373569696006863_1801143458534390059_n.png?oh=b68458c14143c1831fe0529912878496&oe=590A93A1&__gda__=1497721731_15461546ec74347cf98b05c855e7bb42)
+
+>Linux Kodachi3: Secure, anti forensic, and anonymous operating system
+
+Linux Kodachi operating system is based on Debian 8.6 it will provide you with a secure, anti forensic, and anonymous operating system considering all features that a person who is concerned about privacy would need to have in order to be secure.
+Kodachi is very easy to use all you have to do is boot it up on your PC via USB drive then you should have a fully running operating system with established VPN connection + Tor Connection established + DNScrypt service running. No setup or Linux knowledge is required from your side we do it all for you. The entire OS is functional from your temporary memory RAM so once you shut it down no trace is left behind all your activities are wiped out.
+
+http://kalilinux.co/2017/01/02/linux-kodachi3-secure-anti-forensic-anonymous-operating-system
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1373569696006863/?type=3>**
+
+2017-01-02T09:32:15+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCIEn891n62S0PC&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F3453847%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCAwuAeQAOt4rW4](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCIEn891n62S0PC&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F3453847%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCAwuAeQAOt4rW4)
+
+>CTF Tools - Some setup scripts for security research tools.
+
+https://github.com/zardus/ctf-tools
+
+**Link : <https://github.com/zardus/ctf-tools>**
+
+2017-01-02T09:32:06+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/s130x130/15781806_1373344532696046_5213493359191983463_n.png?oh=cca194833a0be759ba80567ec9f54f77&oe=5906DFF6&__gda__=1493279008_ba4436da881003e3b735dccffb21dfcd](https://fb-s-c-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/s130x130/15781806_1373344532696046_5213493359191983463_n.png?oh=cca194833a0be759ba80567ec9f54f77&oe=5906DFF6&__gda__=1493279008_ba4436da881003e3b735dccffb21dfcd)
+
+>Dumping and Cracking the local user accounts from the SAM database
+
+http://kalilinux.co/2017/01/02/dumping-cracking-local-user-accounts-sam-database
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1373344532696046/?type=3>**
+
+2017-01-02T09:31:51+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/15871642_1373345142695985_5721772748732781487_n.jpg?oh=3e11513bb48d22afff260e2b829b51fa&oe=594B6589&__gda__=1497616043_2938d2cc813907c0637925bcbf03cb95](https://fb-s-c-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/s130x130/15871642_1373345142695985_5721772748732781487_n.jpg?oh=3e11513bb48d22afff260e2b829b51fa&oe=594B6589&__gda__=1497616043_2938d2cc813907c0637925bcbf03cb95)
+
+>WMAP: Web Vulnerability Scan on Metasploit
+
+http://kalilinux.co/2017/01/02/wmap-web-vulnerability-scan-metasploit/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1373345142695985/?type=3>**
+
+2017-01-02T09:31:45+0000
+
+---
+
+###Ricky Park
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB3rlR_j7nsCrtT&w=130&h=130&url=https%3A%2F%2Ftensorflowkorea.files.wordpress.com%2F2017%2F01%2Ftdb.gif&cfs=1&_nc_hash=AQBYUhGsfG82CjyZ](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB3rlR_j7nsCrtT&w=130&h=130&url=https%3A%2F%2Ftensorflowkorea.files.wordpress.com%2F2017%2F01%2Ftdb.gif&cfs=1&_nc_hash=AQBYUhGsfG82CjyZ)
+
+**Link : <https://tensorflow.blog/2017/01/02/tensordebuggertdb-visual-debugger-for-tf/>**
+
+2017-01-02T09:31:40+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/q84/s130x130/15822783_1373399139357252_702209272201141430_n.jpg?oh=2a5b26e6a6fdc1e1d816eceea48001f7&oe=593B7E3A&__gda__=1493339583_b5e8d092ed7a91c1d9a47bcee1972886](https://fb-s-c-a.akamaihd.net/h-ak-xfp1/v/t1.0-0/q84/s130x130/15822783_1373399139357252_702209272201141430_n.jpg?oh=2a5b26e6a6fdc1e1d816eceea48001f7&oe=593B7E3A&__gda__=1493339583_b5e8d092ed7a91c1d9a47bcee1972886)
+
+>What is Buffer overflow?
+
+Buffer overflow, in the presence of a buffer overflow security vulnerabilities in the computer, the attacker can exceed the normal length of the number of characters to fill a domain, usually the memory address. In some cases, these excess characters can be run as "executable" code. So that an attacker can not be bound by security measures to control the attacked computer. It is one of the most common means of attack, the worm on the operating system in high-risk vulnerabilities overflow speed and large-scale propagation are using this technology. Buffer overflow attacks in theory can be used to attack any defective imperfect procedures, including anti-virus software , firewalls and other security products, as well as attacks on the banks of the attack program.
+
+http://kalilinux.co/2017/01/02/what-is-buffer-overflow/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1373399139357252/?type=3>**
+
+2017-01-02T09:31:35+0000
+
+---
+

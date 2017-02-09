@@ -1,0 +1,470 @@
+---
+layout: post
+cover: 'assets/images/cover3.jpg'
+title: 2017-01-16 Facebook 정보 스크랩
+date: 2017-02-09 04:42:38
+tags: Unclassified
+subclass: 'post tag-Unclassified'
+categories: 'tabris'
+navigation: True
+logo: 'assets/images/logo.png'
+---
+
+###Hacking News & Tutorials
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDke3znpl0BMSFT&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fmetasploit_cheat_sheet1.png&cfs=1&_nc_hash=AQDJg_qPOtqFKfbJ](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDke3znpl0BMSFT&w=130&h=130&url=https%3A%2F%2Flatesthackingnews.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fmetasploit_cheat_sheet1.png&cfs=1&_nc_hash=AQDJg_qPOtqFKfbJ)
+
+>The best Cheatsheet for metasploit
+
+**Link : <https://latesthackingnews.com/2015/09/07/metasploit-cheat-sheet-free-download/>**
+
+2017-01-16T03:49:47+0000
+
+---
+
+###How Do Hard Drives Work and Store Tons of Data?
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCqRFiUtRq1yLO4&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExMzcxMzA4MDA2MjQyMDg3OjE5ODMwMTM1Mg%3D%3D&cfs=1&_nc_hash=AQAXt1NF7uKtROdV](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCqRFiUtRq1yLO4&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExMzcxMzA4MDA2MjQyMDg3OjE5ODMwMTM1Mg%3D%3D&cfs=1&_nc_hash=AQAXt1NF7uKtROdV)
+
+>Hard Drives are the most used storage devices in our personal computers. This palm-sized device holds more information that your nearby library.
+
+**Link : <https://fossbytes.com/how-do-hard-drives-work-and-store-tons-of-data/>**
+
+2017-01-16T03:49:28+0000
+
+---
+
+###Security Training Share
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDk1u0ZjpRxrHKm&w=130&h=130&url=http%3A%2F%2Fkalilinux.co%2Fwp-content%2Fuploads%2F2016%2F12%2Fcropped-13702.png&cfs=1&_nc_hash=AQDHBIBb9VNr0uUL](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDk1u0ZjpRxrHKm&w=130&h=130&url=http%3A%2F%2Fkalilinux.co%2Fwp-content%2Fuploads%2F2016%2F12%2Fcropped-13702.png&cfs=1&_nc_hash=AQDHBIBb9VNr0uUL)
+
+>[How-to] Reset MySQL root password
+
+http://kalilinux.co/forums/topic/reset-mysql-root-password/
+
+**Link : <http://kalilinux.co/forums/topic/reset-mysql-root-password/>**
+
+2017-01-16T03:29:04+0000
+
+---
+
+###SoftTrack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMIj3vSVYBqkFb&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F011217_1710_ABriefSumma28.png&cfs=1&_nc_hash=AQC1yvc4TAahfRT2](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMIj3vSVYBqkFb&w=130&h=130&url=http%3A%2F%2F2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F011217_1710_ABriefSumma28.png&cfs=1&_nc_hash=AQC1yvc4TAahfRT2)
+
+>A Brief Summary of Encryption Method Used in Widespread Ransomware
+
+**Link : <http://resources.infosecinstitute.com/a-brief-summary-of-encryption-method-used-in-widespread-ransomware/>**
+
+2017-01-16T03:28:51+0000
+
+---
+
+###[칼럼] 개정 정보통신망법의 해설 (김경환 변호사)
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20160411_137%2Fn_privacy_1460357670280B1I6c_PNG%2F%EA%B7%B8%EB%A6%BC2.PNG%3Ftype%3Dw2&cfs=1&_nc_hash=AQDrDrU9x1QIdvhg](https://fbexternal-a.akamaihd.net/safe_image.php?w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2F20160411_137%2Fn_privacy_1460357670280B1I6c_PNG%2F%EA%B7%B8%EB%A6%BC2.PNG%3Ftype%3Dw2&cfs=1&_nc_hash=AQDrDrU9x1QIdvhg)
+
+>[그림. 개인정보 보호와 법률] 2016년 3월 2일 개인정보에 관한 법 중 개인정보보호법과 정보통신망 이용촉...
+
+**Link : <http://m.blog.naver.com/PostView.nhn?blogId=n_privacy&logNo=220680440628>**
+
+2017-01-16T03:28:45+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xap1/v/t1.0-0/s130x130/15977921_1386257881404711_5853864539456840999_n.png?oh=cf6d75e6a19e4827e43937fd108e6241&oe=5947E31E&__gda__=1496890657_dfeb49dfca74073ae4a6ec2d5fe317a7](https://fb-s-b-a.akamaihd.net/h-ak-xap1/v/t1.0-0/s130x130/15977921_1386257881404711_5853864539456840999_n.png?oh=cf6d75e6a19e4827e43937fd108e6241&oe=5947E31E&__gda__=1496890657_dfeb49dfca74073ae4a6ec2d5fe317a7)
+
+>a good vpn tool that i can portforwarded on my Parrot os.
+
+http://kalilinux.co/forums/topic/looking-for-a-good-paid-vpn-tool-that-i-can-portforwarded-on-my-parrot-os/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1386257881404711/?type=3>**
+
+2017-01-16T03:28:35+0000
+
+---
+
+####0daytoday #Haraj v2 Script SQL injection Vulnerability [webapps #exploits #Vulnerability #0day #Exploit]
+
+**Link : <http://dlvr.it/N6sNjc>**
+
+2017-01-16T03:28:30+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xaf1/v/t1.0-0/s130x130/16105793_1386358684727964_1144342310505020059_n.png?oh=07d475da1f051276165e0c96a7bed99a&oe=5948954C&__gda__=1493015367_0a64e0521a09e2cbd2db08891b9219b4](https://fb-s-a-a.akamaihd.net/h-ak-xaf1/v/t1.0-0/s130x130/16105793_1386358684727964_1144342310505020059_n.png?oh=07d475da1f051276165e0c96a7bed99a&oe=5948954C&__gda__=1493015367_0a64e0521a09e2cbd2db08891b9219b4)
+
+>HTTP security header configuration
+
+http://kalilinux.co/forums/topic/http-header-security-configuration/
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1386358684727964/?type=3>**
+
+2017-01-16T03:28:17+0000
+
+---
+
+###나는프로그래머다
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQClvpbu8UpGnO80&w=130&h=130&url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F522a22cbe4b04681b0bff826%2Ft%2F581cc65fe4fcb5a68ecd940c%2F1483985199855%2F%3Fformat%3D1000w&cfs=1&_nc_hash=AQCVN3ePPlrGDaHi](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQClvpbu8UpGnO80&w=130&h=130&url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F522a22cbe4b04681b0bff826%2Ft%2F581cc65fe4fcb5a68ecd940c%2F1483985199855%2F%3Fformat%3D1000w&cfs=1&_nc_hash=AQCVN3ePPlrGDaHi)
+
+>자바스크립트를 배우는게 아니라 자바스크립트를 사용할 줄 아는 소프트웨어 엔지니어가 되는 방법을 알려주는 사이트!
+
+**Link : <http://www.hackreactor.com/>**
+
+2017-01-16T03:27:25+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBPBUSTmx3HtHK6&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExNjIzODcyNTEwOTYwNDI2OjE4OTYxMTU4Mzc%3D&cfs=1&_nc_hash=AQDQvKXsIF0S3N6B](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBPBUSTmx3HtHK6&w=130&h=130&url=fbstaging%3A%2F%2Fgraph.facebook.com%2Fstaging_resources%2FMDExNjIzODcyNTEwOTYwNDI2OjE4OTYxMTU4Mzc%3D&cfs=1&_nc_hash=AQDQvKXsIF0S3N6B)
+
+>Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada:
+
+**Link : <http://bit.ly/2jEhO1U>**
+
+2017-01-16T03:27:17+0000
+
+---
+
+###유재준
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAjzE_tElQWCAcB&w=130&h=130&url=https%3A%2F%2F2.bp.blogspot.com%2F-2AA2ws2s6xc%2FWHjzFO5zBbI%2FAAAAAAAABKw%2Fg91OEkkxPHYKPTsfKYC5yzXn3CmH6gi_ACK4B%2Fw1200-h630-p-k-nu%2F%2525EA%2525B7%2525B8%2525EB%2525A6%2525BC6.PNG&cfs=1&sx=0&sy=0&sw=442&sh=442&_nc_hash=AQB-ZjnFCoFIh2Lf](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAjzE_tElQWCAcB&w=130&h=130&url=https%3A%2F%2F2.bp.blogspot.com%2F-2AA2ws2s6xc%2FWHjzFO5zBbI%2FAAAAAAAABKw%2Fg91OEkkxPHYKPTsfKYC5yzXn3CmH6gi_ACK4B%2Fw1200-h630-p-k-nu%2F%2525EA%2525B7%2525B8%2525EB%2525A6%2525BC6.PNG&cfs=1&sx=0&sy=0&sw=442&sh=442&_nc_hash=AQB-ZjnFCoFIh2Lf)
+
+>초짜 대학원생 입장에서 Generative Adversarial Nets 을 설명해보려 했습니다. 음 학술쪽으로는 겨우 포스팅 3개 정도 해놓고 벌써부터 귀찮아지기 시작하는데..ㅋㅋ내가 이해하면 그만이지 굳이 정리까지 해야하나.... 이러면서도 나중에 덜 까먹지 않을까란 희망과 LaTex 연습했다는 의의를 두고 하고 있습니다. 꾸준히 포스팅하는 분들이 정말 대단하단 생각이 드네요 틀린 부분이라든가 이상하다든가 하면 피드백 주세요! 감사합니다 ㅎ
+
+**Link : <http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html>**
+
+2017-01-16T03:27:00+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCAjJC81Vhaz4dG&w=130&h=130&url=https%3A%2F%2F4.bp.blogspot.com%2F-9OBOyjtWkaw%2FVtEyaqJg3YI%2FAAAAAAAACOY%2Fk-WAFU4I2UQ%2Fw1200-h630-p-nu%2FKerberos%252BUnsonctrained%252BDelegation.png&cfs=1&_nc_hash=AQDHhCokthG9v_fd](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCAjJC81Vhaz4dG&w=130&h=130&url=https%3A%2F%2F4.bp.blogspot.com%2F-9OBOyjtWkaw%2FVtEyaqJg3YI%2FAAAAAAAACOY%2Fk-WAFU4I2UQ%2Fw1200-h630-p-nu%2FKerberos%252BUnsonctrained%252BDelegation.png&cfs=1&_nc_hash=AQDHhCokthG9v_fd)
+
+>Windows Active Directory keberos Authentication Attack -
+Getting Domain Admin with Kerberos Unconstrained Delegation 
+
+http://www.labofapenetrationtester.com/2016/02/getting-domain-admin-with-kerberos-unconstrained-delegation.html
+
+**Link : <http://www.labofapenetrationtester.com/2016/02/getting-domain-admin-with-kerberos-unconstrained-delegation.html>**
+
+2017-01-16T03:26:23+0000
+
+---
+
+###김한결
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC69R8zenolgbqv&w=130&h=130&url=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2159844B587A336307DABA&cfs=1&_nc_hash=AQDOlWk8lIdb2Z7U](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC69R8zenolgbqv&w=130&h=130&url=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2159844B587A336307DABA&cfs=1&_nc_hash=AQDOlWk8lIdb2Z7U)
+
+>API 테스팅 플랫폼인 Postman의 기초부터 활용방법까지 정리한 글입니다. 웹 개발자분들에게는 이미 많이 사용되는 툴이지만 아직 사용을 안 해보신 분이나, 사용하신 분들도 밑에 활용 관련 글은 읽어볼 만할 거 같네요.
+
+
+
+**Link : <http://devkyeol.tistory.com/entry/Postman-%EA%B0%9C%EC%9A%94-%EC%84%A4%EC%B9%98-%EC%82%AC%EC%9A%A9%EB%B2%95-%ED%99%9C%EC%9A%A9-%EB%B0%A9%EB%B2%95>**
+
+2017-01-16T03:26:12+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB97LwoQO-YdOTy&w=130&h=130&url=https%3A%2F%2Fwww.blackmoreops.com%2Fwp-content%2Fuploads%2F2017%2F01%2FSteganography-in-Kali-Linux-Hiding-data-in-image-blackMORE-Ops.png&cfs=1&_nc_hash=AQBmlWGjZm25WpNi](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB97LwoQO-YdOTy&w=130&h=130&url=https%3A%2F%2Fwww.blackmoreops.com%2Fwp-content%2Fuploads%2F2017%2F01%2FSteganography-in-Kali-Linux-Hiding-data-in-image-blackMORE-Ops.png&cfs=1&_nc_hash=AQBmlWGjZm25WpNi)
+
+>Steganography in Kali Linux – Hiding data in image
+
+**Link : <http://bit.ly/2iPykwd>**
+
+2017-01-16T03:25:43+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-a-a.akamaihd.net/h-ak-xlt1/v/t1.0-0/s130x130/16003254_1303869706343567_533441364935021455_n.png?oh=f7a7dc45e0024e98cc172b8a063c8c59&oe=5944D761&__gda__=1497834823_69549f10c438e8eae7a3d8499fe2d8b1](https://fb-s-a-a.akamaihd.net/h-ak-xlt1/v/t1.0-0/s130x130/16003254_1303869706343567_533441364935021455_n.png?oh=f7a7dc45e0024e98cc172b8a063c8c59&oe=5944D761&__gda__=1497834823_69549f10c438e8eae7a3d8499fe2d8b1)
+
+>ufgraph.py parses the output of the uf (un-assemble function) WinDBG command and generates a ControlFlowGraph 
+
+https://github.com/bfosterjr/ufgraph
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1303869706343567/?type=3>**
+
+2017-01-16T03:25:25+0000
+
+---
+
+###Vantage Point Security
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xap1/v/t1.0-1/c31.31.388.388/s200x200/11918_556306464403805_1747463025_n.jpg?oh=b2574ddbc37a0f49b8e577c7995ec9cd&oe=5937ED42&__gda__=1493997039_b64396116d400efc575166ae11dae410](https://fb-s-c-a.akamaihd.net/h-ak-xap1/v/t1.0-1/c31.31.388.388/s200x200/11918_556306464403805_1747463025_n.jpg?oh=b2574ddbc37a0f49b8e577c7995ec9cd&oe=5937ED42&__gda__=1493997039_b64396116d400efc575166ae11dae410)
+
+**Link : <https://www.vantagepoint.sg/blog/82-hooking-android-system-calls-for-pleasure-and-benefit>**
+
+2017-01-16T03:25:16+0000
+
+---
+
+###ExploitWareLabs
+
+![https://fb-s-b-a.akamaihd.net/h-ak-xap1/v/t1.0-0/s130x130/16002956_1303184676412070_6502817527642170110_n.png?oh=a217e3324d6871139e9820c93f9d66e5&oe=59408689&__gda__=1496921014_6c6d0db1e7010fd6c27d711f39668b8d](https://fb-s-b-a.akamaihd.net/h-ak-xap1/v/t1.0-0/s130x130/16002956_1303184676412070_6502817527642170110_n.png?oh=a217e3324d6871139e9820c93f9d66e5&oe=59408689&__gda__=1496921014_6c6d0db1e7010fd6c27d711f39668b8d)
+
+>Exploiting Misconfigured Apache server-status Instances with server-status_PWN
+
+http://blog.mazinahmed.net/2017/01/exploiting-misconfigured-apache-server-status-instances.html
+
+**Link : <https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1303184676412070/?type=3>**
+
+2017-01-16T03:25:08+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBHLvqesJZg2x12&w=130&h=130&url=https%3A%2F%2Fz4ziggy.files.wordpress.com%2F2015%2F05%2Fwireshark.png&cfs=1&_nc_hash=AQC4eKNKKT6Guceh](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBHLvqesJZg2x12&w=130&h=130&url=https%3A%2F%2Fz4ziggy.files.wordpress.com%2F2015%2F05%2Fwireshark.png&cfs=1&_nc_hash=AQC4eKNKKT6Guceh)
+
+>Sniffing GSM traffic with HackRF
+
+**Link : <http://bit.ly/2inFvux>**
+
+2017-01-16T03:25:00+0000
+
+---
+
+###Sung Woo Park
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCpf8WAib63KF9C&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F18402191%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQA1Q8MKa15UEv7I](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCpf8WAib63KF9C&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F18402191%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQA1Q8MKa15UEv7I)
+
+>이번에 Facebook 면접을 준비하며 모아본 자바스크립트 기본/알고리즘 인터뷰 질문들입니다. 준비한 덕분인지 첫번째 면접은 쉽게 통과할수있었네요. 인터뷰후에도 꾸준히 추가할 예정입니다. 이중 몇개나 맞추실수있는지 한번 풀어보세요 :)
+
+
+
+**Link : <https://github.com/ggomaeng/awesome-js>**
+
+2017-01-16T03:24:46+0000
+
+---
+
+###HackSys Team
+
+>Retweeted Enomis (@shellcode_it):
+
+I released the Windows Kernel Exploitation pdf!
+https://t.co/DjBrBqidH7
+
+Thanks to @HackSysTeam for his Vulnerable Driver!
+
+**Link : <https://t.co/DjBrBqidH7>**
+
+2017-01-16T03:24:04+0000
+
+---
+
+###SafeNull
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCgAIzaXG1tp2xm&w=130&h=130&url=https%3A%2F%2Flearnpentest.com%2Fwp-content%2Fuploads%2F2016%2F12%2Ffull_course.png&cfs=1&_nc_hash=AQBQRsPPCjThcLJa](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCgAIzaXG1tp2xm&w=130&h=130&url=https%3A%2F%2Flearnpentest.com%2Fwp-content%2Fuploads%2F2016%2F12%2Ffull_course.png&cfs=1&_nc_hash=AQBQRsPPCjThcLJa)
+
+>Complete Penetration Testing Course (Video Materials + Lab Access)
+https://learnpentest.com/product/offensive-network-penetration-testing-course-videos-lab-access/
+
+**Link : <https://learnpentest.com/product/offensive-network-penetration-testing-course-videos-lab-access/>**
+
+2017-01-16T03:23:56+0000
+
+---
+
+###PenTest Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCeeNNCcW3JB1E6&w=130&h=130&url=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2FAAEAAQAAAAAAAAj7AAAAJDdiMDEwODRhLTBkNzEtNGViZi05MWUzLWI3MzE4MjM3ZWU2NA.png&cfs=1&_nc_hash=AQBkB92daKGtVknQ](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCeeNNCcW3JB1E6&w=130&h=130&url=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2FAAEAAQAAAAAAAAj7AAAAJDdiMDEwODRhLTBkNzEtNGViZi05MWUzLWI3MzE4MjM3ZWU2NA.png&cfs=1&_nc_hash=AQBkB92daKGtVknQ)
+
+>WordPress Vulnerability Scanner.
+
+**Link : <https://www.linkedin.com/pulse/wordpress-vulnerability-scanner-syed-ejaz-ahmed-hashmi?trk=hp-feed-article-title-like>**
+
+2017-01-16T03:23:37+0000
+
+---
+
+###Security Training Share
+
+![https://fb-s-c-a.akamaihd.net/h-ak-xpa1/v/t1.0-0/s130x130/15965294_1385422361488263_8344985461231603029_n.png?oh=7a74ccbf22bdfc9ee196ca9fa21a8db5&oe=5906320E&__gda__=1496804812_7c2d391ed78cc23e0a3b587fe505af0d](https://fb-s-c-a.akamaihd.net/h-ak-xpa1/v/t1.0-0/s130x130/15965294_1385422361488263_8344985461231603029_n.png?oh=7a74ccbf22bdfc9ee196ca9fa21a8db5&oe=5906320E&__gda__=1496804812_7c2d391ed78cc23e0a3b587fe505af0d)
+
+>Information Security Professional Career Plan :D
+
+**Link : <https://www.facebook.com/haking.cracking.tutorial/photos/a.617436571620183.1073741828.590637780966729/1385422361488263/?type=3>**
+
+2017-01-16T03:23:18+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBxF25LhzHaOeBx&w=130&h=130&url=https%3A%2F%2Fhakin9.org%2Fwp-content%2Fuploads%2F2016%2F02%2FHakin9_W9-11.jpg&cfs=1&_nc_hash=AQCtbw9rV-MCuvqy](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBxF25LhzHaOeBx&w=130&h=130&url=https%3A%2F%2Fhakin9.org%2Fwp-content%2Fuploads%2F2016%2F02%2FHakin9_W9-11.jpg&cfs=1&_nc_hash=AQCtbw9rV-MCuvqy)
+
+>Easy Hacking with Security Tools – eBook Workshop
+
+**Link : <http://bit.ly/2ajRfuD>**
+
+2017-01-16T03:23:10+0000
+
+---
+
+###Hakin9 IT Security Magazine
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDmP6MykeBKKQ0d&w=130&h=130&url=https%3A%2F%2Fwww.evilsocket.net%2Fimages%2F2016%2F03%2Fbts.jpeg&cfs=1&_nc_hash=AQBs8kMKPsQxMEY-](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDmP6MykeBKKQ0d&w=130&h=130&url=https%3A%2F%2Fwww.evilsocket.net%2Fimages%2F2016%2F03%2Fbts.jpeg&cfs=1&_nc_hash=AQBs8kMKPsQxMEY-)
+
+>How to Build Your Own Rogue GSM BTS for Fun and Profit
+
+**Link : <http://bit.ly/2ikvu64>**
+
+2017-01-16T03:22:52+0000
+
+---
+
+###홍정모
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC_T7Brb2mgg5qJ&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMTVfMTcw%2FMDAxNDg0NDUzNDQ3NjE4.sX8NavDCq53RKd20aEIqKn-XVEN17IeMY9ab8t2l9xYg.K4-jXB1v3M6irffgZISQftOevXIc1wtWipQAcBvBMyQg.PNG.atelierjpro%2F%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG%3Ftype%3Dw2&cfs=1&_nc_hash=AQDTwbsenIhHfFb7](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC_T7Brb2mgg5qJ&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMTVfMTcw%2FMDAxNDg0NDUzNDQ3NjE4.sX8NavDCq53RKd20aEIqKn-XVEN17IeMY9ab8t2l9xYg.K4-jXB1v3M6irffgZISQftOevXIc1wtWipQAcBvBMyQg.PNG.atelierjpro%2F%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG%3Ftype%3Dw2&cfs=1&_nc_hash=AQDTwbsenIhHfFb7)
+
+>http://blog.naver.com/atelierjpro/220911555463
+
+**Link : <http://blog.naver.com/atelierjpro/220911555463>**
+
+2017-01-16T03:22:36+0000
+
+---
+
+###SoftTrack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD61dtC4Kkd84YF&w=130&h=130&url=https%3A%2F%2Fs3.amazonaws.com%2Fcp-s3%2Fwp-content%2Fuploads%2F2016%2F07%2F06124356%2Fmimikittenz.jpg&cfs=1&_nc_hash=AQAFCeT5yGK2ERIs](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQD61dtC4Kkd84YF&w=130&h=130&url=https%3A%2F%2Fs3.amazonaws.com%2Fcp-s3%2Fwp-content%2Fuploads%2F2016%2F07%2F06124356%2Fmimikittenz.jpg&cfs=1&_nc_hash=AQAFCeT5yGK2ERIs)
+
+>Post Exploitation Powershell Tool: mimikittenz
+
+**Link : <https://n0where.net/post-exploitation-powershell-tool-mimikittenz/>**
+
+2017-01-16T03:22:28+0000
+
+---
+
+###배권한
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAmpCL91wMxexZW&w=130&h=130&url=https%3A%2F%2Ftwpower.github.io%2Fimages%2F20170113_6%2FProblem.png&cfs=1&_nc_hash=AQCuYa4co49HNp-m](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAmpCL91wMxexZW&w=130&h=130&url=https%3A%2F%2Ftwpower.github.io%2Fimages%2F20170113_6%2FProblem.png&cfs=1&_nc_hash=AQCuYa4co49HNp-m)
+
+>CircleCi 에서 python 3.6 사용하는 법에 대한 글이 포스팅되었네요.
+
+
+
+**Link : <https://twpower.github.io/circle/ci/2017/01/13/6.html>**
+
+2017-01-16T03:22:15+0000
+
+---
+
+###김성실
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCTj3WggeIpBE9F&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMTVfOTUg%2FMDAxNDg0NDcyMzI4NDg3.LAqjhQIx2NeTPcAxZQL88lVhmUl0qdcbkBJ1Cuh_Essg.E8G8xFdQ9T0ZMRuexyXc6R9DRXjwuSaDqcWoTU870I0g.JPEG.hack_ple%2F15-01.jpeg%3Ftype%3Dw2&cfs=1&_nc_hash=AQAaocM5dU5F5Z_w](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCTj3WggeIpBE9F&w=130&h=130&url=http%3A%2F%2Fblogthumb2.naver.net%2FMjAxNzAxMTVfOTUg%2FMDAxNDg0NDcyMzI4NDg3.LAqjhQIx2NeTPcAxZQL88lVhmUl0qdcbkBJ1Cuh_Essg.E8G8xFdQ9T0ZMRuexyXc6R9DRXjwuSaDqcWoTU870I0g.JPEG.hack_ple%2F15-01.jpeg%3Ftype%3Dw2&cfs=1&_nc_hash=AQAaocM5dU5F5Z_w)
+
+>프로그래밍 기초 연재 강의(16) - 파일 내용 읽기 (3)
+
+
+**Link : <http://blog.naver.com/hack_ple/220911733540>**
+
+2017-01-16T03:22:04+0000
+
+---
+
+###SoftTrack
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAQUUWVkh4cfXp6&w=130&h=130&url=https%3A%2F%2Fcdn-cyberpunk.netdna-ssl.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fantenna.png&cfs=1&_nc_hash=AQA-dtIHHB0Ps5wX](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAQUUWVkh4cfXp6&w=130&h=130&url=https%3A%2F%2Fcdn-cyberpunk.netdna-ssl.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fantenna.png&cfs=1&_nc_hash=AQA-dtIHHB0Ps5wX)
+
+>Linux Wireless Scanner: LinSSID
+
+**Link : <https://n0where.net/linssid/>**
+
+2017-01-16T03:21:57+0000
+
+---
+
+###Malware Analysis
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2FG1SFkU5w8Gl&w=130&h=130&url=https%3A%2F%2Fpentest.blog%2Fwp-content%2Fuploads%2Fcamera-door.jpg&cfs=1&_nc_hash=AQBb3DsaI6e5C5C1](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2FG1SFkU5w8Gl&w=130&h=130&url=https%3A%2F%2Fpentest.blog%2Fwp-content%2Fuploads%2Fcamera-door.jpg&cfs=1&_nc_hash=AQBb3DsaI6e5C5C1)
+
+>Art of Anti Detection 2 – PE Backdoor Manufacturing :
+
+https://pentest.blog/art-of-anti-detection-2-pe-backdoor-manufacturing/
+
+**Link : <https://pentest.blog/art-of-anti-detection-2-pe-backdoor-manufacturing/>**
+
+2017-01-16T03:21:48+0000
+
+---
+
+###나는프로그래머다
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMqpokP1_xpaQA&w=130&h=130&url=http%3A%2F%2F1.bp.blogspot.com%2F-tqy_yWzqWas%2FVMUJhhPADJI%2FAAAAAAAAABE%2FvN3AFzFtb-8%2Fw1200-h630-p-k-nu%2Fprocess_memory_organization.png&cfs=1&_nc_hash=AQBTCWokjxtSUFhk](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMqpokP1_xpaQA&w=130&h=130&url=http%3A%2F%2F1.bp.blogspot.com%2F-tqy_yWzqWas%2FVMUJhhPADJI%2FAAAAAAAAABE%2FvN3AFzFtb-8%2Fw1200-h630-p-k-nu%2Fprocess_memory_organization.png&cfs=1&_nc_hash=AQBTCWokjxtSUFhk)
+
+>이제와 어디가서 물어보기 뻘쭘한 스레드와 프로세스
+10분의 투자로 기본기를 탄탄하게!
+
+http://mooneegee.blogspot.kr/2015/01/os-thread.html
+http://mooneegee.blogspot.kr/2015/01/os-process.html
+
+**Link : <http://mooneegee.blogspot.kr/2015/01/os-thread.html>**
+
+2017-01-16T03:21:11+0000
+
+---
+
+###Sung Kim
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAbHaEGgws-dA8A&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FJdVH_zYYDto%2Fhqdefault.jpg%3Fcustom%3Dtrue%26w%3D246%26h%3D138%26stc%3Dtrue%26jpg444%3Dtrue%26jpgq%3D90%26sp%3D68%26sigh%3Dfda_muHwkKh9Nx5-vSyf4cxSMOQ&cfs=1&_nc_hash=AQAsuKAtcPigUO4A](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAbHaEGgws-dA8A&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FJdVH_zYYDto%2Fhqdefault.jpg%3Fcustom%3Dtrue%26w%3D246%26h%3D138%26stc%3Dtrue%26jpg444%3Dtrue%26jpgq%3D90%26sp%3D68%26sigh%3Dfda_muHwkKh9Nx5-vSyf4cxSMOQ&cfs=1&_nc_hash=AQAsuKAtcPigUO4A)
+
+>[TensorFlow 두번째 모임 강의/공연 영상]
+
+Python을 아신다면 한걸음만 더 들어가면 TensorFlow를 이용해 딥러닝 프로그램 개발이 됩니다. 이번 두번째 모임에서도  강화학습, 봇, TF 잘 사용하는 방법에 관한 재미있는 강의와, 특히 7개의 회사에서 TF를 어떻게 사용하시는지 바로 알수 있는 라이트닝톡이 포함되어 있습니다. 후반부 깜짝 공연까지. :-)
+
+https://www.youtube.com/playlist?list=PLlMkM4tgfjnLHjEoaRKLdbpSIDJhiLtZE
+
+촬영해주신 인프런 - 배움으로 가치를 높이세요.팀에게 감사드립니다.
+
+**Link : <https://www.youtube.com/playlist?list=PLlMkM4tgfjnLHjEoaRKLdbpSIDJhiLtZE>**
+
+2017-01-16T03:20:26+0000
+
+---
+
+###홍길한
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCJO72sG9UwgunE&w=130&h=130&url=https%3A%2F%2Flh4.googleusercontent.com%2FA8Xm4V4epOqTOSdGf1jBViqcuKSmxnFOBw54Ztfd9RK51BWthTzZEWUkgXGbyMUjqBDMJg%3Dw1200-h630-p&cfs=1&_nc_hash=AQC45S4-r-30riD5](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCJO72sG9UwgunE&w=130&h=130&url=https%3A%2F%2Flh4.googleusercontent.com%2FA8Xm4V4epOqTOSdGf1jBViqcuKSmxnFOBw54Ztfd9RK51BWthTzZEWUkgXGbyMUjqBDMJg%3Dw1200-h630-p&cfs=1&_nc_hash=AQC45S4-r-30riD5)
+
+>두 번째 공유입니다.
+
+^^
+
+인공지능 기술자를 위한 파이썬 특강 (v0.2)
+
+
+
+**Link : <https://docs.google.com/document/d/1OIphIT5d8O_HjavCLbqIbNXxqhq2WzPpUFuB0m6feio/edit>**
+
+2017-01-16T03:19:51+0000
+
+---
+
+###스마트 개발자 협회(Smart Developer Association)
+
+![https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA5wJ3J7E4i28by&w=130&h=130&url=http%3A%2F%2Ftech.whatap.io%2Fwp-content%2Fuploads%2F2016%2F01%2F20150903_top.png&cfs=1&_nc_hash=AQBQ05D7Ge6jpv6l](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA5wJ3J7E4i28by&w=130&h=130&url=http%3A%2F%2Ftech.whatap.io%2Fwp-content%2Fuploads%2F2016%2F01%2F20150903_top.png&cfs=1&_nc_hash=AQBQ05D7Ge6jpv6l)
+
+>리눅스 명령어를 이용한 시스템 모니터링 하기
+
+http://tech.whatap.io/2015/09/03/linux-monitoring/
+
+**Link : <http://tech.whatap.io/2015/09/03/linux-monitoring/>**
+
+2017-01-16T03:15:28+0000
+
+---
+
