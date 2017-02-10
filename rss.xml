@@ -8,25 +8,7 @@
     <title>Into the Brain of taBRis</title>
     <link>http://tabriz83.github.io/umbrain/</link>
     <description>Memory Repository.</description>
-    <pubDate>Thu, 09 Feb 2017 08:52:34 +0000</pubDate>
-    <item>
-      <title>2016-03-31 Facebook 정보 스크랩</title>
-      <link>http://tabriz83.github.io/umbrain//Facebook_scrap-20160331</link>
-      <description>###archive.org
-
-</description>
-      <pubDate>Thu, 09 Feb 2017 08:52:34 +0000</pubDate>
-      <dc:date>2017-02-09T08:52:34+00:00</dc:date>
-    </item>
-    <item>
-      <title>2016-03-30 Facebook 정보 스크랩</title>
-      <link>http://tabriz83.github.io/umbrain//Facebook_scrap-20160330</link>
-      <description>###증권 홈페이지 성능 분석
-
-</description>
-      <pubDate>Thu, 09 Feb 2017 08:52:10 +0000</pubDate>
-      <dc:date>2017-02-09T08:52:10+00:00</dc:date>
-    </item>
+    <pubDate>Thu, 09 Feb 2017 08:19:07 +0000</pubDate>
     <item>
       <title>2017-01-26 Facebook 정보 스크랩</title>
       <link>http://tabriz83.github.io/umbrain//Facebook_scrap-20170126</link>
@@ -1462,6 +1444,24 @@
       <dc:date>2017-01-21T02:17:00+00:00</dc:date>
     </item>
     <item>
+      <title>2016-03-31 Facebook 정보 스크랩</title>
+      <link>http://tabriz83.github.io/umbrain//Facebook_scrap-20160331</link>
+      <description>###archive.org
+
+</description>
+      <pubDate>Thu, 31 Mar 2016 00:53:50 +0000</pubDate>
+      <dc:date>2016-03-31T00:53:50+00:00</dc:date>
+    </item>
+    <item>
+      <title>2016-03-30 Facebook 정보 스크랩</title>
+      <link>http://tabriz83.github.io/umbrain//Facebook_scrap-20160330</link>
+      <description>###증권 홈페이지 성능 분석
+
+</description>
+      <pubDate>Thu, 31 Mar 2016 00:53:10 +0000</pubDate>
+      <dc:date>2016-03-31T00:53:10+00:00</dc:date>
+    </item>
+    <item>
       <title>2016-03-29-Facebook 정보 스크랩</title>
       <link>http://tabriz83.github.io/umbrain//Facebook_scrap-20160329</link>
       <description>###Hack a PC by USB
@@ -1675,6 +1675,6 @@
       <pubDate>Tue, 23 Feb 2016 15:02:00 +0000</pubDate>
       <dc:date>2016-02-23T15:02:00+00:00</dc:date>
     </item>
-    <dc:date>2017-02-09T08:52:34+00:00</dc:date>
+    <dc:date>2017-02-09T08:19:07+00:00</dc:date>
   </channel>
 </rss>
